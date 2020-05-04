@@ -2,9 +2,9 @@
                         T H E   H I G H   V O L T A G E
                           S I D   C O L L E C T I O N
 
-                                  Release 48
- 
-                                 March 9, 2008
+                                  Release 49
+
+                               November 09, 2008
 
 Compiled by:
 ------------
@@ -38,7 +38,7 @@ Retired Members:
     Michal Hoffmann (Smalltown Boy) - POLAND
     Kristoffer Johansson - SWEDEN
     Pawel Ruczko (Murdock/Tropyx) - POLAND
-    
+
 
           -> Members of the C64 Historical Preservation Society! <-
 -----------------------------------------------------------------------------
@@ -126,11 +126,11 @@ reluctant to share their knowledge.  Through reverse-engineering and some
 eventual leaks, the C64 public soon utilized some of these advanced music
 tools creating a boom in the amount of quality music available.
 
-Throughout the 1990s, the C64 game industry may have ceased to a halt, but 
+Throughout the 1990s, the C64 game industry may have ceased to a halt, but
 there are still many musicians who compose for demo groups, who still enjoy
 the challenge of squeezing as much as they can out of the SID chip.  Most
 of these new tunes will hold special memories for people, but in a different
-way in that you'll remember them from demo X or Y rather than as a game 
+way in that you'll remember them from demo X or Y rather than as a game
 soundtrack.
 
 [1-2] The HVSC Project
@@ -208,7 +208,7 @@ Here are some general, friendly rules to keep in mind:
 * Verify claims you make about a SID being bugged by loading the
   original tune on a C64 _only_.   Also, if tunes are missing
   from a SID, then please let us know which ones (see the BUGLIST.txt file
-  for more information.) 
+  for more information.)
 
 * Verify any credit changes you submit either with the composer himself or
   by checking the actual software for when it was released.  In addition,
@@ -244,7 +244,7 @@ HVSC 5.2 onwards.
 Below are a some comments about a few special directories:
 
 /DEMOS/X-X/ - For tunes found in demos in which the artist has less than three
-              tunes.  
+              tunes.
 
 /DEMOS/UNKNOWN - For tunes found in demos in which the artists are unknown.
 
@@ -256,11 +256,11 @@ Below are a some comments about a few special directories:
               an archive of all the update data files and information texts.
 
 /GAMES/X-X/ - For games first released in which the artist has less than three
-              tunes.  Game tunes with unknown artists go here as well (sadly, 
+              tunes.  Game tunes with unknown artists go here as well (sadly,
               many an older C64 game had no composer information and we
               usually have had to contact the programmers themselves also to
               verify)
-              
+
 /MUSICIANS/X-X/ - Tunes sorted by the composers names or handles (if they are
                   more widely used than their real names)
 
@@ -291,10 +291,10 @@ we'll take anything you have unless the tunes are lacking musical skill.
 It very rarely happens that we reject tunes from inclusion into HVSC, but
 we reserve the right to do so if you keep sending these one channel BASIC
 rips from private games that only you and your neighbour ever had access
-to.  ;-)  
+to.  ;-)
 
 Don't bother ripping fresh scene releases, we usually keep an eye on it and
-try to rip all the tunes as they get released into the scene. 
+try to rip all the tunes as they get released into the scene.
 
 [3-2-1]: What does the HVSC Crew want?
 ======================================
@@ -321,7 +321,7 @@ Here are some of the items we are looking for:
   * Fixes of SIDs already in HVSC.  We have found several tunes that start
     at the wrong location, have missing voices, with bad samples, etc.
     You must, wherever possible, check them on a real C64 to ensure they work.
-  
+
   * Real C64-compliant rips, especially if there's a _PSID equivalent in
     HVSC
 
@@ -334,18 +334,18 @@ Here are some of the items we are looking for:
     and they will be sure to send us any more they may find.
 
   - You will notice groups of tunes where there will be a gap in order.
-    These gaps usually do not mean that we are missing these tunes, but 
+    These gaps usually do not mean that we are missing these tunes, but
     rather we have found them repeated elsewhere.
-   
+
   - We also DO NOT want any SID collections from the Internet unless you
     are pretty certain none of the tunes are in HVSC.  HVSC will most
     likely already have all these SIDs.  If you send us collections from
     the Internet we expect you to eliminate the tunes we already have
-    and make the credits adhere to the HVSC credit standard.   
+    and make the credits adhere to the HVSC credit standard.
 
   - Further, we DO NOT want any C64 tune that is just one looped sample
     playing over and over again.  Unfortunately around 1987-88 there were
-    a spate of sample-only tunes that had one 20 second long sample 
+    a spate of sample-only tunes that had one 20 second long sample
     either playing once or infinitely.  If in any doubt, ask us first.
 
 [3-2-2] Contributing Guidelines
@@ -358,7 +358,7 @@ possibilities so feel free to email us and we can arrange what ever is most
 convenient.  Note, do not forget to adhere to the HVSC credit standard (see
 below for more information).
 
-You should send your SIDs preferably in ZIP file format.  The name of the 
+You should send your SIDs preferably in ZIP file format.  The name of the
 file should follow this standard:
 
 <your initials/handle><yyyy><mm><dd>.zip
@@ -372,7 +372,7 @@ sure how to do this, please email us and we will endeavour to help you.
 
 Also, within the zip file you should have a text file in the same format
 (for example JH20000401.txt) which describes the SIDs you are sending
-in.  Under each section, please ensure they are in directory order. 
+in.  Under each section, please ensure they are in directory order.
 
 Examples:
 
@@ -425,7 +425,7 @@ Laust-Brock Nannestad <lbn (sid) prg.dtu.dk>
 Please also DO NOT send any attachment that is more than 1 MB without
 mailing us first to let us know and that you have confirmation from us it is
 okay to send.  It's good netiquette, you know.
-  
+
 Please mail your ZIP file of SIDs to the following adress:
 
 hvsc (sid) c64.org (it will reach three people, so you can be assured that your
@@ -447,10 +447,10 @@ Please note that of HVSC 5.2, the COPYRIGHT keyword has been replaced with
 RELEASED.  This is mainly for legal reasons, as many of the games which were
 published in the 1980s are not the copyright of the original software companies
 anymore, but reside with the programmers.  In addition, in a lot of cases,
-the composer has retained his original copyright for the piece or asked a 
+the composer has retained his original copyright for the piece or asked a
 publisher (such as C64Audio) to do that for them.  Also, it should more
 accurately state when demo tunes were either composed or released into
-the C64 scene, as many of those demo composers retain the copyright of 
+the C64 scene, as many of those demo composers retain the copyright of
 the tunes themselves.
 
 One important reminder: _ALL_ tunes in HVSC are strictly the copyright of the
@@ -514,7 +514,7 @@ such as SIDedit.
    -------------------
    SID Credit Pointers
    -------------------
-   (1) Rippers: ABSOLUTELY DO NOT PUT YOUR NAME/ALIAS IN THE SID CREDITS!  
+   (1) Rippers: ABSOLUTELY DO NOT PUT YOUR NAME/ALIAS IN THE SID CREDITS!
 
    (2) You should be at least 80% certain of the field you are guessing.
        To put incorrect credits rather than a <?> would forever ruin your
@@ -525,7 +525,7 @@ such as SIDedit.
        is not enough to signify with certainty that the tune is by that
        author.  Sometimes authors lent their routine for another to use.
        Other times the routine was used without permission.  Again, please
-       use <?> if not certain.  
+       use <?> if not certain.
 
    (4) Don't make up titles (e.g., TITLE: This Tune ROCKS!).  If you are
        ripping the tune from a demo in which the music was specifically
@@ -594,7 +594,7 @@ or some additional information, no matter how insignificant, let us know.
 Please mail to the following adress:
 
   hvsc (sid) c64.org
-  
+
 
 [3-4-1] Verify Your Information
 ===============================
@@ -615,14 +615,14 @@ a valid complaint.  There are few instances, however, where a C64 emulator
 can be used to show that a sid tune in HVSC is a bad rip.  Such cases
 would include a tune with missing samples or a tune with missing voices.
 
-Please bear in mind that C64 emulators don't always emulate the C64's 
+Please bear in mind that C64 emulators don't always emulate the C64's
 SID filter correctly  (VICE is closest, but the filter is too powerful).
 
 [3-4-2] Credit and Initplay Fixes
 =================================
 
 Any credit fixes you send should also be to HVSC credit standards.  This
-means it is easier for the HVSC Administration to place your fixes in 
+means it is easier for the HVSC Administration to place your fixes in
 the next available update.  The following standards should be used when
 submitting credit fixes:
 
@@ -640,7 +640,7 @@ Name
 Author
 Released
 
-You can use a * to indicate that the field should remain 
+You can use a * to indicate that the field should remain
 unchanged.  Examples:
 
 (#1: All fields changed, with comment #)
@@ -686,7 +686,7 @@ RELEASED
 1990 Elite
 
 Use MOVE if the CREDITS, NAME or AUTHOR fix involves a move of file
-name or directory. 
+name or directory.
 
 MOVE
 /Source_HVSC_Dir/Filename.sid
@@ -722,7 +722,7 @@ C64-compliant.
 INITPLAY
 new init address (hex), new play address (hex)
 
-Note that 0000 in the play address means to use the interrupt handler 
+Note that 0000 in the play address means to use the interrupt handler
 that is set up during the init routine (if necessary)
 
 Some examples:
@@ -745,7 +745,7 @@ The below shows you how to submit corrections to SIDs where the PSIDv2NG
 fields require setting for a SID to play more accurately.
 
 IMPORTANT NOTE: Only set any of these fields if you are absolutely sure you
-have the correct information! If in doubt, please ask us.  
+have the correct information! If in doubt, please ask us.
 
 Again, like credit fixes, you can use a # to indicate your comments if
 you wish to do so.
@@ -793,7 +793,7 @@ MUSPLAYER
 
 Use PLAYSID if the SID has any PlaySID-specific instructions, such as the
 PSID sample methods. 0 means the SID is C64 compatible, 1 means it's
-PlaySID specific. 
+PlaySID specific.
 
 An example:
 
@@ -809,7 +809,7 @@ limit is 26 chars plus the .sid extension!  Using the example above:
 MOVE
 /Hubbard_Rob/BMX_Kidz.sid
 /Hubbard_Rob/BMX_Kidz_PSID.sid
-             
+
 Use the CLOCK command to set the video clock speed of a SID.  Although
 mostly you'll know if it was made on a PAL or NTSC C64, there are
 occasions it may be unknown, or the SID tune works happily on both
@@ -832,7 +832,7 @@ ANY
 
 Use the SIDMODEL command to set which SID chip a tune should be played on.
 Some composers used the 6581, some used the 8580, or they may work well
-on either SID or be unknown. 
+on either SID or be unknown.
 
 Btw, any SID made up to and including 1985 _has to be 6581_.  This is
 because the C64-C with 8580 SID chips in them weren't released until
@@ -859,7 +859,7 @@ ANY
 
     Much information about ripping is provided at the SIDPlay web site.
     http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/
-    
+
     Heads up, there are some fundamental miscalculations in the "Variable
     playing speed" chapter of Michael Schwendt's article.
     The calculation formula for the amount of cycles a C64 has is based
@@ -871,9 +871,9 @@ ANY
     the algorithm using fractions).
     Thus, the correct algorithm to get the CIA timer values for multispeed
     tunes would be
-    
+
     ( $4CC8 / n ) - 1
-    
+
     with n being the speed setting of the tune (n=2 if doublespeed, etc.)
     Subtract one from the final result because the CIA timer is counting
     backwards to zero. So if the CIA timer value is set to $2663 it actually
@@ -913,7 +913,7 @@ likelyhood of finding more does diminish with every update.
 The HVSC Page:  http://www.hvsc.c64.org/
 
 Also, if you wish to be added to the HVSC Update Announcement list, which
-means you get an email the moment the URL above is updated announcing the 
+means you get an email the moment the URL above is updated announcing the
 new HVSC Update release, then please email HVSC Update Subscribe
 <hvscupdate-subscribe@scenelists.com> or use the link at the HVSC web page.
 
@@ -923,10 +923,10 @@ Chapter [5]: Included Documents
 
 The following lists the documents that reside with HVSC (/DOCUMENTS):
 
-   BUGLIST.TXT  - A list of bugged SIDs in HVSC.  Hopefully you'll see 
+   BUGLIST.TXT  - A list of bugged SIDs in HVSC.  Hopefully you'll see
                   fewer entries after each update. (We do try and add as many
                   fixes as possible.)
-               
+
   CREATORS.TXT  - Information about the HVSC Crew, creators of the collection.
 
    HV_SIDS.FAQ  - Answers to frequently asked questions about the collection.
@@ -1020,13 +1020,13 @@ Guzslován Gábor (Cargo/Singular) (for sending us some disks and giving us hints
 Guy Shavitt (for helping us locate your tunes. We hope to find the game
              "Blitz", with your music!)
 Holger Gehrmann (for checking and verifying your own tunes)
-Jason Kelk (for the copy of Terra Cognita where the music worked!  Plus for 
+Jason Kelk (for the copy of Terra Cognita where the music worked!  Plus for
             other bug spotting such as the missing W.A.R. tune)
 Jason Page (for verifying your SIDs and coming along to Back in Time London)
 Jaymz Julian (for your tunes and confirming it's Warriors of _the_ Wasteland)
 Jeff B. (Zirco) (for verifying your own tunes)
 Jens-Christian Huus/Vibrants (for lots and lots of rips, and all the Vibrants
-                              tunes we could handle, plus a score of mistake 
+                              tunes we could handle, plus a score of mistake
                               spotting to boot.)
 Jeroen & Michiel Soede of SoedeSoft (for some credit fixes and some of their
                                      SIDs, and for some updated information)
@@ -1098,7 +1098,7 @@ Pawel Ruczko (H.M. Murdock) (for your own tunes and some rips)
 Per Fredrik Kvarme (PFK) (for sending in your SIDs plus some rips)
 Piotr Baczkiewicz (Bzyk) (for rare tunes and credit information)
 Raik Picheta (Eco) (for sending your SIDs)
-Reyn Ouwehand (thanks for taking the time to verify your tunes. 
+Reyn Ouwehand (thanks for taking the time to verify your tunes.
                And a great job on Nexus 6581!)
 Richard Joseph (for confirming the tunes you'd made.)
 Rob Hubbard (thanks for putting up with the waves of questions, and
@@ -1187,7 +1187,7 @@ Jaromir Krol (for bug spotting)
 Jason Mackenzie (Kenz) (for all the rare Feekzoid and Jon Wells SIDs, plus
                         more demos than you can handle.  Cheers pal!)
 Juha-Pekka Jokela (for bug spotting and supplying games with loading tunes,
-                   came in very handy for fixes)             
+                   came in very handy for fixes)
 Kai Spitzley (for a keen eye on bugs as well as credits)
 Alpaslan Deveci (Kris/Clique) (for the Babyface tunes)
 Krzysztof Dabrowski (Brush/Elysium) (for a HUGE bunch of tunes)
