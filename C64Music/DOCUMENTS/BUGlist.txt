@@ -1,13 +1,13 @@
 #######################################################################
 #   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
-#   Maintained by Warren Pilkington <hvscadmin@wazzaw.freeuk.com>     #
-#   Last Updated Saturday 26 October 2002                             # 
+#   Maintained by Peter Sandén <yodelking@formec.com>                 #
+#   Last Updated Friday 10 September 2004                             #
 #######################################################################
 #                                                                     #
 # The purpose of this text document is to highlight all the tunes     #
 # that are still left in HVSC which have bugs in the data which       #
 # either send a tune out of synch, play a wrong note, or even worse,  #
-# crash Sidplay or a real C64.  It also gives you all the incomplete  # 
+# crash Sidplay2 or a real C64.  It also gives you all the incomplete #
 # rips that are in HVSC.  Although the HVSC Crew are an extremely     #
 # active and busy bunch of SID fans, there are occasions where some   #
 # of the older tunes in the collection have not been checked by the   #
@@ -26,69 +26,47 @@
 # with a description of what had to be done to fix it.                #
 #                                                                     #
 # NOTE: This lists only lists bugs where the SID file is definitely   #
-# incompatible with Sidplay.                                          #
-#                                                                     # 
-# You may find there's SIDs that work fine in Sidplay but not         #
-# Sidplay2.  Please see the following web page for more information   #
-# along with a currently updated list of problem SID tunes:           #
-# http://www.hvsc.c64.org/News/sidplay2problems.html                  #
+# incompatible with Sidplay2 or a real C64.                           #
 #                                                                     #
 # Some of these tunes may also have been fixed which will appear in a #
 # future HVSC update.  Check the HVSC Ripped Tunes List at:           #
 # http://www.hvsc.c64.org/News/rippedtunes.html if you are unsure.    #
 #                                                                     #
-# Warren.                                                             #
-#######################################################################
-# Thanks to all the following for reporting bugs in HVSC:             #
-# Petri Keränen <keebo@mbnet.fi>                                      #
-# Gaetano Chiummo <achiummo@ba.data.it>                               # 
-# Levente Hársfalvi <Levente@Terrasoft.hu>                            #
-# Tobias Hultman <tohu4573@hem2.passengen.se>                         # 
-# Antonio Vera Diaz <xwizard@crosswinds.net>                          #
-# Roland Hermans <rolandh@dds.nl>                                     #
-# Juha-Pekka Jokela <jpjokela@surfeu.fi>                              #
-# Kai Spitzley <heechee@mindless.com>                                 #
-# Timo Rönkkö <deadbeat@freenet.hut.fi>                               #
-# Jason Kelk <tmr@c64.org>                                            #
-# Rough/Chromance <adamsky@gmx.ch>                                    #
-# Per Bolmstedt <tomten@c64.org>                                      #
-# Reyn Ouwehand                                                       #
-# Jaromir Król <jaromirk@kr.onet.pl>                                  #
-# Glenn Rune Gallefoss <ggallefo@online.no>                           #
-# Janne Suni <jasuni@tiira.cedunet.com>                               #
-# Dennis Lindroos <lindroos@can.nls.fi>                               #
-# Markus Schäfer <markusschaefer@web.de>                              #
-# Markus Schneider                                                    #
-# Steve Barrett                                                       #
-# James Reisdorf <sportsdude820@yahoo.com>                            #
-# Fastie <fastie@pandora.be>                                          #
-# Adric Reidel <AReidel@lenoxps.org>                                  #
-# Yuri Fossaroli <yurif@mail.dex-net.com>                             #
-# Patrick van der Poel <pvdpoel@tref.nl>                              #
-# Scott Moran <smmoran@deakin.edu.au>                                 #
-# Kai Lehmann <assit.musclesoft@bigfoot.de>                           #
-# Nathan White <nathan_white@talk21.com>                              #
-# Patrick Volpi <Patrick.Volpi@alltel.com>                            #
-# Luigi de Fraia <cuomo@studenti.unina.it>                            #
-# Louise Heimann <louise.heimann@softhome.net>                        #
-# Erik Rasmussen <erik@idec.es>                                       #
-# Joona Palaste <palaste@cc.helsinki.fi>                              #
-# Linus Åkerlund <uxm165t@tninet.se>                                  #
-# Chris Lightfoot (TLF)                                               #
-# Kai Walter (PVCF)                                                   #
-# Anders Elmén (Moon)                                                 #
-# Laszló Molnar <zeux@freemail.hu>                                    #
-# Rich <indios_se@yahoo.com>                                          #
-# Freek Werner <fwmwerner@planet.nl>                                  #
-# Martin Frech <mail@frech.net>                                       #
-# Christoph Bergmann                                                  #
-# Paul Chapman <dinkster95@ntlworld.com>                              #
-#      and of course the HVSC Crew, past and present.                 #
+# Peter.                                                              #
 #######################################################################
 
 ###############################
-# Bugged tunes as of HVSC 5.1 #
+# Bugged tunes as of HVSC 5.8 #
 ############################### 
 
-Currently there are no _known_ bugged SIDs as of HVSC 5.1.  However, if
-you do find a bug in a HVSC SID, please tell us.
+/GAMES/G-L/Golden_Pyramids.sid
+(#9)
+    BUG: This subtune has buggy sounds at the following marks:
+         0:31-0:41, 0:52-1:02, 1:22-1:32 and 2:01-2:31
+         (Fanta)
+
+/GAMES/G-L/Impossible_Mission_II.sid
+    BUG: In-game tunes are missing (6 or 7) variants of the tune which
+    is the melody you have to find in safes by blowing them up and then
+    assemble and play using the tape recorder.
+    (Jaromir Król)
+
+/GAMES/M-R/Rollin.sid
+    BUG: Game has two missing in game tunes (UK Atlantis release (Rollin!)
+         has the tunes on.  One plays ingame, one plays if you leave the
+         game on demo mode.
+         (Gazi)
+
+/Hogg_Ashley/Classical_2.sid
+    BUG: At around 1:45 the digi samples and the rest of the tune gets out of
+         synch with each other. This doesn't happen in the PSID version.
+         (Lala)
+
+/Walker_Martin/Indiana_Jones_Fate_of_Atla.sid
+    BUG: Falls out of synch at around 1:40. No bad reads.
+         (Abaddon)
+
+/Walker_Martin/Snare.sid
+(#6)
+    BUG: This subtune falls out of synch at 0:20. Lots of bad reads here.
+         (Abaddon)

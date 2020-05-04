@@ -2,7 +2,7 @@
 -------------------------------------------------------------------------------
                         SID Tune Information List (STIL)
                         -> Frequently Asked Questions <-
-                                     v5.1
+                                     v5.8
 -------------------------------------------------------------------------------
 
 General Questions
@@ -52,7 +52,7 @@ Miscellaneous
 -------------------------------------------------------------------------------
 
 The SID Tune Information List (STIL) contains information about the SID tunes
-found in the HVSC beyond the standard TITLE, AUTHOR, and COPYRIGHT information.
+found in the HVSC beyond the standard TITLE, AUTHOR, and RELEASED information.
 STIL goes a little deeper listing SID tune information that only a true SID
 freak would enjoy. Such information listed in STIL includes cover information,
 interesting facts, useless trivia, comments on the tunes by the composers
@@ -68,6 +68,16 @@ the most accurate and comprehensive SID collection possible. We also believe in
 giving proper credit to all composers regardless if they ever composed on the
 Commodore 64. How many times have you asked yourself, "Where have I heard this
 tune before?!" STIL helps to ease some of those questions.
+
+With the increased interest in old SID tunes in recent years, the issue of
+whether they are original compositions or remixes/covers/pastiches of previous
+tunes has gotten a lot more attention. Although the STIL will do its best to
+point out whether a given tune is close to the original or just mildly inspired
+by it, it is still intended as an informal guide for SID listeners only. If you
+want to know more accurately how closely a SID resembles another composition,
+the best thing you can do is locate the original tune and perform the
+comparison yourself. We suggest that you do not base your opinion solely on an
+entry in the STIL.
 
 STIL is also extremely valuable for the future of SID music collections.
 Imagine years ahead when the HVSC maintainers are no longer available for input
@@ -377,7 +387,7 @@ question contains only the following credits:
 
      NAME=So-Phisticated III
    AUTHOR=Edwin van Santen & Falco Paul
-COPYRIGHT=1989 20th Century Composers
+ RELEASED=1989 20th Century Composers
 
 Without the fields in the STIL, you would have no way of knowing (or
 specifiying!) that Falco Paul composed subtune #6.
@@ -753,43 +763,14 @@ there are no STIL entries directly below /VARIOUS.
 -------------------------------------------------------------------------------
 
 The STIL is maintained by the STIL Administrator (also known as the HOSTILE
-(High Official STIL Executioner) ;-), who is currently:
+(High Official STIL Executioner) ;-) under the watchful eye of the entire HVSC
+team. The administrator is currently:
 
 Laust Brock-Nannestad <laustbn@diku.dk>
 
-Below is a full list of people who contribute to the STIL and help maintaining
-it:
 
-THE HVSC/STIL TEAM
-==================
+Also see the "STIL HEROES" list further down in the FAQ for other contributors.
 
-HOSTILE (High Official STIL Executioner) (= STIL Administrator ;)
-----------------------------------------
-Laust Brock-Nannestad <laustbn@diku.dk>
-
-
-HVSC Administrators:
--------------------
-Warren Pilkington <hvscadmin@wazzaw.freeuk.com>
-Jan Diabelez Arnt Harries <nmioaon@get2net.dk>
-
-Main contributors:
-------------------
-Wilfred Bos <wbos@worldonline.nl>
-Darren Hagan <darren@talent.demon.co.uk>
-InGE HP <448@c2i.net>
-Kristoffer Johansson <johkri@.home.se>
-LaLa <LaLa@C64.org>
-Dennis Lindroos <deadman@penti.sit.fi>
-Adam Lorentzon <adam.lorentzon@home.se>
-Gabriele Priarone (G-Knight) <solknight@tin.it>
-Michael Schwendt <sidplay@geocities.com>
-The Shark of International Network of Chaos <shark@dhp.com>
-Andreas Varga <sid@skater.htu.tuwien.ac.at>
-Jan Krolzig <Jan.Krolzig@netsurf.de>
-Peter Sandén <yodelking@formec.com>
-Smalltown Boy <smalltown_boy@poczta.onet.pl>
-Stephan Schmid <schmido@gmx.net>
 
 [ 6] What if I find incorrect or missing STIL entries?
 -------------------------------------------------------------------------------
@@ -1061,138 +1042,166 @@ STIL Hero points.
 If you would like to withhold your name or email address for security or
 personal reasons, let me know ASAP!!! (Oops, too late. :)
 
+(E-mail addresses have been spam blocked for obvious reasons. Shouldn't be too
+hard to figure out how, though ;-)
+
 STIL HEROES
 ===========
 
-(350) Petri Keränen <keebo@mbnet.fi> (aka "STIL SuperHero" :-)
-(149) Teppo Lehtonen <meteleh@tpu.fi> (aka "STIL SuperHero #2" :-)
-(116) Gustaf Sjöblom <gusj5775@student.uu.se> (aka "STIL SuperHero #4" :-)
-(100) Vincent Schoettke <fox@aliendesign.net> (aka "STIL SuperHero #3" :-)
+(357) Petri Keränen <keebo (sid) mbnet.fi> ("STIL SuperHero" :-)
+(299) Jason 'XtC' Skelly <xtc (sid) amigaguide.org> ("STIL SuperHero #6" :-)
+(156) Joachim "Yogibear" Wijnhoven <joachimwijnhoven (sid) home.nl> ("STIL SuperHero #7" :-)
+(149) Teppo Lehtonen <meteleh (sid) tpu.fi> ("STIL SuperHero #2" :-)
+(116) Gustaf Sjöblom <gusj5775 (sid) student.uu.se> ("STIL SuperHero #4" :-)
+(102) se7en / Digital Excess <seven (sid) digitalexcess.de> ("STIL SuperHero #5" :-)
+(100) Vincent Schoettke <fox (sid) aliendesign.net> ("STIL SuperHero #3" :-)
+
 ************************************
-( 95) se7en / Digital Excess <seven@digitalexcess.de>
+( 89) Pawel Ruczko (Murdock)
 ( 75) Kai Lehmann (Ass It)
-( 68) Joachim "Yogibear" Wijnhoven <joachimwijnhoven@home.nl>
-( 66) Per Bolmstedt <tomten@C64.org>
-( 62) Tuomas Rantala  (Thor/Extend) <thor@freenet.hut.fi>
-( 55) Linus Walleij (King Fisher/Triad) <triad@df.lth.se>
-( 53) Jeremy Smith jeremyalansmith@netscapeonline.co.uk
-( 50) Jacob Gunness <jacob.maibritt@get2net.dk>
-( 39) Eetu Ojanen <eetu@ojanen.net>
-( 32) MAD <mad@twistedmind.de.de>
-( 32) Zyron <zyron@algonet.se>
-( 30) Ville Nurmi <Ville.V.Nurmi@helsinki.fi>
-( 29) Martin Frech <mail@frech.net>
-( 28) Peter Weighill <pweighill@hotmail.com>
-( 27) Salmijarvi Janne <jhsa@cs.tut.fi>
-( 27) Jan Lönnberg (Nova) <lonnberg@mbnet.fi>
-( 25) James Reisdorf <sportsdude820@yahoo.com>
-( 23) Craig Grannell <craig@snub.dircon.co.uk>
-( 23) "Xazziri" <xazziri@gmx.net>
-( 20) <smmoran@deakin.edu.au>
-( 19) Joe Forster/STA <sta@c64.org>
-( 19) Magnate <magnate@wp.pl>
-( 16) Per Branthle <vulgaere.per@home.se>
-( 16) Scott Jones <localh@chartertn.net>
-( 16) Jeroen Mostert <xazziri@gmx.net>
-( 16) Jürgen Oppermann <juergen.oppermann@tcpip-gmbh.de>
-( 15) MiKiL <mikil@youzen.bishounen.st>
-( 14) Goetz Waschk <waschk@informatik.uni-rostock.de>
-( 13) Ole Kasper Olsen <ole.olsen@ah.telia.no>
-( 12) Parsi Karppinen <karppinen.uddevalla@swipnet.se>
-( 12) Milekic Momir <xwolf@sezampro.yu>
-( 12) Miron Schmidt <miron@comports.com>
-( 11) "ColinZeal" <sids@mail.bip.net>
-( 11) Graeme Norgate <gnorgate@frd.co.uk>
-( 11) Stefano Tognon <ice00@iol.it>
-( 10) Daniel Adolfsson <sensei@whoever.com>
-( 10) Vincent Voois <vvacme@worldonline.nl>
+( 66) Per Bolmstedt <tomten (sid) C64.org>
+( 63) Tuomas Rantala  (Thor/Extend) <tuomas.rantala (sid) nic.fi>
+( 60) "Carlsson, Anders" <anders.carlsson (sid) mds.mdh.se>
+( 58) Jacob Gunness <jmgunness (sid) oncable.dk>
+( 55) Linus Walleij (King Fisher/Triad) <triad (sid) df.lth.se>
+( 53) Jeremy Smith <jeremyalansmith (sid) freeola.com>
+( 47) "Rafal" <rafalszyja (sid) poczta.onet.pl>
+( 44) Ville Nurmi <Ville.V.Nurmi (sid) helsinki.fi>
+( 43) Peter Weighill <pweighill (sid) hotmail.com>
+( 40) Eetu Ojanen <eetu (sid) ojanen.net>
+( 40) Stefan 'Pohli' Pohlmann <pohli (sid) gmx.at>
+( 39) Stefano Tognon <ice00 (sid) iol.it>
+( 38) Martin Frech <mail (sid) frech.net>
+( 33) MAD <mad (sid) twistedmind.de.de>
+( 33) Zyron <zyron (sid) algonet.se>
+( 27) Salmijarvi Janne <jhsa (sid) cs.tut.fi>
+( 27) Jan Lönnberg (Nova) <lonnberg (sid) mbnet.fi>
+( 27) Jarno Paananen <jpaana (sid) s2.org>
+( 24) Graeme Norgate <gnorgate (sid) frd.co.uk>
+( 25) James Reisdorf <sportsdude820 (sid) yahoo.com>
+( 23) Craig Grannell <craig (sid) snub.dircon.co.uk>
+( 23) "Xazziri" <xazziri (sid) gmx.net>
+( 20) <smmoran (sid) deakin.edu.au>
+( 19) Gaetano Chiummo <gachium (sid) tin.it>
+( 19) Joe Forster/STA <sta (sid) c64.org>
+( 18) Scott Jones <localh (sid) chartertn.net>
+( 16) Per Branthle <vulgaere.per (sid) home.se>
+( 16) Jeroen Mostert <xazziri (sid) gmx.net>
+( 16) Jürgen Oppermann <juergen.oppermann (sid) tcpip-gmbh.de>
+( 15) MiKiL <mikil (sid) youzen.bishounen.st>
+( 14) Goetz Waschk <waschk (sid) informatik.uni-rostock.de>
+( 13) Ole Kasper Olsen <ole.olsen (sid) ah.telia.no>
+( 12) Parsi Karppinen <karppinen.uddevalla (sid) swipnet.se>
+( 12) Milekic Momir <xwolf (sid) sezampro.yu>
+( 12) Miron Schmidt <miron (sid) comports.com>
+( 11) "ColinZeal" <sids (sid) mail.bip.net>
+( 10) Daniel Adolfsson <sensei (sid) whoever.com>
+( 10) Vincent Voois <vvacme (sid) worldonline.nl>
 
 ------ The rest below are STIL Hero Wannabes... ------
 
-(  9) Gaetano Chiummo <gachium@tin.it>
-(  9) "Szabolcs Temesvári" <consolegames@hotmail.com>
-(  8) Roland Hermans <fhermans@plex.nl>
-(  8) Timo Sievänen <timo.sievanen@pp.inet.fi>
-(  8) Patrick Volpi <Patrick.Volpi@alltel.com>
-(  8) Linus Åkerlund <uxm165t@tninet.se>
-(  7) Stuart Caie <kyzer@4u.net>
-(  7) Levente Hársfalvi <levente@terrasoft.hu>
-(  7) "Matthew W. Miller" <mattm@infinet.com>
-(  7) Aaron Solomon <solomon@spiretech.com>
-(  6) Jens Björnhager <jensbj@hem.passagen.se>
-(  6) Stéphane 'innocent' Derisbourg <innocent_too@caramail.com>
-(  6) Paul Trauth <raccoon@ca.freei.net>
-(  6) pyksy^dAP <pyksy@sievi.fi>
-(  6) Scott <dg3carrols@wombat.admin.bhtafe.edu.au>
-(  5) "Laszlo Molnar Jr." <zeux@freemail.hu>
-(  5) Len Pitre <I_am_the_archon@hotmail.com>
-(  4) Oliver Hermanni <o_hermanni@hotmail.com> (aka Wintermute)
-(  4) Jarno Paananen <jpaana@s2.org>
-(  4) PG <PG@pinknet.cz>
-(  4) Evert-Jan Slypen <jazz@lobster.demon.nl>
-(  3) "Carlsson, Anders" <dal95acn@mds.mdh.se>
-(  3) Dust <dust@utanet.at>
-(  3) Gaelan Griffin <chinoclast@softhome.net>
+(  9) "Szabolcs Temesvári" <consolegames (sid) hotmail.com>
+(  8) Roland Hermans <fhermans (sid) plex.nl>
+(  8) Timo Sievänen <timo.sievanen (sid) pp.inet.fi>
+(  8) Patrick Volpi <Patrick.Volpi (sid) alltel.com>
+(  8) Linus Åkerlund <uxm165t (sid) tninet.se>
+(  7) Stuart Caie <kyzer (sid) 4u.net>
+(  7) Levente Hársfalvi <levente (sid) terrasoft.hu>
+(  7) "Matthew W. Miller" <mattm (sid) infinet.com>
+(  7) Aaron Solomon <solomon (sid) spiretech.com>
+(  6) Jens Björnhager <jensbj (sid) hem.passagen.se>
+(  6) Stéphane 'innocent' Derisbourg <innocent_too (sid) caramail.com>
+(  6) Paul Trauth <raccoon (sid) ca.freei.net>
+(  6) pyksy^dAP <pyksy (sid) sievi.fi>
+(  6) Scott <dg3carrols (sid) wombat.admin.bhtafe.edu.au>
+(  6) Jan Lund Thomsen <kwed (sid) kwed.org>
+(  5) Gargaj/CNS
+(  5) "Laszlo Molnar Jr." <zeux (sid) freemail.hu>
+(  5) Len Pitre <I_am_the_archon (sid) hotmail.com>
+(  5) Sidder
+(  4) Oliver Hermanni <o_hermanni (sid) hotmail.com> (aka Wintermute)
+(  4) Thomas Hillebrandt <info (sid) thomashillebrandt.com>
+(  4) Knurek <knuru (sid) o2.pl>
+(  4) PG <PG (sid) pinknet.cz>
+(  4) Pieknyman <pieknyman (sid) poczta.onet.pl>
+(  4) Evert-Jan Slypen <jazz (sid) lobster.demon.nl>
+(  4) Kai Spitzley <heechee (sid) mindless.com>
+(  3) Dust <dust (sid) utanet.at>
+(  3) Gaelan Griffin <chinoclast (sid) softhome.net>
 (  3) Ulf Härnhammar
-(  3) Steve Horan <sjhoran@goldenterrace.com.au>
-(  3) Kai Spitzley <heechee@mindless.com>
-(  3) Chris Taylor <chris_103@hotmail.com>
-(  2) Tony Cavén <ferrara@surffi.net>
-(  2) Dominik Deobald <magician@sunshine.domino.de>
-(  2) Tobias Ekman <tekman@etek.chalmers.se>
-(  2) "A.J." <anders_jakobsen@hotmail.com>
-(  2) Lars Haugseth <larshau@candleweb.no>
-(  2) Pierre Lindbergh <pierre.lindbergh@telia.com>
-(  2) Oedipus <oedipus@simnet.is>
-(  2) Timo Rönkkö (Deadbeat/The Sharks) <deadbeat73@hotmail.com>
-(  2) Ingve Vormestrand <ingve@online.no>
-(  1) <abaddon@dlc.fi>
+(  3) Steve Horan <sjhoran (sid) goldenterrace.com.au>
+(  3) Chris Taylor <chris_103 (sid) hotmail.com>
+(  2) John Ames
+(  2) Tony Cavén <ferrara (sid) surffi.net>
+(  2) Dominik Deobald <magician (sid) sunshine.domino.de>
+(  2) Tobias Ekman <tekman (sid) etek.chalmers.se>
+(  2) "A.J." <anders_jakobsen (sid) hotmail.com>
+(  2) Lars Haugseth <larshau (sid) candleweb.no>
+(  2) Dirk Jagdmann <doj (sid) cubic.org>
+(  2) Pierre Lindbergh <pierre.lindbergh (sid) telia.com>
+(  2) Thomas Mogensen (DRAX)
+(  2) Eclipsed Moon <eclipsedmoon13 (sid) yahoo.com>
+(  2) Oedipus <oedipus (sid) simnet.is>
+(  2) Timo Rönkkö (Deadbeat/The Sharks) <deadbeat73 (sid) hotmail.com>
+(  2) Ingve Vormestrand <ingve (sid) online.no>
+(  1) <abaddon (sid) dlc.fi>
 (  1) AMJ
-(  1) Bamse <Bamse2000@gmx.de>
-(  1) Mattias Bergsten <fnord@fnord.nu>
-(  1) R.F. Bisschop <rfbcsa@multiweb.nl>
-(  1) Sven Boecker <std8220@et.FH-Osnabrueck.DE>
-(  1) Zoltán Bolla <bolla@mail.matav.hu>
-(  1) Volker Detering <vdetering@mediahood.de>
-(  1) Michael Drueing <doc_wagon@gmx.de>
+(  1) Bamse <Bamse2000 (sid) gmx.de>
+(  1) Mattias Bergsten <fnord (sid) fnord.nu>
+(  1) R.F. Bisschop <rfbcsa (sid) multiweb.nl>
+(  1) Sven Boecker <std8220 (sid) et.FH-Osnabrueck.DE>
+(  1) Zoltán Bolla <bolla (sid) mail.matav.hu>
+(  1) iAN CooG <ian7102 (sid) libero.it>
+(  1) Volker Detering <vdetering (sid) mediahood.de>
+(  1) Michael Drueing <doc_wagon (sid) gmx.de>
 (  1) Adam Dunkels (Trident)
-(  1) Edo <edo@trystero.demon.nl>
-(  1) Ferrara <maumiu@freenet.hut.fi>
-(  1) Jan-Erik Frigren <frigrenj@penti.sit.fi>
-(  1) Casper H. <hulshof@edte.utwente.nl>
-(  1) Scott Hobizal <hobie-wan@mindless.com>
-(  1) Teddy Hogeborn <teddy@fukt.hk-r.se>
-(  1) Andry Joos (Unlock/Albion) <unlock@profzone.ch>
-(  1) Huseyin Kilic <huseyin_lists@kilic.org>
-(  1) Rainer Koschnick <RainerK@elconet.com>
+(  1) Jack Eden <jackeden (sid) earthlink.net>
+(  1) Edo <edo (sid) trystero.demon.nl>
+(  1) Ferrara <maumiu (sid) freenet.hut.fi>
+(  1) Javier Sánchez Fransesch <jsanchezfr (sid) supercable.es>
+(  1) Jan-Erik Frigren <frigrenj (sid) penti.sit.fi>
+(  1) Tobias Frinndal <frinndal (sid) swipnet.se>
+(  1) Anders Hesselbom <anders_hesselbom (sid) hotmail.com>
+(  1) Casper H. <hulshof (sid) edte.utwente.nl>
+(  1) Scott Hobizal <hobie-wan (sid) mindless.com>
+(  1) Teddy Hogeborn <teddy (sid) fukt.hk-r.se>
+(  1) Dirk Jagdmann <doj (sid) cubic.org>
+(  1) Andry Joos (Unlock/Albion) <unlock (sid) profzone.ch>
+(  1) Sebastian Kierok <sebastian.kierok (sid) web.de>
+(  1) Huseyin Kilic <huseyin_lists (sid) kilic.org>
+(  1) Rainer Koschnick <RainerK (sid) elconet.com>
 (  1) Per Fredrik Kvarme (PFK)
-(  1) Urpo Lankinen / Weyfour WWWWolf <wwwwolf@iki.fi>
-(  1) Manfred Linzner <manfred.linzner@munich.netsurf.de>
-(  1) Thomas Mogensen (DRAX)
-(  1) nail <nail@mean.de>
-(  1) Axel (F.) Poque <axel.pq@t-online.de>
-(  1) Joris Portegies Zwart <portegie@wins.uva.nl>
-(  1) "ruiner" <enrique2@charter.net>
-(  1) Bernd Schelling <schelle@alpha.fh-furtwangen.de>
-(  1) Markus Schäfer <atca@gmx.de>
-(  1) Dean-Ryan Stone <dhry@softhome.net>
-(  1) Steve <dr_drood@mailandnews.com>
-(  1) Peter Svensson <zvenzzon@home.se>
-(  1) Temesvári Szabolcs <sid@scene.hu>
-(  1) Jan Lund Thomsen <kwed@kwed.org>
-(  1) Lauri Turjansalo <cirdan@c64.org>
-(  1) Felix Winter <DPL-00125@popmail.derpatriot.com>
-(  1) "Markus Zell" <mzell@compuserve.de>
-(  1) Olaf Zimmermann <reflex64@gmx.net>
+(  1) Urpo Lankinen / Weyfour WWWWolf <wwwwolf (sid) iki.fi>
+(  1) Laurent <laurent (sid) c64.org>
+(  1) Manfred Linzner <manfred.linzner (sid) munich.netsurf.de>
+(  1) Longhair
+(  1) ltx <ltx (sid) ihug.com.au>
+(  1) Axel (F.) Poque <axel.pq (sid) t-online.de>
+(  1) Joris Portegies Zwart <portegie (sid) wins.uva.nl>
+(  1) "ruiner" <enrique2 (sid) charter.net>
+(  1) Tobias Samuelsson <dasforum_91 (sid) hotmail.com>
+(  1) Bernd Schelling <schelle (sid) alpha.fh-furtwangen.de>
+(  1) Markus Schäfer <atca (sid) gmx.de>
+(  1) Dean-Ryan Stone <dhry (sid) softhome.net>
+(  1) Steve <dr_drood (sid) mailandnews.com>
+(  1) Peter Svensson <zvenzzon (sid) home.se>
+(  1) Temesvári Szabolcs <sid (sid) scene.hu>
+(  1) "Szczygielski, Przemyslaw" <szczygielski (sid) pollot.pl>
+(  1) Philip Timmermann <pepto (sid) pepto.de>
+(  1) Lauri Turjansalo <cirdan (sid) c64.org>
+(  1) Felix Winter <DPL-00125 (sid) popmail.derpatriot.com>
+(  1) WoLaNd <wol (sid) ludens.elte.hu>
+(  1) "Markus Zell" <mzell (sid) compuserve.de>
+(  1) Olaf Zimmermann <reflex64 (sid) gmx.net>
 
 [11] Acknowledgments
 -------------------------------------------------------------------------------
 
 Lots of special thanks fly to:
 
-- Andreas Wallstrom for the interviews he has conducted with Martin Galway, Rob
-  Hubbard and Barry Leitch, from which many of these composers' comments were
-  taken from!
+- Andreas Wallstrom and www.c64hq.com for the interviews with Martin Galway, 
+  Rob Hubbard and Barry Leitch, from which many of these composers' comments 
+  were taken from!
 - Commodore Zone for the interviews they conducted with Rob Hubbard, Martin
   Galway and Jeroen Tel from which some of these composers' comments were taken
   from (lots of thanks to Warren Pilkington for STILizing(tm) them! :)
@@ -1225,66 +1234,89 @@ You can also find other STIL-related tools at this website.
 [13] Gimme some fun statistics about the STIL!
 -------------------------------------------------------------------------------
 
-FUN STATS ABOUT THE STIL v5.1
+FUN STATS ABOUT THE STIL v5.8
 =============================
 
-Created with LaLa's FunStats Perl script. ;)
+Yes, still created with LaLa's FunStats Perl script. ;)
 
 Top 15 Covered Artists:
 -----------------------
 
-Rob Hubbard ............................................................... 208
-Traditional ............................................................... 150
-<?> ....................................................................... 150
-Jean Michel Jarre ......................................................... 129
-Jeroen Tel ................................................................  95
-Depeche Mode ..............................................................  85
-Martin Galway .............................................................  84
-Johann Sebastian Bach .....................................................  81
-John Williams .............................................................  62
-Chris Hülsbeck ............................................................  59
-Harold Faltermeyer ........................................................  58
-James Pierpont ............................................................  48
-Jan Hammer ................................................................  45
-Pet Shop Boys .............................................................  44
-Hiroshi Miyauchi (Hiro/SEGA Sound Team) ...................................  41
+<?> ....................................................................... 258
+Rob Hubbard ............................................................... 255
+Traditional ............................................................... 202
+Jean Michel Jarre ......................................................... 186
+Jeroen Tel ................................................................ 122
+Johann Sebastian Bach ..................................................... 111
+Depeche Mode .............................................................. 101
+Martin Galway .............................................................  98
+The Beatles ...............................................................  95
+John Williams .............................................................  79
+Chris Hülsbeck ............................................................  76
+Harold Faltermeyer ........................................................  72
+The Police ................................................................  71
+Oasis .....................................................................  70
+James Pierpont ............................................................  66
+
 
 Top 15 Covered Tunes:
-----------------------
+---------------------
 
-Axel F [from the movie Beverly Hills Cop] .................................  52
-Jingle Bells ..............................................................  48
-<?> .......................................................................  37
-Thalamusik [from Sanxion] .................................................  28
-Popcorn ...................................................................  27
-Blue Monday ...............................................................  24
-Toccata [from Toccata and Fugue in D Minor (BWV 565)] .....................  24
-Funeral March [from Sonate No. 2 in B flat minor Op. 35] ..................  24
-Crockett's Theme [from the TV series Miami Vice] ..........................  24
-The Star Spangled Banner (National Anthem of the U.S.A.) ..................  22
-James Bond Theme [from the James Bond series of movies] ...................  21
-Comic Bakery, Tune #1 .....................................................  21
-Airwolf Theme [from the TV series] ........................................  20
-Oxygene 4 [from Oxygene] ..................................................  19
-Fourth Rendez-vous [from Rendez-vous] .....................................  18
+Jingle Bells ..............................................................  66
+Axel F [from the movie Beverly Hills Cop] .................................  63
+<?> .......................................................................  55
+Popcorn [from Music To Moog By] ...........................................  44
+Thalamusik [from Sanxion] .................................................  35
+Crockett's Theme [from the TV series Miami Vice] ..........................  33
+Funeral March [from Sonate No. 2 in B flat minor Op. 35] ..................  32
+Oxygene 4 [from Oxygene] ..................................................  27
+Toccata [from Toccata and Fugue in D Minor (BWV 565)] .....................  26
+Blue Monday ...............................................................  26
+The Star Spangled Banner (National Anthem of the U.S.A.) ..................  25
+Comic Bakery, Tune #1 .....................................................  25
+Living on Video [from Living on Video] ....................................  25
+Fourth Rendez-vous [from Rendez-vous] .....................................  25
+James Bond Theme [from the James Bond series of movies] ...................  24
+
+
+Top 15 Covered C64 Artists:
+---------------------------
+
+Rob Hubbard ............................................................... 255
+Jeroen Tel ................................................................ 122
+Martin Galway .............................................................  98
+Chris Hülsbeck ............................................................  76
+Ben Daglish ...............................................................  48
+David Whittaker ...........................................................  42
+Matt Gray .................................................................  36
+Thomas Mogensen (DRAX) ....................................................  32
+Reyn Ouwehand .............................................................  30
+Thomas Detert .............................................................  23
+Mark Cooksey ..............................................................  22
+Johannes Bjerregaard ......................................................  22
+David Hanlon ..............................................................  20
+Jonathan Dunn .............................................................  18
+Klaus Grøngaard (Link) ....................................................  16
+
 
 Top 15 Covered C64 Tunes:
+-------------------------
 
-Thalamusik [from Sanxion] .................................................  28
-Comic Bakery, Tune #1 .....................................................  21
-Enlightenment: Druid II, Tune #3 ..........................................  17
-Crazy Comets, Tune #1 .....................................................  13
-Knucklebusters, Tune #1 ...................................................  12
-Commando, Tune #1 .........................................................  11
-Parallax, Tune #1 .........................................................  10
-The Last Ninja - The Wastelands ...........................................  10
+Thalamusik [from Sanxion] .................................................  35
+Comic Bakery, Tune #1 .....................................................  25
+Living on Video [from Living on Video] ....................................  25
+Enlightenment: Druid II, Tune #3 ..........................................  21
+Ghosts'n Goblins, Tune #2 .................................................  18
+Crazy Comets, Tune #1 .....................................................  17
+The Last Ninja - The Wastelands ...........................................  16
+Knucklebusters, Tune #1 ...................................................  14
+Commando, Tune #1 .........................................................  13
+Parallax, Tune #1 .........................................................  12
+Savage, Tune #3 ...........................................................   9
 Commando, Tune #2 .........................................................   9
+Supremacy, Tune #1 ........................................................   8
 The Human Race, Tune #4 ...................................................   8
-Savage, Tune #3 ...........................................................   7
-Eliminator, Tune #1 .......................................................   7
-Green Beret, Tune #10 .....................................................   6
-Supremacy, Tune #1 ........................................................   6
-Auf Wiedersehen Monty, Tune #1 ............................................   6
+Eliminator, Tune #1 .......................................................   8
 
 -------------------------------------------------------------------------------
 --- End of STIL FAQ ---

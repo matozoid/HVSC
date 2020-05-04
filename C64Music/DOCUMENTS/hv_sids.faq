@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------------
                   The High Voltage SID Collection (HVSC)
                      -> Frequently Asked Questions <-
-                       Last Updated:  Oct 26, 2002
+                       Last Updated:  September 22, 2004
 ------------------------------------------------------------------------------
 
 Very Common Questions
@@ -17,7 +17,7 @@ HVSC and PSIDv2NG
 
  [7] What is PSIDv2NG and RSID?
  [8] Why has HVSC decided to go with PSIDv2NG?
- [9] Some of the file names have _PSID in their name.  Why is this?
+ [9] Some of the file names have _PSID and BASIC in their name.  Why is this?
 [10] My operating system doesn't yet (or can't) support Sidplay2.  Will
      I still be able to play the SIDs in HVSC?
 
@@ -56,27 +56,29 @@ General Questions
 [1] What is the High Voltage SID Collection (HVSC)?
 ---------------------------------------------------
 
-HVSC is the ultimate SID tune collection featuring over 18,000 popular
+HVSC is the ultimate SID tune collection featuring over 27,000 popular
 and requested SIDs from the Commodore 64.  The collection includes SIDs
 (aka C64 music) from games, demos, intros, etc.  HVSC has been in the
-making for six years and is the result of many contributors.  
+making for eight years and is the result of many contributors.  
 
 [2] What software and hardware do I need to play the tunes in HVSC?
 -------------------------------------------------------------------
 
 Lucky for you, there are many devoted SID fans throughout the world.  Many
 people have created or ported SID emulators to various OSes.  To name a
-few: Win95, Win3.1, Linux, MSDOS, MacOS, AmigaOS, Atari Falcon, BeOS,
-OS/2, etc.  For a complete list of which OSs are supported, see the HVSC web
-page.  You can also listen to the SIDs in HVSC on a real C64 with Real SID
-Play.  More information is available on the HVSC web page.
+few: Win32 (XP, 2000, Me, 98, 95, Win3.1, Linux, MSDOS, MacOS, AmigaOS,
+Atari Falcon, BeOS, OS/2, etc.  For a complete list of which OSs are supported,
+see the HVSC web page.  You can also listen to the SIDs in HVSC on a real C64
+with Real SID Play, PSID64, the HVSID Player or through Winamp by connecting
+your PC with a C64 with a PC64 cable.
+More information is available on the HVSC web page.
 
 As for additional hardware, you only need a sound card.  
 
 In addition to using your home computer, there are hardware devices out
 there that utilize the SID chip itself in conjunction with your sound
-card.  See http://www.hardsid.com and http://www.sidstation.com
-for more information.
+card.  See http://www.hardsid.com, http://www.sidstation.com and
+www.ami.ga for more information.
 
 [3] Isn't Commodore C64 music just silly beep-blop music?
 ---------------------------------------------------------
@@ -134,10 +136,8 @@ Peter Weighill and the latest version can be found here:
 
 http://www.c64music.co.uk/
 
-(please note the old link does not work anymore)
-
 (note: do not confuse SIDPlayer with SIDPlay.  SIDPlay is a SID emulator
-where as SIDPlayer is a SID player for the C64.  Confusion is easy when there
+whereas SIDPlayer is a SID player for the C64.  (Confusion is easy when there
 is SIDPlay, PLAYSID (Amiga), SIDPlayer (C64), Real SIDPlay (C64), etc.)
 
 [6] What is the SID Tune Information List (STIL)?
@@ -215,11 +215,11 @@ accurately, and for the collection to go to PSIDv2NG, then it was an
 easy decision to make.  Further, PSIDv2NG is the only new SID file
 format thus far that facilitates what was preferred.
 
-[9] Some of the file names have _PSID in their name.  Why is this?
+[9] Some of the file names have _PSID and BASIC in their name.  Why is this?
 ------------------------------------------------------------------
 
 - If you use sidplay1, play the _PSID files if they exist.
-- If you use sidplay2, play the non-_PSID files.
+- If you use sidplay2, play the non-_PSID and the BASIC files.
 
 There were many SIDs ripped where they were hacked for compatibility
 or PlaySID extended digi registers, which are specific to older SID
@@ -233,6 +233,18 @@ Most of these will be in the RSID format which will safely reject on
 the older SID emulators.   Further, by marking the PlaySID specific
 tunes in this way, that user then knows which rip is suited best to
 their SID emulator.
+
+Similarly, those SIDs that are marked BASIC were originally taken
+from C64 games which were wholly programmed in the BASIC
+language.  To convert these BASIC programs into timer-exact
+machine code SID tunes would take not only a lot of effort, but
+inevitably you would also lose the accuracy of playback of these
+tunes.  Emulation support is now provided by the latest versions
+of Sidplay2 to be able to effectively emulate BASIC (and thus
+the tunes created within BASIC) correctly.
+
+HVSC 5.7 saw the first BASIC SIDs in the collection, and as the collection
+progresses, more of these tunes will appear.
 
 [10] My operating system doesn't yet (or can't) support Sidplay2.  Will
      I still be able to play the SIDs in HVSC?
@@ -248,9 +260,9 @@ those, they will have a PlaySID equivalent marked as mentioned above.
 
 There is no fixed time schedule as to when each update is released.  Each
 update is dependent on two factors: available time and available SIDs.  Once
-enough SIDs have been sent in to equal around 1.44 MBs (compressed) and the
-HVSC crew has time enough to properly sort the SIDs, the next update will
-be released.  At present, it takes on average three months to put together a
+enough SIDs have been sent in and the HVSC crew has time enough to properly
+sort the SIDs, the next update will be released.
+At present, it takes on average three months to put together a
 new update.  However, you should note that with the amount of SIDs already
 present in HVSC, it does become harder to compile updates full of new SIDs and
 three months should be seen as an absolute minimum.
@@ -279,7 +291,7 @@ that handles long file names.
 
 If you would like to port the Update tool to your OS, the source code to the
 tool and information about the format of the HVS data file can be obtained by
-emailing Warren Pilkington <hvscadmin@wazzaw.freeuk.com>.
+emailing Stephan Schmid <hvsc@c64.org>.
 
 [14] Why do the updates sometimes add SIDs that HVSC already had?
 -----------------------------------------------------------------
@@ -304,7 +316,7 @@ previous sentence represents the current update number.  So if after
 running Update #7 you can no longer find a favorite SID, check
 /DOCUMENTS/Update07.hvs and search the file for the location where that
 SID was manipulated.  The UpdateXX.hvs file serves as a data file for the
-UPDATE tool but is also readable by humanoids and does contain some
+UPDATE tool but is also readable by humans and does contain some useful
 comments.  The best way to find the section of the file that contains the
 information you seek is to do a string search on the old SID or the path
 where the SID resided.
@@ -434,11 +446,14 @@ For demos, you might wish to pay a visit to Stephan Schmid's excellent
 Demo Dungeon site at http://www.demodungeon.com/ - it has lots of demos,
 but also which tunes were used in each one.  Very highly recommended.
 
+And if by all means you still can't locate a tune in HVSC, drop us a line
+at hvsc@c64.org and I'm sure we can help you out.
+
 [22] Why do some of the tunes in HVSC not play?
 -----------------------------------------------
 
 More than likely, a silent tune is a PSID-only tune or the tune isn't
-fully C64 compliant.    Our goal is to eventually all these tunes
+fully C64 compliant.  Our goal is to eventually replace all these tunes
 with versions that will work in the real C64 environment mode
 of Sidplay2.  Further, some tunes use ADSR values which the
 original Sidplay's libsidplay library does not like.
@@ -521,7 +536,7 @@ HVSC CD have had written permission from the programmers concerned to include
 their work, such as Sidplay, PlaySID, APlayer etc.
 
 If you are a public domain library and wish to include HVSC 
-on a CD-ROM then please email Warren Pilkington <hvscadmin@wazzaw.freeuk.com>
+on a CD-ROM then please email Stephan Schmid <hvsc@c64.org>
 for permission - that's all we ask.  As long as you are making no profit
 on the CD, we will be more than willing to support you. 
 
@@ -529,7 +544,9 @@ One final thing.  You may also see C64 compilation CDs (such as the C64
 Classix CD) which contain to have "over 10,000 SID tunes".  They have
 copied HVSC onto those CDs without permission and are making profit from
 it, which is not only against the HVSC ethic, but also means that 
-the composers' works are being abused.
+the composers' works are being abused.  Should you ever stumble about such
+a CD offered on websites or online auctions, please let us know and notify
+us via email at hvsc@c64.org.  Thank you.
 
 [27] When will HVSC be completed?
 ---------------------------------
@@ -559,7 +576,7 @@ ftp://ftp.funet.fi/pub/cbm/c64/audio/editors/ is a good place to start to
 download a Commodore 64 music editor.  I would advise you to try out a
 few and see which one you prefer.  Over the years many people have
 recommended JCH's Editor, Music Assembler, DMC Editor, Future Composer,
-Voicetracker, Siduzzit, Soundmonitor and many others, but do take the
+Voicetracker, SID DUZZ'IT, Soundmonitor and many others, but do take the
 time to read all the documentation with them.  They will help you a lot
 in creating the right sound for your tune.
 
@@ -590,7 +607,7 @@ This is particularly the case as often known game composers worked freelance
 and so kept the ownership to their pieces.  You should endeavour to contact
 the original C64 composer to ensure not just permission but also that
 the composer gets due authorship credit (and payment of course) on the
-record.  Feel free also to contact Warren Pilkington <hvscadmin@wazzaw.freeuk.com>
+record.  Feel free also to contact Chris Abbott <chris@c64audio.com>
 with regard to this if you are unsure how to proceed.
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -604,6 +621,6 @@ Do you have more questions?  Have you also checked:
 (5) BUGlist.txt (information about bugs in SIDs)
 
 If you have checked those documents and have not found the answers you seek,
-by all means, please email Warren Pilkington <hvscadmin@wazzaw.freeuk.com> at any
+by all means, please email Stephan Schmid <hvsc@c64.org> at any
 time.  Note that if you think your problem is related to the emulator/player
 you are using, we suggest you email the party responsible.

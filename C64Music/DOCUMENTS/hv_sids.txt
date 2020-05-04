@@ -2,34 +2,38 @@
                         T H E   H I G H   V O L T A G E
                           S I D   C O L L E C T I O N
 
-                                  release 5.1
+                                  release 5.8
 
-                                  Oct 26, 2002
+                               September 27, 2004
 
 Compiled by:
 ------------
 Current Members:
-    Warren Pilkington <hvscadmin@wazzaw.freeuk.com> - ENGLAND
-    Jan Diabelez Arnt Harries <nmioaon@get2net.dk> - DENMARK            
+    Stephan Schmid <steppe@demodungeon.com> - GERMANY
+    Peter Sandén <yodelking@formec.com> - SWEDEN
     The Shark of INC <shark@dhp.com> - USA
+    Jan Diabelez Arnt Harries <jan.harries@get2net.dk> - DENMARK
     Adam Lorentzon <adam.lorentzon@home.se> - SWEDEN
     Kristoffer Johansson <stoffe@1rok.net> - SWEDEN
-    LaLa (Imre Olajos, Jr.) <LaLa@C64.org> - HUNGARY
     Andreas Varga (mr.sid) <sid@skater.htu.tuwien.ac.at> - AUSTRIA
-    Gabriele Priarone (G-Knight) <solknight@tin.it> - ITALY
     Inge Høie Pedersen ("448") <backdrop@c2i.net> - NORWAY
     Laust Brock-Nannestad <laustbn@diku.dk> - DENMARK
-    Peter Sandén <yodelking@formec.com> - SWEDEN
-    Michal Hoffmann <chbrown@wp.pl> - POLAND
     Simon White <sidplay2@yahoo.com> - ENGLAND
-    Stephan Schmid <schmido2000@web.de> - GERMANY
+    Mariusz Mlynski (Magnate) <magnate@wp.pl> - POLAND
+    Chris Abbott <chris@c64audio.com> - ENGLAND
+    Wilfred Bos <wilfred_hvsc@xs4all.nl> - NETHERLANDS
+
+
 Retired Members:
     Michael Schwendt - GERMANY
     Darren, Bod/Talent - ENGLAND
-    Wilfred Bos - NETHERLANDS
     Jan Krolzig - GERMANY
-
+    LaLa (Imre Olajos, Jr.) - HUNGARY
+    Warren Pilkington - ENGLAND
+    Gabriele Priarone (G-Knight) - ITALY
+    Michal Hoffmann (Smalltown Boy) - POLAND
     
+
           -> Members of the C64 Historical Preservation Society! <-
 -----------------------------------------------------------------------------
 
@@ -41,6 +45,11 @@ All of the tunes available in the High Voltage SID Collection (HVSC) are
 copyrighted and owned by the original authors/software companies.  Use for
 profit would be subject to law.  Do not offer any such contributions to the
 creators of this collection for none will be accepted.
+
+The copyright to some of the SID files in this collection are now copyright
+administered by High Technology Publishing Limited and appear in HVSC with
+their explicit permission. Unauthorised commercial exploitation of any tune
+in this collection is illegal.
 
 Further, HVSC accepts no responsibilty for the use of any language,
 whether it be in the SID file names or any speech samples, which you
@@ -221,9 +230,10 @@ collection by the author's last name or by the author's alias if it was used
 more frequently.  In addition, we have a two level hierarchy scheme where the
 more famous and professional composers are grouped above the demo composers.
 This no way indicates the quality of composition.  Finally, we usually only
-give composers their own directory when we have five or more tunes available
+give composers their own directory when we have four or more tunes available
 from them.  This then makes it a little easier for you to locate the
-composer.
+composer.  Note that a minimum of four composers is a change introduced from
+HVSC 5.2 onwards.
 
 Below are a some comments about a few special directories:
 
@@ -259,6 +269,11 @@ Below are a some comments about a few special directories:
 /VARIOUS is split into four subdirs, A-F, G-L, M-R and S-Z to make the
 collection manageable.  Knowing the composers' handle should reduce your
 search time.
+
+You should also note (importantly) that where a composer resides within
+the HVSC structure does not in any way resemble the quality of their
+compositions whatsoever.  We'd like to add that most of today's excellent
+C64 composers can be found in /VARIOUS.  Do check them out!
 
 ----------------------------
 CHAPTER [3]: How Can I Help?
@@ -355,15 +370,15 @@ file should follow this standard:
 
 <your initials><yyyy><mm><dd>.zip
 
-So if I did a rip pack on April 01, 2000, the pack ZIP file name would be
-WP20000401.zip
+So if Jan did a rip pack on April 01, 2000, the pack ZIP file name would be
+JH20000401.zip
 
 The ZIP file should be organised so that the directory structure within
 it is the same as the HVSC directory file structure.  If you aren't
 sure how to do this, please email us and we will endeavour to help you.
 
 Also, within the zip file you should have a text file in the same format
-(for example WP20000401.txt) which describes the SIDs you are sending
+(for example JH20000401.txt) which describes the SIDs you are sending
 in.  Under each section, please ensure they are in directory order. 
 
 Examples:
@@ -418,10 +433,10 @@ Please also DO NOT send any attachment that is more than 500KB without
 mailing us first to let us know and that you have confirmation from us it is
 okay to send.  It's good netiquette, you know.
   
-Please mail your ZIP file of SIDs to _both_ of the people below:
+Please mail your ZIP file of SIDs to the following adress:
 
-Warren Pilkington <hvscadmin@wazzaw.freeuk.com>
-Jan Diabelez Arnt Harries <nmioaon@get2net.dk>
+hvsc@c64.org (it will reach two people, so you can be assured that your
+              mail will get processed)
 
 And, if you have the data on a C64 disk, but do not have the file transfer
 capabilities to transfer C64 files to your PC, contact _both_ the people above
@@ -435,14 +450,31 @@ standard should be strictly followed.  If a few rare cases pop up in which
 you are unsure how to handle, just do the best you can or mail us first to
 discuss the credits.  We can always advise you if need be.
 
+Please note that of HVSC 5.2, the COPYRIGHT keyword has been replaced with
+RELEASED.  This is mainly for legal reasons, as many of the games which were
+published in the 1980s are not the copyright of the original software companies
+anymore, but reside with the programmers.  In addition, in a lot of cases,
+the composer has retained his original copyright for the piece or asked a 
+publisher (such as C64Audio) to do that for them.  Also, it should more
+accurately state when demo tunes were either composed or released into
+the C64 scene, as many of those demo composers retain the copyright of 
+the tunes themselves.
+
+One important reminder: _ALL_ tunes in HVSC are strictly the copyright of the
+original authors and/or software companies (if the company still exists).
+Because of this, use of them at profit is subject to law.
+
+SID emulators will eventually embrace this change, as will SID Editing tools
+such as SIDedit.
+
    SID Credits Standard
    --------------------
 
    NAME      : <TITLE>
    AUTHOR    : <FIRST_NAME LAST_NAME> (<ALIAS>)
-   COPYRIGHT : <FOUR_DIGIT_YEAR> <COMPANY or AUTHOR or GROUP>
+   RELEASED  : <FOUR_DIGIT_YEAR> <COMPANY or AUTHOR or GROUP>
 
-   Fill in any unknown field with a <?>, apart from the COPYRIGHT (see below)
+   Fill in any unknown field with a <?>, apart from the RELEASED (see below)
    Place a maximum of 31 printable characters per field for compatibility
    reasons.
    -----------------------------
@@ -453,30 +485,30 @@ discuss the credits.  We can always advise you if need be.
 
       NAME      : Hysteria
       AUTHOR    : Fred Gray
-      COPYRIGHT : 1987 Software Projects
+      RELEASED  : 1987 Software Projects
 
       <Author and Company are unknown>
 
       NAME      : Blob
       AUTHOR    : <?>
-      COPYRIGHT : 1988 <?>
+      RELEASED  : 1988 <?>
 
       <Author is thought to be known with a *strong* degree of certainty>
 
       NAME      : Cheapskate
       AUTHOR    : David Whittaker <?>
-      COPYRIGHT : 1989 Silverbird
+      RELEASED  : 1989 Silverbird
 
-      <COPYRIGHT date is not exactly known and crack intro has a date or>
+      <RELEASED  date is not exactly known and crack intro has a date or>
       <you know an approximate copyright date.  Dates in crack intro, by>
       <the way, can often be extremely inaccurate compared to the actual>
       <copyright date of the game.                                      >
 
       NAME      : Indoor Sports
       AUTHOR    : John A. Fitzpatrick
-      COPYRIGHT : 198? Silver Time/Mindscape
+      RELEASED  : 198? Silver Time/Mindscape
 
-      Here is a list of how the COPYRIGHT year is handled for various
+      Here is a list of how the RELEASED year is handled for various
       cases:
 
       198? - tune is made in the '80s
@@ -540,9 +572,9 @@ discuss the credits.  We can always advise you if need be.
        be in the credits.  Only if there is enough room should you put the
        his real name or alias.  Note also that you should not put the
        composer's group name in the AUTHOR field.  Either put such info in
-       the COPYRIGHT line or do not add the info at all.
+       the RELEASED line or do not add the info at all.
 
-   (9) At a minimum, make sure to get the C64 publishers in the copyright
+   (9) At a minimum, make sure to get the C64 publishers in the released
        line for games.  DO NOT assume that the programming team would have
        published the game themselves.  We do have access to Zzap! 64 reviews
        indexes, various large collections of original C64 games that we check
@@ -566,10 +598,10 @@ In addition, we also would like to have missing information in the SID
 tune credits (i.e., filling in the <?>'s).  If you have some corrections
 or some additional information, no matter how insignificant, let us know.
 
-Please mail to _both_ of the people below:
+Please mail to the following adress:
 
-  Warren Pilkington <hvscadmin@wazzaw.freeuk.com>
-  Jan Diabelez Arnt Harries <nmioaon@get2net.dk>
+  hvsc@c64.org
+  
 
 [3-4-1] Verify Your Information
 ===============================
@@ -604,7 +636,7 @@ submitting credit fixes:
 Use the # character at the start of a line to indicate your comments.
 
 If you have more than one credit fix under the headings of CREDITS,
-NAME, AUTHOR, COPYRIGHT you can place them all with _one_ heading.
+NAME, AUTHOR, RELEASED you can place them all with _one_ heading.
 
 Use CREDITS when two or more of the three fields in the SID credits needs
 changing:
@@ -613,7 +645,7 @@ CREDITS
 /HVSC_Path/HVSC_Filename.sid
 Name
 Author
-Copyright
+Released
 
 You can use a * to indicate that the field should remain 
 unchanged.  Examples:
@@ -653,10 +685,10 @@ AUTHOR
 /GAMES/M-R/Mugsys_Revenge.sid
 Neil Brennan
 
-Use COPYRIGHT if the release date or whom released the SID requires
+Use RELEASED if the release date or whom released the SID requires
 a change.  Quick example:
 
-COPYRIGHT
+RELEASED
 /Cooksey_Mark/Gremlins_2-The_New_Batch.sid
 1990 Elite
 
@@ -686,7 +718,7 @@ MOVE
 If you need further information on credit fixes, please consult the
 Updatexx.hvs files in your DOCUMENTS dir of HVSC for further examples,
 and if you require more information on the file format of the .hvs
-file, feel free to email Warren Pilkington <hvscadmin@wazzaw.freeuk.com>
+file, feel free to email Stephan Schmid <hvsc@c64.org>
 at any time.
 
 As of HVSC 4.6 (Update #31) there is also a new command, INITPLAY, which
@@ -767,33 +799,24 @@ MUSPLAYER
 0
 
 Use PLAYSID if the SID has any PlaySID-specific instructions, such as the
-PSID sample methods, or a method Sidplay1 used to evaluate random numbers.
-0 means the SID is C64 compatible, 1 means it's PlaySID specific. 
-Some examples:
+PSID sample methods. 0 means the SID is C64 compatible, 1 means it's
+PlaySID specific. 
+
+An example:
 
 PLAYSID
 # song has PlaySID digi samples
 /Hubbard_Rob/BMX_Kidz.sid
 1
 
-# song has Sidplay1 random usage
-/Hubbard_Rob/Delta_Mix-E-Load_loader.sid
-1
-
 Normally you should then also do a MOVE command to rename the SID filename
 to have _PSID.sid at the end of its name.  But remember the filename
-limit is 26 chars plus the .sid extension!  Using the examples above:
+limit is 26 chars plus the .sid extension!  Using the example above:
 
 MOVE
 /Hubbard_Rob/BMX_Kidz.sid
 /Hubbard_Rob/BMX_Kidz_PSID.sid
              
-/Hubbard_Rob/Delta_Mix-E-Load_loader.sid
-/Hubbard_Rob/Delta_Mix-E-Load_PSID.sid
-
-Note that the MOVE command in the second example made sure it kept
-the filename within its limit.
-
 Use the CLOCK command to set the video clock speed of a SID.  Although
 mostly you'll know if it was made on a PAL or NTSC C64, there are
 occasions it may be unknown, or the SID tune works happily on both
@@ -820,7 +843,7 @@ on either SID or be unknown.
 
 Btw, any SID made up to and including 1985 _has to be 6581_.  This is
 because the C64-C with 8580 SID chips in them weren't released until
-late 1986.  HVSC 5.0 already has those SIDs set.  Aren't we nice to you?
+late 1986.  HVSC already has those SIDs set.  Aren't we nice to you?
 
 Some examples:
 
@@ -931,6 +954,7 @@ Thanks go out to these musicians for their help:
 
 Adam Dunkels (Trident) (for verification and sending us a ton of your SIDs)
 Adam Gilmore (thanks for all the tune credit information)
+Adam Wieczorek (Harti) (for Vermes' musicians tunes)
 Alain Hertenstein (Iron Cat) (for verifying your tunes and credit fixes)
 Alex Martin (AMB) (for your tunes)
 Alexander Rotzsch (Fanta) (for sending your tunes in along with lots of correct
@@ -939,9 +963,11 @@ Allister Brimble (lots of handy credit information on your tunes)
 Anders Carlsson (Goto80) (for some of your tunes)
 Anders Elmén (Moon) (for verifying your tunes, and credit fixes)
 André Schröder (Andre/Oxyron) (for your tunes and then some!)
-Andrz Sielicki (ASL) (for your tunes)
+Andrzej Sielicki (ASL) (for your tunes)
 Antti Hannula (Flex) (for your C64 disks of tunes plus all your new ones)
 Ari Yliaho (Agemixer) (for your tunes, especially sending them at party time :)
+Arman Behdad (Intensity) (for sending us your complete collection and keeping us
+                          up to date)
 Balázs Takács (Taki/Natural Beat) (for the Natural Beat SIDs and fixes)
 Barry Leitch (for some of your tunes.  We hope you find that Galway remix!)
 Ben Daglish (it took some time to find you, but thanks for your help.  Hope
@@ -977,10 +1003,10 @@ Giuseppe Musardo (Xayne) (for pointing us in the direction of your tunes and
                           checking through your current HVSC dir)
 Glenn Rune Gellefoss (for your complete collection and Kjell's too)
 Gösta Feiweier (for checking and verifying your own tunes)
+Guzslován Gábor (Cargo/Singular) (for sending us some disks and giving us hints where to rip from)
 Guy Shavitt (for helping us locate your tunes. We hope to find the game
              "Blitz", with your music!)
 Holger Gehrmann (for checking and verifying your own tunes)
-J. Utne (Mermaid) (for all your SIDs and information)
 Jason Kelk (for the copy of Terra Cognita where the music worked!  Plus for 
             other bug spotting such as the missing W.A.R. tune)
 Jason Page (for verifying your SIDs and coming along to Back in Time London)
@@ -995,9 +1021,12 @@ Jeroen Kimmel (Red) (for checking your tunes for us)
 Jeroen Tel (for all the info on yours and various MON tunes.  Please bring
             out that 3CD set you mentioned in the Commodore Zone interview)
 Joachim Wijnhoven (for your collection and STIL information)
+Jörg Dröge (Nafcom) (for always keeping an eye on bugged or missing tunes and
+                     reporting them to us right on the spot)
 Johannes Bjerregaard (for all your information, especially the name spelling
                       ("aa"))
-Johan Åstrand (Zyron) (for your collection and information)
+Johan Åstrand (Zyron) (for your collection, information, and for sending
+stuff to rip from)
 Johan Hakansson (Avalon) (for your complete collection - many thanks)
 Jonathan Dunn (for a stack of information on your tunes - it'd be nice to
                have more.)
@@ -1015,7 +1044,7 @@ László Vincze (Vincenzo) (for your tunes and also some rips)
 Linus Åkerlund (for constructive thoughts, rips and your own tunes too)
 Linus Walleij (King Fisher/Triad) (for the Triad SIDs, Enlightenment: Druid-
                II, and more rips with correct credits.  Keep it up!)
-Luca Carafiello (Luca) (for your complete collection)
+Luca Carrafiello (Luca) (for your complete collection)
 Marcel Donné (Mad)/Scoop/MoN (for the credit info on your tunes.  Eranu!)
 Marc van den Bovenkamp (No-XS) (for sending your SIDs and checking credits)
 Marcin Kubica (Booker) (for some of your own tunes)
@@ -1031,26 +1060,31 @@ Markus Schneider (for confirming all yours, Jens Blidon's, and the full
 Markus Weber (for your own SIDs plus more!)
 Martijn Schutten (Junebug) (for verifying your tunes and credit fixes)
 Martin Galway (thanks for taking the time to help us out.  And many
-               thanks for revealing the truth about the Ocean Loader music.)
+               thanks for revealing the truth about the Ocean Loader music
+               and for making your source code available, releasing Street Hawk,
+               and providing extra STIL information)
 Matt Furniss (for lots of checking your own tunes and remixing some C64
               ones recently)
 Matt Simmonds (4-Mat) (for the unreleased Follin SID and your own tunes)
+Matthew Cannon (for giving us your unreleased tunes)
 Matthias Hartung (The Syndrom) (for your collection on C64 disks, helped a lot)
 Michael Hendriks/FAME (for some unused tunes and credit information)
 Michael Winterberg (for your collection)
 Michael Zuurman (Mr.Mouse/Xentax) (for all the Xentax SID information and
                                    getting your X2001 tunes to us in time)
 Milosz Ignatowski (Longhair) (for some rare SIDs)
+Mikael Backlund (Twoflower) (for sending us unreleased games for ripping)
 Miron Schmidt (for your tunes, and info about Ramiro Vaca's tunes)
+Nathan Smith (Stryyker) (for fixing a few bad rips and for providing quality feedback)
 Oliver Klee (Odi) (for your collection)
 Patrick Ceuppens (Lyon) (for your complete collection)
-Patrick Zeh (Rayden) (for your complete collection)
+Patrick Zeh (Rayden) (for your complete collection, and for lots of quality fixes)
 Paul Norman (for confirmation of the C64 tunes you did make)
 Pawel Ruczko (H.M. Murdock) (for your own tunes and some rips)
 Per Fredrik Kvarme (PFK) (for sending in your SIDs plus some rips)
 Piotr Baczkiewicz (Bzyk) (for rare tunes and credit information)
 Raik Picheta (Eco) (for sending your SIDs)
-Reyn Ouewhand (thanks for taking the time to verify your tunes. 
+Reyn Ouwehand (thanks for taking the time to verify your tunes. 
                And a great job on Nexus 6581!)
 Richard Joseph (for confirming the tunes you'd made.)
 Rob Hubbard (thanks for putting up with the waves of questions, and
@@ -1063,12 +1097,14 @@ Ronny Pasch (for some very useful information about Audial Arts tunes)
 Sascha Nagie (Celtic Design) (for a ton of your own tunes sent on C64 disks)
 Sami Saarnio (Nutcase) (for claiming your own tunes which were miscredited)
 Sami Seppä (Rock) (for confirming which tunes you actually made, with the
-                   correct titles.  Nice of you to help.)
+correct titles.  Nice of you to help.)
 Sean Connolly (for the Sonix Systems complete collection)
 Slaygon (for your own collection)
 Søren Lund (Jeff) (for the complete collection of yours)
 Stefan Berglind (Doxx) (for your complete collection)
 Stefan Konarkowski (Alien) (for some credit fixes and your own tunes)
+Stefan Weinert (for sending us your complete collection)
+Stephan Drost (Pater Pi) (for technical support and sending some of your tunes)
 Steve Barrett (for all your verifying and listening and fixing your own tunes)
 Steve Turner (for confirming which tunes you really did make.)
 Tammo Hinrichs (KB/The Obsessed Maniacs) (for the complete collection
@@ -1083,10 +1119,12 @@ Torben Hansen (Metal/Vibrants) (for your collection)
 Tuomas Rantala (Thor/Extend) (for credit information on your own SIDs)
 Tufan Uysal (SoNiC) (for your complete collection - we noted handle spelling!)
 Vincent Voois (a few SIDs from others, and your own, and for Sidbase 32)
+Vanja Utne (Mermaid) (for all your SIDs and information)
 Volker Meitz (PRI) (for confirming the tunes you made.  Keep up the jazzvibe.)
 Wally Beben (for all the verifying, and uncovering some mysteries for us.)
 Wolfgang Reszel (Nebula) (for all your collection, and a great STIL!)
 Youth and Yavin of Heatwave (for sending in some of their SIDs)
+Zdenek Eisenhammer (PG/Unreal (for all the Unreal musicians' rips)
 
 
 And thanks to the following for additional help:
@@ -1094,6 +1132,8 @@ And thanks to the following for additional help:
 
 Agust Arni Jonsson (Nemesis1) (for Nemesids1, which helped us in the early
                                stages)
+AJ Heller (Derision) (for sending us a lot of tunes from Warnock and Mr. Bungle)
+Alistair "Boz" Bowness, for compiling Street Hawk!
 Anders Eriksen (for some great rips - keep it up)
 Anders Eriksson (for testing the update on Atari ST and writing the ST tools)
 Anders Nordby (for the FreeBSD update tool and mirroring)
@@ -1107,18 +1147,23 @@ Dag Lem (for help with internal cleaning up of SIDs and the reSID engine)
 Daniel Kottmair (DeeKay/Crest) (for spotting multispeed errors and appreciation)
 Daniel Näslund (for some nice rips)
 Dave Griffin (for the rare Compunet demos that had some rare Matt Gray tunes)
-David Simmons (Jazzcat/Onslaught) for compiling Album of the Year - great work!
+David Simmons (Jazzcat/Onslaught) for compiling Album of the Year - great work - and
+dropping occasional hints about what's still missing in HVSC.
 Dejan Petronijevic (Nucleus) (for some nice SIDs and info)
 DXS's web page (for some SIDs)
 Erik Rasmussen (The Guardian/Camelot) (for correcting Jeff's dir)
-Frank Gasking (Enigma) (for credit fixes)
+Frank Gasking (Enigma) (for credit fixes and for sending us unreleased games
+for ripping)
 Frank Michlick (Anonym/Padua) (for all your help with the Padua musicians' credits
                                and much more useful information, and for the HVSC
                                Update mailing list - cheers mate!)
 Fred (we merged your collection with ours)
 Frederic Gidouin (Piccolo) (in particular for the repeat finds)
 Fungus (for a few SIDs)
+Gábor Guzslován (Cargo/Singular) (for providing us with some demos to rip from)
 Gaetano Chiummo (for great spotting of bugs with those keen-eared senses)
+Graeme Norgate (for going through your Compunet collection, and sending what
+we missed)
 Henrik Simonsen (for a fair few 20cc tunes..)
 IW (for a fair few SIDs - but remember to keep your name out of the credits :)
 James Reisdorf (for bug spotting and credit information)
@@ -1138,6 +1183,8 @@ Luigi de Fraia (for thorough SID checking and fixing)
 Marc-Jano Knopp (MJK) (for the very useful C64 Sceners addy list, comes in handy
                        for credits and such like)
 Marcin Moys (for credit information)
+Mariusz Rozwadowski (Ramos) (for your collection, which contained a significant
+                             amount of rips we hadn't)
 Markus Schäfer (for some good quality rips and information)
 Medicus/KLF (Andy) (a few dozen tunes)
 Mikael Grahn (Nik) (for a fair few SIDs, especially the MC ones)
@@ -1148,11 +1195,13 @@ Michael Huth (for some credit fixes)
 Michael Plate (for some credit fixes and assistance)
 Minstrel Dragon (for the Ulitima III music)
 Natas/Carcass (for the Starlost SIDs)
+
 Necrophobiac (for the Reverb SIDs)
 Nicolai Thilo (Zenox/Starion) (for some of your collection - please send Jan
                                the rest!)
-Olaf Zimmermann (Happymaker/Reflex) (for the PVCF and Syndrom credit info)
+Olaf Zimmermann (Happymaker/Reflex) (for several rips and credit fixes)
 Pajda/Faith (for credit information)
+Pawel Soltysinski (Polonus) (for precious information)
 Per (for finding a pack of SIDs on the Internet for us)
 Per Bolmstedt (for feedback and suggestions, lots of STIL info, and rips)
 Per Håkan Sundell and Ron Birk (PlaySID creators and trend setters)
@@ -1184,8 +1233,8 @@ Vectrocon/Fairlight (for the 47 tunes)
 Ville Muikkula (for the Red Devil SIDs)
 Vincent Schoettke (for many rips from great demos and lots of credit information)
 Wolfram Hess (Acidchild/Triad) (for providing us with a lot of long-lost demos)
-XII/Warriors of the Wasteland (for some SIDs)
-Zdenek Eisenhammer (PG/Unreal (for all the Unreal musicians' rips)
+XIII/Warriors of the Wasteland (for some SIDs)
+
 
 And to everyone else who contributed...We apologise if we have forgotten
 anyone.
