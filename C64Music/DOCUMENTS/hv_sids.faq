@@ -56,21 +56,21 @@ General Questions
 [1] What is the High Voltage SID Collection (HVSC)?
 ---------------------------------------------------
 
-HVSC is the ultimate SID tune collection featuring over 27,000 popular
+HVSC is the ultimate SID tune collection featuring over 30,000 popular
 and requested SIDs from the Commodore 64.  The collection includes SIDs
 (aka C64 music) from games, demos, intros, etc.  HVSC has been in the
-making for eight years and is the result of many contributors.  
+making for nine years and is the result of many contributors.  
 
 [2] What software and hardware do I need to play the tunes in HVSC?
 -------------------------------------------------------------------
 
 Lucky for you, there are many devoted SID fans throughout the world.  Many
 people have created or ported SID emulators to various OSes.  To name a
-few: Win32 (XP, 2000, Me, 98, 95, Win3.1, Linux, MSDOS, MacOS, AmigaOS,
+few: Win32 (XP, 2000, Me, 98, 95, Win3.1), Linux, MSDOS, MacOS, AmigaOS,
 Atari Falcon, BeOS, OS/2, etc.  For a complete list of which OSs are supported,
 see the HVSC web page.  You can also listen to the SIDs in HVSC on a real C64
-with Real SID Play, PSID64, the HVSID Player or through Winamp by connecting
-your PC with a C64 with a PC64 cable.
+with the MMC64 cartrdige, Real SID Play, PSID64, the HVSID Player or through
+Winamp by connecting your PC with a C64 with a PC64 cable.
 More information is available on the HVSC web page.
 
 As for additional hardware, you only need a sound card.  
@@ -78,7 +78,7 @@ As for additional hardware, you only need a sound card.
 In addition to using your home computer, there are hardware devices out
 there that utilize the SID chip itself in conjunction with your sound
 card.  See http://www.hardsid.com, http://www.sidstation.com and
-www.ami.ga for more information.
+http://www.ami.ga for more information.
 
 [3] Isn't Commodore C64 music just silly beep-blop music?
 ---------------------------------------------------------
@@ -108,7 +108,7 @@ also on Swedish national television.  So much for silly beep-blop then :)
 [4] Which tunes are added to HVSC, and why?
 -------------------------------------------
 
-HVSC adds music from games, and C64 scene programs (whether they be
+HVSC adds music from games and C64 scene programs (whether they be
 from demos, stand alone music packs, or disk magazines) which have
 been released into the public domain.  However, we do not normally add
 any Compute! Gazette tunes (see [5]). Thus, if a tune has been released
@@ -219,13 +219,13 @@ format thus far that facilitates what was preferred.
 ------------------------------------------------------------------
 
 - If you use sidplay1, play the _PSID files if they exist.
-- If you use sidplay2, play the non-_PSID and the BASIC files.
+- If you use sidplay2, play the non-_PSID and the _BASIC files.
 
 There were many SIDs ripped where they were hacked for compatibility
 or PlaySID extended digi registers, which are specific to older SID
 emulators like PlaySID and Sidplay only.   Although Sidplay2 will play
-those rips, a real C64 will not and and in most cases it will lock up
-with them.
+those rips, a real C64 will not play them correctly (in most cases the
+digis are missing), and sometimes the C64 may even crash.
 
 As the collection develops, C64-friendly versions of these rips will
 be added which will run alongside the existing PlaySID-specific rips.
@@ -291,7 +291,7 @@ that handles long file names.
 
 If you would like to port the Update tool to your OS, the source code to the
 tool and information about the format of the HVS data file can be obtained by
-emailing Stephan Schmid <hvsc@c64.org>.
+emailing Stephan Schmid <hvsc (sid) c64.org>.
 
 [14] Why do the updates sometimes add SIDs that HVSC already had?
 -----------------------------------------------------------------
@@ -325,7 +325,10 @@ where the SID resided.
 ------------------------------------------------
 
 Look at /DOCUMENTS/hv_sids.txt.  The first few lines will tell you what
-version you have.
+version you have. Also check the UpdateXY.hvs files. XY tells you the last
+installed update, and as they are counted in ascending order it's easy to
+calculate which ones your are missing.
+
 
 [17] Why should I get HVSC when I can just load up the game/demo and hear
      the music on a real C64?
@@ -414,9 +417,6 @@ busy ripping new SIDs and always receiving more SIDs.  The best thing you
 can do if you would like to hear a certain tune in HVSC is to check out
 the SID Hunt web page which can be reached from the main HVSC web site.
 
-Also, the HVSC Ripped Tunes page (http://www.hvsc.c64.org/News/rippedtunes.html)
-is a good source to check if a tune has been ripped and due for a HVSC Update.
-
 You may also want to consider Vincent Voois' "Sidbace 32" available at
 http://gnetools.sourceforge.net/sidbace/ which helps you locate information
 in both HVSC and STIL that you require.
@@ -447,7 +447,7 @@ Demo Dungeon site at http://www.demodungeon.com/ - it has lots of demos,
 but also which tunes were used in each one.  Very highly recommended.
 
 And if by all means you still can't locate a tune in HVSC, drop us a line
-at hvsc@c64.org and I'm sure we can help you out.
+at hvsc (sid) c64.org and I'm sure we can help you out.
 
 [22] Why do some of the tunes in HVSC not play?
 -----------------------------------------------
@@ -508,7 +508,7 @@ WR9 7QW
 ENGLAND
 
 Website: http://www.bzpd.freeserve.co.uk/
-Email: kenz@bzpd.freeserve.co.uk
+Email: kenz (sid) bzpd.freeserve.co.uk
 -----------------------------------------------------------------------
 Imre Olajos Jr.
 1651 W Byron Avenue
@@ -517,17 +517,17 @@ IL 60101
 USA
 
 Website: http://lala.c64.org
-Email: LaLa@c64.org
+Email: LaLa (sid) c64.org
 -----------------------------------------------------------------------
 Bionic Grasshopper
-Email: bg_mfc@usa.net
+Email: bg_mfc (sid) usa.net
 -----------------------------------------------------------------------
 Stefan Scheffels
 Zum Werferstein 44
 51570 Windeck
 GERMANY
 
-Email: sokratekk@rocketmail.com
+Email: sokratekk (sid) rocketmail.com
 Website: http://de.geocities.com/sokratekk.rm
 -----------------------------------------------------------------------
 
@@ -536,7 +536,7 @@ HVSC CD have had written permission from the programmers concerned to include
 their work, such as Sidplay, PlaySID, APlayer etc.
 
 If you are a public domain library and wish to include HVSC 
-on a CD-ROM then please email Stephan Schmid <hvsc@c64.org>
+on a CD-ROM then please email Stephan Schmid <hvsc (sid) c64.org>
 for permission - that's all we ask.  As long as you are making no profit
 on the CD, we will be more than willing to support you. 
 
@@ -546,7 +546,7 @@ copied HVSC onto those CDs without permission and are making profit from
 it, which is not only against the HVSC ethic, but also means that 
 the composers' works are being abused.  Should you ever stumble about such
 a CD offered on websites or online auctions, please let us know and notify
-us via email at hvsc@c64.org.  Thank you.
+us via email at hvsc (sid) c64.org.  Thank you.
 
 [27] When will HVSC be completed?
 ---------------------------------
@@ -607,7 +607,7 @@ This is particularly the case as often known game composers worked freelance
 and so kept the ownership to their pieces.  You should endeavour to contact
 the original C64 composer to ensure not just permission but also that
 the composer gets due authorship credit (and payment of course) on the
-record.  Feel free also to contact Chris Abbott <chris@c64audio.com>
+record.  Feel free also to contact Chris Abbott <chris (sid) c64audio.com>
 with regard to this if you are unsure how to proceed.
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -621,6 +621,6 @@ Do you have more questions?  Have you also checked:
 (5) BUGlist.txt (information about bugs in SIDs)
 
 If you have checked those documents and have not found the answers you seek,
-by all means, please email Stephan Schmid <hvsc@c64.org> at any
+by all means, please email Stephan Schmid <hvsc (sid) c64.org> at any
 time.  Note that if you think your problem is related to the emulator/player
 you are using, we suggest you email the party responsible.
