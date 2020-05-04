@@ -2,29 +2,24 @@
                         T H E   H I G H   V O L T A G E
                           S I D   C O L L E C T I O N
 
-                                  Release 55
+                                  Release 56
 
-                                June 25, 2011
+                              December 23, 2011
 
 Compiled by:
 ------------
 Current Members:
     Emiliano Peruch (Ian Coog) <iancoog (sid) alice.it> - ITALY
-    Stephan Schmid <steppe (sid) demodungeon.com> - GERMANY
-    The Shark of INC <shark (sid) dhp.com> - USA
-    Adam Lorentzon <adam.lorentzon (sid) home.se> - SWEDEN
-    Andreas Varga (mr.sid) <sid (sid) sidmusic.org> - AUSTRIA
     Inge Høie Pedersen ("448") <backdrop (sid) c2i.net> - NORWAY
-    Simon White <sidplay2 (sid) yahoo.com> - ENGLAND
-    Mariusz Mlynski - POLAND
-    Chris Abbott <chris (sid) c64audio.com> - ENGLAND
     Wilfred Bos <wilfred_hvsc (sid) xs4all.nl> - NETHERLANDS
     Mariusz Rozwadowski (Ramos/Samar) <ramosc64 (sid) o2.pl> - POLAND
+    Mariusz Mlynski - POLAND
     Stefan Wolff (j0x/WOW) <hvsc (sid) swolff.dk> - DENMARK
-    Oliver VieBrooks (Six/DLoc) <six (sid) thedarkside.ath.cx> - USA
+    Sebastian Sprenger (Professor Chaos) - GERMANY
+    Chris Abbott <chris (sid) c64audio.com> - ENGLAND
+    The Shark of INC <shark (sid) dhp.com> - USA
+    Simon White <sidplay2 (sid) yahoo.com> - ENGLAND
     Rafal Szyja (Raf/Vulture Design) <rafalszyja (sid) poczta.onet.pl> - POLAND
-    Andrzej Wilk (Motion/GMI) <motion (sid) blueyonder.co.uk> - NEW ZEALAND
-    Tobias Samuelsson (McLoaf) <dasforum_91 (sid) hotmail.com> - SWEDEN
 
 Retired Members:
     Michael Schwendt - GERMANY
@@ -38,8 +33,14 @@ Retired Members:
     Pawel Ruczko (Murdock/Tropyx) - POLAND
     Peter Sandén (Yodelking) - SWEDEN
     Laust Brock-Nannestad - DENMARK
-    Luca di Pasquale <lucadp (sid) gmx.de> - GERMANY
-    Jan Diabelez Arent Harries <nmioaon (sid) hotmail.com> - DENMARK
+    Luca di Pasquale - GERMANY
+    Jan Diabelez Arent Harries - DENMARK
+    Adam Lorentzon - SWEDEN
+    Stephan Schmid - GERMANY
+    Andreas Varga (mr.sid) - AUSTRIA
+    Andrzej Wilk (Motion/GMI) - NEW ZEALAND
+    Oliver VieBrooks (Six/DLoc) - USA
+    Tobias Samuelsson (McLoaf) - SWEDEN
 
 
           -> Members of the C64 Historical Preservation Society! <-
@@ -319,8 +320,7 @@ Here are some of the items we are looking for:
     at the wrong location, have missing voices, with bad samples, etc.
     Please, wherever possible, check them on a real C64 to ensure they work.
 
-  * Real C64-compliant rips, especially if there's a _PSID equivalent in
-    HVSC
+  * Real C64-compliant rips
 
   - We DON'T want any Compute Gazette SID tunes.  Instead, consult here
     for a collection that does:  http://www.c64music.co.uk/
@@ -648,7 +648,7 @@ CREDITS
 /GAMES/A-F/Deneb.sid
 *
 Chris Ammermüller(Beat Machine)
-1989 Magic Disk 64/CP-Verlag
+1989 Magic Disk 64/CP Verlag
 
 Use TITLE if you only want to change the Name field of the SID.
 This will often involve renaming the SID filename (see MOVE command
@@ -747,7 +747,7 @@ The flags are, in order:
 
 MUSPLAYER (whether a Compute! Gazette music player needed or not.  Will
            hardly ever be used for HVSC)
-PLAYSID   (if rip is C64 compatible or PlaySID specific)
+PLAYSID   (deprecated, PlaySID specific, always set to 0)
 CLOCK     (set the video clock speed to PAL or NTSC if known)
 SIDMODEL  (to set which SID chip the SID tune is preferred to be played on)
 
@@ -782,24 +782,10 @@ MUSPLAYER
 /MUSICIANS/H/Hubbard_Rob/Delta.sid
 0
 
-Use PLAYSID if the SID has any PlaySID-specific instructions, such as the
-PSID sample methods. 0 means the SID is C64 compatible, 1 means it's
-PlaySID specific.
-
-An example:
 
 PLAYSID
-# song has PlaySID digi samples
-/MUSICIANS/H/Hubbard_Rob/BMX_Kidz.sid
-1
+# deprecated, don't use.
 
-Normally you should then also do a MOVE command to rename the SID filename
-to have _PSID.sid at the end of its name.  But remember the filename
-limit is 26 chars plus the .sid extension!  Using the example above:
-
-MOVE
-/MUSICIANS/H/Hubbard_Rob/BMX_Kidz.sid
-/MUSICIANS/H/Hubbard_Rob/BMX_Kidz_PSID.sid
 
 Use the CLOCK command to set the video clock speed of a SID.  Although
 mostly you'll know if it was made on a PAL or NTSC C64, there are
@@ -892,7 +878,7 @@ The updates will be announced at the HVSC web page as well as
 other locations.  There is no set time as to when the updates will be
 available.  The frequency of updates will depend on the amount of new tunes
 and corrected information we receive.  The current rate of updating is every
-three months or thereabouts, but as we now have 37,800+ SID files, the
+six months or thereabouts, but as we now have 41,200+ SID files, the
 likelyhood of finding more does diminish with every update.
 
 The HVSC Page:  http://www.hvsc.c64.org/
