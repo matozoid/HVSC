@@ -1,0 +1,299 @@
+High Voltage SID Collection: Update #69
+Date: June 23, 2018
+
+Resulting Version: 69
+ Previous Version: 68
+
+After this update, the collection should contain 50,705 SID files!
+
+This update features (all approximates):
+     473 new SIDs
+     811 fixed/better rips
+       8 repeats/bad rips eliminated
+    1176 SID credit fixes
+      36 SID model/clock infos
+       7 tunes from /DEMOS/UNKNOWN/ identified
+       5 tunes from /GAMES/ identified
+      17 tunes moved out of /DEMOS/ to their composers' directories
+       5 tunes moved out of /GAMES/ to their composers' directories       
+
+Summer has started, and we are proud to announce a new HVSC Update. This time
+we have 473 new tunes which makes a total of 50,705 tunes in the collection.
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+###########
+# DeepSID #
+###########
+
+DeepSID is an online SID player made by JCH of Vibrants. It emulates music
+created for the Commodore 64 home computer. It supports nice features like:
+
+- Toggling between WebSID/jsSID for SID emulation.
+- Rating folders and SID files.
+- SID player and year display for each song.
+- STIL info.
+- Search through HVSC/STIL.
+- and much more.
+
+More info can be found here: http://chordian.net/2018/05/12/deepsid/
+
+For the online player, check out: http://deepsid.chordian.net/
+
+
+############################
+# Tiny'R'Sid HVSC Explorer #
+############################
+
+Jürgen Wothke released new features for the HVSC Explorer for his online SID
+player WebSID.
+
+Changes:
+
+- New context menu allows to play the "complete" content of some folder.
+- The added "shuffle mode" lets you play your playlists in random sequence.
+- Share a song with your friends from your playlist.
+- All tracks in the SID file will be expanded into the playlist when pressing
+  the "shift" key while drag and dropping a song to the playlist.
+- The player now supports WebAssembly which creates less CPU load and it is
+  smaller in size.
+  
+Check it out: http://www.wothke.ch/tinyrsid/index.php/explorer?playlistId=115&autoplay=true
+
+
+###################
+# Hoxs64 v1.0.9.9 #
+###################
+
+Hoxs64 v1.0.9.9 has been released. Hoxs64 is a C64 emulator for Windows written
+by David Horrocks.
+
+Audio changes since version v1.0.9.5:
+
+- Fixed audio clock sync sound bug that can happen when running a monitor 
+  FPS that is less than the emulated FPS.
+- Fixed audio clock sync that was causing slowdowns in windowed mode VBL sync.
+- Updated 8580 SID combined wave form with improved samples from a real 8580R5.
+
+Get the new version from: http://www.hoxs64.net/
+
+
+#################
+# Blackbird 1.2 #
+#################
+
+Blackbird belongs to a family of C64 music editors known as trackers, where
+musical data is organised into tracks. The editor is made by Linus Åkesson and
+it runs on the C64 itself.
+
+Changes:
+
+- Feature: Possible to mark .sid files as being compatible with both sid models.
+- Bugfix: Editor allowed pulse-width operator '-' (it behaved like '+').
+- Bugfix: Birdcruncher didn't handle blank tracks properly.
+- Bugfix: Birdcruncher was applying the groove timing backwards.
+
+Get the release from here: https://csdb.dk/release/?id=161554
+
+
+##############
+# CGSC v1.35 #
+##############
+
+The Compute Sidplayer Collection has been updated and contains now 15441 MUS
+files, 4319 STR files and 5348 WDS files.
+
+Get the collection here: http://www.c64music.co.uk/
+
+
+############
+# VICE 3.2 #
+############
+
+VICE 3.2 has been released. VICE is an open source cross-platform emulator of
+several Commodore machines.
+
+VICE also includes VSID which can be used to play SID files.
+
+SID related changes:
+
+- Added 4SID support.
+- reSID: fixed envelope bugs shown by testprogs/SID/env_test/.
+
+You can get VICE from here:
+
+http://vice-emu.sourceforge.net/
+
+
+#############################
+# ACID 64 Player Pro V3.6.2 #
+#############################
+
+A new version of ACID64 has been released. ACID64 is a cycle based player for
+Windows that can play SID tunes on sound devices with a real SID chip and via
+network devices that emulate the SID chip, like JSidDevice that is part of
+JSidplay2.
+
+Changes in version 3.6.2:
+
+- Ultimate device added to play SID and MUS files directly on a C64 via the
+  network interface of the Ultimate cartridge II/II+ and Ultimate 64 board.
+- Changing device when playing stereo files that read the SID will not crash
+  JSIDDevice anymore.
+- MUS files load range is now visible in properties dialog.
+- Clock and voice bars can now be delayed for JSIDDevice and Ultimate devices.
+- You can now press slash key everywhere to go to the search text box.
+- Control + and Control - keys added for changing song in SID.
+- Optimized network performance for network SID devices.
+- Fix for pasting HVSC path into the search field.
+- Included latest sidid.cfg
+- Small fixes.
+
+The new version can be found at: https//www.acid64.com
+
+
+###################
+# SID-Wizard v1.8 #
+###################
+
+Mihaly Horvath (Hermit) released a new version of SID-Wizard. SID Wizard is an
+open-source C64 music tracker. This tracker runs on the C64 itself.
+
+The following has been changed:
+
+- Many fixes and changes made in the editor and exporter/converter.
+  See ChangeLog.txt file in the manuals folder.
+
+The new version can be downloaded here: https://csdb.dk/release/?id=165302
+
+
+##################
+# SID Visualizer #
+##################
+
+SID visualizer is an online program/player that shows a lot of the inner
+workings of the SID chip while playing a tune. It has been improved recently by
+JCH of Vibrants.
+
+The following has been improved:
+
+- Added pulse width boxes for each voice with a span of exactly 12 bits each.
+- Darkened the filter cutoff box line color and tweaked its span to 11 bits.
+- Widened the frequency boxes and tweaked it to show a wider range.
+- Shrunk the sample boxes as they’re not as interesting as the other boxes.
+- Added a stop button as the original one was just a pause (renamed that one).
+- Switched the name and author lines.
+- HQ mode is now sticky between songs and browser sessions.
+- Added a different and bigger list of SID tunes.
+  (you can still drag-and-drop your own files)
+- Various minor tweaks of the layout.
+
+More info: http://chordian.net/2018/03/18/improved-sid-visualizer/
+
+
+###################
+# Sidplay64 V1.21 #
+###################
+
+Sidplay64 is a C64 program made by GRG / Shape to play back SID files. You can
+browse SID files from disk and it also has support for random playback of SIDs.
+Sidplay64 has support for 1541 Ultimate I & II, REU, netdrive, iec, cmd, ide64
+and Sd2iec.
+
+The following has been changed:
+
+- Added SIDFX card support.
+- Added Chameleon support for two emulated sid chips.
+
+Get it here: https://csdb.dk/release/?id=161475
+
+
+################################
+# The Ultimate SID Player V2.0 #
+################################
+
+The Ultimate SID Player V2.0 has been released for the 1541 Ultimate II/II+ and
+for the Ultimate 64 board. The player can be found in firmware version 3.2. 
+
+Changes:
+
+- Rewritten player.
+- Added displaying clock, song length, time bar and system info.
+- Keyboard support for sub tune selection, fast forward and for returning to
+  Ultimate menu.
+- Added support for SIDFX (firmware 3.2a)
+- Song length is now shown when SID collection contains SSL files. 
+  Read the Songlengths.faq in HVSC for all info about how to generate SSL files
+  and how to make the SONGLENGTHS folders hidden on the Ultimate device.
+- Many improvements and fixes.
+
+The latest firmware with the new player can be found here:
+
+https://www.facebook.com/groups/1541ultimate/
+
+
+##############################################
+# C64 48Khz HiFi Digi Player 1 for Easyflash #
+##############################################
+
+Antonio Savona made a 48Khz HiFi digi player for the Easyflash cartridge and
+made a demo for it.
+
+The encoder is based on vector quantization and can encode from ~3:1 to ~4:1
+with no noticeable difference compared to the original.
+
+The player runs on a C64 with an Easyflash or 1541 Ultimate cartridge installed.
+Both SID models are supported.
+
+Get the demo from here: https://csdb.dk/release/?id=162941
+
+Also check the blog about it: https://brokenbytes.blogspot.com/
+
+
+#############################################################
+# SID 8580 vs. ArmSID vs. SwinSID Ultimate vs. SwinSID Nano #
+#############################################################
+
+kompjut0r made a blog about audio differences between:
+
+- a real 8580R5 SID chip
+- SwinSID Nano
+- SwinSID Ultimate
+- ArmSID
+
+He recorded different SID tunes on each chip which operates in 8580 mode.
+
+Compare yourself what the differences are:
+
+https://kompjut0r.blogspot.com/2018/04/sid-8580-vs-armsid-vs-swinsid-ultimate_12.html
+
+
+###################
+# SID Known v1.15 #
+###################
+
+Wilfred Bos has released SID Known v1.15. This version supports now HVSC #69.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(https://hvsc.de) or post it in one of the CSDb forums (https://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: https://csdb.dk/release/?id=165725
