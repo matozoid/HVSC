@@ -1,7 +1,7 @@
 #######################################################################
 #   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
 #   Maintained by iAN CooG <hvsc@c64.org>                             #
-#   Last Updated:  July 4, 2013.                                      #
+#   Last Updated:  June 20, 2014.                                     #
 #######################################################################
 #                                                                     #
 # The purpose of this text document is to highlight all the tunes     #
@@ -34,7 +34,7 @@
 #######################################################################
 
 ##############################
-# Bugged tunes as of HVSC 59 #
+# Bugged tunes as of HVSC 61 #
 ##############################
 
 /DEMOS/A-F/Digital_II.sid
@@ -60,6 +60,46 @@
          Sounds bad from 2:12.
 (Ramos)
 
+/DEMOS/UNKNOWN/Master_Composer/Devoted_to_You.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/Every_Breath_You_Take.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/I_Want_You.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/Loving_Feeling.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/Material_Girl.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/Only_You.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/Pink_Panther.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/Star_Trek_III.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/Take_Me_Home.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
+/DEMOS/UNKNOWN/Master_Composer/We_Two.sid
+    BUG: File seems truncated, lacks lots of data at end. No good source known.
+(iAN CooG)
+
 /GAMES/S-Z/Shackled.sid
     BUG: Subtune #2 falls out of sync upon looping, but so does the original
          game.
@@ -72,10 +112,18 @@
     BUG: Falls out of synch at around the 5:10 mark. This bug doesn't occur
          in the demo as the next part gets loaded after around one minute
          of playtime.
-(Magnate)
+(Mariusz)
+
+/MUSICIANS/B/Bakewell_Dwayne/Crappy_Rap.sid
+    BUG: Falls out of synch at around the 1:22 mark.
+(Mariusz)
 
 /MUSICIANS/C/Cane/Brainball.sid
     BUG: Wrong notes from 2:00. No known clean version found yet.
+
+/MUSICIANS/D/Digiblaster/Mix3_plus_plus.sid
+    BUG: Falls out of synch from 1:13. No good version found.
+(iAN CooG)
 
 /MUSICIANS/D/Doussis_Stello/Hero.sid
     BUG: Has a lot of wrong sounds inside, obviously a bad rip.
