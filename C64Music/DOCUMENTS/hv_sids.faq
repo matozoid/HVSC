@@ -44,22 +44,21 @@ General Questions
 [22] Why do some of the tunes in HVSC not play?
 [23] Why are there some incorrect or ugly-looking credits in HVSC?
 [24] Can I just download the individual tunes I want?
-[25] How is it determined which composers go under the /VARIOUS dir?
-[26] Do you offer HVSC on CD?
-[27] When will HVSC be completed?
-[28] I find myself listening to SID music all the time.  Am I normal?
-[29] So how do I make my own SID tunes?
-[30] What if I want to release a cover of a SID tune commercially?
+[25] Do you offer HVSC on CD?
+[26] When will HVSC be completed?
+[27] I find myself listening to SID music all the time.  Am I normal?
+[28] So how do I make my own SID tunes?
+[29] What if I want to release a cover of a SID tune commercially?
 
 ------------------------------------------------------------------------------
 
 [1] What is the High Voltage SID Collection (HVSC)?
 ---------------------------------------------------
 
-HVSC is the ultimate SID tune collection featuring over 30,000 popular
+HVSC is the ultimate SID tune collection featuring over 32,000 popular
 and requested SIDs from the Commodore 64.  The collection includes SIDs
 (aka C64 music) from games, demos, intros, etc.  HVSC has been in the
-making for nine years and is the result of many contributors.  
+making for ten years and is the result of many contributors.  
 
 [2] What software and hardware do I need to play the tunes in HVSC?
 -------------------------------------------------------------------
@@ -129,7 +128,7 @@ Mainly, because on average they do not sound as good as non-SIDPlayer tunes.
 SIDPlayer was a public domain SID composer and player available in the early
 '80s on the C64.  The tool was predominately used by Americans and has a
 strong following among the public domain audience.  SIDPlayer tunes are
-usually follow by a ".mus" and can be found on some C64 ftp sites.
+usually followed by a ".mus" and can be found on some C64 ftp sites.
 
 The best Compute! Gazette SID tune collection HVSC knows of is maintained by
 Peter Weighill and the latest version can be found here:
@@ -291,7 +290,7 @@ that handles long file names.
 
 If you would like to port the Update tool to your OS, the source code to the
 tool and information about the format of the HVS data file can be obtained by
-emailing Stephan Schmid <hvsc (sid) c64.org>.
+emailing <hvsc (sid) c64.org>.
 
 [14] Why do the updates sometimes add SIDs that HVSC already had?
 -----------------------------------------------------------------
@@ -436,11 +435,7 @@ too should learn these composers' names.  Basically, what I am telling you
 is that there is a chance that you will have to roll up your sleeves and dig
 through HVSC searching for your old favorite tunes.  Before you do this,
 though, you should check out the HVSC search engine at the HVSC web site.
-With just a fragment of information, you can perhaps find the tune.  Also,
-note that the professional composers (i.e., ones who received money for their
-work) are at the root of HVSC.  Some of the lesser known composers and
-composers from post-1992 are in the "VARIOUS" directory.  Knowing this
-information should help reduce your search time.
+With just a fragment of information, you can perhaps find the tune.
 
 For demos, you might wish to pay a visit to Stephan Schmid's excellent
 Demo Dungeon site at http://www.demodungeon.com/ - it has lots of demos,
@@ -472,27 +467,7 @@ Note also that any documented proof you have of the credit fix will help.
 Yes.  HVSC is available unzipped at a few web and ftp sites.  A listing of
 these sites can be found at the HVSC Mirrors Page.
 
-[25] How is it determined which composers go under the /VARIOUS dir?
---------------------------------------------------------------------
-
-The current rule is:
-
- (1) If the artist has no tunes made in 1992 or earlier, go to step #4
- (2) If the artist has game tunes (3 must be made in 1992 or earlier), 
-     above Various...  else go to step #3
- (3) If the artist was a famous demo composer in 1992 or earlier, above
-     Various...else go to step #4
- (4) Below Various
-
-Note: Rule (2) above has slightly changed.  This is in order that an
-artist who may have produced only one game tune for a magazine covermount
-prior to 1992 does not make it above VARIOUS.
-
-Also, as of HVSC 3.1, the /VARIOUS directory changed structure.  In order
-to make it manageable chunks, /VARIOUS now has four subdirs, A-F, G-L, M-R and
-S-Z, so you can look in those to find the composers you seek.
-
-[26] Do you offer HVSC on CD?
+[25] Do you offer HVSC on CD?
 -----------------------------
 
 Yes we do :)
@@ -509,15 +484,6 @@ ENGLAND
 
 Website: http://www.bzpd.freeserve.co.uk/
 Email: kenz (sid) bzpd.freeserve.co.uk
------------------------------------------------------------------------
-Imre Olajos Jr.
-1651 W Byron Avenue
-Addison
-IL 60101
-USA
-
-Website: http://lala.c64.org
-Email: LaLa (sid) c64.org
 -----------------------------------------------------------------------
 Bionic Grasshopper
 Email: bg_mfc (sid) usa.net
@@ -548,7 +514,7 @@ the composers' works are being abused.  Should you ever stumble about such
 a CD offered on websites or online auctions, please let us know and notify
 us via email at hvsc (sid) c64.org.  Thank you.
 
-[27] When will HVSC be completed?
+[26] When will HVSC be completed?
 ---------------------------------
 
 In all likelihood, never.  Far too many tunes were made on the C64 to
@@ -556,12 +522,12 @@ reasonably expect that every SID will be collected.  In addition, people
 are still composing music on the C64 to this day (some of the HVSC
 team themselves are among them).  Consider HVSC a living collection.
 
-[28] I find myself listening to SID music all the time.  Am I normal?
+[27] I find myself listening to SID music all the time.  Am I normal?
 ---------------------------------------------------------------------
 
 No, you are a SID-aholic.  But we consider this a good thing.  ;)
 
-[29] So how do I make my own SID tunes?
+[28] So how do I make my own SID tunes?
 ---------------------------------------
 
 In most cases, you will need access to either a real C64 or a 
@@ -593,12 +559,12 @@ use the real C64 SID chip on your HardSID to ensure your sound is as
 close to the real thing as possible.  The beauty also is that you can
 save your tunes (when finished) to C64 .prg format, or SID format too.
 For more information, please consult the following webpage:
-http://www.student.oulu.fi/~loorni/
+http://www.student.oulu.fi/~loorni/ or http://covertbitops.c64.org
 
 And of course, once you have a saved compiled tune, it should be pretty
 easy to convert to a SID file to send off to the HVSC Crew (hint).
 
-[30] What if I want to release a cover of a SID tune commercially?
+[29] What if I want to release a cover of a SID tune commercially?
 ------------------------------------------------------------------
 
 You should importantly please bear in mind that often the C64 composer
@@ -621,6 +587,6 @@ Do you have more questions?  Have you also checked:
 (5) BUGlist.txt (information about bugs in SIDs)
 
 If you have checked those documents and have not found the answers you seek,
-by all means, please email Stephan Schmid <hvsc (sid) c64.org> at any
+by all means, please email <hvsc (sid) c64.org> at any
 time.  Note that if you think your problem is related to the emulator/player
 you are using, we suggest you email the party responsible.

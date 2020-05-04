@@ -2,9 +2,9 @@
                         T H E   H I G H   V O L T A G E
                           S I D   C O L L E C T I O N
 
-                                  Release 45
+                                  Release 46
  
-                               April 17, 2006
+                               January 21, 2007
 
 Compiled by:
 ------------
@@ -16,9 +16,9 @@ Current Members:
     Adam Lorentzon <adam.lorentzon (sid) home.se> - SWEDEN
     Andreas Varga (mr.sid) <sid (sid) sidmusic.org> - AUSTRIA
     Inge Høie Pedersen ("448") <backdrop (sid) c2i.net> - NORWAY
-    Laust Brock-Nannestad <laustbn (sid) diku.dk> - DENMARK
+    Laust Brock-Nannestad <lbn (sid) prg.dtu.dk> - DENMARK
     Simon White <sidplay2 (sid) yahoo.com> - ENGLAND
-    Mariusz Mlynski (Magnate) <magnate (sid) wp.pl> - POLAND
+    Mariusz Mlynski <magnate (sid) wp.pl> - POLAND
     Chris Abbott <chris (sid) c64audio.com> - ENGLAND
     Wilfred Bos <wilfred_hvsc (sid) xs4all.nl> - NETHERLANDS
     Mariusz Rozwadowski (Ramos/Samar) <ramos64 (sid) interia.pl> - POLAND
@@ -202,13 +202,13 @@ too much -- we are only talking about a small amount of work here.
 
 Here are some general, friendly rules to keep in mind:
 
-* Every SID you submit _must_ follow the HVSC credit standard (see Section
-  3-3). 
+* Every SID you submit should follow the HVSC credit standard (see Section
+  3-3).
 
 * Verify claims you make about a SID being bugged by loading the
   original tune on a C64 _only_.   Also, if tunes are missing
   from a SID, then please let us know which ones (see the BUGLIST.txt file
-  for more information.)
+  for more information.) 
 
 * Verify any credit changes you submit either with the composer himself or
   by checking the actual software for when it was released.  In addition,
@@ -223,7 +223,7 @@ already noted, we have spent years on this collection verifying its
 correctness.  Further, we have spent many a day correcting and re-correcting
 the credits of SIDs so that we can also serve as a vault of information of
 SID music.  If people do not work with the same level of precision as we
-would like them to do the collection will take a regressive step.
+would like them to do, the collection will take a regressive step.
 
 ---------------------------------
 CHAPTER [2]: Collection Structure
@@ -243,43 +243,25 @@ HVSC 5.2 onwards.
 
 Below are a some comments about a few special directories:
 
-/DEMOS - For tunes found in demos in which the artist has less than five
-         tunes.  
+/DEMOS/X-X/ - For tunes found in demos in which the artist has less than three
+              tunes.  
 
 /DEMOS/UNKNOWN - For tunes found in demos in which the artists are unknown.
 
-/DOCUMENTS - If you are reading this document, then most likely you have
-             already figured out what this directory is for.  It also keeps
-             an archive of all the update data files and information texts.
+/DOCUMENTS -  If you are reading this document, then most likely you have
+              already figured out what this directory is for.  It also keeps
+              an archive of all the update data files and information texts.
 
-/GAMES/X-X - For games first released in which the artist has less than five
-             tunes.  Game tunes with unknown artists go here as well (sadly, 
-             many an older C64 game had no composer information and we
-             usually have had to contact the programmers themselves also to
-             verify)
+/GAMES/X-X/ - For games first released in which the artist has less than five
+              tunes.  Game tunes with unknown artists go here as well (sadly, 
+              many an older C64 game had no composer information and we
+              usually have had to contact the programmers themselves also to
+              verify)
+
+/GAMES/UNKNOWN - For tunes found in games in which the artists are unknown.
               
-/VARIOUS - As mentioned above, this is where mostly demo composers from
-           post-1992 or lesser known composers reside.  Below is the
-           algorithm we use to decide where the composer goes.
-
- (1) If the artist has no tunes made in 1992 or earlier,
-     go to step #4
- (2) If the artist has game tunes (3 must be made in 1992 or earlier)
-     above Various
-     else go to step #3
- (3) If the artist was a famous demo composer in 1992 or earlier
-     above Various
-     else go to step #4
- (4) Below Various
-
-/VARIOUS is split into four subdirs, A-F, G-L, M-R and S-Z to make the
-collection manageable.  Knowing the composers' handle should reduce your
-search time.
-
-You should also note (importantly) that where a composer resides within
-the HVSC structure does not in any way resemble the quality of their
-compositions whatsoever.  We'd like to add that most of today's excellent
-C64 composers can be found in /VARIOUS.  Do check them out!
+/MUSICIANS/X/ - Tunes sorted by the composers names or handles (if they are
+                more widely used than their real names)
 
 ----------------------------
 CHAPTER [3]: How Can I Help?
@@ -293,6 +275,10 @@ free to contact us at any time.  However, we do request that you
 should place [HVSC] in the start of the subject line of your email,
 followed by the HVSC-related topic in question.  For rip packs, you
 can use [HVSC] [rip pack filename] as a suitable subject line.
+Keep in mind we have archived more or less all emails since the start of
+HVSC, and we do search that archive now and then to track back how tunes
+have been modified during the HVSC history. Putting [HVSC] into the subject
+line greatly simplifies these searches.
 
 [3-2]: Contributing SIDs
 ========================
@@ -300,14 +286,14 @@ can use [HVSC] [rip pack filename] as a suitable subject line.
 We love to receive new SIDs for HVSC.  Of specific interest are tunes
 from games, mainly because the game tunes bring back more memories for
 the people that played them and they were commercially available, but
-we'll take anything you have unless the tunes are lacking
-musical skill (subjective).  
+we'll take anything you have unless the tunes are lacking musical skill.
+It very rarely happens that we reject tunes from inclusion into HVSC, but
+we reserve the right to do so if you keep sending these one channel BASIC
+rips from private games that only you and your neighbour ever had access
+to.  ;-)  
 
-Suggested reading first off is the HVSC Ripped Tunes page at the HVSC 
-News section (http://www.hvsc.c64.org/News/rippedtunes.html) - this lists
-recent rips not in HVSC, and also the source of the game or demo for
-the rip.  You might save yourself some time if the tune is already
-ripped, but if it isn't, go ahead!
+Don't bother ripping fresh scene releases, we usually keep an eye on it and
+try to rip all the tunes as they get released into the scene. 
 
 [3-2-1]: What does the HVSC Crew want?
 ======================================
@@ -315,10 +301,10 @@ ripped, but if it isn't, go ahead!
 Here are some of the items we are looking for:
 
   * Complete collections directly from the composers (this is most ideal
-    as they will usually have all the information we require, too)
-
-  * SID Hunt Requests (see http://lala.c64.org/ and click on The Big
-    SID Hunt)
+    as they will usually have all the information we require, too).
+    If you send us complete collections from yourself, your friends or
+    your former groupmates, please also provide information about the
+    sidmodel (6581/8580).
 
   * Loading/Intro tunes used in games.  These are rare since crackers
     would often not include the tunes along with the cracks.  In particular,
@@ -331,8 +317,8 @@ Here are some of the items we are looking for:
     tunes would have memories from the game for people (particularly any
     game complete tunes).
 
-  * Fixes of SIDs already in HVSC.  We have found  several tunes that start
-    at the wrong location, have missing voices,  with bad samples, etc.
+  * Fixes of SIDs already in HVSC.  We have found several tunes that start
+    at the wrong location, have missing voices, with bad samples, etc.
     You must, wherever possible, check them on a real C64 to ensure they work.
   
   * Real C64-compliant rips, especially if there's a _PSID equivalent in
@@ -433,19 +419,19 @@ Please refer to STIL.faq before sending in STIL entries for each pack.
 Further, if you are sending STIL entries relating to SIDs already
 in HVSC, please send them directly to the current STIL Administrator:
 
-Laust-Brock Nannestad <laustbn (sid) diku.dk>
+Laust-Brock Nannestad <lbn (sid) prg.dtu.dk>
 
-Please also DO NOT send any attachment that is more than 500KB without
+Please also DO NOT send any attachment that is more than 1 MB without
 mailing us first to let us know and that you have confirmation from us it is
 okay to send.  It's good netiquette, you know.
   
 Please mail your ZIP file of SIDs to the following adress:
 
-hvsc (sid) c64.org (it will reach two people, so you can be assured that your
+hvsc (sid) c64.org (it will reach three people, so you can be assured that your
                     mail will get processed)
 
 And, if you have the data on a C64 disk, but do not have the file transfer
-capabilities to transfer C64 files to your PC, contact _both_ the people above
+capabilities to transfer C64 files to your PC, also contact the people above
 and we can recommend someone who may be willing to help in the conversion task.
 
 [3-3]: SID Credits
@@ -575,7 +561,7 @@ such as SIDedit.
           Torben "Metal" Hansen   {incorrect}
 
        At minimum, the name that the composer used in the game/demo should
-       be in the credits.  Only if there is enough room should you put the
+       be in the credits.  Only if there is enough room should you put
        his real name or alias.  Note also that you should not put the
        composer's group name in the AUTHOR field.  Either put such info in
        the RELEASED line or do not add the info at all.
@@ -871,16 +857,35 @@ ANY
 =======================
 
     Much information about ripping is provided at the SIDPlay web site.
+    http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/
+    
+    Heads up, there are some fundamental miscalculations in the "Variable
+    playing speed" chapter of Michael Schwendt's article.
+    The calculation formula for the amount of cycles a C64 has is based
+    on the assumption that a processor cycle can be subdivided into fractions.
+    This is, on close inspection, not true.
+    One rasterline has exactly 63 cycles on a PAL machine, not 63.15, as
+    mentioned in that article. Hence, the total amount of cycles available
+    on a PAL C64 is 63 * 312 scanlines = $4CC8 (not $4CF8 as derived from
+    the algorithm using fractions).
+    Thus, the correct algorithm to get the CIA timer values for multispeed
+    tunes would be
+    
+    ( $4CC8 / n ) - 1
+    
+    with n being the speed setting of the tune (n=2 if doublespeed, etc.)
+    Subtract one from the final result because the CIA timer is counting
+    backwards to zero. So if the CIA timer value is set to $2663 it actually
+    counts $2664 cycles until it reaches zero. Double that and you end up at
+    the original $4CC8.
 
-http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/
-
-    *Note, ripping SIDs requires some assembly language knowledge.  Thus,
-     ripping SIDs is not always an easy task (but it isn't always hard,
-     either).  The point we are trying to make is that if you do not plan
-     to rip the SID the correct way, then do not even bother ripping the
-     SID.  In particular, do not cut off the end of the music data by 2-3
-     bytes, as this often means that the SID will fall out of synch either
-     in a portion of the tune, or on restart.
+    Note, ripping SIDs requires some assembly language knowledge.  Thus,
+    ripping SIDs is not always an easy task (but it isn't always hard,
+    either).  The point we are trying to make is that if you do not plan
+    to rip the SID the correct way, then do not even bother ripping the
+    SID.  In particular, do not cut off the end of the music data too early,
+    as this often means that the SID will fall out of synch either
+    in a portion of the tune, or on restart.
 
 -------------------------------
 CHAPTER [4]: Update Information
@@ -901,7 +906,7 @@ The updates will be announced at the HVSC web page as well as
 other locations.  There is no set time as to when the updates will be
 available.  The frequency of updates will depend on the amount of new tunes
 and corrected information we receive.  The current rate of updating is every
-three months or thereabouts, but as we now have 18,000+ SID files, the
+three months or thereabouts, but as we now have 32,000+ SID files, the
 likelyhood of finding more does diminish with every update.
 
 The HVSC Page:  http://www.hvsc.c64.org/
@@ -1009,7 +1014,8 @@ Giuseppe Musardo (Xayne) (for pointing us in the direction of your tunes and
                           checking through your current HVSC dir)
 Glenn Rune Gellefoss (for your complete collection and Kjell's too)
 Gösta Feiweier (for checking and verifying your own tunes)
-Guzslován Gábor (Cargo/Singular) (for sending us some disks and giving us hints where to rip from)
+Guzslován Gábor (Cargo/Singular) (for sending us some disks and giving us hints
+                                  where to rip from)
 Guy Shavitt (for helping us locate your tunes. We hope to find the game
              "Blitz", with your music!)
 Holger Gehrmann (for checking and verifying your own tunes)
@@ -1081,7 +1087,8 @@ Michael Zuurman (Mr.Mouse/Xentax) (for all the Xentax SID information and
 Milosz Ignatowski (Longhair) (for some rare SIDs)
 Mikael Backlund (Twoflower) (for sending us unreleased games for ripping)
 Miron Schmidt (for your tunes, and info about Ramiro Vaca's tunes)
-Nathan Smith (Stryyker) (for fixing a few bad rips and for providing quality feedback)
+Nathan Smith (Stryyker) (for fixing a few bad rips and for providing quality
+                         feedback)
 Oliver Klee (Odi) (for your collection)
 Patrick Ceuppens (Lyon) (for your complete collection)
 Patrick Zeh (Rayden) (for your complete collection, and for lots of quality fixes)

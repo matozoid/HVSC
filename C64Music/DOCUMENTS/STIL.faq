@@ -2,7 +2,7 @@
 -------------------------------------------------------------------------------
                         SID Tune Information List (STIL)
                         -> Frequently Asked Questions <-
-                                     v45
+                                     v46
 -------------------------------------------------------------------------------
 
 General Questions
@@ -102,8 +102,9 @@ bugged SIDs got fixed. If you think you can help (either listing bugs or
 providing bugfixed SID files), please refer to BUGlist.txt in the DOCUMENTS
 directory of HVSC.  However, if a SID sounds bugged and the original released
 game or demo that the SID was extracted from was also bugged (for example:
-/Ouwehand_Reyn/Last_Ninja_3.sid subtune #3), STIL in this case would notify you
-of this as technically it is not a bug that was caused by a bad rip.
+/MUSICIANS/O/Ouwehand_Reyn/Last_Ninja_3.sid subtune #3), STIL in this case 
+would notify you of this as technically it is not a bug that was caused by a 
+bad rip.
 
 
 [ 3] Where is the latest version of STIL available from?
@@ -258,7 +259,7 @@ music selectors, demos, etc.). The field is needed because the PSID format
 only contains one name field, and for multitune SIDs that's not always enough.
 Prior to STIL v3.5 the situation was handled like in this *deprecated* entry:
 
-/Crowther_Antony/From_Ratt_To_You.sid
+/MUSICIANS/C/Crowther_Anthony/From_Ratt_To_You.sid
 COMMENT: The tune names are listed, if they were given a name, the remaining
          tunes were just called Tune 35, Tune 27 etc., and have been left out
          of this STIL entry.
@@ -301,7 +302,7 @@ This is the correct way of naming individual subtunes in a STIL entry.
 Another use of the NAME field is when the tune's title doesn't fit in the
 PSID header's name field:
 
-/Wijnhoven_Joachim/Als_de_sterre.sid
+/MUSICIANS/W/Wijnhoven_Joachim/Als_de_sterre.sid
    NAME: Als de sterre dao baove straole
 
 Format
@@ -346,7 +347,7 @@ described in the previous section.
 Here's how it would look in the old STIL (this is now the *wrong* way to do
 it!):
 
-/20CC/So-Phisticated_III.sid
+/MUSICIANS/0-9/20CC/So-Phisticated_III.sid
 (#1)
  ARTIST: Edwin van Santen
 (#2)
@@ -364,7 +365,7 @@ COMMENT: This cover is by Edwin van Santen.
 
 And here's the *correct* way to do it:
 
-/20CC/So-Phisticated_III.sid
+/MUSICIANS/0-9/20CC/So-Phisticated_III.sid
 (#1)
  AUTHOR: Edwin van Santen
 (#2)
@@ -483,13 +484,13 @@ which means it covers the tune "Passing Breeze" from the arcade game "Out Run".
 In addition, the album subfield can also be used to specify that the original
 is an Amiga module or a PC XM module, as follows:
 
-/VARIOUS/A-F/Alien/Question_of_Guilt.sid
+/MUSICIANS/A/Alien/Question_of_Guilt.sid
   TITLE: Question of Guilt [from the PC XM module]
  ARTIST: Thomas Mogensen (DRAX)
 
 or
 
-/Connolly_Sean/Enigma_Phenomena.sid
+/MUSICIANS/C/Connolly_Sean/Enigma_Phenomena.sid
   TITLE: Musiklinjen [from the Amiga MOD module]
  ARTIST: Firefox & Tip of Phenomena
 
@@ -690,12 +691,12 @@ very *ORIGINAL* TITLE/ARTIST info for the STIL entry! A comment may be
 provided, though, that states that the given cover is really a cover of another
 cover. (Phew, did you follow that? ;) Here are some examples:
 
-/Connolly_Sean/Go_West.sid
+/MUSICIANS/C/Connolly_Sean/Go_West.sid
   TITLE: Go West
  ARTIST: The Village People
 COMMENT: This tune covers the Pet Shop Boys cover.
 
-/VARIOUS/S-Z/Scarlet/Mariah_Carey.sid
+/MUSICIANS/S/Scarlet/Mariah_Carey.sid
   TITLE: Without You [from No Dice]
  ARTIST: Badfinger
 COMMENT: This SID covers Mariah Carey's cover version.
@@ -722,7 +723,7 @@ as many '#' characters as it takes to fill out the maximum STIL line length of
 
 ### Jeroen Tel ################################################################
 
-/Tel_Jeroen/Filename.sid
+/MUSICIANS/T/Tel_Jeroen/Filename.sid
 COMMENT: This is the first STIL entry in the directory of Jeroen Tel.
 
 If an HVSC directory has further subdirectories, the first section header found
@@ -736,7 +737,7 @@ composer or group, and the name is followed immediately by a forward slash
 ('/') for an opening section header and a backward slash ('\') for a closing
 section header. For example:
 
-### VARIOUS/ ##################################################################
+### MUSICIANS/ ################################################################
 
 ### First Composer in this dir ################################################
 
@@ -746,17 +747,27 @@ section header. For example:
 
 <STIL entries for the second composer go here>
 
-### VARIOUS\ ##################################################################
+### MUSICIANS\ ################################################################
 
 So, in effect, all the entries that belong to subdirectories of an HVSC root
-directory (/VARIOUS/ in the above example) are enclosed by the opening and
+directory (/MUSICIANS/ in the above example) are enclosed by the opening and
 closing section headers.
 
 Please note that the example given above is simplified compared to the real
 structure of the STIL. As of HVSC v3.1, the /VARIOUS hierarchy has been
 subdivided into four groups, /VARIOUS/A-F, /VARIOUS/G-L, /VARIOUS/M-R, and
 /VARIOUS/S-Z, to reflect the change in the HVSC directory structure. Therefore
-there are no STIL entries directly below /VARIOUS.
+there are no STIL entries directly below /VARIOUS. 
+
+Also please note that as of HVSC 46, this section is highly outdated as
+/VARIOUS no longer exists and section headers only exist for legacy reasons ;)
+
+If you're concerned with parsing the STIL, the best approach is to ignore
+any lines beginning with "#" and concentrate only on the STIL entries
+themselves. Alternatively, take a look at LaLa's STILView library, which takes
+most of the work out of parsing the STIL:
+
+  http://www.transbyte.org/SID/STILView.html
 
 [ 5] Who maintains the STIL? (In other words, who to complain to? :)
 -------------------------------------------------------------------------------
@@ -765,7 +776,7 @@ The STIL is maintained by the STIL Administrator (also known as the HOSTILE
 (High Official STIL Executioner) ;-) under the watchful eye of the entire HVSC
 team. The administrator is currently:
 
-Laust Brock-Nannestad <laustbn@diku.dk>
+Laust Brock-Nannestad <lbn@prg.dtu.dk>
 
 
 Also see the "STIL CONTRIBUTORS" list further down in the FAQ for other
@@ -1056,6 +1067,7 @@ Dust <dust (sid) utanet.at>
 Eclipsed Moon <eclipsedmoon13 (sid) yahoo.com>
 Eden, Jack <jackeden (sid) earthlink.net>
 Edo <edo (sid) trystero.demon.nl>
+<ekman (sid) lysator.liu.se>
 Ekman, Tobias <tekman (sid) etek.chalmers.se>
 Evert-Jan Slypen <jazz (sid) lobster.demon.nl>
 Ferrara <maumiu (sid) freenet.hut.fi>
@@ -1126,6 +1138,7 @@ Poque, Axel (F.) <axel.pq (sid) t-online.de>
 pyksy^dAP <pyksy (sid) sievi.fi>
 Rantala, Tuomas (Thor/Extend) <tuomas.rantala (sid) nic.fi>
 Reisdorf, James <sportsdude820 (sid) yahoo.com>
+Riedel, Adric <adric.riedel (sid) gmail.com>
 ruiner <enrique2 (sid) charter.net>
 Rönkkö, Timo (Deadbeat/The Sharks) <deadbeat73 (sid) hotmail.com>
 Salo, Tommi <<tommi.salo (sid) cop.fi>
@@ -1163,7 +1176,7 @@ Vormestrand, Ingve <ingve (sid) online.no>
 Walleij, Linus (King Fisher/Triad) <triad (sid) df.lth.se>
 Waschk, Goetz <waschk (sid) informatik.uni-rostock.de>
 Weighill, Peter <pweighill (sid) hotmail.com>
-Wijnhoven, Joachim "Yogibear" <joachimwijnhoven (sid) home.nl>
+Wijnhoven, Joachim "Yogibear" <wijnhovenjoachim (sid) home.nl>
 Winter, Felix <DPL-00125 (sid) popmail.derpatriot.com>
 WoLaNd <wol (sid) ludens.elte.hu>
 Xavier Thunderbridge <cring_l (sid) yahoo.co.uk>
@@ -1223,54 +1236,54 @@ Yes, still created with LaLa's FunStats Perl script. ;)
 Top 15 Covered Artists:
 -----------------------
 
-Rob Hubbard ............................................................... 268
+Rob Hubbard ............................................................... 275
 <?> ....................................................................... 257
-Traditional ............................................................... 235
-Jean Michel Jarre ......................................................... 199
-Jeroen Tel ................................................................ 137
-Johann Sebastian Bach ..................................................... 134
-Martin Galway ............................................................. 115
-Depeche Mode .............................................................. 110
+Traditional ............................................................... 244
+Jean Michel Jarre ......................................................... 204
+Johann Sebastian Bach ..................................................... 159
+Jeroen Tel ................................................................ 147
+Martin Galway ............................................................. 120
+Depeche Mode .............................................................. 113
 The Beatles ............................................................... 108
-John Williams .............................................................  95
-Chris Hülsbeck ............................................................  84
-Harold Faltermeyer ........................................................  78
-James Pierpont ............................................................  77
-The Police ................................................................  72
+John Williams .............................................................  96
+Chris Hülsbeck ............................................................  89
+Harold Faltermeyer ........................................................  84
+James Pierpont ............................................................  82
+The Police ................................................................  73
 Oasis .....................................................................  70
 
 
 Top 15 Covered Tunes:
 ---------------------
 
-Jingle Bells ..............................................................  77
-Axel F [from the movie Beverly Hills Cop] .................................  68
-<?> .......................................................................  61
+Jingle Bells ..............................................................  82
+<?> .......................................................................  80
+Axel F [from the movie Beverly Hills Cop] .................................  74
 Popcorn [from Music To Moog By] ...........................................  52
-Crockett's Theme [from the TV series Miami Vice] ..........................  36
 Thalamusik [from Sanxion] .................................................  36
+Crockett's Theme [from the TV series Miami Vice] ..........................  36
 Funeral March [from Sonate No. 2 in B flat minor Op. 35] ..................  35
-Oxygene 4 [from Oxygene] ..................................................  32
-James Bond Theme [from the James Bond series of movies] ...................  30
+Oxygene 4 [from Oxygene] ..................................................  34
+James Bond Theme [from the James Bond series of movies] ...................  33
+Living on Video [from Living on Video] ....................................  30
+Blue Monday ...............................................................  29
 Toccata [from Toccata and Fugue in D Minor (BWV 565)] .....................  29
-Blue Monday ...............................................................  28
-Living on Video [from Living on Video] ....................................  28
-Fourth Rendez-vous [from Rendez-vous] .....................................  27
-Comic Bakery, Tune #1 .....................................................  27
-Happy Birthday ............................................................  27
+Happy Birthday ............................................................  28
+Fourth Rendez-vous [from Rendez-vous] .....................................  28
+The Star Spangled Banner (National Anthem of the U.S.A.) ..................  27
 
 
 Top 15 Covered C64 Artists:
 ---------------------------
 
-Rob Hubbard ............................................................... 268
-Jeroen Tel ................................................................ 137
-Martin Galway ............................................................. 115
-Chris Hülsbeck ............................................................  84
+Rob Hubbard ............................................................... 273
+Jeroen Tel ................................................................ 144
+Martin Galway ............................................................. 116
+Chris Hülsbeck ............................................................  85
 Ben Daglish ...............................................................  50
-Matt Gray .................................................................  43
 David Whittaker ...........................................................  43
-Reyn Ouwehand .............................................................  40
+Matt Gray .................................................................  43
+Reyn Ouwehand .............................................................  41
 Thomas Mogensen (DRAX) ....................................................  36
 Mark Cooksey ..............................................................  25
 Thomas Detert .............................................................  23
@@ -1284,19 +1297,19 @@ Top 15 Covered C64 Tunes:
 -------------------------
 
 Thalamusik [from Sanxion] .................................................  36
-Comic Bakery, Tune #1 .....................................................  27
+Comic Bakery, Tune #1 .....................................................  26
 Enlightenment: Druid II, Tune #3 ..........................................  23
 Ghosts'n Goblins, Tune #2 .................................................  21
-Crazy Comets, Tune #1 .....................................................  17
 The Last Ninja - The Wastelands ...........................................  17
+Crazy Comets, Tune #1 .....................................................  17
 Parallax, Tune #1 .........................................................  15
 Knucklebusters, Tune #1 ...................................................  14
 Commando, Tune #1 .........................................................  13
-Commando, Tune #2 .........................................................  10
-Savage, Tune #3 ...........................................................   9
+Savage, Tune #3 ...........................................................  12
+Commando, Tune #2 .........................................................  11
 Green Beret, Tune #10 .....................................................   9
-Delta, Tune #12 ...........................................................   8
-Supremacy, Tune #1 ........................................................   8
+Delta, Tune #12 ...........................................................   9
+Noisy Pillars, Tune #3 ....................................................   8
 Eliminator, Tune #1 .......................................................   8
 
 -------------------------------------------------------------------------------

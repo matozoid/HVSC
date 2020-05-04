@@ -1,0 +1,413 @@
+High Voltage SID Collection Update #46
+Date:  January 21, 2007
+
+  Resulting Version: 46
+   Previous Version: 45
+
+After this update, the collection should contain 33,000 SID files!
+
+This update features (all approximates):
+    1014 new SIDs
+      71 fixed/better rips
+       2 fixes of PlaySID/Sidplay1 specific SIDs
+      13 repeats/bad rips eliminated
+     664 SID credit fixes
+     160 tunes assigned a sidmodel flag
+      24 UNKNOWN demo tunes identified
+
+As usual, the update and the all-in-one packages are available from
+http://www.hvsc.c64.org
+
+
+########################################################################
+# ATTENTION, READ THIS:                                                #
+# Due to the massive directory structure changes that are made in this #
+# update, the update tool takes very long to complete! It reaches 60%  #
+# pretty quickly, but then it may seem as it may have crashed. Have    #
+# patience please, we've had reports that the update takes between     #
+# 10 to 45 minutes, mainly depending on how fast and/or fragmented     #
+# your harddisk is.                                                    #
+# Read more about the structural changes below.                        #
+########################################################################
+
+This update features the tunes from the following parties:
+X'06, c64.sk Sidcompo 6, Big Floppy People 2006, Breakpoint 2006,
+North Party 10, Primary Star 2006 and of course all the tunes from the
+10 Years HVSC music collection.
+
+
+Main Composers featured in this update:
+(Artists marked with NEW are either completely new to the HVSC
+ or they get their own directory in this update)
+
+Alien/WoW
+A-Man
+ -> with previously unreleased stuff exclusively available in HVSC
+Art of Noise
+Richard Bayliss
+ -> we've dug up 67 new tunes from him, with his kind help
+Arman Behdad
+ -> the Trance master is active again, check out Electric_Jesus.sid
+Glenn Rune Gallefoss
+ -> he kindly packed up some unreleased previews for us
+Chapelier
+ -> one of the guys behind www.c64.com, he sent us his complete works
+CRD
+ -> NEW! A promising new sid musician enters the scene!
+Dalezy
+ -> still going strong with mellow minimalistic melodi
+DRAX / Maniacs of Noise
+ -> that old melody master just won't stop composing candy for our ears!
+Ed/Wrath Designs
+ -> the Aphex Twin of the sid scene is back with an activity peak
+Fanta
+ -> some fantastic goodies in there again by Onkel Fanta!
+Ghormak   -> NEW!
+Hein Holt
+ -> One of the multitalents of the 64 scene: He pixels, he codes and he
+    composes brilliant music
+Jac
+ -> old Riffs hero from the 80s, good oldschool stuff
+Jammer
+ -> always pushing the sid to new limits. This time with special focus on
+    analog speech synthesis (no sampled digis, everything made "by hand"!)
+    His HVSC.sid is probably the best tune _ever_ in that department
+Josstintimberlake
+ -> another avantgardistic sid musician brings us more data vibes
+Laxity
+ -> yeah, you read correctly, the old famed composer is churning out
+    blips and blops again, as if it was 1989!
+Linus
+ -> bringing us more follin'ish gangsta tunes!  :-)
+Maktone
+ -> with some good mood party tunes again, hooray!
+Adam Morton  -> NEW!
+Markus Müller
+ -> Superbrain sent us some old GCF tunes, cheers mate!
+Ne7
+ -> composer of the DTV Hummer game soundtrack, and generally a
+    very sophisticated musician (Electronat will blow you away!)
+Psycho
+ -> ventures into the deep trancey department
+Radiantx
+ -> A comparably new sid composer brings us some complex and dense
+    oldschoolish tunes
+Randall
+ -> As usual MC Randall can't miss to place at least one or two smash
+    hits in every HVSC update. Very Polished stuff, in every meaning
+    of the word.
+Rio
+ -> NEW! Another youngster in the club of C64 composers.
+Rupert Dissident
+ -> NEW! Another one of those home composers who just pop up now and then
+    and ask us if we have use for some twenty+ unreleased tunes.
+    Pretty good stuff he did, placative and complex.
+Rusty46
+ -> We bring you 52 tunes from this swedish guy, all done in 2005-06.
+    Innovative elements coupled with catchy hooklines!
+Sidder
+ -> Smart arrangements, unusual instruments - Sidder is always exploring
+    different paths, from conventional to experimental.
+Stainless Steel
+ -> Joe cooked up some brilliantly arranged remixes of recent pop hits
+    for us.
+Jeroen Tel
+ -> Jeroen once again opened his treasure chest of unreleased tunes and
+    gave the scene three "new" songs. But we also found a bit of old and
+    forgotten stuff from him.
+Xiny6581
+ -> Another one of those rather new sid musicians, but a valuable
+    enforcement. Give these tunes some time, they don't release their
+    message in the first 3 chords.
+Zabutom
+ -> Ha, only about a year ago he entered the stage and now he's working
+    the sid like an orchestra that was made just for him! Wow!
+    
+
+
+++++++++++++++++++++++++++++++
+SID/HVSC RELATED NEWS BULLETIN
+++++++++++++++++++++++++++++++
+
+
+##########################################
+# Fundamental directory structure change #
+##########################################
+  
+  In this update the HVSC Crew decided to fundamentally overhaul the HVSC
+  directory structure and re-sort it.
+  There are a few disturbing things in the current HVSC directory structure:
+  1. Inconsistencies to our own rule as to what is root and what is VARIOUS.
+     There are composers in VARIOUS that, according to our rules should be in
+     the root and vice versa.
+  2. With more and more composers surfacing and others getting their own
+     directories by gathering their 3 tunes, the directory trees grew to huge
+     sizes (several screens high), which made navigating and maintaining a bit
+     cumbersome.
+  3. The term VARIOUS and the fact that the tunes inside that directory were 3
+     directory levels further down than the glorious root composers was
+     considered unfair by a lot of people. Discussions went in circles
+     thinking about a better name (SCENE? POST_1993?) or to organize the root
+     dir similiarly (CLASSICS? PRE_1993?), so we finally decided to go for a
+     completely new sorting structure:
+
+/DEMOS
+ /0-9
+ /A-F
+ /G-L
+ /M-R
+ /S-Z
+ /UNKNOWN
+-> Sorting structure is now similiar to the /GAMES directory.
+   No changes to the rules were made as to what goes into DEMOS.
+   It's still the same, it contains tunes from demos made by composers
+   that are either unknown or that have composed less than 3 tunes overall. 
+
+/DOCUMENTS
+-> No changes here
+
+/GAMES
+ /0-9
+ /A-F
+ /G-L
+ /M-R
+ /S-Z
+-> Again, nothing changed apart from the added /0-9 subdirectory.
+   The GAMES directory still contains tunes from games made by composers
+   that are either unknown or that have composed less than 3 tunes overall. 
+
+/MUSICIANS
+ /0-9
+ /A
+ /B
+ /C
+...
+-> Basically we've merged the root directory and the old VARIOUS directory,
+   giving up the A-F/G-L/M-R/S-Z sorting and going for a plain alphabetic
+   flat sorting structure. A composer still needs 3 or more tunes to get into
+   the MUSICIANS directory, in order to avoid cluttering up HVSC with
+   hundreds of directories that only contain one or two tunes.
+
+We think we found an unbiassed and futureproof solution with that new sorting
+structure: It's easier to maintain. It's easier to navigate. It's more fair:
+No more discussions about "why is composer x in the root, shouldn't he be in
+VARIOUS?" or "composer y made 3 gametunes before '93, shouldn't he be in the
+root?".
+In addition, an almost flat structure like that hopefully encourages one or
+the other guy out there to program a proper frontend for HVSC one day.
+Be it in form of a tool or a website interface, so people can conveniently
+switch between several HVSC "views", assign "favourites" flags to tunes and
+composers etc. If you've got the skills and the time/motivation to help us
+in making this vision reality, drop us a mail at hvsc@c64.org.
+Especially a motivated webdesigner with PHP/MySQL knowledge would be a
+welcome addition to the team. 
+
+HVSC has grown almost too big to jump around in Windows Explorer without
+getting lost, so we hope you get used to the new structure and like it
+just as we do.
+  
+There were concerns that people new to HVSC would get lost in the new
+structure as they are usually searching for their favourite game tunes from
+back then, which basically boils down to: Hubbard, Galway, Follin and Tel. ;)
+We think that people will still find what they're looking for, only it takes
+them a little longer than before. And who knows how many gems they may find
+on their hunt for that old tune by randomly clicking into other composers
+directories, which were previously buried in VARIOUS.
+
+
+######################################
+# 10 Years HVSC - a music collection #
+######################################
+
+HVSC was founded by The Shark in May 1996. To celebrate the 10th anniversary
+of the collection we released a music collection which runs on a real C64
+or emulator of choice. It's included in this update in various diskimage
+formats, so you can check it out right now. It features 40 exclusive musics
+by
+6R6 of Nostalgia, Onslaught
+_V_ of 64ever, Padua, Raiders Of the Lost Empire, Viruz, Warriors of the Wasteland
+A-Man of Xenon
+Adam Gilmore
+Adam Morton
+AleksiE of Carillon
+Asterion of Tinnitus
+BlackBeltJones
+Cadaver of Covert Bitops
+celticdesign
+Chris Huelsbeck
+dalezy of Triad
+Deetsay of Panic
+DRAX of Crest, Maniacs of Noise, Vibrants
+Factor6 of Anubis, Phantasy, Raiders Of the Lost Empire, Rock'n Role Staff
+Fanta of Chorus, Oxyron, Plush, Viruz
+Goto80 of Hack n' Trade, Oxsid Planetary, Up Rough
+Hein of Focus, Onslaught, Vision
+Inge of HVSC Crew
+Jammer of EXclusive ON, MultiStyle Labs, Samar Productions
+Jan Krolzig of HVSC Crew
+Jenny16
+Jeroen Tel of Focus
+Joachim Wijnhoven
+Laxity of Starion, Wizax
+Maktone of Fairlight
+Markus Schneider
+Psycho
+Randall of MultiStyle Labs, Red Brand
+Richard of The New Dimension
+Rio of Rattenrudel
+Sidder of MultiStyle Labs, Samar Productions
+SounDemoN of Church 64, Dekadence, Onslaught
+Surgeon of Vulture Design
+T.C.
+UL-Tomten
+Xiny6581 of Dees Productions, Skalaria
+Yodelking of HVSC Crew
+
+It's kind of a diskmag with articles about the history of HVSC and other
+sid related topics. Features a jukebox mode, so the next tune automatically
+loads when the current one has reached the end or the loop point.
+
+You can also get it from the C64 scene database, where you're able to
+place a vote or comment on it. Enjoy!
+
+-> http://noname.c64.org/csdb/release/?id=44014
+
+
+##############################################
+# Stone Oakvalley's Authentic Sid Collection #
+##############################################
+
+The SOASC= project is an automated recording technique invented by Stone
+Oakvalley in order to mass record music from the legendary Commodore 64 and
+its SID chips (6581 and 8580).
+The goal is to record EVERY tune from HVSC to MP3 from REAL C64s with the
+help of a PC sending PSID64 files to the C64 and playing them back on both
+the 6581 and the 8580 for the playing time specified in the Songlength
+Database, which is included in HVSC.
+A seemingly insane project resulting in around 400 GB of MP3 that you can
+conveniently download from the project website www.6581-8580.com.
+The whole project is private, noncommercial and freely available to anyone.
+It closely follows the HVSC policies regarding respecting the original
+copyrights and issues best summed up under the "fair use" term.
+
+-> www.6581-8580.com
+
+
+###########################################
+# Nelly Furtado's "Do It" contains large  #
+# portions of GRG's "Acidjazzed Evening"! #
+###########################################
+
+We want to bring a blatant case of copyright theft to your attention.
+Here's a short summary taken from http://www.c64audio.com/timbaland.php:
+
+In 2000, Janne Suni ("Tempest") composed a piece called "Acid Jazzed Evening"
+which was submitted to the Assembly 2000 Oldskool Music Competition, winning
+1st place. The piece was composed in what is called "Mod" format, popular on
+Amiga computers in the 90s and later also on PCs. Assembly is one of the
+worlds oldest and largest annual demoparties. In 2000 there were 4-5000
+visitors present at the event, and the associated TV footage from the event
+was watched by 170,000 viewers on Helsinki HTV-cable-tv and on the Internet.
+35,000 of these viewers were abroad.
+
+In 2002, the C64 composer Glenn Rune Gallefoss, well known and respected
+within the C64 community, produced a Commodore 64 version of this tune, with
+Tempest's blessing.
+
+In 2005, Timbaland produced a series of exclusive ringtones. One of these was
+called "Block Party" its release, being US specific, passed unnoticed, but it
+bore striking similarities to the 2002 cover of Acid Jazzed Evening.
+
+In 2006, Nelly Furtado released her new album "Loose", to a rapturous
+reception. Almost immediately Janne started to receive emails telling him of
+a problem with the track "Do It" appearing to feature his song. In October
+2006, the forum at Remix64.com noted the issue, becoming more and more
+concerned about the apparent similarities in the course of the thread.
+
+In January 2007, the story suddenly started to appear in blogs and forums,
+such as digg.com, slashdot.org and on YouTube. After that, the story has
+spread everywhere.
+
+Read more here:
+http://www.c64audio.com/timbaland.php
+
+A pretty complete collection of material about this incident on various
+websites can be found here:
+http://www.pelulamu.net/timbaland/
+
+
+#############################
+# Back in Time Live 2007!!! #
+#############################
+
+Chris Abbott did it again, there will be another BITLIVE event!
+
+When?      Friday 22nd June, 2007.
+Where?     Spitz Bistro/Nightclub in the heart of the City of London.
+Who?       Jeroen Tel performing live. Reyn Ouwehand performing live!
+           Schedule permitting, DJ Skitz on the decks!
+What else? Remixes galore in the cool heart of London.
+           Special guests.
+           Contests.
+           Prizes.
+           A CD Launch or two...
+           Only 200 guest list entries available.
+           
+It's "Back in Time Live": You know it will be unforgettable!
+
+http://www.c64audio.com/productInfo.php?cat=BITLIVE2007
+
+
+################################
+# SidTool, a new HVSC frontend #
+################################
+
+Gentlemen (and ladies), direct your eyes to a new SID application which
+was released recently: SidTool!
+
+What is it? Basically a frontend for Sidplay2/Tinysid and (get this!) the
+Vice commandline player with its hifi quality but CPU eating resampling
+modes!
+
+Some SIDTool features:
+
+    * First to Support WinVice for playing
+    * Support Sidplay2 for playback
+    * Support TinySID for playback
+    * HardSID support via TinySID
+    * Easy access to the entire High Voltage Sid Collection
+    * Easy single-click interface
+    * Songlength database support
+    * Continuous play to discover SIDs unknown to you
+    * Playlist support with ability to add certain subsongs
+      (not supported by WinVice)
+    * Experimental sid2midi support (sid2midi.exe not included)
+    * Built in search function for filenames, STIL and SID-Header
+    * STIL display
+    * Built on .NET framework 2.0 (required)
+    
+It's a perfect tool if you want to explore HVSC without having to assemble
+custom playlists first. Just navigate to a dir of choice, hit the
+"continuous" checkbox and let it doodle in the background for hours. Also
+great to switch between various players quickly or to generate your own
+playlists. And not to neglect, STIL integration and offline search function.
+If the HVSC Crew would have an award for really useful tools, this program
+would get it. But we don't have one, so we just recommend it wholeheartedly.
+:-)
+
+-> http://sidtool.drool.de
+
+
+
+We are always looking for others to help make HVSC a better
+collection.  If you find any errors or have new rips to add, please
+email:
+
+####################################################
+#       Jan Harries, Peter Sandén                  #
+#       and Stephan Schmid <hvsc@c64.org>          #
+####################################################
+
+Thanks to all the people who have helped to make HVSC the 
+collection that it is today, without your help it would be
+a much tougher task.
