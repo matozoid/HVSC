@@ -1,7 +1,7 @@
 #######################################################################
 #   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
 #   Maintained by iAN CooG <hvsc@c64.org>                             #
-#   Last Updated: May 1, 2012.                                        #
+#   Last Updated: August 6, 2012.                                     #
 #######################################################################
 #                                                                     #
 # The purpose of this text document is to highlight all the tunes     #
@@ -34,7 +34,7 @@
 #######################################################################
 
 ##############################
-# Bugged tunes as of HVSC 57 #
+# Bugged tunes as of HVSC 59 #
 ##############################
 
 /DEMOS/A-F/Digital_II.sid
@@ -101,6 +101,10 @@
 /MUSICIANS/M/MAC2/Amnesia_Intro_12.sid
   BUG: The tune starts to bug at the 01:39 mark. It's used in the intro to
   Bobix/Amnesia and the music data at $2000 were overwritten by gfx.
+(iAN CooG)
+
+/MUSICIANS/M/MHD/Airwolf.sid
+  BUG: Falls out of synch at around 0:53. No bad reads.
 (iAN CooG)
 
 /MUSICIANS/W/Walker_Martin/Indiana_Jones_Fate_of_Atlantis.sid

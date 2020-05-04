@@ -1,0 +1,308 @@
+High Voltage SID Collection: Update #58
+Date: December 21, 2012
+
+Resulting Version: 58
+ Previous Version: 57
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+After this update, the collection should contain 43,116 SID files!
+
+This update features (all approximates):
+     906 new SIDs
+     185 fixed/better rips
+       2 repeats/bad rips eliminated
+     971 SID credit fixes
+     111 SID model/clock infos
+      13 tunes from /DEMOS/UNKNOWN/ identified
+      14 tunes from /GAMES/ identified
+      33 tunes moved out of /DEMOS/ to their composers' directories
+      14 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+##############
+# SID-Wizard #
+##############
+
+Mihaly Horvath (Hermit) created an open-source C64 music tracker. This tracker
+runs on the C64 itself and has the following features:
+
+- 50 instruments
+- Optimized rastertime and small code size
+- No zeropage usage
+- 3x25 rows pattern-editing perspective
+- Goattrackker-like pattern-editing concept and keyboard control
+- Everything on one screen (except menu)
+- Polyphonic jamming mode with dovetailing
+- Realtime compression of pattern-data
+- Per-row based detuning and keyboard-tracking in arpeggio, pulsewidth, filter
+  instrument-tables, easier to do flexibel, lively sounds
+- Up to 8x (400Hz) multi-framespeed
+- Independent track-tempos / funktempos / tempo-programs and scrolling
+- 4 vibrato types
+- 3..4 simultaneous pattern effects are possible
+- Calculated vibrato and slide-portamento speed
+- Oscilloscope and pulsewidth/cutoff-frequency displayer bars
+- Save/export tune in SID format, runnable PRG format
+- Export/import to/from XM/MID format
+- and many more features...
+
+The tracker can be downloaded from:
+
+http://csdb.dk/release/?id=112716
+
+The source code can be found here:
+
+http://sourceforge.net/projects/sid-wizard/files/
+
+
+##############
+# Tiny'R'Sid #
+##############
+
+Jürgen Wothke created a Flash port of Tiny SID which can be used to play SID
+music online. The emulation core has been extended so that RSID tunes can be
+played as well. 
+
+Check it out: http://www.wothke.ch/tinyrsid/
+
+
+##########################
+# Player Identifier v1.0 #
+##########################
+
+Wilfred Bos has released Player Identifier (PI). PI is a command line tool
+which you can use to identify Commodore 64 music players in SID files.
+
+Player Identifier is inspired by the SIDId tool written by Cadaver of Covert
+Bitops. PI makes use of all available cores of the CPU and uses the BNDM search
+algorithm to search through SID files very quickly.
+
+For more info: http://csdb.dk/release/?id=112812
+
+
+###############
+# SIDId v1.09 #
+###############
+
+A new version of SIDId has been released. SIDId is a HVSC playroutine identity
+scanner made by Cadaver. The project is open-source and is written in C.
+
+The following changes have been made:
+
+- List full filenames when scanning for one player only
+- Fixed not recognizing the last byte of a file as part of a sequence
+
+Get the tool here: http://csdb.dk/release/?id=112201
+
+
+#####################
+# JSidDevice v1.4.2 #
+#####################
+
+A new version of JSidDevice has been released. JSidDevice is a network SID
+device which can be controlled by SID players like ACID64 Player. With version
+1.4.2 support for Digi Boost has been added for 8580 devices.
+
+Check out: http://sourceforge.net/projects/jsidplay2/files/jsiddevice/
+
+
+###################
+# Hoxs64 v1.0.7.5 #
+###################
+
+Hoxs64 v1.0.7.5 has been released. Hoxs64 is a C64 emulator for Windows XP/7.
+
+Changes:
+
+- Added point and click raster position breakpoints. Breakpoints can be disabled
+  with out being deleted.
+- Added command window with assemble, disassemble and C64 memory map selection.
+- Added disassemble window address finder.
+- Added disassemble window mouse wheel scrolling (WinXP+).
+- Randomisation of drive weak bits. Minor drive timing improvement.
+
+More info: http://www.hoxs64.net/
+
+
+############
+# VICE 2.4 #
+############
+
+VICE 2.4 has been released. VICE is an open source cross-platform emulator of
+several Commodore machines.
+
+This version has a lot of fixes and improvements. Audio related changes:
+
+- Rewrite of the sound system, output is now mono/stereo selectable.
+- Split off sid player from c64, new program is called vsid.
+- New 1541 drive sounds emulation.
+- SFX sound sampler, SFX sound expander and digimax extended to output in
+  stereo.
+- Added video to audio leak sound support.
+- Added Triple SID support.
+- Magic Voice cartridge emulation improvements.
+- Added PCI Catweasel support (DOS version).
+- Added PCI HardSID support (DOS version).
+
+http://vice-emu.sourceforge.net/
+
+
+##############
+# CGSC v1.23 #
+##############
+
+The Compute Sidplayer Collection has been updated and contains now:
+
+12483 MUS files, 3705 STR files and 4461 WDS files.
+
+For more info: http://www.c64music.co.uk/
+
+
+#############################################
+# UltimateAudio module for 1541 Ultimate-II #
+#############################################
+
+A new firmware for the 1541 Ultimate-II has been released (version 2.5+) which
+has an Ultimate Audio module included. The audio module has a special 7-voice
+audio engine which can be used by C64 software.
+
+Features:
+
+- 7 independent channels
+- 8 or 16 bit audio sample playback
+- sample rate up to 48 kHz
+- volume control per channel
+- panning control per channel
+- "a-b" looping
+- interrupt generation
+
+The new firmware can be downloaded from:
+
+http://www.1541ultimate.net/
+
+The Register API for the Ultimate Audio module can be found here:
+
+http://www.1541ultimate.net/content/download/1541u2_2.5_uaud.zip
+
+
+#############################
+# Ultimate Audio MOD Player #
+#############################
+
+Ultimate Audio MOD Player is a MOD player which can only be used on 1541U2 v2.5X
+(Audio Module version).
+
+Features:
+
+- Supports only uncompressed 4 channel MODs
+- Supports 15/31 samples
+- Uses amiga periods and supports finetunes
+- Supports every effect (except glissando... yet)
+
+Get it from: http://csdb.dk/release/?id=113522
+
+
+###################
+# MIDIbox ASIDITY #
+###################
+
+Sauraen and Oikanys are working on a new SID-based synthesizer called MIDIbox
+ASIDITY. This synthesizer will support up to 8 SID chips (4 x 6581 and 4 x 8580).
+
+For more info:
+
+http://midibox.org/forums/topic/16471-midibox-asidity/
+
+Here you can find a video about the MIDIbox ASIDITY:
+
+http://www.youtube.com/watch?v=G6kdKlcrVUQ
+
+
+################
+# Prg2Sid 0.65 #
+################
+
+Prg2Sid is a command line tool written by iAN CooG. With Prg2Sid you can convert
+PRG files to SID files. The tool automatically attaches a PSID header to a
+ripped (prg) tune.
+
+It can also identify some players and sets init/play accordingly. It also
+patches the header/code if needed.
+
+Get it from here: http://csdb.dk/release/?id=113557
+
+
+##########################################
+# Build your own Pocket SID Audio Player #
+##########################################
+
+Jeff Ledger created a Pocket SID Audio player. The SID player uses the Parallax
+Propeller micro controller and a SD card where the SID files are stored on.
+
+A manual is available to create your own Pocket SID Audio Player.
+
+The manual and software can be found here:
+
+http://www.instructables.com/id/Build-your-own-Pocket-SID-Audio-Player/?ALLSTEPS
+
+
+#####################################
+# MICRO64 1.00.2012.07.19 Build 713 #
+#####################################
+
+MICRO64 is a Commodore 64 emulator for Windows and Linux aimed to become the
+most accurate C64 emulator. Currently MICRO64 has two different VIC II
+emulation modes (both are half-cycle exact).
+
+The following SID related changes have been made since build 670:
+
+- Adjusted SID bus read behavior for "Last Ninja 3" for the case if no 1351
+  mouse is enabled.
+- Fixed SID digi boost
+- Fixed SID SINC resampling
+- "SSEized" SID SINC resampling and prepared these code parts for
+  "AVXiziation"
+- Updated PSID driver
+- Fixed bugs and implemented new features in the SID player mode
+- Fixed a small bug in the song switching routine in the SID player mode,
+  which was happened only at PSIDv2 SID files with C64 compatible mode flags
+  state
+  
+You can get the emulator here: http://www.micro64.de/
+
+
+###################
+# SID Known v1.05 #
+###################
+
+Wilfred Bos has released SID Known v1.05. This version supports now HVSC #58.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: http://csdb.dk/release/?id=113862
