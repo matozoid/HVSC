@@ -1,0 +1,225 @@
+High Voltage SID Collection: Update #60
+Date: December 22, 2013
+
+Resulting Version: 60
+ Previous Version: 59
+
+After this update, the collection should contain 44,670 SID files!
+
+This update features (all approximates):
+     825 new SIDs
+     233 fixed/better rips
+      11 repeats/bad rips eliminated
+     910 SID credit fixes
+     120 SID model/clock infos
+      24 tunes from /DEMOS/UNKNOWN/ identified
+       8 tunes from /GAMES/ identified
+      60 tunes moved out of /DEMOS/ to their composers' directories
+       7 tunes moved out of /GAMES/ to their composers' directories
+
+Another milestone reached: 44,000+ SIDs thanks to the never ending love
+from the C64 scene that still produces an amazing quantity of great tunes
+for our endless hunger for bleepy music. Keep this spirit alive!
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+Thanks to all the people who have helped to make HVSC the collection that
+it is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+##################
+# Sidplay64 v0.8 #
+##################
+
+Sidplay64 is a C64 program made by GRG / Shape to play back SID files. You can
+browse SID files from disk and it also has support for random playback of SIDs.
+Sidplay64 has support for 1541u, netdrive, iec, cmd, ide64 and Sd2iec.
+
+Changes in v08:
+
+- F7 key works as pause/continue.
+- Random routine is now more random in a increasing way.
+- 1541U2 software iec mode support.
+- Configure and clear registers for 2nd SID chip (for 2sid tunes).
+- An option to skip RSIDs and PSIDs using $0000 as play address on startup.
+- Skin color using keys 1-9 on startup.
+
+Check out: http://noname.c64.org/csdb/release/?id=126095
+
+
+###########
+# VICE.js #
+###########
+
+VICE.js is a JavaScript port of VICE 2.4 made by Richard Janicek.
+You need a very up-to-date browser like Chrome 33 or Firefox > 24 in order to
+run it.
+
+Have a look at: http://retroplay.co/c64/
+
+
+###################################
+# The Commodore 64 Mega SID quiz! #
+###################################
+
+C64TV created a SID quiz on YouTube with 236 audio samples from various
+Commodore 64 games.
+If you want to check if you can identify all the tunes just go to:
+
+http://www.youtube.com/watch?v=TrtM2e26Bbo
+
+
+###################
+# Hoxs64 v1.0.8.5 #
+###################
+
+Hoxs64 v1.0.8.0 has been released. Hoxs64 is a C64 emulator for Windows XP/7/8.
+
+Changes:
+
+- Fixed an EasyFlash cartridge fault when loading a 4KB CRT file or state file.
+- Added emulation state file save, load and restore facility.
+- Added Epyx Fastload cartridge.
+- Added screen border hide options.
+- Fixed Retro Reply cartridge banking fault.
+- Reworked the CPU code to accommodate XAA/ANE for a MOS8500.
+
+More info: http://www.hoxs64.net/
+
+
+################
+# ACID64 v3.50 #
+################
+
+A new version of ACID64 has been released. ACID64 is a cycle based player for
+Windows that can play SID tunes on sound devices with a real SID chip and via
+network devices that emulate the SID chip, like JSidDevice that is part of
+JSidplay2.
+
+Changes in version 3.5:
+
+- Fixed error when HVSC folder was not specified on some machines
+- Fixed error when opening certain MUS files
+- Layout issues fixed for different DPI settings
+- First file played is now always added to history list
+- Other small improvements
+
+The new version can be found at: http://www.acid64.com
+
+
+####################
+# TinyJSid - HTML5 #
+####################
+
+Jürgen Wothke created a HTML5 port of Tiny'R'Sid which can be used to play SID
+music online. Emscripten is used to port the C code to JavaScript.
+
+Check out: http://www.wothke.ch/experimental/TinyJsSid.html
+
+
+#############
+# SID Fixer #
+#############
+
+The SID Fixer is a small circuit board for installation inside your C64 or 128.
+It allows you to mount both an old and a new SID at the same time. This gives
+you the opportunity to manually switch between the two chips on-the-fly, but it
+also enables music player software to automatically select and use the
+appropriate SID.
+
+More info: http://noname.c64.org/csdb/forums/?roomid=14&topicid=99582
+
+
+##########################
+# HardSID Jukebox Top 20 #
+##########################
+
+Vincenzo made a 1,5 hour mix of all the tunes from the HardSID Jukebox Top 20
+which can be found here: http://c64jukebox.hardsid.com/
+
+Check out the BitJam Episode #177 Podcast:
+
+http://www.bitfellas.org/news.php?item.4457.23
+
+or download the MP3 directly:
+
+http://files.exotica.org.uk/?file=/bitfellas/podcast/bitjam_177.mp3
+
+
+###################
+# MIDIbox ASIDITY #
+###################
+
+Sauraen and Oikanys did work very hard this year on the MIDIbox ASIDITY. It is a
+new SID-based synthesizer. The synthesizer supports up to 8 SID chips (4 x 6581
+and 4 x 8580).
+
+Have a look at their latest video:
+
+http://www.youtube.com/watch?v=uBqS4LpXq5U
+
+More info on this project:
+
+http://midibox.org/forums/topic/16471-midibox-asidity/page-2
+
+
+###########
+# sID JAm #
+###########
+
+sID JAm is a "Battle of the Bands" style Commodore 64 music player. sID JAm
+randomly selects two tunes from all the available tunes in HVSC. It's up to
+you to decide winners or losers of this massive tournament.
+sID JAm uses JSidplay2 emulator to play the SID tunes.
+
+Get it here: http://www.sidjam.com/
+
+
+#############
+# GeekTunes #
+#############
+
+GeekTunes is a new music player for the iPhone with safety in mind. It has been
+designed for use in the car with big easy to use buttons so you can keep your
+hands more on the wheel while driving. GeekTunes plays C64 SID, Amiga MOD and
+IT/XM/S3M files.
+
+More info: https://sites.google.com/site/geektunes2/
+
+
+######################
+# NinjaTracker V2.04 #
+######################
+
+NinjaTracker is a music editor with a quite minimal feature set that runs on
+the Commodore 64/128.
+The new version only includes some bug fixes.
+
+Get the new version here: http://noname.c64.org/csdb/release/?id=119721
+
+
+###################
+# SID Known v1.07 #
+###################
+
+Wilfred Bos has released SID Known v1.07. This version supports now HVSC #60.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: http://csdb.dk/release/?id=126286
