@@ -1,7 +1,7 @@
 #######################################################################
 #   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
 #   Maintained by iAN CooG <hvsc@c64.org>                             #
-#   Last Updated: July 02, 2010                                       #
+#   Last Updated: May 1, 2012.                                        #
 #######################################################################
 #                                                                     #
 # The purpose of this text document is to highlight all the tunes     #
@@ -34,30 +34,24 @@
 #######################################################################
 
 ##############################
-# Bugged tunes as of HVSC 54 #
+# Bugged tunes as of HVSC 57 #
 ##############################
+
+/DEMOS/A-F/Digital_II.sid
+  BUG: Original has part of the samples overwritten by a ML monitor, hence
+       playing "garbage" at some point (0:32-0:33 and 1:02-1:03). This rip
+       has that sample repaired. No other good source known.
+(iAN CooG)
 
 /DEMOS/UNKNOWN/Wham.sid
   BUG: Has a lot of wrong sounds inside, obviously a bad rip.
        Sounds bad from 2:12.
 (Ramos)
 
-/GAMES/G-L/Impossible_Mission_II.sid
-  BUG: In-game tunes are missing (6 or 7) variants of the tune which
-       is the melody you have to find in safes by blowing them up and
-       then assemble and play using the tape recorder.
-(Jaromir Król)
-
 /GAMES/M-R/Project_Firestart.sid
   BUG: Missing several in-game jingles from the various meanwhile scenes,
        and background tunes.
 (Ville Nurmi)
-
-/GAMES/M-R/Rollin.sid
-  BUG: Game has two missing in game tunes (UK Atlantis release (Rollin!)
-       has the tunes on.  One plays ingame, one plays if you leave the
-       game on demo mode.
-(Gazi)
 
 /GAMES/S-Z/Shackled.sid
   BUG: Subtune #2 falls out of sync upon looping, but so does the original game.
@@ -84,7 +78,7 @@
   BUG: Falls out of synch after around 5:10.
        Feekzoid confirmed that this tune was never finished:
        "Comfortably Numb was never finished, I actually stopped working on it
-       about 1 min in... but when I disovered the file years later I jumbled
+       about 1 min in... but when I discovered the file years later I jumbled
        up the patterns a bit in order to make it follow the original song as
        best as possible.. but yes... as you discovered... it falls apart later
        on."
@@ -104,7 +98,12 @@
   Logosland 2 by Draco, the music data is missing there too.
 (Mariusz)
 
-/MUSICIANS/W/Walker_Martin/Indiana_Jones_Fate_of_Atla.sid
+/MUSICIANS/M/MAC2/Amnesia_Intro_12.sid
+  BUG: The tune starts to bug at the 01:39 mark. It's used in the intro to
+  Bobix/Amnesia and the music data at $2000 were overwritten by gfx.
+(iAN CooG)
+
+/MUSICIANS/W/Walker_Martin/Indiana_Jones_Fate_of_Atlantis.sid
   BUG: Falls out of synch at around 1:40. No bad reads.
 (Abaddon)
 

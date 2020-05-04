@@ -1,0 +1,392 @@
+High Voltage SID Collection: Update #57
+Date: June 24, 2012
+
+Resulting Version: 57
+ Previous Version: 56
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+After this update, the collection should contain 42,212 SID files!
+
+This update features (all approximates):
+     975 new SIDs
+     239 fixed/better rips
+      13 repeats/bad rips eliminated
+    3136 SID credit fixes
+     396 SID model/clock infos
+      38 tunes from /DEMOS/UNKNOWN/ identified
+      18 tunes from /GAMES/ identified
+      72 tunes moved out of /DEMOS/ to their composers' directories
+      24 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc@c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+#######################################
+# Home Computer by Press Play on Tape #
+#######################################
+
+PPOT released their third album 'Home Computer' with a brilliant mix of new
+remixes, some original tracks, and remakes of their older tracks.
+
+They have launched the CD on May 12th at their live concert.
+
+Check out:
+
+http://www.pressplayontape.com/
+
+
+##############
+# CCS64 V3.9 #
+##############
+
+CCS64 V3.9 has been released. The following has been fixed/changed:
+
+- FIX: The TAP of the game 'Bombuzal' now loads properly.
+- FIX: A random slow-down problem has been fixed.
+- FIX: The 'Sync To Screen' option has been fixed.
+
+http://www.ccs64.com/
+
+
+###################
+# C64 Bass Keytar #
+###################
+
+Jeri Ellsworth showed a Commodore 64 based bass guitar at the
+"Bay Area Maker Fair". She combined a bass guitar with a C64 and a FPGA system.
+The FPGA system reads the signals from the guitar strings and the C64 keyboard.
+The input is processed by the FPGA and send to a real SID chip to produce the
+sound.
+
+Check it out here:
+
+http://www.synthtopia.com/content/2012/05/20/jeri-ellsworth-her-commodore-64-bass-guitar-thing/
+
+
+############
+# SIDboard #
+############
+
+Stefan Noack developed a hardware SID device using an Atmel Atmega162 micro
+processor. ACID 64 Player is used to play the SID tunes on the SIDboard. The
+project is open source and the schematics and firmware is available to build
+your own SIDboard.
+
+See the demonstration and details here:
+
+http://www.youtube.com/watch?v=qnngOMU8Wp0
+
+
+#################
+# JSidplay2 2.5 #
+#################
+
+JSidplay2 version 2.5 has been released. JSidplay2 is a Commodore 64 emulator
+specialized for sound reproduction. It is also a SID player for music
+collections like HVSC and CGSC.
+
+Get it from: http://jsidplay2.sourceforge.net/
+
+
+###################################################
+# SID CHIP SOUNDS – THE MUSIC OF THE COMMODORE 64 #
+###################################################
+
+"SID Chip Sounds – The Music Of The Commodore 64" is a compilation of music
+from classic Commodore 64 computer games. The 18 original pieces of music have
+been remastered for this release on gatefold double vinyl, CD and download.
+
+Check out:
+
+http://www.robotelephant.co.uk/post/14167812637/new-release-sid-chip-sounds-the-music-of-the
+
+The Vinyl and CD are also available on several shops like:
+
+http://c64audio.com/
+http://www.amazon.com/
+http://www.bol.com/
+
+
+##############
+# PSID64 0.9 #
+##############
+
+PSID64 version 0.9 has been released by Roland Hermans. PSID64 is a tool for
+converting SID tunes into PRG files.
+
+New features:
+
+- Added support for PSID/RSID v3 formats.
+- When applicable display info for second SID.
+- Prebuilt binary for OS X (Lion) available.
+
+Get it from: http://psid64.sourceforge.net/news.php
+
+A WIN32 build can be found here: http://csdb.dk/release/?id=104424
+
+
+######################
+# CheeseCutter 2.3.2 #
+######################
+
+CheeseCutter 2.3.2 has been released. CheeseCutter is an open source
+cross-platform music editor build around the JCH-editor. CheeseCutter is made
+by Abaddon of Fairlight.
+
+Check out: http://theyamo.kapsi.fi/ccutter/
+
+
+###################
+# JSidDevice v1.4 #
+###################
+
+A new version of JSidDevice has been released. JSidDevice is a network SID
+device which can be controlled by SID players like ACID64 Player. With version
+1.4 you're now able to select the sound card which should be used.
+
+Check out: http://sourceforge.net/projects/jsidplay2/files/jsiddevice/
+
+
+######################
+# TriBorg-SID-Player #
+######################
+
+TriBorg released a SID player for the HIVE computer system. The SIDs can be
+stored on the SD card in DMP format which can be created with the SIDDumper
+tool.
+
+See the demonstration and details here: http://hive-project.de/content/2403
+
+
+##############
+# CGSC v1.22 #
+##############
+
+The Compute Sidplayer Collection has been updated and contains now:
+
+12228 MUS files, 3597 STR files and 4360 WDS files.
+
+For more info: http://www.c64music.co.uk/
+
+
+########################################
+# FPGA SID emulation on AlienCortex AV #
+########################################
+
+syso4 has created SID emulation on a AlienCortex AV board. ACID 64 Player
+is used to play the SID tunes.
+
+See the two demos here:
+
+http://www.youtube.com/watch?v=tgX873AzbT8
+http://www.youtube.com/watch?v=twzoIpvYIT4
+
+
+###################
+# Hoxs64 v1.0.7.4 #
+###################
+
+Hoxs64 v1.0.7.4 has been released. Hoxs64 is a C64 emulator for Windows XP/7.
+
+Changes:
+
+- The application is marked as "DPI Aware" now.
+- Added a work in progress breakpoint listview with context menu options.
+- Illegal opcode tweak for demo 'Errata' by Emulamer.
+- Fixed stack corruption crash when reading G64 files with custom speed zones.
+- Fixed application lock up bug while drag scrolling the disassembly window.
+
+More info: http://www.hoxs64.net/
+
+
+##################################
+# C64 Music Player for Bada 2.0+ #
+##################################
+
+C64 Music Player is a SID player for Samsung Bada 2.0 platform. With this
+application you can browse through HVSC and check top rated songs and featured
+songs for each day. It supports extended stereo separaton as well.
+
+Get it from here:
+
+http://www.samsungapps.com/topApps/topAppsDetail.as?productId=G00003522662
+
+
+###########################
+# SID Player for Nokia N9 #
+###########################
+
+SID Player is a music player application for the Nokia N9 smartphone that can
+play music made for the Commodore 64 computer.
+
+Check it out here: https://sites.google.com/site/pmlswd/sid-player
+
+
+###################
+# MIDIbox ASIDITY #
+###################
+
+Sauraen and Oikanys are working on a new project called: MIDIbox ASIDITY. The
+synthesizer is built with the NXP LPC1769 processors and MIDIbox SID software.
+The system will control up to 8 Commodore 64 SID sound chips (4 x 6581 and
+4 x 8580) and it will have the following features: 160 modulators, 256 SID
+controls, 44 knobs, 240 buttons, 760 LEDs and a built-in 32-track step
+sequencer.
+
+See the demonstration here:
+
+http://www.youtube.com/watch?v=fEBtCp4_rTg
+
+More info on the project:
+
+http://midibox.org/forums/topic/16471-midibox-asidity/
+
+
+################
+# Sidreloc 1.0 #
+################
+
+Linus Akesson has released Sidreloc. Sidreloc is a tool for relocating SID
+tunes using a novel but remarkably simple algorithm. It can also relocate all
+zero-page variables used by the tune.
+
+Sidreloc is capable of relocating 91% of HVSC out of the box. Many of the
+remaining tunes can be relocated by tweaking the settings to fit them.
+
+More info: http://www.linusakesson.net/software/sidreloc/index.php
+
+A WIN32 build can be found here: http://csdb.dk//release/?id=109000
+
+
+##################
+# Xsidplay 2.1.2 #
+##################
+
+XSidplay2 version 2.1.2 for Linix has been released.
+
+XSIDPLAY2 is a QT based SID music player for Linux. It is based onto Michael
+Schwendt's XSIDPLAY. The latest version now uses libsidplayfp with resid 1.0 by
+default.
+
+Check out: http://xsidplay2.sourceforge.net/
+
+
+#####################################
+# MICRO64 1.00.2012.06.16 Build 691 #
+#####################################
+
+MICRO64 is a Commodore 64 emulator for Windows and Linux aimed to become the
+most accurate C64 emulator. Currently MICRO64 has two different VIC II
+emulation modes (both are half-cycle exact).
+
+The following has been changed/added:
+
+- Updated PSID driver
+- Added fast cold reset at switching between SID sub songs
+- Fixed bugs and implemented new features in the SID player mode
+- 1541 emulation optimizations and bug fixes
+- Enabled EasyFlash write back support
+- Added cartridge write back option setting
+- Added optional filter for too NRZI transition pulses (a ka fluxes), whose
+  time distance is smaller than or equal 2.5 microseconds.
+- Fixed a possible deadlock bug in 1541 emulation routines.
+- Fixed some bugs in the G64 loader and writer
+- Added enhanced settings for VIC-II sound audio leak stuff (DC offset
+  removal filter, additional 15 kHz noise, etc.)
+- Fixed some small beauty-bugs in both VIC-II emulations
+- Added on/off setting for OpenGL canvas texture interpolation as wished by
+  some people
+- Added "HLT is jam" on/off setting
+- Fixed swapped-little-endian/big-endian-bug in the CRT cartridge loader
+- The Mac OS X build is a 32-bit & 64-bit Intel x86 Universal Binary now.
+- Added 64-bit Windows build
+- Fixed corrupted side border graphics bug in the second fast dynamic pixel
+  block-wise VIC-II emulation.
+
+MICRO64 is under heavy development and is updated regularly.
+
+Check out: http://micro64.de/
+
+
+##############################
+# Vicious SID Converter v0.3 #
+##############################
+
+Vicious SID Converter converts SID files from the C-64 to SID-emulating programs
+for the VIC-20.
+
+New features:
+- more usable zero-page locations
+- song is selectable for analysis & conversion
+- improved analyser
+
+Get it from here:
+
+http://code.google.com/p/vic20emu/downloads/detail?name=VicSidCon-0.3.zip&can=2&q=
+
+
+##################
+# SID-Blaster/ZX #
+##################
+
+SID-Blaster/ZX is a new soundcard for the ZX-Spectrum compatible computers made
+by Sergey Bagan (Prusak) and Alexander Alexandrow (Byteman).
+
+It features the following:
+
+- MOS 6510 CPU
+- 64KB RAM
+- Direct playing of PSID and RSID tunes
+- PAL/NTSC compatible
+- Support 6581 and 8580 SID chip
+
+Details can be found here: http://zxbyte.ru/sid_blaster_en.htm
+
+
+######################
+# VirtualC64 0.9.6.1 #
+######################
+
+VirtualC64 0.9.6.1 has been released. VirtualC64 is a C64 emulator for Mac OS X.
+
+Changes:
+
+- Lions native fullscreen mode now works as expected (no more ugly borders) 
+- Removed old fullscreen mode which frequently crashed on lion machines 
+
+More info: http://www.dirkwhoffmann.de/virtualc64/
+
+
+###################
+# SID Known v1.04 #
+###################
+
+Wilfred Bos has released SID Known v1.04. This version supports now HVSC #57.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: http://csdb.dk/release/?id=109492

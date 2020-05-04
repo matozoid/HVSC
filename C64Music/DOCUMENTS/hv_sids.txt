@@ -2,9 +2,9 @@
                         T H E   H I G H   V O L T A G E
                           S I D   C O L L E C T I O N
 
-                                  Release 56
+                                  Release 57
 
-                              December 23, 2011
+                                June 24, 2012
 
 Compiled by:
 ------------
@@ -20,6 +20,8 @@ Current Members:
     The Shark of INC <shark (sid) dhp.com> - USA
     Simon White <sidplay2 (sid) yahoo.com> - ENGLAND
     Rafal Szyja (Raf/Vulture Design) <rafalszyja (sid) poczta.onet.pl> - POLAND
+    Stephan Schmid - GERMANY
+    Tobias Samuelsson (McLoaf) - SWEDEN
 
 Retired Members:
     Michael Schwendt - GERMANY
@@ -36,11 +38,10 @@ Retired Members:
     Luca di Pasquale - GERMANY
     Jan Diabelez Arent Harries - DENMARK
     Adam Lorentzon - SWEDEN
-    Stephan Schmid - GERMANY
     Andreas Varga (mr.sid) - AUSTRIA
     Andrzej Wilk (Motion/GMI) - NEW ZEALAND
     Oliver VieBrooks (Six/DLoc) - USA
-    Tobias Samuelsson (McLoaf) - SWEDEN
+
 
 
           -> Members of the C64 Historical Preservation Society! <-
@@ -481,7 +482,7 @@ such as SIDedit.
       RELEASED  : 1989 Silverbird
 
       <RELEASED  date is not exactly known and crack intro has a date or>
-      <you know an approximate copyright date.  Dates in crack intro, by>
+      <you know an approximate released date.  Dates in crack intros, by>
       <the way, can often be extremely inaccurate compared to the actual>
       <copyright date of the game.                                      >
 
@@ -492,12 +493,12 @@ such as SIDedit.
       Here is a list of how the RELEASED year is handled for various
       cases:
 
-      198? - tune is made in the '80s
-      199? - tune is made in the '90s
-   1988-89 - exact year in which tune was made is not known, but it is
-             known that the tune was made in this range.
-      19?? - tune was made in the 20th century.
-      200? - tune was made between 2000-2009
+      198? - tune is released in the '80s
+      199? - tune is released in the '90s
+   1988-89 - exact year in which tune was released is not known, but it is
+             known that the tune was released in this range.
+      19?? - tune was released in the 20th century.
+      200? - tune was released between 2000-2009
 
    -------------------
    SID Credit Pointers
@@ -520,9 +521,9 @@ such as SIDedit.
        made for that demo, then you can use the demo's name as the title,
        together with its part or tune number (if known), provided the composer
        did not give the tune a name.  Often the first few characters of the
-       tune reveal the name, so please do check when ripping.
+       tune's binary reveal the name, so please do check when ripping.
 
-   (5) DO NOT PUT A SPACE AFTER THE '=' CHARACTER IN THE SID HEADER!
+   (5) DO NOT PUT SPACES BEFORE AND AFTER THE CREDITS IN THE SID HEADER!
        (A space should not be the first character of any credit field)
 
    (6) Try to follow standard English capitalisation rules when inserting
@@ -563,8 +564,7 @@ such as SIDedit.
 
   (10) The documentation that is included with SIDPlay includes a large
        quantity of information about how to get C64 tunes working with
-       SID Emulators.    However, please note that rips should work on
-       a real C64.
+       SID Emulators. However, please note that rips should work on a real C64.
 
        Please refer to chapter [3-5] Ripping SID tunes
 
