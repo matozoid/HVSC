@@ -1,0 +1,249 @@
+High Voltage SID Collection: Update #64
+Date: December 23, 2015
+
+Resulting Version: 64
+ Previous Version: 63
+
+After this update, the collection should contain 47,518 SID files!
+
+This update features (all approximates):
+     672 new SIDs
+     132 fixed/better rips
+       5 repeats/bad rips eliminated
+     812 SID credit fixes
+     133 SID model/clock infos
+      10 tunes from /DEMOS/UNKNOWN/ identified
+       4 tunes from /GAMES/ identified
+      22 tunes moved out of /DEMOS/ to their composers' directories
+      12 tunes moved out of /GAMES/ to their composers' directories
+
+Merry HVSCmas SID fans, here we are with the 2nd favourite update of the year
+with the usual loads of recently made tunes, old scavenged ones and tons of
+better SID rips to keep you busy during the cold winter holidays.
+Another milestone has been reached with 47,500 tunes, with a total of 650
+made this year. Amazing.
+This update is dedicated to Ramos/HVSC^Samar who suddenly passed away in
+August, at the young age of 39. Thanks for everything, rest in peace and see
+you in another life.
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+#######################
+# The FPGASID Project #
+#######################
+
+Andi6510 is working on SID related FPGA project based on the Altera MAX10 FPGA.
+The hardware replaces the real SID chip and can be used directly in the target
+hardware like in a Commodore 64.
+
+More info:
+
+https://sites.google.com/site/fpgasid/project-definition
+
+
+######################
+# SIDin Magazine #15 #
+######################
+
+SIDin Magazine #15 has been released. The magazine includes SID news, an
+interview with Matt Gray, an article about the inside of Matt Gray's Serpent
+Demo player and a review of the JSidplay2 SID player.
+
+Get it here: http://iceteam.altervista.org/sidin.php
+
+
+#################################
+# World's Smallest C64 Emulator #
+#################################
+
+Staringlizard started a Kickstarter project with the goal to make the world's
+smallest C64 emulator with the original SID chip inside. Unfortunately the
+project's funding goal was not reached.
+The hardware would have include a MCU chip, RAM, support for microSD card,
+support for USB keyboards, HDMI output and a socket for a real SID chip.
+
+More info:
+
+https://www.kickstarter.com/projects/1524339386/worlds-smallest-c64-emulator
+
+
+##################
+# Station64 v2.4 #
+##################
+
+Station64 is a live player solution made by DJ Indikator. The program runs on a
+C64 and can be controlled via Midi input or C64 keyboard.
+
+New features in version 2.4:
+
+- HerMIDI midi interface support (w/o ASID support)
+- Namesoft midi interface support
+- Autodetect midi interface (hermidi/datel/passport/sequental)
+- Namesoft wrong detected as sequental
+- Raw midi can test MIDI-OUT
+- Test tone has 2 modes - one note/repeated notes
+- Arpeggiator now available
+
+Fixes/changes:
+- Rewritten midi engine to CIA 1/100 calling instead of raster 1/50
+- Midi interface setup changed (hide useless custom settings from user)
+- The "const" parameter unlink from test tone pitch, now CONST PITCH has its
+  own value INPUT byte recognizer bug
+
+The new version can be found here: http://csdb.dk/release/?id=142049
+
+
+########################
+# SID Anthology Vol. 1 #
+########################
+
+Chris Hülsbeck released a new album called "SID Anthology Vol. 1". This is the
+first volume of the SID Anthology, the definitive collection of Original Sound
+Version recordings from the Commodore C64 by Chris Hülsbeck. Painstakingly mixed
+and mastered to be enjoyed on modern stereo systems as well as headphones while
+still preserving the vibe of the original hardware, this C64 music can now be
+experienced in previously unheard quality.
+
+Get the album here:
+
+https://chrishuelsbeck.bandcamp.com/album/sid-anthology-vol-1
+
+
+##########################
+# SD2IEC SID Player V2.1 #
+##########################
+
+Epy released version 2.1 of his SID player. This program works together with a
+SD2IEC device and a SID card on the Commodore Plus/4 and is compatible with PAL
+and NTSC.
+
+Changes in this version:
+
+- a new playlist system
+- SID card detection
+
+More info: http://plus4world.powweb.com/software/SD2IEC_SID_Player_V2
+
+
+###############
+# Tel Me More #
+###############
+
+Jeroen Tel started a project on Indiegogo called "Tel Me More" to get funding
+for his new album. The project was 71% funded. The album will include remakes
+of his most memorable Commodore 64 video game soundtracks.
+
+More info:
+
+https://www.indiegogo.com/projects/jeroen-tel-tel-me-more-c64-game-music-remakes
+
+
+################
+# CCS64 v3.9.2 #
+################
+
+CCS64 V3.9.2 has been released. The following has been fixed/changed:
+
+- Fix: Level of Game Moon Shuttle cannot not be completed.
+- Fix: There are several graphical glitches in the demo Edge Of Disgrace.
+- Add: New options for Brightness/Contrast have been added to the Palette menu.
+- Add: Experimental mouse support in the <F9> Textual Menu system.
+
+CCS64 V3.9.2 was originally released on 30/08/2015 but re-released on
+08/09/2015 in order to fix an application hanging issue, due to the handling of
+system resources.
+
+Check out: http://www.ccs64.com
+
+
+###################
+# Sidplay64 V1.00 #
+###################
+
+Sidplay64 is a C64 program made by GRG / Shape to play back SID files. You can
+browse SID files from disk and it also has support for random playback of SIDs.
+Sidplay64 has support for 1541 Ultimate I & II, REU, netdrive, iec, cmd, ide64
+and Sd2iec.
+
+The following has been fixed/changed in V1.00:
+
+- Support for displaying the song length of the default song of a SID file
+- Tool made by Tom-Cat for injecting song length into SID header
+- Improved support for 1541 Ultimate II cartridge
+- Some fixes
+
+Get it here: http://csdb.dk/release/?id=143743
+
+
+#################################
+# Interview with Matthew Cannon #
+#################################
+
+Scott talks to Matthew Cannon about the musical revolution that happened in the
+eighties and early 90s in video game soundtracks. Matthew worked at Ocean
+Software and composed music for games like Navy Seals, Batman: The Movie,
+Elf, and many more. Matthew worked on C64, Amiga, SNES, Megadrive, and other
+systems. How did these systems work and what can they teach us about computing
+today?
+
+Listenen to the show/interview here:
+
+http://hanselminutes.com/498/sid-chips-and-c64-music-with-ocean-softwares-matthew-cannon
+
+
+#######################
+# PlayEm64 V1.2 Tools #
+#######################
+
+TheRyk released a tool collection which include PlayEm64, TimeEm64 and PlayIt64.
+
+PlayEm64 V1.2 is a tool enabling you to play SID files on your C=64.
+TimeEm64 V0.9 is a tool for creating custom files with song length information.
+PlayIt64 V1.1 is a tool for creating executable PRGs for single SID files.
+
+More info: http://csdb.dk/release/?id=143476
+
+
+############################################
+# Interview with Xiny6581 and Dr.J/Delysid #
+############################################
+
+GeoAnas interviewed Xiny6581 and Dr.J/Delysid. Read the interviews here:
+
+http://www.iamretro.gr/a-sid-adventure-introducing-xiny6581-dees-productions-digital-sounds-system-gheymaid-inc-hitmen-sid-ryders-skalaria/
+
+and
+
+http://www.iamretro.gr/a-sid-adventure-introducing-dr-j-delysid/
+
+
+###################
+# SID Known v1.11 #
+###################
+
+Wilfred Bos has released SID Known v1.11. This version supports now HVSC #64.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: http://csdb.dk/release/?id=143841
