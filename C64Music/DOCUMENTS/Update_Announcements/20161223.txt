@@ -39,9 +39,31 @@ several Commodore machines.
 This version has a lot of fixes and improvements since the last official
 release.
 
-Check it out here:
+VICE 3.0 also includes VSID which can be used to play SID files.
 
-https://sourceforge.net/projects/vice-emu/files/releases/
+Changes in VSID:
+
+- New RSID BASIC tunes support
+- New Compute Gazette SIDplayer files (mus/str) support
+- New psid v4 3sid support
+
+You can get VICE from here:
+
+http://vice-emu.sourceforge.net/
+
+
+###############################################
+# Reformation C64 Track Remakes by Matt Gray  #
+###############################################
+
+Two years ago Matt Gray launched the Reformation project on Kickstarter. Matt
+just released disc 1 & 2 of Reformation digitally and also the Last Ninja 2
+soundtracks were released recently. The two bonus discs will appear in the
+coming weeks. Also the physical products will then go out.
+
+Check out all the updates:
+
+https://www.kickstarter.com/projects/1289191009/reformation-c64-track-remakes-by-matt-gray-last-ni/updates
 
 
 #########
@@ -52,12 +74,12 @@ exSID USB is a USB audio device that can control a real 6581 and 8580 SID chip.
 It is natively supported by sidplayfp. The hardware can be used on Linux, OSX
 and Windows. The project was inspired by the SIDBlaster/USB hardware project.
 
-The hardware schematics, firmware and software are available on the projects
+The hardware schematics, firmware and software are available on the project's
 home page.
 
 More info:
 
-http://hacks.slashdirt.org/hw/exsid/ which is supported by sidplayfp
+http://hacks.slashdirt.org/hw/exsid/
 
 
 #################
@@ -136,6 +158,19 @@ Features:
 Get it here: http://csdb.dk/release/?id=149773
 
 
+#################
+# JSIDPlay2 3.7 #
+#################
+
+JSidplay2 version 3.7 has been released. JSidplay2 is a Commodore 64 emulator
+specialized for sound reproduction. It is also a SID player for music
+collections like HVSC and CGSC. It is a full C64 emulator and can play games of
+the GameBase64 project as well.
+The emulator is written in Java and runs on any environment that runs Java 8.
+
+Get it from: http://csdb.dk/release/?id=149812
+
+
 ################################
 # ESP8266 Wireless SID Project #
 ################################
@@ -184,6 +219,17 @@ JTAG interface for FPGA updates and debugging
 - FPGA developers are encouraged to help with the debugging.
 
 More info: http://www.fpgasid.de/
+
+
+###################
+# JSidDevice v3.7 #
+###################
+
+A new version of JSidDevice has been released. JSidDevice is a network SID
+device which can be controlled by SID players like ACID64 Player. You have to
+have Java 8.0 installed on your machine in order to run JSIDDevice.
+
+Check out: http://csdb.dk/release/?id=149813
 
 
 #############################
