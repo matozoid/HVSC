@@ -1,13 +1,14 @@
-December 21, 2014
+June 27, 2015
 
 (1) The new HVSC Update Tool only currently works on these platforms:
 
      - Windows (95 through to Win8)
      - Linux (Intel, ELF)
 
-    Note also that as of HVSC Update #55, you _must_ use Update Tool
-    2.8.5 upwards.  This is because the script relies on new directives
-    which are only specified in this new version.
+    Note also that as of HVSC Update #63, you _must_ use Update Tool
+    2.8.7 upwards.  This is because the script relies on new directives
+    which are only specified in this new version and it's compatible with
+    the new v3 and v4 PSID specifications.
 
     Note that the Windows executable is the only version included
     with this Update.  Please see the HVSC web page for links to
@@ -17,7 +18,7 @@ December 21, 2014
     also do so if you would like to provide publicly available ports of
     the Update Tool for any other popular operating system.
 
-    HVSC Update Tool 2.8.5 is backwards compatible with HVSC 2.0 upwards.
+    HVSC Update Tool 2.8.7 is backwards compatible with HVSC 2.0 upwards.
     If you wish to apply an HVSC update older than this one, you are
     advised to use the latest HVSC Update Tool included in this update.
 
@@ -57,4 +58,4 @@ December 21, 2014
     You will damage some SIDs if you do!
 
 
-HVSC Web Page -> http://www.hvsc.c64.org/
+HVSC Web Page -> http://hvsc.c64.org/

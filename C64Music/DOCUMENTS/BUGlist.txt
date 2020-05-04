@@ -1,7 +1,7 @@
 #######################################################################
 #   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
 #   Maintained by iAN CooG <hvsc@c64.org>                             #
-#   Last Updated:  September 11, 2014.                                #
+#   Last Updated:  May 24, 2015.                                      #
 #######################################################################
 #                                                                     #
 # The purpose of this text document is to highlight all the tunes     #
@@ -43,17 +43,9 @@
          has that sample repaired. No other good source known.
 (iAN CooG)
 
-/DEMOS/UNKNOWN/Leave_Me_Alone.sid
-    BUG: Falls out of sync upon looping. No bad reads.
-(iAN CooG)
-
 /DEMOS/UNKNOWN/Misc_Tune_05.sid
     BUG: Subtune #1 plays bad notes at 0:46. No bad reads.
 (Wilfred)
-
-/DEMOS/UNKNOWN/Outrun.sid
-    BUG: Falls out of sync upon looping. No bad reads.
-(iAN CooG)
 
 /DEMOS/UNKNOWN/Wham.sid
     BUG: Has a lot of wrong sounds inside, obviously a bad rip.
@@ -179,6 +171,3 @@
     BUG: Contains bad data and sounds bad at 1:15, one voice pitch up too much.
 (iAN CooG)
 
-/MUSICIANS/Y/Yazz/Zenobits_Intro.sid
-    BUG: Falls out of synch at around 1:32. No bad reads.
-(McLoaf)

@@ -1,0 +1,409 @@
+High Voltage SID Collection: Update #63
+Date: June 27, 2015
+
+Resulting Version: 63
+ Previous Version: 62
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+After this update, the collection should contain 46,851 SID files!
+
+This update features (all approximates):
+     798 new SIDs
+     121 fixed/better rips
+       3 repeats/bad rips eliminated
+     412 SID credit fixes
+      67 SID model/clock infos
+       8 tunes from /DEMOS/UNKNOWN/ identified
+      19 tunes from /GAMES/ identified
+      24 tunes moved out of /DEMOS/ to their composers' directories
+      22 tunes moved out of /GAMES/ to their composers' directories
+
+It's summertime again, and as usual it's HVSC Update time aswell! More and
+more new SID music is being produced everyday and as usual we are glad to
+collect and bring them all to you, adding some corrections as we find them
+or when we are reported about fixes to do.
+Introducing 3SIDs from this release. See DOCUMENTS/SID_file_format.txt for
+the specifications about new SID v4 file format. An updated SID player is
+required. Known players which are already supporting the new format are:
+ACID64 v3.6, JSIDPlay2 v3.6, VICE/VSID v2.4.20 rev. 29809.
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+####################
+# MG Tracker V0.71 #
+####################
+
+Samar Productions released Matt Gray Tracker which is a music editor for the
+player of Matt Gray. The editor can be downloaded here:
+
+http://csdb.dk/release/?id=138493
+
+
+##############################################################
+# Project Sidologie - JARRE style Commodore 64 music remakes #
+##############################################################
+
+Marcel Donné started a Kickstarter project with the goal to make an album of
+Commodore 64 music remakes with classic JARRE and Vangelis soundscapes. The
+project was successful funded and will be released in February 2016.
+
+More info:
+
+https://www.kickstarter.com/projects/c64audio/project-sidologie-jarre-style-commodore-64-music-r
+
+
+##########################
+# SidTracker 64 for iPad #
+##########################
+
+The SidTracker 64 is a complete chiptune production package for iPad made by
+Daniel Larsson. It features a new emulation of the SID soundchip found in the
+commodore 64, a sequencer, instrument editor including advanced wavetable
+editing and MIDI input with assignable controls for any control surface.
+
+You can even export the chiptune to play it back on a real Commodore 64.
+
+Check it out: http://sidtracker64.com/
+
+
+###################
+# Sidplay64 V0.92 #
+###################
+
+Sidplay64 is a C64 program made by GRG / Shape to play back SID files. You can
+browse SID files from disk and it also has support for random playback of SIDs.
+Sidplay64 has support for 1541 Ultimate I & II, REU, netdrive, iec, cmd, ide64
+and Sd2iec.
+
+The following has been fixed in V0.92:
+
+Fixed
+- Replaced the red border skin. We use red border as a error message.
+- 1541u2: display: Error with song numbers above 10.
+Added
+- 1541u2: loading dir: display maxfiles while loading dir.
+- 1541u2: turn off screen when loading file.
+Behaviour
+- When you get a red border the dir will NOT be reloaded.
+
+Fixes in V0.90:
+
+Added
+- 1541U2 command interface routines.
+- REU support, possible with 65534 filenames in a directory.
+- A few routines optimized for size.
+- Attract mode.  A scrolling message.
+- Joystick mode for port #1.
+- S Turns screen on/off, this to reduce video chip noise.
+Updated
+- ClrHome (+shift) keys has changed to crsr left and crsr right.
+- Select skin colors with 0-9. New skins.
+- M now selects Manual, Next, Random.
+Removed
+- R and N keys.
+Disabled
+- 1541U2 software iec mode support.
+
+Get it here:
+
+http://sourceforge.net/projects/sidplay64/files
+
+
+#################
+# Virtuoso 0.96 #
+#################
+
+Hein Holt created a C64 music editor that runs on the C64. It has a nice
+interface and the player supports 8 commands per tick. The editor comes with
+some examples tunes as well.
+
+Check it out: http://csdb.dk/release/?id=139247
+
+
+#########################
+# GoatTracker/Mac V2.73 #
+#########################
+
+GoatTracker is a cross-platform and open source C64 music editor made by
+Cadaver. The Mac port is done by Mr. SID. The new Mac version is a small bug
+fix release which fixes issues related to MIDI keyboard support and other
+small issues. It works properly with Retina displays and has audio buffering
+improvements for better playback.
+
+More info: http://csdb.dk/release/?id=136414
+
+
+##################
+# JSIDPlay2 V3.6 #
+##################
+
+JSidplay2 version 3.6 has been released. JSidplay2 is a Commodore 64 emulator
+specialized for sound reproduction. It is also a SID player for music
+collections like HVSC and CGSC. It is a full C64 emulator and can play games of
+the GameBase64 project as well.
+The emulator is written in Java and runs on any environment that runs Java 8.
+
+New in version 3.6:
+
+- Small bug fixes and performance improvements.
+- PSIDv4 support (3-SID music entries).
+- Choose between ReSID 1.0 beta and Resid-fp Distorion simulation for each SID.
+- Change all emulation parameters on-the-fly while playing.
+
+Get it from: http://csdb.dk/release/?id=138820
+
+
+###################
+# Hoxs64 v1.0.8.8 #
+###################
+
+Hoxs64 v1.0.8.8 has been released. Hoxs64 is a C64 emulator for Windows XP/7/8.
+
+Changes:
+
+- Disk drive VIA fixes to pass the VICE testprogs\drive\viavarious test programs.
+- Sound improvement fix for the last part of Comaland 2014.
+- Windows GUI fixes.
+
+
+##############
+# CGSC v1.30 #
+##############
+
+The Compute Sidplayer Collection has been updated and contains an extra 506 MUS,
+4 STR & 163 WDS files.
+The totals are now 14397 MUS files, 4139 STR files and 4948 WDS files.
+
+Get the collection here: http://www.c64music.co.uk/
+
+
+###########################
+# ACID 64 Player Pro V3.6 #
+###########################
+
+A new version of ACID64 has been released. ACID64 is a cycle based player for
+Windows that can play SID tunes on sound devices with a real SID chip and via
+network devices that emulate the SID chip, like JSidDevice that is part of
+JSidplay2.
+
+Changes in version 3.6:
+
+ - Added 3SID support
+ - Added support for SIDBlaster USB device. Latest drivers can be found here: SIDBlaster USB driver BETA
+ - Fixed minor speed difference for PSID tunes that use CIA timer without setting $DC04
+ - Fixed searching and changing filter type afterwards
+ - Fixed device selection box which could collapse immediately after it was dropped down
+ - Emulation improvements
+ - Index file is now by default stored in local appdata folder
+ - File indexing improvements
+ - Search extended with filename/file path search
+ - Text can now be pasted into ACID64 for direct searching
+ - Added "Search files in index for this folder name" when right click on folder name
+ - Added "Search in index for this filename" when right click on filename
+ - Added support for running a Network SID Device on a different machine
+ - Improved check for legacy HardSID devices. No registry entry required anymore
+ - Small improvements
+
+The new version can be found at: http://www.acid64.com
+
+
+###################
+# JSidDevice v3.6 #
+###################
+
+A new version of JSidDevice has been released. JSidDevice is a network SID
+device which can be controlled by SID players like ACID64 Player. This version
+requires Java 8 and it has support for both ReSID-fp and ReSID 1.0 emulation
+implementations. ReSID 1.0 devices are named: Light*, Average*, Dark*.
+
+Check out: http://csdb.dk/release/?id=138821
+
+
+###############################################################
+# Chris Huelsbeck - The Piano Collection & Limited Score Book #
+###############################################################
+
+Chris Hülsbeck started a Kickstarter project with the goal to make an album and
+limited edition biographical score book of his greatest hits. The project was
+successful funded and will be released in August 2015.
+
+More info:
+
+https://www.kickstarter.com/projects/chris-huelsbeck/chris-huelsbeck-the-piano-collection-and-limited-s/description
+
+
+######################
+# XSidplay2 - v2.1.6 #
+######################
+
+Tognon Stefano (ice00) released a new version of XSidplay for Linux.
+XSidplay is a SID music player for Linux, initially developed by Michael
+Schwendt.
+
+Changes in this version:
+
+- QT5 porting
+- Use libsidplayfp 1.7.0
+- Fix basic and chargen loading roms
+- Fix save playlist action
+
+Get it here: http://sourceforge.net/projects/xsidplay2/
+
+
+####################################
+# The Sidplayer Channel on Youtube #
+####################################
+
+Tristan Miller created a channel about Sidplayer tunes on Youtune which
+contains high-definition recordings of Sidplayer tunes for the Commodore 64 and
+128.
+
+Check it out: https://www.youtube.com/channel/UC09nk830-OZlmrMJaMuNXKQ
+
+
+##################
+# INSIDIOUS 6581 #
+##################
+
+INSIDIOUS is an instrument created with REAKTOR from Native Instruments. The
+instruments is a near-perfect emulation of the extraordinary Commodore 64
+sound chip. Included are all features of the original hardware:
+
+- Three channels with Triangle, Square/PWM, Sawtooth, Noise and combined
+  oscillators.
+- Ring modulation and hard sync.
+- The classic SID saturating filter that is incredibly important but missing on
+  most emulations.
+- LFOs and envelopes for pulse width, pitch, amplitude and filter cutoff.
+- Step table at up to 50Hz for that genuine sound.
+
+In order to use INSIDIOUS you have to have REAKTOR installed on your computer.
+
+Some demonstration which plays the R-Type tune:
+
+https://www.youtube.com/watch?v=Vt0K8vM_4HQ
+
+More info:
+
+https://www.native-instruments.com/en/community/reaktor-user-library/entry/show/8572/
+
+
+###########################
+# Raspberry Pi SID Player #
+###########################
+
+The Raspberry Pi SID player is a device developed by Bob Szymanski which allows
+you to play music from the Commodore 64 computer using original audio hardware
+(the "SID" chip) through the Raspberry Pi. In addition to supporting the vast
+library of classic game music from the Commodore 64, this player also supports
+the playback of homebrew Commodore 64 music.
+
+More info: http://www.acsu.buffalo.edu/~robertsz/projects/SID/index.html
+
+
+##############
+# PSID64 1.1 #
+##############
+
+PSID64 version 1.1 has been released by Roland Hermans. PSID64 is a tool for
+converting SID tunes into PRG files.
+
+New features:
+
+- Added song length and progress bar support.
+- Accept directory as input and/or output path.
+- Use song length database from HVSC directory if no database was specified.
+- Added -t option to specify a driver theme.
+
+Get it from: http://csdb.dk/release/?id=139014
+
+
+#############
+# Station64 #
+#############
+
+Station64 is a live player solution made by DJ Indikator. The program runs on a
+C64 and can be controlled via Midi input or C64 keyboard.
+
+Main features:
+
+- 3 voice polyphony or unison for fat sounds
+- full 3 osc control via midi
+- use midi channel -> sid osc mapping for flexible control
+- fine tune for each osc
+- 2 lfo/env (4 stage) with apply to pitch/pulsewidth/filter cut
+- total monitoring all midi activity
+- advanced glide and pitch wheel control
+- fast on-screen help
+- zero latency (on real Commodore)
+- tested on C64 / C128 (in c64 mode)
+- works with 8580/6581 on PAL/NTSC (auto detection) machines
+- screen-off for more clean sound from SID
+- configurable with any MIDI cartridge
+- works with any disk drive (+some additional features for SD2IEC users) to
+  load/save created programs banks
+- 16 programs (can change from external midi too)
+
+More info: http://csdb.dk/release/?id=139033
+
+
+##############
+# foobar2000 #
+##############
+
+foobar2000 is an advanced freeware audio player for the Windows platform. The
+SID decoder has been updated which now supports resid-fp SID emulation.
+
+The player can be downloaded here: http://www.foobar2000.org/
+The SID decoder can be found here: http://www.foobar2000.org/components/view/foo_sid
+
+
+##############################
+# SID Sounds for MPowerSynth #
+##############################
+
+40 classic Chiptune sounds in the C64's SID chip style are recreated for the
+MPowerSynth synthesizer.
+
+The sounds can be downloaded here:
+
+http://www.zentralmassiv-sound.com/drupal/sidsounds
+
+More info about the MPowerSynth:
+
+http://www.meldaproduction.com/plugins/product.php?id=MPowerSynth
+
+
+###################
+# SID Known v1.10 #
+###################
+
+Wilfred Bos has released SID Known v1.10. This version supports now HVSC #63.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: http://csdb.dk/release/?id=139309
