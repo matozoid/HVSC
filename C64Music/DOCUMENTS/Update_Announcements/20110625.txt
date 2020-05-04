@@ -1,0 +1,192 @@
+High Voltage SID Collection Update 55
+Date: June 25, 2011
+
+Resulting Version: 55
+ Previous Version: 54
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+
+After this update, the collection should contain 40,400 SID files!
+
+This update features (all approximates):
+     804 new SIDs (62 2SIDs)
+     113 fixed/better rips
+       4 PlaySID/Sidplay1 specific SIDs eliminated
+      30 repeats/bad rips eliminated
+     742 SID credit fixes
+     176 SID model/clock infos
+      16 tunes from /DEMOS/UNKNOWN/ identified
+       4 tunes from /GAMES/ identified
+      36 tunes moved out of /DEMOS/ to their composers' directories
+       2 tunes moved out of /GAMES/ to their composers' directories
+
+Please note that from this update we've introduced PSID v3 format to allow
+SID files meant to be played in stereo, and the 31 character limit on the
+text fields AUTHOR, TITLE, RELEASED of SID files has been relaxed, allowing
+now all 32 chars to be used. Also filename length limit is completely gone,
+to allow filenames longer than 32 characters.
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc@c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+############################################
+# 1541 Ultimate II cartridge SID emulation #
+############################################
+
+A new firmware for the 1541 Ultimate II cartridge has been released. Since
+version 2.1 it includes full SID emulation. It supports emulation of 2 SID
+chips and it also has a special mode to give every SID 5 channels more.
+Wouldn't it be nice to see a music player/editor making use of 16 SID voices?
+
+With the emulation of 2 SID chips it is now possible to play 2SID (stereo SID)
+files on the 1541 Ultimate II cartridge without modifying your C64/C128.
+
+More info: http://1541ultimate.net/
+
+
+##################
+# SID Known v1.0 #
+##################
+
+Wilfred Bos has released SID Known v1.0. SID Known is a command line tool which
+you can use to identify SID tunes from SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: http://noname.c64.org/csdb/release/?id=99895
+
+
+############################
+# JCH-editor 3.1 + NP22-25 #
+############################
+
+Dane from Booze Design released a new version of the JCH-editor. This is an
+updated version of the JCH-editor together with a pack of different music
+players for that system.
+
+More info: http://noname.c64.org/csdb/release/?id=100406
+
+
+######################
+# CheeseCutter 0.4.0 #
+######################
+
+CheeseCutter is an open source cross-platform music editor build around the
+JCH-editor. CheeseCutter is made by Adaddon of Fairlight.
+
+http://noname.c64.org/csdb/release/?id=98644
+
+
+############
+# Vice 2.3 #
+############
+
+Vice 2.3 has been released. Vice is an open source cross-platform emulator of
+several Commodore machines.
+
+This version has a lot of fixes and improvements. It also has a major reSID
+overhaul:
+
+* Emulation of all known pipeline delays for full cycle accuracy.
+* New shift register model based on revectorized die photograps.
+* Accurate DAC models based on revectorized die photograps.
+* Emulation of floating waveform DAC input for waveform 0.
+* Advanced 6581 transistor level filter model based on revectorized
+  die photograps, yielding unprecedented accuracy.
+* ReSID's resampler has been optimized with MMX assembly. Some long-standing
+  bugs in resample-interpolate mode were also fixed.
+* ReSID-FP has been optimized, too. It clocks the analog parts at half the
+  rate now, which saves CPU during filter emulation especially for 6581 modes.
+
+Check it out at: http://vice-emu.sourceforge.net/
+
+
+###################
+# Hoxs64 v1.0.7.2 #
+###################
+
+Hoxs64 v1.0.7.2 has been released. Hoxs64 is a C64 emulator for Windows XP/7.
+
+Changes:
+
+* Fixed broken 320x200 and 320x240 modes.
+* Added option for disabling DWM (Aero) for full screen mode.
+* Text rendering bug fix to disassembly window.
+* Added trace till IRQ/NMI function.
+* Potential missed breakpoint while tracing bug fix.
+* Miscellaneous monitor GUI fixes and improvements.
+* VIC sprite collision timing fixes.
+* VIC phase 2 fetch fix for Ruined Art demo.
+* Improved CPU disassembly monitor. Instruction based scrolling. Separate CPU
+  windows allow both clock step and instruction step with ablility to step
+  through the IRQ and NMI cycles. VIC raster line and cycle is displayed.
+* Fix to CIA Timer B bug.
+* ALT Q key nuisance fixed.
+
+See: http://www.hoxs64.net/
+
+
+#####################################
+# Stereo SID board for C64 and C128 #
+#####################################
+
+Digital Audio Concepts released a compact, feature-filled dual-SID board,
+designed to provide a proper way to mount a second SID inside your C64 or C128
+without resorting to the old piggyback hack.
+
+More info: http://digitalaudioconcepts.com/
+
+
+#############
+# HybridSID #
+#############
+
+Markus Gritsch has designed and build a hybrid between an emulated and a
+hardware SID player. The CPU and CIA stuff runs emulated on a PIC32 and the
+sound is generated by a hardware SID chip.
+
+http://dangerousprototypes.com/forum/viewtopic.php?f=56&t=2197
+
+
+#####################################
+# 8580 SID player in a Pioneer case #
+#####################################
+
+Peter has finished building a MOS8580 SID player build in a Pioneer DT 555
+case.
+
+More info: http://noname.c64.org/csdb/forums/?roomid=7&topicid=84611
+
+
+#######################
+# SID on ZX Spectrum  #
+#######################
+
+Alexander has modified his russian clone of the ZX Spectrum, the Scorpion
+ZS-256, and connected a 8580 SID chip to it. He ported a SID player and can now
+play SID tunes on has ZX Spectrum clone.
+
+Have a look here: http://www.youtube.com/watch?v=Z1MKvA46Os0
+More info: http://www.lemon64.com/forum/viewtopic.php?t=37669
