@@ -1,0 +1,2138 @@
+# High Voltage SID Collection Update #3
+# Date: February 29, 1997
+
+# There are not many new tunes in this update due to a bug in SIDPlay.
+# This bug caused us to think that the tunes were in fact bugged.  The
+# alledged bugged tunes were fixed to work with earlier versions of
+# SIDPlay.  Once the bug in SIDPlay was discovered, these same tunes
+# has to be returned to their original state (the tunes in /bnkswtch).
+# Sorry for the inconvience.  Read the SIDPlay revision log for more
+# information.
+
+# Despite most of the tunes in this update not being new, many of the
+# new tunes are tunes that several have requested.  Also, many tunes
+# have been moved to different directories.  For instance, the MON
+# directory has now been split between mainly Tel and Deenen.  Another
+# example is that the European and USA games have been merged into
+# one.  A final major advancement of Update #3 is the massive number
+# of credit fixes.
+
+# Enjoy the new and fixed tunes.
+
+# After this update, the collection should contain _4868_ SID tunes!
+#
+# This update features (all approximates):
+#      75 new SIDs
+#      30 fixed/better rips
+#     119 bank switching & nmi fixes
+#      45 repeats/bad rips eliminated
+#     257 SID credit fixes
+#
+# We are always looking for others to help make HV SIDs a better
+# collection.  If you find any errors or have new rips to add, please
+# email both of the people below:
+
+#	The Shark of INC <inc@asu.edu> or <shark@dhp.com>
+#	Jan Diabelez Arnt Harries (Rambones/TST) <nmioaon@vip.cybercity.dk>
+
+# Thanks to all the people who have helped to make HV SIDs the great
+# collection that it is.
+
+# ****************************************************
+# ** 		      MISC 		            **
+# ****************************************************
+
+MOVE
+\games\euro_a-f\deathorg.dat
+\derrett\
+\games\euro_a-f\creature.dat
+\rowlands\
+\games\euro_a-f\creatrs2.dat
+\rowlands\
+
+\games\euro_a-f\
+\games\a-f\
+
+DELETE
+\games\euro_g-l\intensit.dat
+\games\euro_g-l\jetboys.dat
+
+MOVE
+\games\euro_g-l\
+\games\g-l\
+
+DELETE
+\games\euro_m-r\retrogra.dat
+MOVE
+\games\euro_m-r\retrogri.dat
+\rowlands\
+\games\euro_m-r\roadwarr.dat
+\derrett\
+
+\games\euro_m-r\
+\games\m-r\
+
+\games\euro_s-z\vengeanc.dat
+\derrett\
+
+\games\euro_s-z\
+\games\s-z\
+
+DELETE
+\games\euro_a-f\
+\games\euro_g-l\
+\games\euro_m-r\
+\games\euro_s-z\
+
+MOVE
+# More people prefer the USA games to be combined into
+# one gaming category.  Further, I am not so sure all of
+# the games in the USA dir are USA games.  Hence, it
+# makes sense to merge them all.
+\games\usa\4th&inch.dat
+\games\a-f\
+\games\usa\azteccha.dat
+\norman\
+\games\usa\bluemax.dat
+\games\a-f\
+\games\usa\boulderd.dat
+\games\a-f\
+\games\usa\breakdan.dat
+\games\a-f\
+\games\usa\burgerti.dat
+\games\a-f\
+\games\usa\cmcsgm12.dat
+\games\a-f\
+\games\usa\cmcslv12.dat
+\games\a-f\
+\games\usa\cmcslv34.dat
+\games\a-f\
+\games\usa\cmcslv56.dat
+\games\a-f\
+\games\usa\cmcslv78.dat
+\games\a-f\
+\games\usa\comcsttl.dat
+\games\a-f\
+\games\usa\congobon.dat
+\games\a-f\
+\games\usa\dallas.dat
+\games\a-f\
+\games\usa\forbidd1.dat
+\norman\
+\games\usa\forbidd2.dat
+\norman\
+\games\usa\franticf.dat
+\games\a-f\
+\games\usa\frogger.dat
+\games\a-f\
+
+\games\usa\masterof.dat
+\games\m-r\
+\games\usa\mrdocstl.dat
+\games\m-r\
+\games\usa\mule.dat
+\games\m-r\
+\games\usa\pacman.dat
+\games\m-r\
+\games\usa\pacrunnr.dat
+\norman\
+\games\usa\pitfall.dat
+\games\m-r\
+\games\usa\pitfall2.dat
+\games\m-r\
+\games\usa\poolofra.dat
+\games\m-r\
+\games\usa\rogrrbbt.dat
+\games\m-r\
+
+\games\usa\sentinel.dat
+\norman\
+\games\usa\skyfox.dat
+\games\s-z\
+\games\usa\snowstri.dat
+\games\s-z\
+\games\usa\spyhuntr.dat
+\games\s-z\
+\games\usa\spyvsspy.dat
+\games\s-z\
+\games\usa\ssbaseba.dat
+\games\s-z\
+\games\usa\ssbasket.dat
+\games\s-z\
+\games\usa\standstn.dat
+\games\s-z\
+\games\usa\summerg1.dat
+\games\s-z\
+\games\usa\supercyc.dat
+\games\s-z\
+\games\usa\superhue.dat
+\norman\
+\games\usa\tourdefr.dat
+\games\s-z\
+\games\usa\ultima5.dat
+\games\s-z\
+
+DELETE
+\games\usa\archon.dat
+\games\usa\califgms.dat
+\games\usa\racingde.dat
+\games\usa\summerg2.dat
+\games\usa\ultima_3.dat
+\games\usa\ultima4.dat
+\games\usa\wintrgms.dat
+\games\usa\worldgms.dat
+
+MOVE
+\games\usa\
+\games\g-l\
+
+DELETE
+\games\usa\
+
+# ****************************************************
+# ** 		      REPLACED 		            **
+# ****************************************************
+
+# These tunes are replacements for the versions currently
+# in HV SIDs.  This could be for various reasons such as
+# more sub-tunes, fixing a speed problem, 100% rip, etc.
+
+
+# Merged!
+DELETE
+\20cc\sophist1.dat
+\20cc\sophist2.dat
+\20cc\sophist3.dat
+\20cc\sophist4.dat
+\20cc\sophist5.dat
+\20cc\sophist6.dat
+MOVE
+\update\20cc\sophist3.dat
+\20cc\
+
+MOVE
+# This rip has one additional tune. - Deadman
+\update\bjerrega\m_a_c_h.dat
+\bjerrega\
+DELETE
+\bjerrega\mach.dat
+
+REPLACE
+# Includes more sub-tunes. - Rambones
+\update\clarke\taipan.dat
+\clarke\
+
+# Tune #3 now plays correctly. - Wilfred Bos
+\update\crowther\ratt3.dat
+\crowther\
+DELETE
+\crowther\rttslctr.dat
+
+REPLACE
+# tune #1 now plays correctly. - Inge
+\update\daglish\harveyhe.dat
+\daglish\
+
+# This rip has one additional tune. - Deadman
+\update\demos\ubiksmsc.dat
+\demos\
+
+MOVE
+# New rip.  Tune #1 sounds better. - The Mage
+\update\demos\unknown\synthsa.dat
+\demos\unknown\
+DELETE
+\demos\unknown\synthmus.dat
+
+REPLACE
+
+# Samples fixed by Deadman; PSID compt removed by The Mage.
+\update\follin\peterpac.dat
+\follin\
+
+# Now plays at the correct speed. - Mr. SID
+\update\galway\shortcir.dat
+\galway\
+
+# Terra Cresta (new rip) now plays at correct speed. - The Mage
+\update\galway\terracre.dat
+\galway\
+
+# This rip has three additional tunes. - Deadman
+\update\games\a-f\abyss.dat
+\games\a-f\
+
+# This rip doesn't have an initial click. - Deadman
+MOVE
+\update\derrett\jetboys.dat
+\derrett\
+
+REPLACE
+# Tune #1 plays at correct speed plus a sub-tune added. - K. Johansson
+\update\games\g-l\jetsetwi.dat
+\games\g-l\
+
+# This rip has one additional tune. - Deadman
+\update\games\g-l\kgbagent.dat
+\games\g-l\
+
+# spacerdr.dat & wonderbo.dat includes sound effects. - Deadman
+# thrustii.dat has an additional tune. - Deadman
+# tohellnb.dat has fx/sub-tunes. - Deadman
+\update\games\s-z\
+\games\s-z\
+DELETE
+\games\s-z\tohell&b.dat
+
+REPLACE
+# Samples are better! - Deadman.
+\update\hubbard\arcadecl.dat
+\hubbard\
+
+# Samples sound much better now.  Also, 2 new sub-tunes. - Deadman
+\update\hubbard\bmx_kidz.dat
+\hubbard\
+
+# Samples are better! - Deadman.
+\update\hubbard\1on1_2lo.dat
+\hubbard\
+\update\hubbard\skateord.dat
+\hubbard\
+
+# More tunes including tunes not even used in the
+# original game in this rip. - Deadman
+\update\huelsbec\tobeonto.dat
+\huelsbec\
+
+MOVE
+# Tune #2 now plays at correct speed. - K. Johansson
+\update\kimmel\crazysa2.dat
+\kimmel\
+DELETE
+\kimmel\crazy001.dat
+\kimmel\crazy002.dat
+
+MOVE
+# Has two more sub-tunes. - Rambones
+\update\tel\supremac.dat
+\tel\
+DELETE
+\mon\supremac.dat
+
+# Full rip. - Rambones
+MOVE
+\update\deenen\backfut3.dat
+\deenen\
+DELETE
+\mon\bttf3int.dat
+\mon\bttf3lv2.dat
+
+REPLACE
+
+# These JCH tunes only worked in SIDPlay MSDOS due to some
+# incorrect sample conversion/method used. - Deadman
+# easy.dat  little.dat  shift.dat
+\update\jch\
+\jch\
+
+# This rip has two additional A-Man tunes. - Deadman
+DELETE
+\various\a-man\xtczak.dat
+MOVE
+\update\various\a-man\moozpack.dat
+\various\a-man\
+
+
+# ****************************************************
+# ** 			NEW TUNES 		    **
+# ****************************************************
+
+MOVE
+
+# From Kristoffer Johansson & Deadman:  sophi3lo.dat
+# From Wilfred:  note.dat
+\update\20cc\
+\20cc\
+
+# From Kristoffer Johansson
+\update\beben\starforc.dat
+\beben\
+
+# From Deadman:  bloodval.dat  deathwi3.dat
+# From Kristoffer Johansson:  basilmou.dat  northstr.dat
+\update\daglish\
+\daglish\
+
+# From Mr. SID:  thedayaf.dat  zynon.dat
+# From Inge:  amc.dat  dingvanc.dat
+\update\deenen\
+\deenen\
+
+# From Deadman:  mandroid.dat  stratton.dat
+# From The Mage:  thndcrss.dat
+\update\derrett\
+\derrett\
+
+# From Deadman
+\update\galway\microp_i.dat
+\galway\
+
+# From Deadman: ballblaz.dat  birdmoth.dat
+#               bumpinbu.dat  donalddu.dat
+#                 drelbs.dat  flyerfox.dat
+#               advtactf.dat  eliteldr.dat
+#               catacomb.dat
+#
+# Elite loader is from the company Elite, not the game Elite.
+# The loader was used on Commando and Bombjack to name a few.
+#
+# From The Mage:  bouldas2.dat
+# From Inge:  crystldz.dat  dizzydow.dat  dizzyprn.dat
+#             buckrodg.dat
+# From K. Johansson:  crackdwn.dat  druid.dat
+#                         fury.dat
+\update\games\a-f\
+\games\a-f\
+
+# From Deadman: greatesc.dat  grell_fa.dat      hawk.dat
+#               lethal.dat
+# From K. Johansson:  incshrsp.dat
+\update\games\g-l\
+\games\g-l\
+
+# From Deadman:   mad_max.dat  nemesis.dat
+#                pogo_joe.dat  prjstlth.dat  pyamaram.dat
+#                powerats.dat
+# From K. Johansson & Deadman: nexus.dat
+# From Rambones:  lightwav.dat
+# From The Mage:   rampage.dat
+# From Inge:  rocketra.dat
+
+\update\games\m-r\
+\games\m-r\
+
+# From Deadman:  scarabae.dat  showjump.dat
+#                youngone.dat
+# From The Mage:  spacetax.dat
+# From Inge:  sleepwlk.dat
+# From K. Johansson: threemsk.dat
+\update\games\s-z\
+\games\s-z\
+
+# From Deadman:
+\update\gray_f\metaboli.dat
+\gray_f\
+
+# From Kristoffer Johansson
+\update\gray_m\mazemani.dat
+\gray_m\
+
+# From Deadman: docthede.dat
+# From Inge: sherlock.dat
+\update\holland\
+\holland\
+
+# From Deadman: powrphoc.dat
+# From The Mage: ricochet.dat
+\update\hubbard\
+\hubbard\
+
+# Renaming...
+\huelsbec\starball.dat
+\huelsbec\starba_i.dat
+
+# From Inge:  starball.dat
+# From Rambones: downat_i.dat
+\update\huelsbec\
+\huelsbec\
+
+# From Deadman
+\update\leitch\emlynhug.dat
+\leitch\
+
+# From Mr. SID
+\update\mon_unk\scfootbl.dat
+\mon_unk\
+
+# From Deadman:  amazonwa.dat  cavernso.dat
+\update\norman\
+\norman\
+
+# From Mr. SID
+\update\ouwehand\tetris_p.dat
+\ouwehand\
+
+# From Rambones:  viz.dat
+# From Mr. SID:  melig.dat  violin.dat
+# From Inge:  badbld_e.dat  badbld_i.dat  badbld_t.dat
+#             digipiec.dat
+\update\tel\
+\tel\
+
+# From Deadman
+\update\yip\uunoturh.dat
+\yip\
+
+# ****************************************************
+# ** 		REPEATS / BAD RIPS		    **
+# ****************************************************
+
+# aaaaarg!
+
+DELETE
+
+# a bad rip of \20cc\sophist4.dat (or sophist3.dat tune#4)
+\20cc\20cc.dat
+
+# same as \schneidr\babylon4.dat
+\20cc\bloede.dat
+
+# a bad rip of \baldwin\garfield.dat
+\baldwin\demonin2.dat
+
+# a bad rip of \bjerraga\can'tsto.dat
+\bjerrega\johan002.dat
+
+# same as \daglish\benmus1.dat tune #11 (Cachapaya)
+\daglish\cachapay.dat
+
+# a bad rip of \deek\propagan.dat
+\deek\ranxde.dat
+
+# same as hairytos.dat
+\deek\richa001.dat
+
+# same as \various\banana\ibmmus10.dat
+\demos\icepirat.dat
+
+# same as \various\scortia\hrdglide.dat
+\demos\me!.dat
+
+# same as \various\laxity\manimali.dat
+\demos\sentence.dat
+
+# a bad rip of \jch\chordian.dat
+\demos\success.dat
+
+# same as \schneidr\paranom.dat tune #1
+\demos\unknown\badtaste.dat
+
+# same as \laxity\yieldpoi.dat
+\demos\unknown\myieldpo.dat
+
+# same as \soedesof\trailrem.dat
+\demos\unknown\tangerin.dat
+
+# same as \mon\amyloid.dat
+\demos\unknown\untit034.dat
+
+# same as \detert\dynamoid.dat tune #2
+\detert\assassin.dat
+
+# All in the Drax dir...left-to-right in order
+#  unknown.dat  hiscorii.dat   heaven.dat
+#  scarlet.dat  boneless.dat  -drax16.dat
+# skinflnt.dat  junkzakk.dat  crooner.dat
+#   baboon.dat   highway.dat
+\drax\-drax01.dat
+\drax\-drax02.dat
+\drax\-drax04.dat
+\drax\-drax14.dat
+\drax\-drax15.dat
+# busynosa.dat has a click at the start
+\drax\busynosa.dat
+\drax\-drax18.dat
+\drax\-drax25.dat
+\drax\-drax27.dat
+\drax\-drax28.dat
+\drax\-drax29.dat
+
+MOVE
+\drax\-drax16.dat
+\drax\busynosa.dat
+
+DELETE
+# same as \fame\puffyssg.dat tune #3
+\fame\fameagai.dat
+
+# same as \fame\x-out.dat tune #15
+\fame\x-outhis.dat
+
+# a bad rip of \games\g-l\galactic.dat
+\games\a-f\cyborg.dat
+
+# same as \beben\ransack.dat
+\games\m-r\ramsack.dat
+
+# same as \jch\training.dat
+\jch\easterpa.dat
+
+# same as \jch\g_after.dat
+\jch\lvl1.dat
+\jch\lvl2.dat
+\jch\lvl3.dat
+\jch\lvl4.dat
+\jch\lvl5.dat
+
+# same as \link\psychotn.dat
+\link\7deadfsh.dat
+
+# same as \demos\unknown\houbba_v.dat
+\link\oldlevl1.dat
+CREDITS
+\demos\unknown\houbba_v.dat
+Old Level 1
+Klaus Grongaard
+Vibrants PLAYER: v6
+MOVE
+\demos\unknown\houbba_v.dat
+\link\oldlevl1.dat
+
+DELETE
+# same as \bjerrega\kamikaze.dat
+\mon\kamikaze.dat
+
+# same as \bjerrega\strboxin.dat
+\mon\speedcre.dat
+
+# same as \various\gaunt\pw_botha.dat
+\various\gaunt\sonics#3.dat
+
+# same as \various\gaunt\lambala4.dat
+\various\gaunt\thatwast.dat
+
+# same as \various\jeff\previwtn.dat
+\various\jeff\dejskrbr.dat
+CREDITS
+\various\jeff\previwtn.dat
+Dejskraber
+Jeff
+1991 Camelot
+MOVE
+\various\jeff\previwtn.dat
+\various\jeff\dejskrbr.dat
+
+DELETE
+# bugged rip of \winterbr\dancesam.dat
+\winterbr\michaelw.dat
+
+# ****************************************************
+# **               SID TUNE CREDITS                 **
+# ****************************************************
+
+# Thanks to the tons of people who helped find the correct credits.
+# Special thanks to Adam Lorentzon, JCH, Wilfred, and The Mage for
+# a ton of help with the credits.
+
+CREDITS
+
+\20cc\megamix.dat
+1988 top 40 MEGAMIX
+Edwin van Santen
+1988 20th Century Composers
+
+\bjerrega\strboxin.dat
+Street Cred Boxing
+Johannes Bjerregård
+1989 WOW Software / Reptilla
+
+\brandt\bob_morm.dat
+*
+Georg Brandt <?>
+1988 Infogames
+
+\crowther\blackthu.dat
+*
+Anthony Crowther
+1985 Alligata
+
+\demos\decoder.dat
+<?>
+Decoder
+<?> Decoder
+
+\demos\flotsam.dat
+<?>
+Flotsam
+<?> Flotsam
+
+\demos\onlyyou.dat
+*
+Jeroen Tel
+1987 Helmond Cracking Service
+MOVE
+\demos\onlyyou.dat
+\tel\
+
+CREDITS
+\demos\slaygon.dat
+<?>
+Slaygon
+<?> Slaygon
+MOVE
+\demos\slaygon.dat
+\various\slaygon\
+
+CREDITS
+\demos\thesyndr.dat
+<?>
+Syndrom
+<?> Syndrom
+MOVE
+\demos\thesyndr.dat
+\various\syndrom\syndr_un.dat
+
+CREDITS
+\demos\unknown\beastieb.dat
+<?>
+Charles Deenen
+<?> Charles Deenen
+MOVE
+\demos\unknown\beastieb.dat
+\deenen\
+
+CREDITS
+\demos\unknown\brandish.dat
+Ninetyseven
+Peter Hoelsken (Brandis)
+1988 Peter Hoelsken
+MOVE
+\demos\unknown\brandish.dat
+\demos\
+
+CREDITS
+\demos\unknown\dasboot.dat
+*
+Flash / FCG
+198? Flash
+MOVE
+\demos\unknown\dasboot.dat
+\demos\
+
+CREDITS
+\demos\unknown\defender.dat
+Defender of the Crown (remix)
+Ramiro Vaca (Extermer)
+1987 Ramiro Vaca
+MOVE
+\demos\unknown\defender.dat
+\various\extermer\
+
+CREDITS
+\demos\unknown\flash.dat
+<?>
+MACMAGIX
+<?> TRC
+MOVE
+\demos\unknown\flash.dat
+\demos\macmagix.dat
+
+CREDITS
+\demos\unknown\ikari_i2.dat
+<?>
+Charles Deenen
+<?> Charles Deenen
+MOVE
+\demos\unknown\ikari_i2.dat
+\deenen\
+
+CREDITS
+\demos\unknown\sub_zero.dat
+<?>
+Charles Deenen
+198? Maniacs of Noise
+MOVE
+\demos\unknown\sub_zero.dat
+\deenen\cd_unkn1.dat
+
+CREDITS
+\demos\unknown\unk_rjt.dat
+*
+Jeroen Tel
+<?> Maniacs of Noise
+MOVE
+\demos\unknown\unk_rjt.dat
+\tel\ikari_u.dat
+
+CREDITS
+\demos\unknown\venerabl.dat
+Fun Fun
+Jeroen Tel
+198? Maniacs of Noise
+MOVE
+\demos\unknown\venerabl.dat
+\tel\fun_fun.dat
+
+CREDITS
+\demos\unknown\vertigo.dat
+<?>
+Rock & FCS
+1988 Finnish Gold
+MOVE
+\demos\unknown\vertigo.dat
+\rock\
+
+CREDITS
+\dunn\untchbls.dat
+*
+Matthew Cannon & Jonathan Dunn
+1989 Ocean
+
+\fame\fame1988.dat
+<?>
+Michael Hendriks / F.A.M.E.
+1988 F.A.M.E.
+
+# The game really exists.  :)
+\follin\gauntlt3.dat
+*
+Tim & Geoff Follin
+1992 Software Creations
+
+\futurfrk\unknown.dat
+*
+Starman
+1987 Dexion
+MOVE
+\futurfrk\unknown.dat
+\demos\starman.dat
+
+CREDITS
+\games\a-f\ahdiddum.dat
+Ah Diddums
+<?>
+1984 Imagine Software Limited
+
+\games\a-f\andycapp.dat
+<?>
+Musicon Design
+198? Mirrorsoft
+
+\games\a-f\bble_bus.dat
+<?>
+Jeroen Tel
+198? Maniacs of Noise
+MOVE
+\games\a-f\bble_bus.dat
+\tel\jt_early.dat
+
+CREDITS
+\games\a-f\benji.dat
+Benji Space Rescue
+*
+1983 Isa Software Inc.
+
+\games\a-f\bosconia.dat
+*
+Jason C. Brooke
+1987 Mastertronic
+
+\games\a-f\captured.dat
+*
+<?>
+1986 American Action
+
+\games\a-f\countduc.dat
+*
+<?>
+1989 Cosgrove Hall Productions
+
+\games\a-f\dallas.dat
+The Dallas Quest
+*
+1984 Datasoft / Lorimar
+
+\games\a-f\dewerld.dat
+*
+John Vanderaart
+1985 Radarsoft
+
+\games\a-f\eagle'sn.dat
+Into the Eagle's Nest
+<?>
+1986 Pandora
+MOVE
+\games\a-f\eagle'sn.dat
+\games\g-l\intoeagl.dat
+
+CREDITS
+\games\g-l\gi-joe.dat
+G.I. Joe
+<?>
+1985 Epyx
+
+\games\g-l\hoverbov.dat
+*
+James Lisney
+1983 Llamasoft Software
+
+\games\g-l\hypaball.dat
+Hypa-ball
+*
+1986 Odin Computer Graphics
+
+\games\g-l\infernal.dat
+*
+<?>
+1985 Loriciel
+
+\games\g-l\laural&h.dat
+Laurel & Hardy
+<?>
+*
+
+\games\g-l\lazertag.dat
+*
+Jason C. Brooke
+1987 Probe Software
+MOVE
+\games\g-l\lazertag.dat
+\brooke\
+
+CREDITS
+\games\g-l\littlegr.dat
+*
+Andy Brown
+1988 Bug Byte
+
+\games\m-r\mrmephis.dat
+*
+Jeremy Hall
+1984 Dave Lucas / Euro-Byte
+
+\games\m-r\nonterra.dat
+Nonterraqveous
+<?>
+*
+
+\games\m-r\pacland.dat
+Pac-Land
+*
+1987-88 Quicksilva / Namco
+
+\games\m-r\pooyan.dat
+*
+<?>
+1983 Datasoft / Konami
+
+\games\m-r\planet.dat
+*
+Chris Hülsbeck
+1985 Aztec Software
+MOVE
+\games\m-r\planet.dat
+\huelsbec\planetof.dat
+
+CREDITS
+\games\m-r\rupert&t.dat
+Rupert & the Toymaker's Party
+*
+1985 Quicksilva
+
+\games\s-z\scumm.dat
+*
+M. Kriwanek
+1990 Twice Effect / Action
+
+\games\s-z\shark.dat
+*
+Digital Light & Magic
+1989 Players Premier
+
+\games\s-z\shoikanm.dat
+Shoikan (main)
+Rudolf Stember
+1990 Double Density
+
+\games\s-z\sinbad.dat
+*
+Singing Electrons
+1988 Cinemaware
+
+\games\s-z\smurf_ii.dat
+Smurfen
+C.S.
+1985 <?>
+MOVE
+\games\s-z\smurf_ii.dat
+\games\s-z\smurfen.dat
+
+CREDITS
+\games\s-z\starlab.dat
+*
+CG Music Company
+1988 MCGT Software
+
+\games\s-z\startrad.dat
+Star Trooper
+<?>
+1984 Clifford Ramshaw
+MOVE
+\games\s-z\startrad.dat
+\games\s-z\startrpr.dat
+
+CREDITS
+\games\s-z\trapdoor.dat
+The Trapdoor
+<?>
+1986 Piranha / Macmillan Ltd.
+
+\games\s-z\turrican.dat
+Turrican (intro)
+*
+1990 Rainbow Arts
+
+\games\s-z\uchimata.dat
+Brain Jack's Uchi Mata
+*
+1986 Martech / Mindscape
+MOVE
+\games\s-z\uchimata.dat
+\games\a-f\brianuch.dat
+
+CREDITS
+
+\games\s-z\wildride.dat
+*
+Craig Kennett
+1985 Interceptor Software
+
+\huelsbec\axelf.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\beingboi.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\chip_war.dat
+*
+Chris Hülsbeck
+1987 Time Warp Productions
+
+\huelsbec\giana_in.dat
+*
+Chris Hülsbeck
+1987 Time Warp Productions
+
+\huelsbec\gianasis.dat
+*
+Chris Hülsbeck
+1987 Time Warp Productions
+
+\huelsbec\ch_uknwn.dat
+*
+Chris Hülsbeck
+<?> Chris Hülsbeck
+
+\huelsbec\danceatn.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\holidaym.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\jinks.dat
+*
+Chris Hülsbeck
+1987 Rainbow Arts
+
+\huelsbec\mirrorof.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\onenight.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\shades.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\skidance.dat
+*
+Chris Hülsbeck
+1986 Markt & Technik
+
+\huelsbec\spherica.dat
+*
+Ramiro Vaca/Chris Hülsbeck
+1989 Rainbow Arts
+
+\huelsbec\starba_i.dat
+*
+Chris Hülsbeck
+198? Rainbow Arts
+
+\huelsbec\theantic.dat
+*
+Chris Hülsbeck
+1987 Time Warp Productions
+
+\mon\2400AD.dat
+*
+Jeroen Tel / Maniacs of Noise
+1988 Origin Systems
+
+\mon\afterbu1.dat
+*
+Jeroen Tel / Maniacs of Noise
+<?> Sega
+
+\mon\afterbur.dat
+*
+Jeroen Tel / Maniacs of Noise
+<?> Sega
+
+\mon\afterbu2.dat
+*
+Jeroen Tel / Maniacs of Noise
+<?> Sega
+
+\mon\afterthe.dat
+*
+Jeroen Tel / Maniacs of Noise
+1989 Dinamic Software
+
+\mon\amyloid.dat
+*
+Marcel Donne (Mad)
+<?>
+
+\mon\combatga.dat
+*
+Jeroen Tel / Maniacs of Noise
+1988 <?>
+
+\mon\eliminat.dat
+*
+Jeroen Tel / Maniacs of Noise
+1988 Hewson Consultants
+
+\mon\eye2eye.dat
+*
+Charles Deenen
+<?> Maniacs of Noise
+
+\mon\f-14tomc.dat
+*
+Jeroen Tel / Maniacs of Noise
+1989 Digital Light&Mag./Players
+
+\mon\futureco.dat
+*
+Rock
+1988 Finnish Gold
+MOVE
+\mon\futureco.dat
+\rock\
+
+CREDITS
+
+\mon\gi_hero.dat
+*
+Jeroen Tel / Maniacs of Noise
+1988 Firebird
+
+\mon\goldenax.dat
+*
+Jeroen Tel / Maniacs of Noise
+1990 Probe Software
+
+\mon\hardcast.dat
+*
+Neil Baldwin (Demon)
+1987 Demon
+MOVE
+\mon\hardcast.dat
+\baldwin\
+
+CREDITS
+\mon\hawkeyel.dat
+Hawkeye (loader)
+Jeroen Tel / Maniacs of Noise
+*
+
+\mon\invstend.dat
+Invest (end)
+Jeroen Tel / Maniacs of Noise
+1991 <?>
+
+\mon\kinetix.dat
+*
+Jeroen Tel / Maniacs of Noise
+1988 Digital Design
+
+\mon\lordofth.dat
+*
+Charles Deenen/Maniacs of Noise
+1990 Interplay
+
+\mon\mr_heli.dat
+Mr. Heli
+Charles Deenen/Maniacs of Noise
+*
+
+\mon\pseidon.dat
+*
+Charles Deenen/Maniacs of Noise
+<?>
+
+\mon\macc.dat
+*
+Jeroen Tel
+<?> Maniacs of Noise
+
+\mon\mania001.dat
+<?>
+Markus Schneider
+<?> LOS
+
+\mon\mon.dat
+<?>
+<?>
+<?>
+
+\mon\mon2.dat
+*
+<?>
+<?>
+
+\mon\mon3.dat
+*
+<?>
+<?>
+
+\mon\mon4.dat
+*
+<?>
+<?>
+
+\mon\mon5.dat
+*
+<?>
+<?>
+
+\mon\mon6.dat
+*
+<?>
+<?>
+
+\mon\nighthun.dat
+*
+Jeroen Tel / Maniacs of Noise
+<?> Ubi-Soft
+
+\mon\outruneu.dat
+Outrun Europe
+Jeroen Tel / Maniacs of Noise
+1991 Sega
+
+\mon\smashtv.dat
+*
+Jeroen Tel / Maniacs of Noise
+1990 <?>
+
+\mon\smoothcr.dat
+*
+Charles Deenen
+<?> Maniacs of Noise
+
+\mon\soldiero.dat
+Soldier of Light
+Charles Deenen/Maniacs of Noise
+1988 Reptilia Design/Softek Int
+
+\mon\starbalp.dat
+Star Ball
+Jeroen Tel / Maniacs of Noise
+1988 Reptilia Design / Softek
+
+\mon\thetrivi.dat
+Trivia, The Ultimate Challenge
+Jeroen Tel / Maniacs of Noise
+1989 Duck Soft U.K.
+
+\tjelta\geirt004.dat
+Melodious
+*
+1990 Moz(Ic)Art
+MOVE
+\tjelta\geirt004.dat
+\tjelta\melodiou.dat
+
+CREDITS
+\various\scortia\unknown.dat
+Cartoon
+Thomas Bendt (Scortia)
+<?> Scortia
+MOVE
+\various\scortia\unknown.dat
+\various\scortia\cartoon.dat
+
+
+#####
+TITLE
+#####
+
+\brooke\overlord.dat
+Out of This World
+MOVE
+\brooke\overlord.dat
+\brooke\outofthi.dat
+
+TITLE
+\crowther\hmmm.dat
+<?>
+
+\crowther\rattmusc.dat
+<?>
+
+\follin\ledstorm.dat
+L.E.D. Storm
+
+\games\a-f\beachbug.dat
+Beach Buggy Simulator
+
+\games\a-f\eribam.dat
+The Caverns of Eribam
+MOVE
+\games\a-f\eribam.dat
+\games\a-f\cavernse.dat
+
+TITLE
+
+\games\g-l\hellhole.dat
+Hellhole
+
+\games\m-r\mule.dat
+M.U.L.E.
+
+\games\m-r\radrampr.dat
+Rad Ramp Racer
+
+######
+AUTHOR
+######
+
+\fame\artiller.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\babyjack.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\beyond.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\fame1.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\fame2.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\fame3.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\fame4.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\fame5.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\fame6.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\fmnthrn4.dat
+Holger Knipping & M. Hendriks
+
+\fame\mcg.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\mdg.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\paranoim.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\puffyssg.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\pureseed.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\scenario.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\sphinx1.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\sphinx2.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\strikfrc.dat
+Michael Hendriks / F.A.M.E.
+
+\fame\tllttmh1.dat
+Holger Knipping
+
+\fame\tllttmh2.dat
+Holger Knipping
+
+\fame\unknown.dat
+Michael Hendriks / F.A.M.E.
+
+\games\a-f\boulderd.dat
+Peter Liepa
+
+\games\a-f\bushido.dat
+Jason Page
+
+\games\a-f\crossfir.dat
+Carl I. Hagen
+
+\games\g-l\hypaball.dat
+Keith Tinman
+
+\games\m-r\meancity.dat
+Paul Meredith
+
+\games\m-r\radrampr.dat
+Thomas E. Petersen (Laxity)
+MOVE
+\games\m-r\radrampr.dat
+\laxity\
+
+AUTHOR
+
+\games\m-r\rastersc.dat
+JAS
+
+\games\s-z\scramble.dat
+Matt Furniss
+
+\games\s-z\toybalfx.dat
+Tim Kleinert
+
+\hubbard\samfoxst.dat
+Rob Hubbard
+
+\huelsbec\badcat_i.dat
+Chris Hülsbeck
+
+\huelsbec\dangerfr.dat
+Chris Hülsbeck
+
+\huelsbec\danger_i.dat
+Chris Hülsbeck
+
+\huelsbec\downattr.dat
+Chris Hülsbeck
+
+\huelsbec\grand_ms.dat
+Chris Hülsbeck
+
+\huelsbec\hollyw_t.dat
+Chris Hülsbeck
+
+\huelsbec\jinks_in.dat
+Chris Hülsbeck
+
+\huelsbec\katakis.dat
+Chris Hülsbeck
+
+\huelsbec\rtype.dat
+Chris Hülsbeck
+
+\huelsbec\soldierr.dat
+Chris Hülsbeck
+
+\huelsbec\startras.dat
+Ramiro Vaca & Chris Hülsbeck
+
+\huelsbec\thebabyo.dat
+Chris Hülsbeck
+
+\huelsbec\tobeon_i.dat
+Chris Hülsbeck
+
+\mon\alloyrun.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\bat.dat
+Charles Deenen/Maniacs of Noise
+
+\mon\battleva.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\cyberno1.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\cyberno2.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\dandare3.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\doubledr.dat
+Charles Deenen/Maniacs of Noise
+
+\mon\flimbo's.dat
+Johannes Bjerregård / MoN
+
+\mon\fruitbnk.dat
+Johannes Bjerregård / MoN
+
+\mon\gaplus.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\hawkeye.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\ice_age.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\ironlord.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\mantalos.dat
+Charles Deenen/Maniacs of Noise
+
+\mon\myth.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\mythinga.dat
+Charles Deenen/Maniacs of Noise
+
+\mon\outreul2.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\robocop3.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\scout.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\starball.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\stockcar.dat
+Reyn Ouwehand / MoN
+
+\mon\subwayvi.dat
+Johannes Bjerregård / MoN
+
+\mon\tintinon.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\toptruck.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\turboout.dat
+Jeroen Tel / Maniacs of Noise
+
+\mon\zamzara.dat
+Charles Deenen/Maniacs of Noise
+
+# Confirmed by Andrew Whittaker who use to work alongside
+# Turner and Braybrook.
+\turner\morpheus.dat
+Steve Turner
+\turner\uridium.dat
+Steve Turner
+
+
+#########
+COPYRIGHT
+#########
+
+\20cc\airwolf.dat
+1988 20th Century Composers
+
+\20cc\atripint.dat
+1994 20th Century Composers
+
+\20cc\dolphinf.dat
+1988 20th Century Composers
+
+\20cc\hiphouse.dat
+1989 20th Century Composers
+
+\20cc\imbbtngh.dat
+1988 20th Century Composers
+
+\20cc\nexion.dat
+1988 20th Century Composers
+
+\20cc\no_mercy.dat
+1989 20th Century Composers
+
+\20cc\papillon.dat
+1988 20th Century Composers
+
+\20cc\peanutpl.dat
+1990 20th Century Composers
+
+\20cc\sandisio.dat
+1988 20th Century Composers
+
+\20cc\spijker1.dat
+1988-89 20th Century Composers
+
+\20cc\spijker2.dat
+1989 20th Century Composers
+
+\20cc\spijker3.dat
+1989 20th Century Composers
+
+\20cc\talenter.dat
+1993 20th Century Composers
+
+\20cc\tv_tunes.dat
+1988 20th Century Composers
+
+\beben\ransack.dat
+1987 ASL
+
+\brooke\strike.dat
+1987 Mastertronic
+
+\derrett\vengeanc.dat
+1987 CRL
+
+\fame\complict.dat
+<?> F.A.M.E.
+
+\fitzpatr\mcboxing.dat
+1985 Sporrtsware Production
+
+\fitzpatr\ssicehoc.dat
+1987 Designstar Consultants Inc
+
+\follin\blacklam.dat
+1988 Soft. Creations/Firebird
+
+\follin\skyshark.dat
+1989 Taito
+
+\galway\insectsi.dat
+1989 Sensible Software / Hewson
+
+\games\a-f\adrenali.dat
+1991 Bas Broers/MDB/MJD
+
+\games\a-f\block'nb.dat
+1986 Construction Comp. Players
+
+\games\a-f\chiller.dat
+<?> Mastertronic
+
+\games\a-f\clever&s.dat
+198? Micro-partners/Magic Bytes
+
+\games\a-f\combatzo.dat
+1990 Magic Bytes
+
+\games\a-f\doublesp.dat
+1990 Double Density
+
+\games\a-f\dreamwar.dat
+1988 Tarann Ltd.
+
+\games\a-f\druid2.dat
+1986 Firebird
+
+\games\a-f\enforcer.dat
+1987 FX Arcade
+
+\games\a-f\energywa.dat
+1987 Mastertronic
+
+\games\a-f\finrdsot.dat
+1985 Ian Gray
+
+\games\a-f\firetrap.dat
+1987 Electric Dreams Software
+
+\games\g-l\gothik.dat
+1988 Firebird
+
+\games\g-l\hotwheel.dat
+1985 Epyx Inc. / Mattel Inc.
+
+\games\g-l\kapriole.dat
+<?> Radarsoft Games
+
+\games\m-r\olympics.dat
+1983 Commodore Elec. Ltd.
+
+\games\m-r\rainbowd.dat
+1987 Duck Software / Firebird
+
+\games\m-r\ringmast.dat
+1985 <?>
+
+\games\s-z\shackled.dat
+1988 Choise Software/U.S. Gold
+
+\games\s-z\skychann.dat
+1984 C.S.
+
+\games\s-z\strtfght.dat
+1988 U.S. Gold / Go!
+
+\games\s-z\suprpip2.dat
+1985 Taskset Ltd.
+
+\games\s-z\superspr.dat
+1987 Electric Dreams Software
+
+\games\s-z\swag.dat
+1984 Micromania
+
+\games\s-z\task_iii.dat
+1987 Databyte Ltd.
+
+\games\s-z\topduck.dat
+198? Zarathrusta Software
+
+\games\s-z\wizardwa.dat
+1987 Canvas / GO!
+
+\games\s-z\zergrvty.dat
+1989 Double Density/EAS Soft.
+
+\games\s-z\zorro.dat
+1985 Datasoft
+
+\gray_f\mermaidm.dat
+198? Soft Design
+
+\gray_m\fruitmac.dat
+1987 Code Masters
+
+\gray_m\huntersm.dat
+1987 Thalamus
+
+\gray_m\professi.dat
+1988 Code Masters
+
+\hubbard\finalsy2.dat
+1985 Rob Hubbard
+
+\hubbard\ik_plus.dat
+1987 System 3
+
+\hubbard\pandora.dat
+198? PSI Soft. Design./Firebird
+
+\hubbard\sabotr_2.dat
+1987 Durell
+
+\hubbard\transatl.dat
+1987 Virgin
+
+\hubbard\zoolookc.dat
+198? Rob Hubbard
+
+\mon\accemix.dat
+1989 Maniacs of Noise
+
+\mon\airwolf.dat
+<?> Maniacs of Noise
+
+\mon\space.dat
+1987 Maniacs of Noise
+
+\mon\tune.dat
+1988 Maniacs of Noise
+
+\rowlands\retrogri.dat
+1989 Apex / Thalamus
+
+\scoop\skyrunne.dat
+1987 Dru
+MOVE
+\scoop\skyrunne.dat
+\demos\
+
+COPYRIGHT
+\whittakr\ironhors.dat
+1987 Icon Design Ltd. / Konami
+
+
+# ****************************************************
+# **                MISCELLANEOUS                   **
+# ****************************************************
+
+# Separating Artline (and others) from Hannula
+
+MOVE
+\artline\artlitez.dat
+\demos\
+\artline\fateno7p.dat
+\demos\
+\artline\triplex.dat
+\demos\
+\artline\tune1.dat
+\demos\
+
+\artline\
+\various\hannula\
+DELETE
+\artline\
+
+MOVE
+\demos\batfunk.dat
+\jo\
+
+\demos\chuckroc.dat
+\games\a-f\
+
+\demos\cntxintr.dat
+\jo\
+
+\demos\fistfunk.dat
+\various\mtchdane\
+
+\demos\jsprlsn1.dat
+\jo\
+
+\demos\moog.dat
+\various\moog\
+\demos\mog_boom.dat
+\various\moog\boom.dat
+\demos\mog_note.dat
+\various\moog\
+\demos\moog_tec.dat
+\various\moog\
+
+\demos\olvmrkr1.dat
+\various\pri\
+
+\demos\omegaman.dat
+\yip\
+
+\demos\ontherun.dat
+\various\pri\
+
+\demos\piceofmi.dat
+\jo\
+
+\demos\scrllmac.dat
+\yip\
+
+\demos\snctheme.dat
+\jo\
+
+\demos\thilo.dat
+\various\zenox\
+
+\demos\wrbllttl.dat
+\jo\
+
+\demos\xenos.dat
+\various\zenox\
+
+\games\a-f\censorte.dat
+\various\slaygon\
+
+# not a game, but a cover instead
+MOVE
+\games\g-l\infinity.dat
+\demos\
+\games\m-r\magnetic.dat
+\demos\
+# Brothers should be together.  :)
+\games\s-z\slyspyse.dat
+\follin\
+
+REPLACE
+\update\bnkswtch\beben\
+\beben\
+\update\bnkswtch\bjerrega\
+\bjerrega\
+\update\bnkswtch\cannon\
+\cannon\
+\update\bnkswtch\clarke\
+\clarke\
+\update\bnkswtch\cooksey\
+\cooksey\
+\update\bnkswtch\daglish\
+\daglish\
+\update\bnkswtch\deek\
+\deek\
+\update\bnkswtch\demos\
+\demos\
+\update\bnkswtch\detert\
+\detert\
+\update\bnkswtch\dunn\
+\dunn\
+\update\bnkswtch\fame\
+\fame\
+\update\bnkswtch\feekzoid\
+\feekzoid\
+\update\bnkswtch\fitzpatr\
+\fitzpatr\
+\update\bnkswtch\follin\
+\follin\
+\update\bnkswtch\futurfrk\
+\futurfrk\
+\update\bnkswtch\galway\
+\galway\
+\update\bnkswtch\gilmore\
+\gilmore\
+\update\bnkswtch\games\euro_a-f\
+\games\a-f\
+\update\bnkswtch\games\euro_g-l\
+\games\g-l\
+\update\bnkswtch\games\euro_m-r\retrogra.dat
+\rowlands\
+\update\bnkswtch\games\euro_m-r\
+\games\m-r\
+\update\bnkswtch\games\euro_s-z\
+\games\s-z\
+\update\bnkswtch\games\usa\archon.dat
+\games\a-f\
+\update\bnkswtch\games\usa\califgms.dat
+\games\a-f\
+\update\bnkswtch\games\usa\racingde.dat
+\games\m-r\
+\update\bnkswtch\games\usa\
+\games\s-z\
+\update\bnkswtch\gray_f\
+\gray_f\
+\update\bnkswtch\gray_m\
+\gray_m\
+\update\bnkswtch\huelsbec\
+\huelsbec\
+\update\bnkswtch\joseph\
+\joseph\
+\update\bnkswtch\laxity\
+\laxity\
+\update\bnkswtch\leitch\
+\leitch\
+\update\bnkswtch\mon\
+\mon\
+\update\bnkswtch\schneidr\
+\schneidr\
+\update\bnkswtch\tait\
+\tait\
+\update\bnkswtch\tjelta\
+\tjelta\
+\update\bnkswtch\tst\rambones\
+\tst\rambones\
+\update\bnkswtch\turner\
+\turner\
+\update\bnkswtch\various\extermer\
+\various\extermer\
+\update\bnkswtch\various\knatter\
+\various\knatter\
+\update\bnkswtch\various\lordsofs\
+\various\lordsofs\
+\update\bnkswtch\various\pri\
+\various\pri\
+\update\bnkswtch\various\zenox\
+\various\zenox\
+
+
+# The time has come to find out who in MON composed which
+# MON tunes.  That time is now.
+MOVE
+\scoop\
+\mad\
+\games\s-z\scorpion.dat
+\mad\
+\mon\airwolf.dat
+\deenen\
+\mon\ala_gal.dat
+\deenen\
+\mon\amyloid.dat
+\mad\
+\mon\aspargra.dat
+\mon_unk\
+\mon\bantam.dat
+\mon_unk\
+\mon\bat.dat
+\deenen\
+\mon\boringti.dat
+\deenen\
+\mon\brngmdlg.dat
+\deenen\
+\mon\cooltune.dat
+\deenen\
+\mon\deel4.dat
+\deenen\
+\mon\demosong.dat
+\mon_unk\
+\mon\discochi.dat
+\mon_unk\
+\mon\doubledr.dat
+\deenen\
+\mon\eye2eye.dat
+\deenen\
+\mon\f1simula.dat
+\deenen\
+\mon\flimbo's.dat
+\bjerrega\
+\mon\fruitbnk.dat
+\bjerrega\
+\mon\giveitat.dat
+\deenen\
+\mon\lordofth.dat
+\deenen\
+\mon\mania001.dat
+\schneidr\
+\mon\mantalos.dat
+\deenen\
+\mon\mon.dat
+\demos\unknown\nom.dat
+\mon\mon2.dat
+\demos\unknown\nom2.dat
+\mon\mon3.dat
+\demos\unknown\nom3.dat
+\mon\mon4.dat
+\demos\unknown\nom4.dat
+\mon\mon5.dat
+\demos\unknown\nom5.dat
+\mon\mon6.dat
+\demos\unknown\nom6.dat
+\mon\mr_heli.dat
+\deenen\
+\mon\mythinga.dat
+\deenen\
+\mon\onslaugh.dat
+\mon_unk\
+\mon\outmnvrd.dat
+\deenen\
+\mon\pseidon.dat
+\deenen\
+\mon\smoothcr.dat
+\deenen\
+\mon\soldiero.dat
+\deenen\
+\mon\stockcar.dat
+\ouwehand\
+\mon\subwayvi.dat
+\bjerrega\
+\mon\thats_in.dat
+\deenen\
+\mon\thtsprvw.dat
+\deenen\
+\mon\tune.dat
+\deenen\
+\mon\wizzy.dat
+\deenen\
+\mon\zamzara.dat
+\deenen\
+
+\mon\crcksbst\
+\tel\
+
+\mon\
+\tel\
+
+
+# ****************************************************
+# **                 Cleaning Up                    **
+# ****************************************************
+
+DELETE
+\scoop\
+\mon\crcksbst\
+\mon\
+\update\readme.1st
+
+REPLACE
+\update\documnts\
+\documnts\
+
+DELETE
+# I think I need to make this recursively delete.  :)
+\update\20cc\
+\update\beben\
+\update\bjerrega\
+\update\bnkswtch\beben\
+\update\bnkswtch\bjerrega\
+\update\bnkswtch\cannon\
+\update\bnkswtch\clarke\
+\update\bnkswtch\cooksey\
+\update\bnkswtch\daglish\
+\update\bnkswtch\deek\
+\update\bnkswtch\demos\
+\update\bnkswtch\detert\
+\update\bnkswtch\dunn\
+\update\bnkswtch\fame\
+\update\bnkswtch\feekzoid\
+\update\bnkswtch\fitzpatr\
+\update\bnkswtch\follin\
+\update\bnkswtch\futurfrk\
+\update\bnkswtch\galway\
+\update\bnkswtch\games\euro_a-f\
+\update\bnkswtch\games\euro_g-l\
+\update\bnkswtch\games\euro_m-r\
+\update\bnkswtch\games\euro_s-z\
+\update\bnkswtch\games\usa\
+\update\bnkswtch\games\
+\update\bnkswtch\gilmore\
+\update\bnkswtch\gray_f\
+\update\bnkswtch\gray_m\
+\update\bnkswtch\huelsbec\
+\update\bnkswtch\joseph\
+\update\bnkswtch\laxity\
+\update\bnkswtch\leitch\
+\update\bnkswtch\mon\
+\update\bnkswtch\schneidr\
+\update\bnkswtch\tait\
+\update\bnkswtch\tjelta\
+\update\bnkswtch\tst\rambones\
+\update\bnkswtch\tst\
+\update\bnkswtch\turner\
+\update\bnkswtch\various\extermer\
+\update\bnkswtch\various\knatter\
+\update\bnkswtch\various\lordsofs\
+\update\bnkswtch\various\pri\
+\update\bnkswtch\various\zenox\
+\update\bnkswtch\various\
+\update\bnkswtch\
+\update\clarke\
+\update\crowther\
+\update\daglish\
+\update\deenen\
+\update\demos\unknown\
+\update\demos\
+\update\derrett\
+\update\documnts\
+\update\follin\
+\update\galway\
+\update\games\a-f\
+\update\games\g-l\
+\update\games\m-r\
+\update\games\s-z\
+\update\games\
+\update\gray_f\
+\update\gray_m\
+\update\holland\
+\update\hubbard\
+\update\huelsbec\
+\update\jch\
+\update\kimmel\
+\update\leitch\
+\update\mon_unk\
+\update\norman\
+\update\ouwehand\
+\update\tel\
+\update\various\a-man\
+\update\various\
+\update\yip\
+
+
+
+

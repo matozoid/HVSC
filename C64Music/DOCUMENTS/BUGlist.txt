@@ -1,0 +1,94 @@
+#######################################################################
+#   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
+#   Maintained by Warren Pilkington <hvscadmin@wazzaw.freeuk.com>     #
+#   Last Updated Saturday 26 October 2002                             # 
+#######################################################################
+#                                                                     #
+# The purpose of this text document is to highlight all the tunes     #
+# that are still left in HVSC which have bugs in the data which       #
+# either send a tune out of synch, play a wrong note, or even worse,  #
+# crash Sidplay or a real C64.  It also gives you all the incomplete  # 
+# rips that are in HVSC.  Although the HVSC Crew are an extremely     #
+# active and busy bunch of SID fans, there are occasions where some   #
+# of the older tunes in the collection have not been checked by the   #
+# original ripper before submitting to HVSC and so could have gone in #
+# with bugs.  We are doing all we can to eliminate this, but would    #
+# appreciate it if you could let me know of any bugged tunes you find.#
+#                                                                     #
+# If you are reporting a bugged tune that you have found in HVSC      #
+# that is not on the below list, please give the full HVSC filename   #
+# (inlcuding its path) and if concise but precise details of the      #
+# problem (see examples below for suitable format.)  The name in      #
+# brackets indicates who reported the bug and so you will be credited #
+# the same way if you happen to find one.                             #
+#                                                                     #
+# If you do manage to fix a bugged tune, please mail it to myself     #
+# with a description of what had to be done to fix it.                #
+#                                                                     #
+# NOTE: This lists only lists bugs where the SID file is definitely   #
+# incompatible with Sidplay.                                          #
+#                                                                     # 
+# You may find there's SIDs that work fine in Sidplay but not         #
+# Sidplay2.  Please see the following web page for more information   #
+# along with a currently updated list of problem SID tunes:           #
+# http://www.hvsc.c64.org/News/sidplay2problems.html                  #
+#                                                                     #
+# Some of these tunes may also have been fixed which will appear in a #
+# future HVSC update.  Check the HVSC Ripped Tunes List at:           #
+# http://www.hvsc.c64.org/News/rippedtunes.html if you are unsure.    #
+#                                                                     #
+# Warren.                                                             #
+#######################################################################
+# Thanks to all the following for reporting bugs in HVSC:             #
+# Petri Keränen <keebo@mbnet.fi>                                      #
+# Gaetano Chiummo <achiummo@ba.data.it>                               # 
+# Levente Hársfalvi <Levente@Terrasoft.hu>                            #
+# Tobias Hultman <tohu4573@hem2.passengen.se>                         # 
+# Antonio Vera Diaz <xwizard@crosswinds.net>                          #
+# Roland Hermans <rolandh@dds.nl>                                     #
+# Juha-Pekka Jokela <jpjokela@surfeu.fi>                              #
+# Kai Spitzley <heechee@mindless.com>                                 #
+# Timo Rönkkö <deadbeat@freenet.hut.fi>                               #
+# Jason Kelk <tmr@c64.org>                                            #
+# Rough/Chromance <adamsky@gmx.ch>                                    #
+# Per Bolmstedt <tomten@c64.org>                                      #
+# Reyn Ouwehand                                                       #
+# Jaromir Król <jaromirk@kr.onet.pl>                                  #
+# Glenn Rune Gallefoss <ggallefo@online.no>                           #
+# Janne Suni <jasuni@tiira.cedunet.com>                               #
+# Dennis Lindroos <lindroos@can.nls.fi>                               #
+# Markus Schäfer <markusschaefer@web.de>                              #
+# Markus Schneider                                                    #
+# Steve Barrett                                                       #
+# James Reisdorf <sportsdude820@yahoo.com>                            #
+# Fastie <fastie@pandora.be>                                          #
+# Adric Reidel <AReidel@lenoxps.org>                                  #
+# Yuri Fossaroli <yurif@mail.dex-net.com>                             #
+# Patrick van der Poel <pvdpoel@tref.nl>                              #
+# Scott Moran <smmoran@deakin.edu.au>                                 #
+# Kai Lehmann <assit.musclesoft@bigfoot.de>                           #
+# Nathan White <nathan_white@talk21.com>                              #
+# Patrick Volpi <Patrick.Volpi@alltel.com>                            #
+# Luigi de Fraia <cuomo@studenti.unina.it>                            #
+# Louise Heimann <louise.heimann@softhome.net>                        #
+# Erik Rasmussen <erik@idec.es>                                       #
+# Joona Palaste <palaste@cc.helsinki.fi>                              #
+# Linus Åkerlund <uxm165t@tninet.se>                                  #
+# Chris Lightfoot (TLF)                                               #
+# Kai Walter (PVCF)                                                   #
+# Anders Elmén (Moon)                                                 #
+# Laszló Molnar <zeux@freemail.hu>                                    #
+# Rich <indios_se@yahoo.com>                                          #
+# Freek Werner <fwmwerner@planet.nl>                                  #
+# Martin Frech <mail@frech.net>                                       #
+# Christoph Bergmann                                                  #
+# Paul Chapman <dinkster95@ntlworld.com>                              #
+#      and of course the HVSC Crew, past and present.                 #
+#######################################################################
+
+###############################
+# Bugged tunes as of HVSC 5.1 #
+############################### 
+
+Currently there are no _known_ bugged SIDs as of HVSC 5.1.  However, if
+you do find a bug in a HVSC SID, please tell us.

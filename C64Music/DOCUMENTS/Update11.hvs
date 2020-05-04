@@ -1,0 +1,3392 @@
+# High Voltage SID Collection Update #11
+# Date: May X, 1998
+#
+# Resulting Version: 2.5
+#  Previous Version: 2.4
+#
+# Welcome to yet another splendid update!  This update gets rid of
+# a bunch of nasty bugged SIDs, fixes more credits (when will it end?!),
+# and of course adds more tunes.
+#
+# Also, there is a big announcement to make.  After this update, The
+# Shark will no longer be the main administrator.  But do not worry
+# my friends as I have left you in good hands.  Warren Pilkington
+# (Waz) will take over the lead.  Warren has been a member of the
+# HVSC team for several months now and is clearly qualified to
+# handle to task.  The Shark will still be part of the HVSC team,
+# but he will take on a reduced roll.
+#
+# I (The Shark) want to thank all those who have helped the collection
+# over the last two years.  I also want to thank all those who have
+# sent in kind words thanking the crew for creating the wonderful
+# music collection.  The assistance and emails kept me going.
+#
+# Enjoy the Update!
+
+# After this update, the collection should contain 8251 SID files!
+#
+# This update features (all approximates):
+#      474 new SIDs
+#       56 fixed/better rips
+#        7 repeats/bad rips eliminated
+#      600 SID credit fixes
+#
+# We are always looking for others to help make HV SIDs a better
+# collection.  If you find any errors or have new rips to add, please
+# email both of the people below:
+
+#    Warren Pilkington (Waz of Zaw Productions) <wazzaw@globalnet.co.uk>
+#    Jan Diabelez Arnt Harries (Rambones/TST) <rambones@get2net.dk>
+
+# Thanks to all the people who have helped to make HV SIDs the great
+# collection that it is.
+
+# ****************************************************
+# **                  REPLACED                      **
+# ****************************************************
+
+# These tunes are replacements for the versions currently
+# in HV SIDs.  This could be for various reasons such as
+# more sub-tunes, fixing a speed problem, 100% rip, etc.
+
+REPLACE
+
+# From Inge; fixed init -- now work with PlaySID
+/update/20CC/Greystorm.sid
+/20CC/
+/update/20CC/No_Mercy.sid
+/20CC/
+
+# From KJ; not a fix -- just an expansion!  :)
+/update/Bjerregaard_Johannes/Fourth_Dimension.sid
+/Bjerregaard_Johannes/
+/update/Bjerregaard_Johannes/Namnam_Special.sid
+/Bjerregaard_Johannes/
+/update/Bjerregaard_Johannes/Rockbuster.sid
+/Bjerregaard_Johannes/
+/update/Bjerregaard_Johannes/Tiny_Symphony.sid
+/Bjerregaard_Johannes/
+/update/Bjerregaard_Johannes/Twilight_Beyond.sid
+/Bjerregaard_Johannes/
+DELETE
+/Bjerregaard_Johannes/JB_Selector_III.sid
+REPLACE
+
+# From Waz; 100%, plus hi-score tune added
+/update/Bjerregaard_Johannes/Thunderforce.sid
+/Bjerregaard_Johannes/
+
+# From Rambones; original rips were incorrectly modified.
+/update/BOGG/Biscuit_Barrel.sid
+/BOGG/
+/update/BOGG/Crunchy_Frog.sid
+/BOGG/
+/update/BOGG/Death.sid
+/BOGG/
+/update/BOGG/Detergent.sid
+/BOGG/
+/update/BOGG/Ftang_Ftang.sid
+/BOGG/
+/update/BOGG/Grouting.sid
+/BOGG/
+/update/BOGG/Jethro_Walrus.sid
+/BOGG/
+/update/BOGG/Lettuce.sid
+/BOGG/
+/update/BOGG/Shoe.sid
+/BOGG/
+/update/BOGG/Spiny_Norman.sid
+/BOGG/
+
+# From Waz; speed fix
+/update/Clarke_Peter/Ocean_Loader_v3_0.sid
+/Clarke_Peter/
+
+# From Waz; in-game tune added
+/update/Crowther_Antony/Zig_Zag.sid
+/Crowther_Antony/
+
+# From Deadbeat; now loops correctly (original crap rip by Akira)
+/update/Deek/Thief_He_Eats_Beef.sid
+/Deek/
+
+# From Odi and The Mage; old rip may be Akira's...replacing to be safe
+MOVE
+/update/VARIOUS/Odi/Melt_Your_Brain.sid
+/VARIOUS/Odi/
+DELETE
+/DEMOS/Melt_Your_Brain.sid
+REPLACE
+
+# From Waz; sub-tune added + title name fix
+/update/Dunn_David/Nonterraqueous.sid
+/Dunn_David/
+DELETE
+/Dunn_David/Nonterraqveous.sid
+REPLACE
+
+# From Waz; speech added
+/update/Dunn_Jonathan/Robocop.sid
+/Dunn_Jonathan/
+
+# From Rambones; loops correctly, plus sound fx added
+/update/Fitzpatrick_John/Zorro.sid
+/Fitzpatrick_John/
+DELETE
+/GAMES/S-Z/Zorro.sid
+REPLACE
+
+# From Rambones; tune #3 bank switch fix
+/update/Follin_Brothers/Chester_Field.sid
+/Follin_Brothers/
+DELETE
+/Follin_Brothers/Chesterfield.sid
+REPLACE
+
+# From Waz; digi fix and one sub-tune added
+/update/Follin_Brothers/Peter_Pack_Rat.sid
+/Follin_Brothers/
+
+# From Waz; four new sub-tunes + credit fix
+/update/Galway_Martin/Combat_School.sid
+/Galway_Martin/
+
+# From Gabriele; in-game tune added
+/update/GAMES/G-L/Hercules_Slayer_of_Damned.sid
+/GAMES/G-L/
+DELETE
+/GAMES/G-L/Hercload.sid
+REPLACE
+
+# From Rambones; old version had a silent tune, plus a garbage tune
+/update/GAMES/G-L/Hypa-ball.sid
+/GAMES/G-L/
+
+# From Waz; sub-tune added
+/update/GAMES/M-R/Mean_City.sid
+/GAMES/M-R/
+
+# From Adam; voices now are in synch
+/update/Ouwehand_Reyn/Eye_to_Eye.sid
+/Ouwehand_Reyn/
+
+# From Mage; 100% rip & 1/2 the size
+/update/GAMES/M-R/Rainbow_Dragon.sid
+/GAMES/M-R/
+
+# From Waz; 100% rip and in-game fight tune added
+/update/GAMES/S-Z/Samurai_Warrior.sid
+/GAMES/S-Z/
+DELETE
+/Holland_Greg/Samurai_Warrior.sid
+REPLACE
+
+# From Waz; 100% tune #2
+/update/GAMES/S-Z/Sidewize.sid
+/GAMES/S-Z/
+
+# From KJ; title tune added, plus credit fix
+MOVE
+/update/Audial_Arts/Triplex.sid
+/Audial_Arts/
+DELETE
+/GAMES/S-Z/Triplex.sid
+REPLACE
+
+# From Waz; tune #1 (voice #1) no longer drops in and out
+/update/GAMES/S-Z/Turrican_2-The_Final_Fight.sid
+/GAMES/S-Z/
+DELETE
+/GAMES/S-Z/Turrica2.sid
+REPLACE
+
+# From Waz; Tune #13 now fixed (ending was bugged)
+/update/Gray_Matt/Last_Ninja_2.sid
+/Gray_Matt/
+
+MOVE
+# From Youth/HeatWave; now starts correctly
+/update/HeatWave/Funky_Medina.sid
+/HeatWave/
+/update/HeatWave/Outrun_remix.sid
+/HeatWave/
+/update/HeatWave/Party_Report.sid
+/HeatWave/
+DELETE
+/DEMOS/UNKNOWN/Rd_13.sid
+/DEMOS/UNKNOWN/Rd_2.sid
+/DEMOS/AON.sid
+REPLACE
+
+# From Waz; 100% rip; tune #6 & #7 start right and #12 added
+/update/Hubbard_Rob/Synth_Sample_III.sid
+/Hubbard_Rob/
+
+# From Rambones; intro code removed
+/update/Laxity/Unknown.sid
+/Laxity/
+
+# From Waz; PSID fix + 100% rip (miskeys in tune #2 & #4 are gone)
+/update/MC/Rollerboard.sid
+/MC/
+
+# From Waz; two sub-tunes added
+/update/Ouwehand_Reyn/Last_Ninja_3.sid
+/Ouwehand_Reyn/
+
+# From Waz; speach & sub-tunes added
+/update/Raeburn_Gavin/
+/Raeburn_Gavin/
+
+# From Rambones; tune #5 bank-switch fixed
+/update/Rock/7_On_The_Top.sid
+/Rock/
+DELETE
+/Rock/7_On_Top.sid
+REPLACE
+
+# From Waz; tune #7 now plays correctly
+/update/Tel_Jeroen/Hawkeye.sid
+/Tel_Jeroen/
+
+# From mr sid; more variations added
+/update/Tel_Jeroen/Hawkeye_loader.sid
+/Tel_Jeroen/
+
+# From Mage; voice #2 no longer hangs at 0:40
+/update/Vaca_Ramiro/Amiga_Strippoker.sid
+/Vaca_Ramiro/
+
+# From mr sid; 100% rips (thanks, Akira, for the old buggy rips)
+/update/VARIOUS/ADSR/Cane/Harmonix.sid
+/VARIOUS/ADSR/Cane/
+/update/VARIOUS/ADSR/Cane/Naughty.sid
+/VARIOUS/ADSR/Cane/
+/update/VARIOUS/ADSR/Cane/Perfecto.sid
+/VARIOUS/ADSR/Cane/
+/update/VARIOUS/ADSR/Cane/Phobos.sid
+/VARIOUS/ADSR/Cane/
+/update/VARIOUS/ADSR/Cane/Zsombor_Heffters_Game.sid
+/VARIOUS/ADSR/Cane/
+
+# From Waz; now loops correctly
+/update/VARIOUS/PRI/Ravin_Mika.sid
+/VARIOUS/PRI/
+
+# From Skid Ros; now starts correctly
+/update/VARIOUS/Prosonix/Hoff_Lars/Circling_Vulture.sid
+/VARIOUS/Prosonix/Hoff_Lars/
+
+# From Waz; third sub-tune added
+/update/VARIOUS/PVCF/Geometric_2.sid
+/VARIOUS/PVCF/
+DELETE
+/VARIOUS/PVCF/Geometric_2_Zak_1.sid
+REPLACE
+
+# From Waz; 100%...Original crap rip done by Akira.
+/update/VARIOUS/PVCF/Mathematika_II.sid
+/VARIOUS/PVCF/
+
+# From Waz; 100%...Original crap rip done by Akira.
+DELETE
+/VARIOUS/PVCF/Ode_To_Pjo_Vibrants.sid
+REPLACE
+/update/VARIOUS/PVCF/Ode_To_PJO_Vibrants.sid
+/VARIOUS/PVCF/
+
+# From Waz; no longer requires a manual speed change
+/update/VARIOUS/Wisdom/Funny.sid
+/VARIOUS/Wisdom/
+DELETE
+/VARIOUS/Wisdom/Funny_Double_Speed.sid
+REPLACE
+
+/update/Winterberg_Michael/Bonecruncher.sid
+/Winterberg_Michael/
+DELETE
+/Winterberg_Michael/BoneCruncher_hack.sid
+REPLACE
+
+# ****************************************************
+# **                  NEW TUNES                     **
+# ****************************************************
+
+MOVE
+
+# From Rambones: Black_and_White.sid
+# From KJ: Funkmatic.sid  Gnitset.sid  Kwenie.sid  Nice_Tune-Tje.sid
+#          Rain-Fan.sid  Timmy-Boy.sid  Yoyo.sid
+\update\Audial_Arts\
+\Audial_Arts\
+
+# From SIDBurners IV: Rockford.sid
+/update/Brooke_Jason/
+/Brooke_Jason/
+
+# From Anders Eriksen: Dead_or_Alive.sid
+/update/Cooksey_Mark/
+/Cooksey_Mark/
+
+# From Waz: 4k_Digi_Competition_Entry.sid  Making_Your_Mind_Up.sid
+#           Paraquat_Dream.sid  Take_On_Me.sid  Tomb_Raider_Title_Theme.sid
+# From Rambones: Equinoxe_4.sid  Magnetic_Fields_4.sid  Magnetic_Fields_5.sid
+#                Oxygen_4.sid  Rendezvous_4.sid
+# From Adam & Sean Connolly: the rest...
+/update/Connolly_Sean/
+/Connolly_Sean/
+
+# From Inge: Lazity.sid
+# From KJ: Flying_High.sid  Horizons.sid  Trip_Thru_Time.sid
+/update/Deek/
+/Deek/
+
+# From Waz: Around_The_Planet.sid  First_Nightmare.sid
+#           Going_The_Distance.sid  NWCUG_Demo_2_Intro.sid
+#           NWCUG_Demo_2_Outro.sid  Rockmonitor_5.sid  Soundtracker_64.sid
+# From mr sid: 5th-Work.sid  Coma_Light_V.sid  Dark_Entry.sid
+#              Die_Roboter.sid  Dream_On.sid  In_Your_Eyes.sid
+#              Living_Black.sid  Lullaby.sid  Lulu.sid  Melody_Suxx.sid
+#              Organic.sid  Reformation.sid  Stars.sid  Till_the_End.sid
+#              To_You_2.sid  VHD.sid  Visions_in_Goa.sid
+# From Wilfred: Space_Rider_intro.sid
+# From Rambones: Blue_Monday.sid  Fat_Rap.sid  Raster_Drums.sid
+#                Terminator_mix.sid  Third_Mirage.sid
+# From Inge: Walkman.sid
+# From Jeppesen: Pulsar-Kill_O_Zapp.sid  Unicess_Intro.sid
+# From Slight: Hayes_01.sid  Like_A_Prayer.sid
+# From Tiainen: Brainscannaloop.sid
+# From Per: Purple.sid
+# From Adam: Driven_19.sid  Driven_25.sid
+/update/DEMOS/
+/DEMOS/
+
+# From Rambones: Canned.sid  Chalk.sid  Choroid_5.sid
+/update/Dunn_Jonathan/
+/Dunn_Jonathan/
+
+# From Adam: Muzzy_Zoophyte.sid
+# From Wilfred: Emon.sid  Green_Beret_loader_mix.sid  
+/update/Detert_Thomas/
+/Detert_Thomas/
+
+# From KJ: Digital_News_Intro.sid
+# From Rambones: Cyber_Blocks.sid
+/update/FAME/
+/FAME/
+
+# From mr sid: Snowman.sid
+/update/Feiweier_Goesta/
+/Feiweier_Goesta/
+
+# From Inge: Aginas_Prophecy.sid
+# From KJ: Baby_Blues.sid
+/update/Follin_Brothers/
+/Follin_Brothers/
+
+# From Rambones: On_Court_Tennis.sid  On_Field_Football.sid
+/update/Fitzpatrick_John/
+/Fitzpatrick_John/
+
+# From Gabriele: Manchester_United_Europe.sid
+/update/Furniss_Matt/
+/Furniss_Matt/
+
+# From mr sid: Ocean_Loader_pre-v2_0.sid
+/update/Galway_Martin/
+/Galway_Martin/
+
+# From Waz: Batty.sid  Booty.sid  Break_Fever.sid  Brian_Bloodaxe.sid
+#           Coloured.sid  Express_Raider.sid  Fall_Guy.sid  Flintstones.sid
+# From Rambones: Catch_II.sid  Dragons_Kingdom.sid  First_Starfighter.sid
+# From Inge: Archon_II_Adept.sid
+# From KJ: Alioth.sid  Aussie_Games.sid
+# From Adam: Augie_Doggie_and_Dog_Daddy.sid  Its_Magic.sid
+/update/GAMES/A-F/
+/GAMES/A-F/
+
+# From Adam: International_Sports_Chall.sid  Its_Magic.sid
+# From KJ: G-Loc_R360.sid  Golden_Pyramids.sid  Great_Courts.sid
+# From Rambones: Jewel_Chest.sid  Kulfon_in_Bad_Demons_Land.sid
+/update/GAMES/G-L/
+/GAMES/G-L/
+
+# From Waz: Mighty_Bombjack.sid  Quota.sid  Rainbow_Islands.sid
+#           RMS_Titantic.sid  Rollaround.sid
+# From Inge: Oil_Imperium.sid
+# From KJ: Power_Pyramids.sid
+# From Rambones: Magic_Serpent.sid
+/update/GAMES/M-R/
+/GAMES/M-R/
+
+# From Waz: Soccer_Boss.sid  Suburban_Commando.sid  Super_Space_Invaders.sid
+#           Wheelin_Wallie.sid
+# From Adam: War_of_the_Crown_II.sid
+# From Inge: Varidan.sid
+# From Rambones: Weather_Tamers.sid  Web.sid  Zeta_7.sid  Zim_Sala_Bim.sid
+/update/GAMES/S-Z/
+/GAMES/S-Z/
+
+# From Rambones: Hocus_Focus.sid
+/update/Gray_Fred/
+/Gray_Fred/
+
+# From Youth: Bosswing.sid  Daniela.sid  EA*.sid  Eat_This.sid
+#             Funky_Medina.sid  Gameplay.sid  Iceball.sid
+#             Intromusic.sid  Level_Designer_Intro.sid  Loader_1.sid
+#             Shortish.sid  Solitair.sid  Solitair_Intro.sid
+/update/HeatWave/
+/HeatWave/
+
+# From KJ: Classical_1_Merry_Melody.sid  Classical_2.sid
+#          Elephant_Antics_Remix.sid
+/update/Hogg_Ashley/
+/Hogg_Ashley/
+
+# From KJ: KGB_Agent_Mix.sid  Monty_on_the_Run_Mix.sid  Murders.sid
+#          Nasty_Waggie.sid  Sandy_Beach.sid  Unitrax_88_Killermix.sid
+/update/Jensen_Henrik/
+/Jensen_Henrik/
+
+# From Rambones: Dead_Iron.sid  Deadly_Sequence.sid  Demo_Music.sid
+#                Jingle.sid  Magic_Sound.sid  Min_Axel_F.sid  Ruff_Scale.sid
+#                Sanxion_Loader_Remix.sid  Sound_Similuation.sid
+#                Space_Game.sid
+/update/Laxity/
+/Laxity/
+
+# From Waz: When_Doves_Cry.sid
+/update/Leitch_Barry/
+/Leitch_Barry/
+
+# From Wilfred: I_Like_Chopin.sid
+# From KJ: What_Have_I_Done_To.sid
+# From Se7en: Like_A_Prayer_tune_1.sid  Like_A_Prayer_tune_2.sid
+/update/Ouwehand_Reyn/
+/Ouwehand_Reyn/
+
+# From Adam: Actually.sid  Critical.sid  Go_Ahead.sid  Late_New_Years.sid
+#            Miami_Vice.sid  Push_Bit.sid
+/update/Red/
+/Red/
+
+# From Waz: Mayhem_In_Monsterland_Prev.sid
+/update/Rowlands_Steve/
+/Rowlands_Steve/
+
+# From Rambones: Forever_Tonight.sid  Let_It_Be.sid  Magic_Colors.sid
+#                Magic_Drums.sid  Magnetic_Fields_Part_2.sid
+/update/Soedesoft/
+/Soedesoft/
+
+# From Adam: Cobra_Force.sid
+# From Rambones: SuperTed-Search_For_Spot.sid
+/update/Sonic_Graffiti/
+/Sonic_Graffiti/
+
+# From Adam: Fourth_Rendezvous.sid  Saturn.sid
+# From Wilfred: Rendezvous_5.sid
+/update/Taylor_Stuart/
+/Taylor_Stuart/
+
+# From JCH: Closing_In.sid
+/update/Tel_Jeroen/
+/Tel_Jeroen/
+
+# From Rambones: Freaky_Tune.sid  Music_Mix_1.sid  Music_Mix_6.sid
+#                Scroll_It_Up.sid
+# From JCH: Happy_JT.sid  Trying_Out.sid
+/update/Tel_Jeroen/HCS_etc/
+/Tel_Jeroen/HCS_etc/
+
+# From Waz
+/update/VARIOUS/Amorphis/Compod/
+/VARIOUS/Amorphis/Compod/
+
+# From mr sid
+/update/VARIOUS/Andre/
+/VARIOUS/Andre/
+
+# From KJ
+/update/VARIOUS/Blues_Muz/
+/VARIOUS/Blues_Muz/
+
+# From Adam: Smash_Out.sid  Super_Deal.sid
+/update/VARIOUS/Bosch_Roel/
+/VARIOUS/Bosch_Roel/
+
+# From Waz
+/update/VARIOUS/Crack/
+/VARIOUS/Crack/
+
+# From mr sid
+/update/VARIOUS/Dave/
+/VARIOUS/Dave/
+
+# from mr sid: Watery.sid
+/update/VARIOUS/Fanta/
+/VARIOUS/Fanta/
+
+# From mr sid: Coma_Light_VII.sid
+/update/VARIOUS/Gaston/
+/VARIOUS/Gaston/
+
+# From Wilfred
+/update/VARIOUS/Hannula_Antti/
+/VARIOUS/Hannula_Antti/
+
+# From Daniel Näslund: Aatta_Laaten.sid  Du_Gamla_Du_Fria.sid
+#                      End_Dead_End.sid  Fem_Laaten.sid  Honey_Coke.sid
+#                      Intro_Tune.sid  Nio_Laaten.sid  Note_Tune.sid  Q.sid
+#                      Sex_Laaten.sid  Start.sid  Zakka_One.sid
+/update/VARIOUS/HCL/
+/VARIOUS/HCL/
+
+# From Waz
+/update/VARIOUS/Hesford_Paul/
+/VARIOUS/Hesford_Paul/
+
+# From Waz: Golden_Intro.sid
+/update/VARIOUS/Iron_Cat/
+/VARIOUS/Iron_Cat/
+
+# From Rambones: Cosmos-designs_intro.sid  Cosmox.sid  Crossfire.sid
+#                Freds_Back_III.sid  Lions_of_the_Universe.sid
+/update/VARIOUS/MC_Lord/
+/VARIOUS/MC_Lord/
+
+# From Lyon
+/update/VARIOUS/Midas/
+/VARIOUS/Midas/
+
+# From Waz: Space_Gun.sid  X-Bass.sid
+/update/VARIOUS/Moog/
+/VARIOUS/Moog/
+
+# From Inge: Rain.sid
+/update/VARIOUS/MSK/
+/VARIOUS/MSK/
+
+# From Odi and Mage
+/update/VARIOUS/Odi/
+/VARIOUS/Odi/
+
+# From Gabriele Priarone
+/update/VARIOUS/Priarone_Gabriele/
+/VARIOUS/Priarone_Gabriele/
+
+# From Waz: Giana_2.sid  Hexzakk.sid
+# From KJ: Hamburger_Sp_Happy_PVCF-Mix.sid
+/update/VARIOUS/PVCF/
+/VARIOUS/PVCF/
+
+# From Adam: Driven_20.sid
+/update/VARIOUS/Roy_Batty/
+/VARIOUS/Roy_Batty/
+
+# From The Human Autofire: CoverGirl_Screen_*.sid  CoverGirl_Title.sid
+#                          Equinox.sid  Fusion.sid  In_Past.sid
+#                          Indersved.sid  Jol_Clown.sid  Nebulas.sid
+#                          Rosanner.sid  Temple_Du.sid
+/update/VARIOUS/Scortia/
+/VARIOUS/Scortia/
+
+# From mr sid: Coma_Light_IX.sid
+/update/VARIOUS/Stax/
+/VARIOUS/Stax/
+
+# From Adam
+/update/VARIOUS/The_Noise_Art/
+/VARIOUS/The_Noise_Art/
+
+# From Waz: Axel_F.sid  Funk_City.sid
+/update/VARIOUS/TLF/
+/VARIOUS/TLF/
+
+# From Waz: Connection.sid
+/update/VARIOUS/Triad/
+/VARIOUS/Triad/
+
+# From Waz: Dark_Dawn.sid  Kravin1.sid  Nightmagic.sid  Technotop.sid
+/update/VARIOUS/Triad/Kravin/
+/VARIOUS/Triad/Kravin/
+
+# From Waz: Time_Out_Endpart.sid
+/update/VARIOUS/Triad/Daw/
+/VARIOUS/Triad/Daw/
+
+# From Waz: Strictly_Core.sid
+/update/VARIOUS/Triad/King_Fisher/
+/VARIOUS/Triad/King_Fisher/
+
+# From Andrejs Dunkels: Candlelight.sid  Contrast.sid
+# From Ron Rickert: Fugue_in_g-minor.sid
+/update/VARIOUS/Trident/
+/VARIOUS/Trident/
+
+# From Nucleus
+/update/VARIOUS/Trugoy/
+/VARIOUS/Trugoy/
+
+# From Waz
+/update/VARIOUS/Uzzy/
+/VARIOUS/Uzzy/
+
+# From Ulf & Widsom: Anarchy.sid
+/update/VARIOUS/Wisdom/
+/VARIOUS/Wisdom/
+
+# From Waz: Wizard.sid  Wizard3.sid
+# From Ron Rickert: Mystery.sid
+/update/VARIOUS/Wizard/
+/VARIOUS/Wizard/
+
+# From Waz
+/update/VARIOUS/Zaw_Productions/
+/VARIOUS/Zaw_Productions/
+
+# ****************************************************
+# **              REPEATS / BAD RIPS                **
+# ****************************************************
+
+DELETE
+
+# same as /Danko_Tomas/Moldau.sid
+/Danko_Tomas/Thoma005.sid
+
+# same as /Danko_Tomas/Singalong.sid
+/Danko_Tomas/Wonderland_3.sid
+
+# same as \VARIOUS\Wizard\Compozak.sid
+\DEMOS\Zak.sid
+
+# A bad rip of /VARIOUS/Jeff/8th_Frame.sid
+/DEMOS/UNKNOWN/RSI_Intro.sid
+
+# bad early version of \Ouwehand_Reyn\Contaxia.sid
+\Ouwehand_Reyn\Intro_Zak_1.sid
+
+# Same as /VARIOUS/Blues_Muz/Day_Of_The_Tentacle_DOTT.sid
+/VARIOUS/Blues_Muz/Gallefoss_Glenn/DOTT.sid
+
+# same as \Ouwehand_Reyn\Party_Tune.sid
+\VARIOUS\Boogaloo\FLI_Scroll.sid
+
+
+# ****************************************************
+# **               SID TUNE CREDITS                 **
+# ****************************************************
+
+# Thanks to the tons of people who helped find the correct credits.
+
+#######
+CREDITS
+#######
+
+/20CC/Mama_Mia.sid
+Dodo
+Jeroen Kimmel (Red)
+1989 World Wide Expressive
+
+/Danko_Tomas/40s.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/And_I_Loved_Them.sid
+...And I Loved Them
+Tomas Danko
+1989 Tomas Danko
+
+/Danko_Tomas/Annas_dilemma.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/Artoez.sid
+*
+Tomas Danko
+1989 Tomas Danko
+
+/Danko_Tomas/A_fathers_mind.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/Baracuda.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Bmx_Kids_Rob_Hubbard.sid
+Bmx Kidz
+Tomas Danko
+1988 Tomas Danko
+
+/Danko_Tomas/Caracas.sid
+Caraccas
+*
+1991 Tomas Danko
+
+/Danko_Tomas/Chonnis_mind.sid
+*
+Tomas Danko
+1988 Tomas Danko
+
+/Danko_Tomas/Complications.sid
+*
+Tomas Danko
+1991 Tomas Danko
+
+/Danko_Tomas/Crying_for_help.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/dontstop.sid
+Don't Stop
+Tomas Danko
+1988 Tomas Danko
+
+/Danko_Tomas/Dont_give_up.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Flip_out.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/Funky_A_Soul.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Gee_Aye_whY.sid
+*
+Tomas Danko
+1992 Tomas Danko
+
+/Danko_Tomas/Goodbye_Censor.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Hammerfist.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Hard4dmn.sid
+Hard 4 The Money
+Tomas Danko
+1989 Tomas Danko
+
+/Danko_Tomas/Hit_the_road.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Im_back.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Into_orbit.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/I_L_C.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/Just_a_beginning.sid
+*
+Tomas Danko
+1988 Tomas Danko
+
+/Danko_Tomas/Ketzer.sid
+*
+Tomas Danko
+1989 Tomas Danko
+
+/Danko_Tomas/La_bamba.sid
+La Bamba
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Lambalajja_part_4.sid
+*
+Tomas Danko
+1988 Tomas Danko
+
+/Danko_Tomas/Long_Distance.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Lst_in_spc_part_2.sid
+Lost in space part 2
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/Lullalloo.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/No_Comment.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/No_digitizing.sid
+*
+Tomas Danko
+1988 Tomas Danko
+
+/Danko_Tomas/Pizzifabrix.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Plastic_Pop.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/orchestra.sid
+*
+Tomas Danko
+19?? Tomas Danko
+
+/Danko_Tomas/Outfit.sid
+*
+Tomas Danko
+19?? Tomas Danko
+
+/Danko_Tomas/Quadraplex_I.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Russian.sid
+*
+Tomas Danko
+1992 Tomas Danko
+
+/Danko_Tomas/Russian_anthem.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/Simplified.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Sonics_2.sid
+Robby-Mix
+Tomas Danko
+1988 Tomas Danko
+
+/Danko_Tomas/Sonics_3.sid
+P. W. Botha
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Sister_Swing.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Smooth_Criminal.sid
+*
+Tomas Danko
+1991 Tomas Danko
+
+/Danko_Tomas/Spectre_of_Ice.sid
+*
+Tomas Danko
+1990 Tomas Danko
+
+/Danko_Tomas/Squeeze_it_out.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/To_all_my_friends.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Danko_Tomas/Transatlantix.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Type_it_in.sid
+*
+Tomas Danko
+1987 Tomas Danko
+
+/Danko_Tomas/Under_the_surface.sid
+*
+Tomas Danko
+1992 Tomas Danko
+
+/Danko_Tomas/way_it_is.sid
+*
+Tomas Danko
+1986 Tomas Danko
+
+/Deek/Crimson.sid
+*
+Richard Rinn (Deek)
+1990-92 Vibrants
+
+\Deek\Deadtunes_Version2.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Demo_Tune_9.sid
+*
+Richard Rinn (Deek)
+19?? Vibrants
+
+\Deek\End_Hiscore.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Infinity.sid
+*
+Richard Rinn (Deek)
+19?? Crest
+
+\Deek\IntroDuction.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Jingle.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Kwik41.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Load_Jingle.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Main_Jingle.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Memories.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Milkin.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Ooletimin.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Pigsha.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Pool_Game.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Propaganda.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Quasar.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Reflex.sid
+*
+Richard Rinn (Deek)
+1990-92 Vibrants
+
+\Deek\Richa002.sid
+Hairy Toes (v2)
+Richard Rinn (Deek)
+1993 Vibrants
+
+\Deek\Tiger_in_a_Dress.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Titled.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Tribute_to_MON.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+\Deek\Walawanga.sid
+*
+Richard Rinn (Deek)
+1990-92 Vibrants
+
+\Deek\Weebles.sid
+*
+Richard Rinn (Deek)
+19?? Deek
+
+/DEMOS/Artlite_Zone.sid
+Artlight Zone
+Antti Hannula
+1990 Artline Designs
+
+\DEMOS\5_People_in_a_Ford_Fiesta.sid
+Frikadelle 'n' Cheese
+Bordeaux
+1996 Acrise
+
+\DEMOS\Compo_Tune.sid
+*
+Eco
+1996 Excess
+
+\DEMOS\Detect_Failure_Demo.sid
+*
+Haldor
+19?? Idlers
+
+\DEMOS\Digital_Acid.sid
+*
+Ash Routledge & Dave Saunders
+1988 Ash and Dave
+
+\DEMOS\Egonlars.sid
+*
+Egon Larsen
+19?? Egon Larsen
+
+\DEMOS\Fate_no_7_Part_2.sid
+Connect 4
+Megablast
+19?? Megablast
+
+/DEMOS/Fontastic_Background_Music.sid
+Fontastic
+*
+1991 CP Verlag
+
+\DEMOS\For_Mamba.sid
+*
+Zeus
+1991 Mamba/Xray
+
+\DEMOS\Fruit_Fest.sid
+*
+Simple
+1996 Role
+
+\DEMOS\I_love_Bees.sid
+I Love Bees
+*
+1995 Angee
+
+\DEMOS\Kingston_Town.sid
+*
+David Dewar (Riot)
+1991 Entropy
+
+\DEMOS\Ninounekimo.sid
+Dreamdealers
+*
+1995 Doh
+
+\DEMOS\Nitro.sid
+*
+Soney
+1996 Smash Designs
+
+\DEMOS\Reggae.sid
+*
+Wide
+1996 Extend
+
+\DEMOS\Space_Dream.sid
+*
+Alexander Gress (Idefix)
+1996 Smash Designs
+
+/DEMOS/Suburbia_Artworx.sid
+*
+Jeroen Tel
+1987 Helmond Cracking Service
+
+\DEMOS\Techno.sid
+*
+Goner
+19?? Atlantic
+
+/DEMOS/Today_is_the_Day.sid
+EA - Intro 1
+Michel de Bree (Mad B)
+1990 HeatWave
+
+/DEMOS/Trooper.sid
+Before You Go
+Michel de Bree (Mad B)
+1991 HeatWave
+
+/DEMOS/Tune_1.sid
+Sidchips Go Berzerk
+Michael
+19?? Authentic Arts
+
+\DEMOS\Tune_3.sid
+Terra Mix
+Goofy
+1989 Goofy
+
+\DEMOS\Unknownm.sid
+*
+Tim Kleinert
+1989 MDA
+
+/DEMOS/UNKNOWN/Crypt.sid
+<?>
+Alice
+19?? Cryptic Tales
+
+/DEMOS/UNKNOWN/For.sid
+Shadows-Hillsfar
+Stein Pedersen
+1989 Stein Pedersen
+
+/DEMOS/UNKNOWN/1waygoat.sid
+Goatbeard (end)
+Thomas Mogensen (DRAX)
+19?? DRAX
+
+/DEMOS/UNKNOWN/Box03.sid
+*
+Thomas Mogensen (DRAX)
+19?? DRAX
+
+/DEMOS/UNKNOWN/Ikari_i3.sid
+*
+Thomas E. Petersen (Laxity)
+198? Laxity
+
+/DEMOS/UNKNOWN/Illusion_Intromusic.sid
+Street Skater
+Chris Ammermueller
+1989 Beat Machine
+
+/DEMOS/UNKNOWN/Meastend.sid
+Eastend
+Thomas E. Petersen (Laxity)
+19?? Laxity
+
+/DEMOS/UNKNOWN/Neon_Intro.sid
+<?>
+Jesper Olsen (JO)
+1989-90 Amok
+
+/DEMOS/UNKNOWN/Rd_10.sid
+Hollywood Burn
+HeatWave
+1991 HeatWave
+
+/DEMOS/UNKNOWN/Rd_14.sid
+Adrenalin (highscore)
+Marvin Severijns (Trooper)
+199? Game On/Magic Disk
+
+/DEMOS/UNKNOWN/Rd_3.sid
+Spijkerhoek Theme
+HeatWave
+1991 HeatWave
+
+/DEMOS/UNKNOWN/Rd_4.sid
+Quasi Modo
+HeatWave
+1991 HeatWave
+
+/DEMOS/UNKNOWN/Rd_5.sid
+Total Recall 1
+HeatWave
+1991 HeatWave
+
+/DEMOS/UNKNOWN/Rd_6.sid
+Total Recall 2
+HeatWave
+1991 HeatWave
+
+/DEMOS/UNKNOWN/Rd_8.sid
+Summernight
+HeatWave
+1991 HeatWave
+
+/DEMOS/UNKNOWN/Rd_9.sid
+Adrenalin (end)
+Michel de Bree (Mad B)
+1991 Game On/Magic Disk
+
+/Vaca_Ramiro/Extermer.sid
+Robotdreams
+*
+1987 Euratom/New Edition
+
+/GAMES/A-F/Druid_2.sid
+Enlightenment: Druid II
+*
+1987 Firebird
+
+/GAMES/A-F/Enforcer.sid
+*
+Markus Siebold
+1991 Enforcers/Double Density
+
+\Gilmore_Adam\Elvira_II_Preview.sid
+Elvira - Mistress of the Dark
+Sean Connolly
+1991 Flair Software
+
+/Jo/Contex_Intro.sid
+*
+Jesper Olsen (JO)
+19?? Amok
+
+/Jo/Jesper_Olsen-01.sid
+<?>
+Jesper Olsen (JO)
+19?? Amok
+
+/Jo/Warball_Title.sid
+Warball
+Jesper Olsen (JO)
+19?? Amok
+
+/Moppe/Blitter_Shitter.sid
+*
+Moppe
+1990 Oneway/System 6481
+
+/Moppe/Kick_Off_2.sid
+*
+Moppe
+1990 Anco Software/System 6581
+
+/Moppe/Moppeunk.sid
+*
+Moppe
+1989 Oneway/System 6581
+
+/Moppe/Total_Control.sid
+*
+Moppe
+1989 Dark Future/System 6581
+
+\Ouwehand_Reyn\Bladerunner_End_Titles.sid
+*
+20CC <?>
+199? 20th Century Composers
+
+\Ouwehand_Reyn\China.sid
+*
+Reyn Ouwehand <?>
+19?? Reyn Ouwehand <?>
+
+\Ouwehand_Reyn\Density.sid
+Dignified
+*
+1989 Density
+
+\Ouwehand_Reyn\Fish_Mac.sid
+*
+<?>
+19?? <?>
+
+\Ouwehand_Reyn\Jabdah.sid
+*
+Hithouse
+19?? The Ruling Company
+
+\Ouwehand_Reyn\Laserdance.sid
+*
+Hithouse
+19?? The Ruling Company
+
+\Ouwehand_Reyn\London_Demo.sid
+*
+<?>
+1991 <?>
+
+\Ouwehand_Reyn\Macmagix.sid
+*
+Reyn Ouwehand
+1989 The Ruling Company
+
+\Ouwehand_Reyn\Myth_cartridge_version.sid
+Deadlock
+*
+1991 System 3
+
+\Ouwehand_Reyn\Ouwehand_Unknown_01.sid
+Knights
+*
+19?? Reyn Ouwehand
+
+\Ouwehand_Reyn\Speedzax_2.sid
+Speedzax
+*
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Spidie_Aga.sid
+*
+Reyn Ouwehand <?>
+1989 Reyn Ouwehand <?>
+
+\Ouwehand_Reyn\TRC_Intro_Tune_1.sid
+*
+<?>
+19?? <?>
+
+/Schneider_Markus/Noname.sid
+Trying Out 2
+Jeroen Tel
+1987 Jeroen Tel
+
+/Soedesoft/Soede002.sid
+Magic Funk
+Soedesoft
+19?? Soedesoft
+
+/Soedesoft/Soede003.sid
+Ik ben vandaag zo vrolijk
+Soedesoft
+1988 Soedesoft
+
+/VARIOUS/Graffity/Unite001.sid
+Stupid Lamer
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_01.sid
+Turmoil
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_22.sid
+Thermo P4
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_21.sid
+Thermo P3
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_20.sid
+Thermo P2
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_19.sid
+Thermo P1
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_13.sid
+Rock Tune
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_15.sid
+Pianowork
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_17.sid
+Philader
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Andy/Andy_03.sid
+Pacmania
+Adam Davidovics (Andy)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_14.sid
+Midnight
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_09.sid
+Intro Tune
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Game_Intro.sid
+Game Title
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_24.sid
+End Tune 1
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_23.sid
+End Tune
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_02.sid
+Delta Zak
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_18.sid
+Zak
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_16.sid
+Only the bass
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_11.sid
+Disco Tech
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Graffity/Brian/Brian_08.sid
+Mad Eddie
+Balazs Farkas (Brian)
+19?? Graffity
+
+/VARIOUS/Havoc/Flatline_1.sid
+Frontline 1
+*
+1988 Frontline
+
+/VARIOUS/Havoc/Flatline_2.sid
+Frontline 2
+*
+1988 Frontline
+
+/VARIOUS/Havoc/Flatline_3.sid
+Frontline 3
+*
+1988 Frontline
+
+/VARIOUS/Havoc/Flatline_4.sid
+Frontline 4
+*
+1988 Frontline
+
+/VARIOUS/Havoc/Flatline_5.sid
+Frontline 5
+*
+1988 Frontline
+
+/VARIOUS/Xayne/Xaynechr.sid
+Check This Out
+Chris Ammermueller & Xayne
+1989 Beat Machine
+
+/Yip/Omega_Man.sid
+*
+Jori Olkkonen (Yip)
+1986 Purebyte
+
+#####
+TITLE
+#####
+
+/20CC/Amtrax.sid
+Amtrak
+
+/Bjerregaard_Johannes/Dlrs10nt.sid
+Sweet
+
+/Deenen_Charles/Cd_unkn2.sid
+Constant Runner
+
+/Gray_Fred/Batman-c.sid
+Batman, The Caped Crusader
+
+/Huelsbeck_Chris/Dulcedo.sid
+Dulcedo Cogitationis
+
+/JCH/Weirdo.sid
+Weirdo  TIME: 0:30
+
+/Link/Jstnthrd.sid
+Just Another...
+
+/Vaca_Ramiro/A_Short_One.sid
+Hell Out
+
+/VARIOUS/PVCF/Pvcf_11.sid
+Centric
+
+######
+AUTHOR
+######
+
+/20CC/Spijkerhoek_2.sid
+Edwin van Santen
+
+/20CC/Words.sid
+Falco Paul
+
+/20CC/TV_Tunes_Mix.sid
+20CC
+
+\Deek\Hairy_Toes.sid
+Richard Rinn (Deek)
+
+/Deenen_Charles/Astro_Marine_Corps.sid
+Charles Deenen/Maniacs of Noise
+
+/Deenen_Charles/Ding_van_Charles.sid
+Charles Deenen
+
+/Deenen_Charles/Onslaught.sid
+Mario Laugell (Steel)
+
+/Deenen_Charles/F1_Simulator.sid
+Charles Deenen/Maniacs of Noise
+
+\DEMOS\Coming_to_the_Netherlands.sid
+Tufan Uysal (Sonic)
+
+\DEMOS\Push_It.sid
+Björn Stenberg (Zagor)
+
+\DEMOS\Rockmonitor_3.sid
+Oscar Giesen (OPM)
+
+/FAME/Empius.sid
+Michael Hendriks
+
+/FAME/Slug.sid
+M. Hendriks & Holger Knipping
+
+/FAME/Total_Recall.sid
+Michael Hendriks
+
+/Future_Freak/Cooperation_Demo.sid
+Future Freak
+
+/Future_Freak/Dexion_Demo.sid
+Future Freak
+
+/Future_Freak/Dexion_Ranking_Demo.sid
+Future Freak
+
+/GAMES/A-F/Adrenalin.sid
+Mad B & Trooper
+
+/GAMES/G-L/Hektic.sid
+Marc François
+
+/GAMES/G-L/Grijp_Ze.sid
+H. Bratt, B. Retelle, J. Brady
+
+/GAMES/G-L/KGB_Agent.sid
+Henrik Buus Jensen
+
+/GAMES/M-R/Racterslam.sid
+Marc François
+
+/GAMES/M-R/Rocky_Horror_Show.sid
+Jay Derrett
+
+/GAMES/S-Z/Slicks.sid
+Allister Brimble
+
+/Holland_Greg/Asterix.sid
+<?>
+
+/Holland_Greg/Bedlam.sid
+<?>
+
+/Holland_Greg/Bop_n_Rumble.sid
+<?>
+
+/Holland_Greg/Castle_Of_Terror.sid
+<?>
+
+/Holland_Greg/Doc_the_Destroyer.sid
+<?>
+
+/Holland_Greg/Inspector_Gadget_Demo.sid
+<?>
+
+/Holland_Greg/Mugsys_Revenge.sid
+<?>
+
+/Holland_Greg/Muncher.sid
+<?>
+
+/Holland_Greg/Sherlock.sid
+<?>
+
+/Huelsbeck_Chris/Spherical.sid
+Chris Hülsbeck & Ramiro Vaca
+
+/Huelsbeck_Chris/Startrash.sid
+Chris Hülsbeck & Ramiro Vaca
+
+/Jo/Batfunk.sid
+J. Olsen & Johannes Bjerregaard
+
+/Jo/Pice_of_Mind.sid
+Jesper Olsen (JO)
+
+/Jo/Turn_It.sid
+Jesper Olsen
+
+/Leitch_Barry/Live_To_Tell.sid
+Barry Leitch (The Jackal)
+
+/MozIcArt/Lindanger_Trond/Connection.sid
+IQ 64
+
+\Ouwehand_Reyn\Ninja_Remix.sid
+<?>
+
+\Ouwehand_Reyn\Puzzle_Shuffle.sid
+Reyn Ouwehand
+
+/Sonic_Graffiti/Kick_Box_Vigilante.sid
+Gerard Gourley (Gez)
+
+/Vaca_Ramiro/Amiga_Sound.sid
+Ramiro Vaca (Extermer)
+
+/Vaca_Ramiro/Atomic_Orphan.sid
+Ramiro Vaca (Extermer)
+
+/Vaca_Ramiro/Enter_2000.sid
+Ramiro Vaca (Extermer)
+
+/Vaca_Ramiro/Hear_It.sid
+Ramiro Vaca (Extermer)
+
+/Vaca_Ramiro/Liberty.sid
+Ramiro Vaca (Extermer)
+
+/Vaca_Ramiro/Slow_Rock.sid
+Ramiro Vaca (Extermer)
+
+/Vaca_Ramiro/Spacesong.sid
+Ramiro Vaca (Extermer)
+
+/Yip/Scroll_Machine.sid
+Jori Olkkonen (Yip)
+
+#########
+COPYRIGHT
+#########
+
+/Bjerregaard_Johannes/Stormlord_V2.sid
+1989 Maniacs of Noise
+
+/Brandt_Georg/Street_Gang.sid
+1987 Time Warp Productions
+
+/Brooke_Jason/Pac-Land.sid
+1987-88 Quicksilva/Namco
+
+/Crowther_Antony/R1D1.sid
+1986 Your Commodore
+
+/Danko_Tomas/17s_Over.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Abnormal_Life.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Aciieed.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Angel.sid
+1993 Tomas Danko/Decoder
+
+/Danko_Tomas/Aoouh.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Back_To_Bassix.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Basilica_Shoes.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Beachtune.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Big_Eddie.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Big_Funk.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Birdwatching.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Blast_Off.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Censor_Introtune.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Charts.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Clusteroid.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Danko_Unknown.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Deformata.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Defstick.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Delta.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demomusix.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Demotraz_1.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demotraz_2.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demotraz_3.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demotraz_4.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demotraz_5.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demotraz_6.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demotraz_7.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Demotraz_8.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Dopemixx.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Elementary.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Facing_Reality.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Failure.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Fatal_News_Magazine.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Forever_Tonight.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Getting_Bored.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Going_Down.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Gozzip.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Groove.sid
+1993 Tomas Danko
+
+/Danko_Tomas/Ground.sid
+1993 Tomas Danko
+
+/Danko_Tomas/Grymmingz.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Gujjka.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Halifax.sid
+1993 Tomas Danko
+
+/Danko_Tomas/Hejtomte.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Hotel_California.sid
+1995 Tomas Danko
+
+/Danko_Tomas/House_of_the_Rising_Sun.sid
+1986 Tomas Danko
+
+/Danko_Tomas/How_Could_I.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Im_Almost_There.sid
+1989 Tomas Danko
+
+/Danko_Tomas/In_A_Hurry.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Indie_Rally.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Interview.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Intro_999.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Introtune_1.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Introtune_2.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Introtune_3.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Issue_0.sid
+1991 Tomas Danko
+
+/Danko_Tomas/It.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Its_Eternal.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Its_Fusion.sid
+1988 Tomas Danko
+
+/Danko_Tomas/James_Bond_Theme.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Jeremiah.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Jingle_Bells.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Just_Like_Before.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Just_Like_That.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Kablaff.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Kik_It.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Last_Dream.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Last_Resort.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Last_Soldier.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Loadsafun.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Lothering.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Luft_Med_Isbit.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Magnetic_Fields_IV.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Metal_Dream.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Miffo.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Minefield.sid
+19?? Tomas Danko
+
+/Danko_Tomas/Minorsong.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Mischmasch.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Mizxette.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Moldau.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Moonlight_Shadow.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Nailed.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Naturelyze.sid
+1989 Tomas Danko
+
+/Danko_Tomas/New_Dimension.sid
+1987 Tomas Danko
+
+/Danko_Tomas/News_and_Rumours.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Noxinovs.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Number_1.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Number_2.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Number_3.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Opus_I.sid
+1986 Tomas Danko
+
+/Danko_Tomas/Opus_II.sid
+1986 Tomas Danko
+
+/Danko_Tomas/Opus_III.sid
+1986 Tomas Danko
+
+/Danko_Tomas/Opus_IV.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Opus_V.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Opus_VI.sid
+1989 Tomas Danko
+
+/Danko_Tomas/OuttaTouch.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Pink_Panther_Theme.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Planetary.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Principal.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Pulse_Machine.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Put_It_Away.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Querimonious.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Raggamuffin.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Reactions.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Return.sid
+1996 Tomas Danko
+
+/Danko_Tomas/Reviews.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Riddle.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Rohpah.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Runtaranta.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Sacrificed.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Sanxion_Tapeloader.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Save_Our_Soldiers.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Scary_Sequence.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Secret.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Shock_Magazine.sid
+1992 Tomas Danko
+
+/Danko_Tomas/Shock_Magazine_Introtune.sid
+1992 Tomas Danko
+
+/Danko_Tomas/Shock_Magazine_Schizomix.sid
+1992 Tomas Danko
+
+/Danko_Tomas/Siestas_Gone.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Silent_Thoughts.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Singalong.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Slide_in_Extency.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Smooth_Criminal_Magazine.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Sold_Out.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Solid_Soundmachine.sid
+1987 Tomas Danko
+
+/Danko_Tomas/Some_News.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Some_Pleasure.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Squad_One.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Success_Introtune.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Sudden_IRQ.sid
+1988 Tomas Danko
+
+/Danko_Tomas/Suffix_Unknown.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Svepbar.sid
+1992 Tomas Danko
+
+/Danko_Tomas/Tapeloader.sid
+1990 Tomas Danko
+
+/Danko_Tomas/There_Was.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Tracking.sid
+1986 Tomas Danko
+
+/Danko_Tomas/Tre_Pepparkaksgubbar.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Tribute_to_Atos.sid
+1989 Tomas Danko
+
+/Danko_Tomas/Trust_Me.sid
+1986 Tomas Danko
+
+/Danko_Tomas/Weirdo.sid
+1989 Tomas Danko
+
+/Danko_Tomas/White_Christmas.sid
+1991 Tomas Danko
+
+/Danko_Tomas/Whizkid.sid
+1993 Tomas Danko
+
+/Danko_Tomas/Why_Beep_None.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Winkawonk.sid
+1990 Tomas Danko
+
+/Danko_Tomas/Wonderland_X_Introtune.sid
+1992 Tomas Danko
+
+/Danko_Tomas/Yellow_Pages.sid
+1991 Tomas Danko
+
+\Deek\Building.sid
+19?? Deek
+
+\Deek\Colditz_title.sid
+19?? Deek
+
+\Deek\Paradise_91_intro.sid
+19?? Deek
+
+\Deek\Tocatta.sid
+19?? Deek
+
+/Deenen_Charles/Shitty_Disco_Dump.sid
+1990 Maniacs of Noise
+
+\DEMOS\Axl.sid
+1992 Accuracy
+
+\DEMOS\Doe_Het.sid
+1996 Amnesia
+
+\DEMOS\Druk_Bezig.sid
+1997 TUIG
+
+\DEMOS\Elain.sid
+1997 Panic
+
+\DEMOS\Emx_smsh.sid
+19?? Smash Designs
+
+\DEMOS\End_of_Final_Torture.sid
+1994 Padua
+
+\DEMOS\Jamaica.sid
+1997 Extend
+
+\DEMOS\Modulation.sid
+1997 Trauma/Palace
+
+\DEMOS\Purple_Shades.sid
+1997 Dekadence
+
+\DEMOS\Space_Shit.sid
+1997 Dekadence
+
+\DEMOS\Stalgia.sid
+1997 Panic
+
+\DEMOS\Yankee.sid
+1991 Yankee
+
+/Detert_Thomas/Another_World.sid
+1990 X-ample/Double Density
+
+/Detert_Thomas/Axel_F.sid
+19?? X-ample Architectures
+
+/Detert_Thomas/Bamboo_picture.sid
+1989 X-ample Architectures
+
+/Detert_Thomas/Bamboo_Title.sid
+1989 X-ample Architectures
+
+/Detert_Thomas/B-Bobs.sid
+1990 X-ample Architectures
+
+/Detert_Thomas/Breeze_of_Diogenes.sid
+1989 X-ample Architectures
+
+/Detert_Thomas/Chip_Crunchers_and_X-Ample.sid
+1987 X-ample Architectures/TCC
+
+/Detert_Thomas/Clystron.sid
+1991 X-ample Architectures
+
+/Detert_Thomas/Coalminer.sid
+1991 X-ample Architectures
+
+/Detert_Thomas/Digital_Marketing_Intro.sid
+19?? X-ample/Digital Marketing
+
+/Detert_Thomas/Dynamoid.sid
+1990 X-ample/Double Density
+
+/Detert_Thomas/Eon.sid
+1993 X-ample/Kingsoft
+
+/Detert_Thomas/Eskimo_Games.sid
+1991 X-ample Architectures
+
+/Detert_Thomas/Game_On.sid
+19?? X-ample Architectures
+
+/Detert_Thomas/Genloc.sid
+1994 X-ample/Boeder
+
+/Detert_Thomas/In_No_Sense_Music_Mix_II.sid
+1989 X-ample Architectures
+
+/Detert_Thomas/Ivory.sid
+1989 X-ample Architectures
+
+/Detert_Thomas/Lost_Ninja.sid
+1991 X-ample/MDG/Double Density
+
+/Detert_Thomas/Magnetic.sid
+1992 X-ample/Magic Disk
+
+/Detert_Thomas/MD_and_Go.sid
+1991 X-ample Architectures
+
+/Detert_Thomas/Mega_Starforce.sid
+1993 X-ample Architectures
+
+/Detert_Thomas/Musicdemo.sid
+1991 X-ample Architectures
+
+/Detert_Thomas/Outrun.sid
+1989 X-ample Architectures
+
+/Detert_Thomas/Plexonoid.sid
+1992 X-ample Architectures
+
+/Detert_Thomas/Power.sid
+1991 X-ample/Demonware
+
+/Detert_Thomas/PP_Hammer.sid
+1991 X-ample/Demonware
+
+/Detert_Thomas/Punkt_Punkt_Punkt_title.sid
+1992 X-ample/DXS/PCSL
+
+/Detert_Thomas/Quadrant.sid
+1992 X-ample/Golden Disk
+
+/Detert_Thomas/Spirit_of_Art.sid
+19?? X-ample Architectures
+
+/Detert_Thomas/Starforce.sid
+1990 X-ample Architectures
+
+/Detert_Thomas/Starforce_loader.sid
+1990 X-ample Architectures
+
+/Detert_Thomas/Tales_of_Boon.sid
+1993 X-ample Architectures
+
+/Detert_Thomas/Void_Vision.sid
+1989 X-ample Architectures
+
+/Detert_Thomas/Your_Label.sid
+1989 X-ample Architectures
+
+/Dunn_David/Fourth_Protocol.sid
+1985 Hutchison Computer Pub.
+
+/Feiweier_Goesta/Bingo.sid
+19?? Digital Excess/PCSL
+
+/Feiweier_Goesta/Calyx.sid
+19?? Calyx
+
+/Feiweier_Goesta/Detonators.sid
+1993 Digital Excess/Double Den.
+
+/Feiweier_Goesta/Dingsda.sid
+1991 Digital Excess/PCSL
+
+/Feiweier_Goesta/Hard_Complexes.sid
+19?? Calyx
+
+/Feiweier_Goesta/Josh.sid
+1992 Digital Excess/Double Den.
+
+/Feiweier_Goesta/Nowhere.sid
+19?? Calyx
+
+/Feiweier_Goesta/Untitle1.sid
+19?? Calyx
+
+/Feiweier_Goesta/Wetten_Dass.sid
+1991 Digital Excess/PCSL
+
+/Follin_Brothers/Magic_Johnsons_Basketball.sid
+1990 <?>
+
+/Follin_Brothers/Sly_Spy_Secret_Agent.sid
+1989 Ocean/Data East
+
+/Furniss_Matt/Castle_Master.sid
+19?? <?>
+
+/Furniss_Matt/Space_Harrier_II.sid
+1989-90 Grandslam Entertainment
+
+/Galway_Martin/Insects_in_Space.sid
+1989 Sensible Software/Hewson
+
+/GAMES/G-L/Hot_Wheels.sid
+1985 Epyx
+
+/GAMES/M-R/Reaxion.sid
+1994 Bigtime Software
+
+/GAMES/S-Z/Task_III.sid
+1987 Databyte
+
+/GAMES/S-Z/Trapdoor.sid
+1986 Piranha/Macmillan
+
+/Gilmore_Adam/Afterburner.sid
+19?? Activision/Sega
+
+/Gilmore_Adam/Spaghetti_Western_Sim.sid
+19?? Zeppelin
+
+/Gilmore_Adam/Time_Scanner.sid
+1989 Activision/Sega
+
+/Hartwig_Stefan/Double_Sphere.sid
+1990 Digital Excess/Double Den.
+
+/Hartwig_Stefan/Double_Sphere_docs.sid
+1990 Digital Excess/Double Den.
+
+/Hartwig_Stefan/Opium.sid
+19?? Heaven Artworks
+
+/Hartwig_Stefan/Tube_Madness.sid
+1991 Digital Excess/Double Den.
+
+/Hatlelid_Kris/Grand_Prix_Circuit.sid
+1988 Accolade
+
+/Hubbard_Rob/Chain_Reaction.sid
+198? Kele-Line Games
+
+/Huelsbeck_Chris/Ch_uknwn.sid
+19?? Chris Hülsbeck
+
+/Japmaster/Road_Runner_and_Wile_E_Coy.sid
+1991 Hi-Tec
+
+/JCH/Channl42.sid
+1989 Vibrants
+
+/Jo/Sex_n_Crime_2_Theme.sid
+1988 Amok
+
+/Klaewer_Oliver/Unkno001.sid
+19?? Oliver Klaewer
+
+/Klaewer_Oliver/Unkno001.sid
+19?? Oliver Klaewer
+
+/Leitch_Barry/Mindsmear.sid
+19?? Barry Leitch
+
+/MC/Parallax.sid
+19?? Marco Swagerman
+
+/Norman_Paul/Forbidden_Forest_II.sid
+198? Cosmi
+
+/Norman_Paul/Pacrunner.sid
+19?? <?>
+
+\Ouwehand_Reyn\Afl_Tune.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Armada.sid
+1989 Scoop Designs
+
+\Ouwehand_Reyn\Audio_Art.sid
+1989 Magna Magazine
+
+\Ouwehand_Reyn\a_Game_Over_tune.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Batmania_II_5.sid
+1989 ATG
+
+\Ouwehand_Reyn\Batmania_II_4.sid
+1989 ATG
+
+\Ouwehand_Reyn\Batmania_II_2.sid
+1989 ATG
+
+\Ouwehand_Reyn\Batmania_II_3.sid
+1989 ATG
+
+\Ouwehand_Reyn\Christmas_Remix.sid
+1989 Scoop Designs
+
+\Ouwehand_Reyn\Contaxia.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Domination.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Dutch_Breeze_3.sid
+1991 Blackmail
+
+\Ouwehand_Reyn\Dutch_Breeze_2.sid
+1991 Blackmail
+
+\Ouwehand_Reyn\Dutch_Breeze_5.sid
+1991 Blackmail
+
+\Ouwehand_Reyn\Dutch_Breeze_1.sid
+1991 Blackmail
+
+\Ouwehand_Reyn\Dutch_Breeze_4.sid
+1991 Blackmail
+
+\Ouwehand_Reyn\Falcon_Tn.sid
+1989 Falcon
+
+\Ouwehand_Reyn\Falcon_Dump.sid
+1989 Falcon
+
+\Ouwehand_Reyn\Final.sid
+19?? Reyn Ouwehand
+
+\Ouwehand_Reyn\Firepit.sid
+1990-91 Double Density
+
+\Ouwehand_Reyn\Flip_the_Flop_Dutch_Breeze.sid
+1991 Blackmail
+
+\Ouwehand_Reyn\Funcie.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\GP_Tune.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Heli_Rescue.sid
+1991 Boys Without Brains
+
+\Ouwehand_Reyn\High_Resolution.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\House_Shit.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\In_Karate.sid
+19?? Reyn Ouwehand
+
+\Ouwehand_Reyn\Lessons_in_Love.sid
+1989 Paradize
+
+\Ouwehand_Reyn\Lily_was_here.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Master_Design_Group_tune_2.sid
+1989 Scoop Designs
+
+\Ouwehand_Reyn\Midnight_Express.sid
+1989 Dave Hogendorf
+
+\Ouwehand_Reyn\Paradize.sid
+1988-89 Paradize
+
+\Ouwehand_Reyn\Party_Tune.sid
+1989 Paradize
+
+\Ouwehand_Reyn\Peppered_Pizza.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Physician.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Rider_Mix.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Shape_Remix.sid
+1989 Shape
+
+\Ouwehand_Reyn\Shape_Intro.sid
+1989 Shape
+
+\Ouwehand_Reyn\Super_Trucker.sid
+1991 Boys Without Brains
+
+\Ouwehand_Reyn\Sweetzak.sid
+1989 Reyn Ouwehand
+
+\Ouwehand_Reyn\Tetris_plus.sid
+1991 Maniacs of Noise/Scoop 
+
+\Ouwehand_Reyn\Unknownr.sid
+1989 Reyn Ouwehand
+
+/Rock/Rock.sid
+19?? Rock
+
+/Rock/Rock001.sid
+19?? Origo Dreamline
+
+/Rock/Rock2.sid
+19?? Origo Dreamline
+
+/Rodger_Andrew/American_Tagteam_Wrestling.sid
+1992 Zeppelin Games
+
+/Rodger_Andrew/Fist_Fighter.sid
+1993 Zeppelin Games
+
+/Rodger_Andrew/Sleepwalker.sid
+1991 Zeppelin Games
+
+/Schneider_Markus/Beyond_2.sid
+1989 Strike Force
+
+/Schneider_Markus/Dick_Tracy.sid
+19?? Titus Software
+
+/Soedesoft/7_Runes.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Airwolf.sid
+19?? Soedesoft
+
+/Soedesoft/Airwolf_Title.sid
+19?? Fire-Eagle
+
+/Soedesoft/Awful.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Battlestar_Galactica.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Drifty.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Floep.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Funny_Stuff.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Ghostbusters_Tune.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Jing_Jang.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/JT_Intro_Clone.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/MacGyver_Title.sid
+198? Soedesoft
+
+/Soedesoft/Mania.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Matt_Gray_Style.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Science_Fighter_1.sid
+19?? Jeroen & Michiel Soede
+
+/Soedesoft/Soedesof.sid
+198? Soedesoft
+
+/Soedesoft/TrailMix.sid
+198? Fire-Eagle
+
+/Stember_Rudolf/Cybex.sid
+19?? Cyberstyle/Logo Software
+
+/Tait_Mark/Last_Crusade.sid
+1989 US Gold/Lucasfilm
+
+/Tait_Mark/Last_Duel.sid
+1988 US Gold/Capcom
+
+/Tait_Mark/Protector.sid
+19?? <?>
+
+/Tait_Mark/Space_Biker.sid
+19?? <?>
+
+/Tait_Mark/Thunder_Hawk.sid
+198? US Gold
+
+/Tel_Jeroen/Afterburner.sid
+19?? Sega
+
+/Tel_Jeroen/Deel_3.sid
+1989 Maniacs of Noise
+
+/Tel_Jeroen/Deel_4.sid
+1989 Maniacs of Noise
+
+/Tel_Jeroen/Ikari_Union.sid
+198? Maniacs of Noise
+
+/Tel_Jeroen/Remark_Intro.sid
+1989 Maniacs of Noise
+
+/Tel_Jeroen/Rubicon.sid
+1991 Twisted_Mind/Hewson
+
+/Tel_Jeroen/Sample.sid
+19?? Maniacs of Noise
+
+/Tel_Jeroen/Star_Ball.sid
+1988 Reptilia Design/Softek
+
+/Tel_Jeroen/Stormlord.sid
+1989 Hewson/Maniacs of Noise
+
+/Tel_Jeroen/Thats_the_Way_It_Is_main.sid
+198? Maniacs of Noise
+
+/Tel_Jeroen/Top_Trucker.sid
+1988 Maniacs of Noise
+
+/Tel_Jeroen/Unused_1.sid
+1990 Maniacs of Noise
+
+/Tel_Jeroen/Viz.sid
+1991 Virgin/Probe Software
+
+/Tel_Jeroen/HCS_etc/Lost_in_China.sid
+1987 Jeroen Tel/Scoop Designs
+
+/TST/Kaze/Force.sid
+19?? The Supply Team
+
+/TST/Kaze/Human_Race_REMIX.sid
+19?? 2000 A.D./The Supply Team
+
+/TST/Kaze/New_Limits_Title.sid
+198? The Supply Team
+
+/Turner_Steve/Intensity.sid
+1988 Graftgold/Firebird
+
+/VARIOUS/Hannula_Antti/Conflex.sid
+1990 Artline Designs
+
+/VARIOUS/Hannula_Antti/FanFarewell.sid
+1990 Artline Designs
+
+/VARIOUS/Hannula_Antti/Ghettoblaster.sid
+1990 Artline Designs
+
+/VARIOUS/Hannula_Antti/Russian.sid
+1990 Artline Designs
+
+/VARIOUS/Hannula_Antti/Superstitious.sid
+1990 Artline Designs
+
+/VARIOUS/Hannula_Antti/Weekend.sid
+1990 Artline Designs
+
+/VARIOUS/Hannula_Antti/Wonderland.sid
+1990 Artline Designs
+
+/VARIOUS/Xayne/Slammer.sid
+1994 Crest
+
+/Whittaker_David/Island_Of_Dr_Destructo.sid
+1987 Bulldog
+
+/Whittaker_David/Model.sid
+19?? <?>
+
+/Whittaker_David/Roadblaster.sid
+1987 US Gold/Atari Games
+
+/Whittaker_David/Wizards_Pet.sid
+1987 Mastertronic
+
+#####
+SONGS
+#####  number of songs,starting tune
+
+/Detert_Thomas/Blue_Angel.sid
+5,1
+
+/GAMES/G-L/Hektic.sid
+6,6
+
+
+#####
+SPEED
+#####  in hexadecimal (32 bits max)
+
+/GAMES/A-F/Fire_Trap.sid
+1
+
+/Norman_Paul/Sentinel.sid
+1
+
+
+# ****************************************************
+# **                MISCELLANEOUS                   **
+# ****************************************************
+
+MOVE
+
+/20CC/Amtrax.sid
+/20CC/Amtrak.sid
+
+/20CC/Mama_Mia.sid
+/Red/Dodo.sid
+
+/Bjerregaard_Johannes/Dlrs10nt.sid
+/Bjerregaard_Johannes/Sweet.sid
+
+/Crowther_Antony/Ratt3.sid
+/Crowther_Antony/Ratt_Demo_3.sid
+
+/Daglish_Ben/Chicken_Song_s.sid
+/Daglish_Ben/Chicken_Songs.sid
+
+/Danko_Tomas/Bmx_Kids_Rob_Hubbard.sid
+/Danko_Tomas/Bmx_Kidz.sid
+
+/Danko_Tomas/Caracas.sid
+/Danko_Tomas/Caraccas.sid
+
+/Danko_Tomas/dontstop.sid
+/Danko_Tomas/Dont_Stop.sid
+
+/Danko_Tomas/Hard4dmn.sid
+/Danko_Tomas/Hard_4_The_Money.sid
+
+/Danko_Tomas/Hejtomte.sid
+/Danko_Tomas/Hej_Tomtegubbar_Sla_I_Glas.sid
+
+/Danko_Tomas/La_bamba.sid
+/Danko_Tomas/La_Bamba_.sid
+
+/Danko_Tomas/La_Bamba_.sid
+/Danko_Tomas/La_Bamba.sid
+
+/Danko_Tomas/Lst_in_spc_part_2.sid
+/Danko_Tomas/Lost_in_space_part_2.sid
+
+/Danko_Tomas/Sonics_2.sid
+/Danko_Tomas/Robby-Mix.sid
+
+/Danko_Tomas/Sonics_3.sid
+/Danko_Tomas/P_W_Botha.sid
+
+/Deek/Richa002.sid
+/Deek/Hairy_Toes_v2.sid
+
+/Deenen_Charles/Boringti.sid
+/Deenen_Charles/Say_Hello_to_Boring_Times.sid
+
+/Deenen_Charles/Cd_unkn2.sid
+/Deenen_Charles/Constant_Runner.sid
+
+/Deenen_Charles/Onslaught.sid
+/GAMES/M-R/
+
+\DEMOS\5_People_in_a_Ford_Fiesta.sid
+\DEMOS\Frikadelle_n_Cheese.sid
+
+\DEMOS\Artlite_Zone.sid
+\VARIOUS\Hannula_Antti\Artlight_Zone.sid
+
+/DEMOS/Axel-F.sid
+/Connolly_Sean/Axel_F.sid
+
+/DEMOS/Cappella_2_2.sid
+/VARIOUS/Crack/
+
+/DEMOS/Dave.sid
+/VARIOUS/Dave/Dave_01.sid
+
+/DEMOS/Dave001.sid
+/VARIOUS/Dave/Dave_02.sid
+
+/DEMOS/Daveoxyr.sid
+/VARIOUS/Dave/Dave_03.sid
+
+/DEMOS/Drvspc4k.sid
+/DEMOS/Driven_Spec_4k_Sunset_Trls.sid
+
+\DEMOS\Fate_no_7_Part_2.sid
+\Audial_Arts\Connect_4.sid
+
+/DEMOS/Fontastic_Background_Music.sid
+/HeatWave/Fontastic.sid
+
+\DEMOS\I_love_Bees.sid
+\DEMOS\I_Love_Bees_.sid
+
+\DEMOS\I_Love_Bees_.sid
+\DEMOS\I_Love_Bees.sid
+
+/DEMOS/Elysiuml.sid
+/DEMOS/Origon_loader.sid
+
+\DEMOS\Ninounekimo.sid
+\DEMOS\Dreamdealers.sid
+
+\DEMOS\Puke-Box_Main_Menu.sid
+\Audial_Arts\
+
+/DEMOS/Pulse_Magazine_March_96.sid
+/HeatWave/
+
+/DEMOS/Suburbia_Artworx.sid
+/Tel_Jeroen/HCS_etc/Suburbia.sid
+
+/DEMOS/Today_is_the_Day.sid
+/HeatWave/Intro_1.sid
+
+/DEMOS/Treasure.sid
+/Deek/
+
+/DEMOS/Trooper.sid
+/HeatWave/Before_You_Go.sid
+
+/DEMOS/Tune_1.sid
+/DEMOS/Sidchips_Go_Berzerk.sid
+
+\DEMOS\Tune_3.sid
+\DEMOS\Terra_Mix.sid
+
+/DEMOS/UNKNOWN/1waygoat.sid
+/Drax/Goatbeard_end.sid
+
+/DEMOS/UNKNOWN/Box03.sid
+/Drax/
+
+/DEMOS/UNKNOWN/Crypt.sid
+/DEMOS/
+
+/DEMOS/UNKNOWN/For.sid
+/VARIOUS/Prosonix/Pedersen_Stein/Shadows-Hillsfar.sid
+
+/DEMOS/UNKNOWN/Ikari_i3.sid
+/Laxity/Ikari_Intro.sid
+
+/DEMOS/UNKNOWN/Illusion_Intromusic.sid
+/DEMOS/Street_Skater.sid
+
+/DEMOS/UNKNOWN/Meastend.sid
+/Laxity/Eastend.sid
+
+/DEMOS/UNKNOWN/Rd_10.sid
+/HeatWave/Hollywood_Burn.sid
+
+/DEMOS/UNKNOWN/Rd_14.sid
+/HeatWave/Adrenalin_highscore.sid
+
+/DEMOS/UNKNOWN/Rd_3.sid
+/HeatWave/Spijkerhoek_Theme.sid
+
+/DEMOS/UNKNOWN/Rd_4.sid
+/HeatWave/Quasi_Modo.sid
+
+/DEMOS/UNKNOWN/Rd_5.sid
+/HeatWave/Total_Recall_1.sid
+
+/DEMOS/UNKNOWN/Rd_6.sid
+/HeatWave/Total_Recall_2.sid
+
+/DEMOS/UNKNOWN/Rd_8.sid
+/HeatWave/Summernight.sid
+
+/DEMOS/UNKNOWN/Rd_9.sid
+/HeatWave/Adrenalin_end.sid
+
+/DEMOS/UNKNOWN/Xane.sid
+/DEMOS/UNKNOWN/Xane_Preview_loader.sid
+
+/Drax/Prodktnt.sid
+/Drax/Produkthandler_Kom_Her.sid
+
+/Feekzoid/Shreeve.sid
+/Feekzoid/HouseOfPower_and_Darkness.sid
+
+/Feiweier_Goesta/Untitle1.sid
+/Feiweier_Goesta/Feiweier_01.sid
+
+/GAMES/A-F/Adrenalin.sid
+/HeatWave/
+
+/GAMES/A-F/Druid_2.sid
+/GAMES/A-F/Enlightenment_Druid_II.sid
+
+/GAMES/A-F/Druid_II-The_Demo.sid
+/DEMOS/
+
+\GAMES\G-L\Hi_Ska_Do.sid
+\Audial_Arts\
+
+/GAMES/G-L/Hideousb.sid
+/GAMES/G-L/Hideous_Bill_and_Gi-Gants.sid
+
+/GAMES/G-L/KGB_Agent.sid
+/Jensen_Henrik/
+
+/GAMES/M-R/Ninja_Rabbits.sid
+/Connolly_Sean/
+
+/GAMES/M-R/Peterbif.sid
+/GAMES/M-R/Peter_Beardsleys_Int_Footb.sid
+
+/GAMES/M-R/Reaxion.sid
+/Connolly_Sean/
+
+/GAMES/M-R/Revengeo.sid
+/GAMES/M-R/Revenge_of_Mutant_Camels.sid
+
+/GAMES/M-R/Rocky_Horror_Show.sid
+/Derrett_Jay/Rocky_Horror_Show.sid
+
+/GAMES/M-R/Rupert&t.sid
+/GAMES/M-R/Rupert_and_Toymakers_Party.sid
+
+\GAMES\S-Z\Tiffany.sid
+\Audial_Arts\
+
+/GAMES/S-Z/Turn_n_burn.sid
+/Connolly_Sean/
+
+/GAMES/S-Z/Startrek.sid
+/GAMES/S-Z/Star_Trek-The_Rebel_Univer.sid
+
+/GAMES/S-Z/Unitrax.sid
+/Jensen_Henrik/
+
+/GAMES/S-Z/Slicks.sid
+/Brimble_Allister/
+
+/GAMES/S-Z/Ultima4.sid
+/GAMES/S-Z/Ultima_IV-Quest_of_Avatar.sid
+
+/GAMES/S-Z/Ultima5.sid
+/GAMES/S-Z/Ultima_V-Warriors_of_Dest.sid
+
+\Gilmore_Adam\Elvira_II_Preview.sid
+\Connolly_Sean\Elvira_Mistress_of_Dark.sid
+
+/Gilmore_Adam/Jockywil.sid
+/Gilmore_Adam/Jocky_Wilsons_Darts_Chalng.sid
+
+/Gray_Fred/Batman-c.sid
+/Gray_Fred/Batman_The_Caped_Crusader.sid
+
+/Holland_Greg/Asterix.sid
+/GAMES/A-F/Asterix_and_Magic_Cauldron.sid
+
+/Holland_Greg/Bedlam.sid
+/GAMES/A-F/
+
+/Holland_Greg/Bop_n_Rumble.sid
+/GAMES/A-F/
+
+/Holland_Greg/Castle_Of_Terror.sid
+/GAMES/A-F/
+
+/Holland_Greg/Doc_the_Destroyer.sid
+/GAMES/A-F/
+
+/Holland_Greg/Inspector_Gadget_Demo.sid
+/GAMES/G-L/
+
+/Holland_Greg/Mugsys_Revenge.sid
+/GAMES/M-R/
+
+/Holland_Greg/Muncher.sid
+/GAMES/M-R/
+
+/Holland_Greg/Sherlock.sid
+/GAMES/S-Z/
+
+/Huelsbeck_Chris/Ch_uknwn.sid
+/Huelsbeck_Chris/Huelsbeck_01.sid
+
+/Huelsbeck_Chris/Dulcedo.sid
+/Huelsbeck_Chris/Dulcedo_Cogitationis.sid
+
+/JCH/Channl42.sid
+/JCH/Channel_42.sid
+
+/JCH/Congrat.sid
+/JCH/Orcus_Congratulations.sid
+
+/JCH/G_after.sid
+/JCH/Guldkornekspressen_Lvls_v4.sid
+
+/JCH/G_before.sid
+/JCH/Guldkornekspressen_Lvls_v3.sid
+
+/JCH/Guldko_i.sid
+/JCH/Guldkornekspressen_Intro.sid
+
+/Link/Jstnthrd.sid
+/Link/Just_Another.sid
+
+/Moppe/Moppeunk.sid
+/Moppe/Moppe_01.sid
+
+/MozIcArt/Tjelta_Geir/S_O_Playency.sid
+/MozIcArt/Lindanger_Trond/
+
+\Ouwehand_Reyn\Bladerunner_End_Titles.sid
+\20CC\
+
+\Ouwehand_Reyn\Fish_Mac.sid
+\DEMOS\UNKNOWN\
+
+\Ouwehand_Reyn\Jabdah.sid
+\DEMOS\
+
+\Ouwehand_Reyn\Laserdance.sid
+\DEMOS\
+
+\Ouwehand_Reyn\London_Demo.sid
+\DEMOS\UNKNOWN\
+
+\Ouwehand_Reyn\Myth_cartridge_version.sid
+\Ouwehand_Reyn\Deadlock.sid
+
+\Ouwehand_Reyn\Ouwehand_Unknown_01.sid
+\Ouwehand_Reyn\Knights.sid
+
+\Ouwehand_Reyn\Speedzax_2.sid
+\Ouwehand_Reyn\Speedzax.sid
+
+/Ouwehand_Reyn/Stock_Car_Racer.sid
+/Ouwehand_Reyn/Super_Stock_Car.sid
+
+\Ouwehand_Reyn\TRC_Intro_Tune_1.sid
+\DEMOS\UNKNOWN\
+
+\Ouwehand_Reyn\Ninja_Remix.sid
+\DEMOS\UNKNOWN\
+
+/Schneider_Markus/Noname.sid
+/Tel_Jeroen/HCS_etc/Trying_Out_2.sid
+
+/Soedesoft/Soede002.sid
+/Soedesoft/Magic_Funk.sid
+
+/Soedesoft/Soede003.sid
+/Soedesoft/Ik_ben_vandaag_zo_vrolijk.sid
+
+/Soedesoft/Soedesof.sid
+/Soedesoft/Soedesoft_01.sid
+
+/Taylor_Stu/
+/Taylor_Stuart/
+
+/Tel_Jeroen/Poseidon.sid
+/Tel_Jeroen/Poseidon_Planet_Eleven.sid
+
+/TST/Rambones/Bachviol.sid
+/TST/Rambones/Bachs_Violinconcert_in_C.sid
+
+/Vaca_Ramiro/A_Short_One.sid
+/Vaca_Ramiro/Hell_Out.sid
+
+/Vaca_Ramiro/Extermer.sid
+/Vaca_Ramiro/Robotdreams.sid
+
+/Vaca_Ramiro/Defender.sid
+/Vaca_Ramiro/Defender_of_the_Crown.sid
+
+/VARIOUS/Blue_Ninja/
+/VARIOUS/The_Blue_Ninja/
+
+/VARIOUS/Coax/Topaz#2.sid
+/VARIOUS/Coax/Topaz_2.sid
+
+/VARIOUS/Coax/Topaz#3.sid
+/VARIOUS/Coax/Topaz_3.sid
+
+/VARIOUS/Ela/Enannen.sid
+/VARIOUS/Ela/En_annen_gang.sid
+
+/VARIOUS/Graffity/Unite001.sid
+/VARIOUS/Graffity/Brian/Stupid_Lamer.sid
+
+/VARIOUS/Graffity/Brian/Brian_01.sid
+/VARIOUS/Graffity/Brian/Turmoil.sid
+
+/VARIOUS/Graffity/Brian/Brian_22.sid
+/VARIOUS/Graffity/Brian/Thermo_P4.sid
+
+/VARIOUS/Graffity/Brian/Brian_21.sid
+/VARIOUS/Graffity/Brian/Thermo_P3.sid
+
+/VARIOUS/Graffity/Brian/Brian_20.sid
+/VARIOUS/Graffity/Brian/Thermo_P2.sid
+
+/VARIOUS/Graffity/Brian/Brian_19.sid
+/VARIOUS/Graffity/Brian/Thermo_P1.sid
+
+/VARIOUS/Graffity/Brian/Brian_13.sid
+/VARIOUS/Graffity/Brian/Rock_Tune.sid
+
+/VARIOUS/Graffity/Brian/Brian_15.sid
+/VARIOUS/Graffity/Brian/Pianowork.sid
+
+/VARIOUS/Graffity/Brian/Brian_17.sid
+/VARIOUS/Graffity/Brian/Philader.sid
+
+/VARIOUS/Graffity/Andy/Andy_03.sid
+/VARIOUS/Graffity/Andy/Pacmania.sid
+
+/VARIOUS/Graffity/Brian/Brian_14.sid
+/VARIOUS/Graffity/Brian/Midnight.sid
+
+/VARIOUS/Graffity/Brian/Brian_09.sid
+/VARIOUS/Graffity/Brian/Intro_Tune.sid
+
+/VARIOUS/Graffity/Brian/Game_Intro.sid
+/VARIOUS/Graffity/Brian/Game_Title.sid
+
+/VARIOUS/Graffity/Brian/Brian_24.sid
+/VARIOUS/Graffity/Brian/End_Tune_1.sid
+
+/VARIOUS/Graffity/Brian/Brian_23.sid
+/VARIOUS/Graffity/Brian/End_Tune.sid
+
+/VARIOUS/Graffity/Brian/Brian_02.sid
+/VARIOUS/Graffity/Brian/Delta_Zak.sid
+
+/VARIOUS/Graffity/Brian/Brian_18.sid
+/VARIOUS/Graffity/Brian/Zak.sid
+
+/VARIOUS/Graffity/Brian/Brian_16.sid
+/VARIOUS/Graffity/Brian/Only_the_bass.sid
+
+/VARIOUS/Graffity/Brian/Brian_11.sid
+/VARIOUS/Graffity/Brian/Disco_Tech.sid
+
+/VARIOUS/Graffity/Brian/Brian_08.sid
+/VARIOUS/Graffity/Brian/Mad_Eddie.sid
+
+/VARIOUS/Havoc/Flatline_1.sid
+/VARIOUS/Havoc/Frontline_1.sid
+
+/VARIOUS/Havoc/Flatline_2.sid
+/VARIOUS/Havoc/Frontline_2.sid
+
+/VARIOUS/Havoc/Flatline_3.sid
+/VARIOUS/Havoc/Frontline_3.sid
+
+/VARIOUS/Havoc/Flatline_4.sid
+/VARIOUS/Havoc/Frontline_4.sid
+
+/VARIOUS/Havoc/Flatline_5.sid
+/VARIOUS/Havoc/Frontline_5.sid
+
+/VARIOUS/HCL/Walhfmf.sid
+/VARIOUS/HCL/With_A_Little_Help_From_My.sid
+
+/VARIOUS/Knatter/Never.sid
+/VARIOUS/Knatter/Never_thrust_a_stranger.sid
+
+/VARIOUS/MSK/O'neillc.sid
+/VARIOUS/MSK/Kristensen_01.sid
+
+/VARIOUS/PVCF/Pvcf_11.sid
+/VARIOUS/PVCF/Centric.sid
+
+/VARIOUS/Syndrom/Flummisw.sid
+/VARIOUS/Syndrom/Flummis_World_ingame.sid
+
+/VARIOUS/Syndrom/Style_of.sid
+/VARIOUS/Syndrom/Style_of_DD.sid
+
+\VARIOUS\Triad\Vinews.sid
+\VARIOUS\Triad\Kravin\
+
+/VARIOUS/Xayne/Xaynechr.sid
+/VARIOUS/Xayne/Check_This_Out.sid
+
+/Whittaker_David/4soccers.sid
+/Whittaker_David/4_Soccer_Sims_Soccer_Skill.sid
+
+/Whittaker_David/Lonewolf.sid
+/Whittaker_David/Lone_Wolf_Mirror_Of_Death.sid
+
+/Whittaker_David/Prosnook.sid
+/Whittaker_David/Professional_Snooker_Sim.sid
+
+/Winterberg_Michael/Futurema.sid
+/Winterberg_Michael/Future_March.sid
+
+# ****************************************************
+# **             LOAD ADDRESS FIXES (+2)            **
+# ****************************************************
+
+FIXLOAD
+
+/Connolly_Sean/Flying_High.sid
+/DEMOS/Brainscannaloop.sid
+/DEMOS/Space_Rider_Crack_Intro.sid
+/DEMOS/Walkman.sid
+/Deek/Lazity.sid
+/HeatWave/Bosswing.sid
+/HeatWave/Daniela.sid
+/HeatWave/Eat_This.sid
+/HeatWave/Gameplay.sid
+/HeatWave/Iceball.sid
+/HeatWave/Intromusic.sid
+/HeatWave/Loader_1.sid
+/HeatWave/Shortish.sid
+/VARIOUS/Hannula_Antti/Hannula_01.sid
+/VARIOUS/Hannula_Antti/Hannula_02.sid
+/VARIOUS/MSK/Rain.sid
+/VARIOUS/Mitch_and_Dane/Upside_Down.sid
+/VARIOUS/Prosonix/Hoff_Lars/Circling_Vulture.sid
+/VARIOUS/Trugoy/Curse.sid
+/VARIOUS/Trugoy/Funkreak.sid
+/VARIOUS/Trugoy/Funkreak_Remix.sid
+/VARIOUS/Trugoy/Give_it_away.sid
+/VARIOUS/Trugoy/Lullaby.sid
+/VARIOUS/Trugoy/Mortal_Kombat.sid
+/VARIOUS/Trugoy/Naturalis.sid
+/VARIOUS/Xayne/Slammer.sid
+
+# ****************************************************
+# **                 Cleaning Up                    **
+# ****************************************************
+
+REPLACE
+/update/DOCUMENTS/
+/DOCUMENTS/
+
+DELETE
+/Holland_Greg/
+/Taylor_Stu/
+/VARIOUS/Blue_Ninja/
+
+DELETE
+/update/20CC/
+/update/Audial_Arts/
+/update/Bjerregaard_Johannes/
+/update/BOGG/
+/update/Brooke_Jason/
+/update/Clarke_Peter/
+/update/Cooksey_Mark/
+/update/Connolly_Sean/
+/update/Crowther_Antony/
+/update/Deek/
+/update/DEMOS/
+/update/Detert_Thomas/
+/update/DOCUMENTS/
+/update/Dunn_David/
+/update/Dunn_Jonathan/
+/update/FAME/
+/update/Feiweier_Goesta/
+/update/Fitzpatrick_John/
+/update/Follin_Brothers/
+/update/Furniss_Matt/
+/update/Galway_Martin/
+/update/GAMES/A-F/
+/update/GAMES/G-L/
+/update/GAMES/M-R/
+/update/GAMES/S-Z/
+/update/GAMES/
+/update/Gray_Fred/
+/update/Gray_Matt/
+/update/HeatWave/
+/update/Hogg_Ashley/
+/update/Hubbard_Rob/
+/update/Jensen_Henrik/
+/update/Laxity/
+/update/Leitch_Barry/
+/update/MC/
+/update/Ouwehand_Reyn/
+/update/Raeburn_Gavin/
+/update/Red/
+/update/Rock/
+/update/Rowlands_Steve/
+/update/Soedesoft/
+/update/Sonic_Graffiti/
+/update/Taylor_Stuart/
+/update/Tel_Jeroen/HCS_etc/
+/update/Tel_Jeroen/
+/update/Vaca_Ramiro/
+/update/VARIOUS/ADSR/Cane/
+/update/VARIOUS/ADSR/
+/update/VARIOUS/Amorphis/Compod/
+/update/VARIOUS/Amorphis/
+/update/VARIOUS/Andre/
+/update/VARIOUS/Blues_Muz/
+/update/VARIOUS/Bosch_Roel/
+/update/VARIOUS/Crack/
+/update/VARIOUS/Dave/
+/update/VARIOUS/Fanta/
+/update/VARIOUS/Gaston/
+/update/VARIOUS/Hannula_Antti/
+/update/VARIOUS/HCL/
+/update/VARIOUS/Hesford_Paul/
+/update/VARIOUS/Iron_Cat/
+/update/VARIOUS/MC_Lord/
+/update/VARIOUS/Midas/
+/update/VARIOUS/Moog/
+/update/VARIOUS/MSK/
+/update/VARIOUS/Odi/
+/update/VARIOUS/PRI/
+/update/VARIOUS/Priarone_Gabriele/
+/update/VARIOUS/Prosonix/Hoff_Lars/
+/update/VARIOUS/Prosonix/
+/update/VARIOUS/PVCF/
+/update/VARIOUS/Roy_Batty/
+/update/VARIOUS/Scortia/
+/update/VARIOUS/Stax/
+/update/VARIOUS/The_Noise_Art/
+/update/VARIOUS/TLF/
+/update/VARIOUS/Triad/Daw/
+/update/VARIOUS/Triad/King_Fisher/
+/update/VARIOUS/Triad/Kravin/
+/update/VARIOUS/Triad/
+/update/VARIOUS/Trident/
+/update/VARIOUS/Trugoy/
+/update/VARIOUS/Uzzy/
+/update/VARIOUS/Wisdom/
+/update/VARIOUS/Wizard/
+/update/VARIOUS/Zaw_Productions/
+/update/VARIOUS/
+/update/Winterberg_Michael/
+

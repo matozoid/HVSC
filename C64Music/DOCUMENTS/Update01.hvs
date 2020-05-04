@@ -1,0 +1,869 @@
+# High Voltage SID Collection Update #1
+# Date: September 22, 1996
+
+# After this update, the collection should contain around 4473 SID tunes!
+# There are 441 new SIDs in the update, but we also found a handful of
+# repeats (around 65).  These, of course, shall be eliminated after
+# you run UPDATE.  Thanks to the efforts and ideas of Piccolo, from
+# the next release and on, we will have an automated way of finding
+# repeats within HV SIDs.  This will save everyone involved a lot of time
+# since the collection has become extremely large for one to remember all
+# of the tunes.
+
+# We are always looking for others to help make HV SIDs an accurate and
+# comprehensive collection.  If you find any errors or have new rips to
+# add, please email both of the people below:
+
+#	The Shark of INC <inc@asu.edu> or <shark@dhp.com>
+#	Jan Diabelez Arnt Harries (Rambones/TST) <nmioaon@vip.cybercity.dk>
+
+# Thanks to all the people who have helped to make HV SIDs the great
+# collection that it is.
+
+# ****************************************************
+# ******* REPLACED REPLACED REPLACED REPLACED ********
+# ****************************************************
+
+# These tunes are replacements for the versions currently
+# in HV SIDs.
+
+# Has 3 more tunes	// Wilfred Bos
+REPLACE
+\update\Bjerrega\ZOOM.DAT
+\Bjerrega\ZOOM.DAT
+
+# Has 1 more tune	// Wilfred Bos
+\update\Bjerrega\DOMINODA.DAT
+\Bjerrega\DOMINODA.DAT
+
+# Better rip		// Rambones
+\update\Hubbard\Tarzan.dat
+\Hubbard\
+
+# Old version was lacking a voice	// Piccolo
+\update\Kimmel\thnktwc3.dat
+\Kimmel\
+
+# Now plays at the correct speed	// The Mage
+\update\demos\SYS4096.DAT
+\demos\SYS4096.DAT
+
+# Old version was a bad rip...Listen closely to the background beat.// Piccolo
+\update\demos\unknown\unk_rjt.dat
+\demos\unknown\
+
+# More tunes		// Kenz
+\update\feekzoid\BREAKTHR.DAT
+\feekzoid\
+
+# More tunes		// Kenz
+\update\feekzoid\TREASURE.DAT
+\feekzoid\
+
+# Ultima III is from Minstrel Dragon
+# old ver. was done with Compute Gazette's SidPlayer
+\update\games\usa\ultima_3.dat
+\games\usa\
+
+# This is actually from a demo by Daglish.
+# It sounds much better.  We need to compare it to the
+# actual game.			// Wilfred Bos
+\update\Daglish\williamw.dat
+\Daglish\williamw.dat
+
+# Fixed from PSID-only	// The Mage
+\update\mon\ALA_GAL.DAT
+\mon\
+
+# Fixed samples		// The Mage
+\update\mon\SAVAGE.DAT
+\mon\
+
+# Fixed to handle filter	// The Mage
+\update\mon\ALLOYRUN.DAT
+\mon\
+
+# Better rip; tune #2		// Wilfred Bos
+\update\mon\THECOMBA.DAT
+\mon\
+
+# Goodbye 'the'
+MOVE
+\mon\THECOMBA.dat
+\mon\Combatga.dat
+
+REPLACE
+# More tunes			// Wilfred Bos
+\update\mon\soldiero.dat
+\mon\
+
+# Now plays at correct speed	// The Mage
+\update\mon\Rubicon.dat
+\mon\
+
+# Includes sound effects	// Wilfred Bos
+\update\mon\OutrunEu.dat
+\mon
+
+# Old version started at the wrong position
+\update\Scoop\Ikari_i1.dat
+\Scoop\
+
+# Full rip!			// Rambones
+\update\SonicGra\Shadowbe.dat
+\SonicGra\
+
+# PSID compt. only		// The Mage
+\update\Cooksey\Felix.dat
+\Cooksey\
+
+# Now plays at correct speed	// The Mage
+\update\demos\norainso.dat
+\demos\
+
+DELETE
+\SonicGra\Shadowb1.dat
+
+# *************************************************
+# ***NEW TUNES***  ***NEW TUNES***  ***NEW TUNES***
+# *************************************************
+
+# I can't believe no one hasn't ripped this before	// Wilfred Bos
+# There is an interesting story behind this tune.
+MOVE
+\update\20cc\PAPILLON.DAT
+\20cc\
+
+\update\Bjerrega\STRBOXIN.DAT
+\Bjerrega\
+
+# Nice version of a tune from Jan Hammer	// Piccolo
+\update\Bjerrega\CHASE.DAT
+\Bjerrega\
+
+# Has two new sub-tunes with in it.
+# Take a listen to the Ark Pandora sub-tunes and compare them
+# to the Ark Pandora game tunes.  Perhaps the Ark Pandora
+# game rip is bad?
+\update\Daglish\Ben_tony.dat
+\Daglish\
+
+# Most of these are from Akira/Light Society
+# All of the ASM'96 tunes are from Mr. SID.
+\update\demos\*.DAT	
+\demos\
+
+# Several from Wilfred Bos, Piccolo, and Akira/Light Society
+MOVE
+\update\demos\unknown\*.DAT
+\demos\unknown\
+
+# All from Kenz
+MOVE
+\update\feekzoid\*.DAT
+\feekzoid\
+
+# Several of the games tunes are from The Mage and Wilfred Bos
+MOVE
+\update\games\Euro_a-f\BATTLETI.DAT
+\games\Euro_a-f\
+
+\update\games\Euro_g-l\*.DAT
+\games\Euro_g-l\
+
+\update\games\Euro_m-r\*.DAT
+\games\Euro_m-r\
+
+\update\games\Euro_s-z\*.DAT
+\games\Euro_s-z\
+
+\update\games\usa\*.DAT
+\games\usa\
+
+MOVE
+\update\metal\*.dat
+\metal\
+
+# From Wilfred Bos
+MOVE
+\update\mon\*.DAT
+\mon\
+
+\update\ouwehand\*.dat
+\ouwehand\
+
+# Now properly credited to Ouwehand
+DELETE
+\mon\FIREPITL.DAT
+
+MOVE
+\update\Schneidr\MARKUS.DAT
+\Schneidr\
+
+MKDIR
+\various\adsr\
+
+MOVE
+\demos\cane.dat
+\various\adsr\
+
+# Akira/Light Society 
+\update\various\adsr\Cane\*.dat
+\various\adsr\Cane\
+
+# Akira/Light Society 
+\update\various\adsr\DOS\*.dat
+\various\adsr\DOS\
+
+\demos\10timesm.dat
+\various\adsr\DOS\
+
+# Akira/Light Society 
+\update\various\compod\*.dat
+\various\amorphis\compod\
+
+# Akira/Light Society 
+\update\various\Bleedn21\*.dat
+\various\Bleedn21\
+
+# Akira/Light Society 
+\update\various\bluesmuz\*.dat
+\various\bluesmuz\
+
+\update\deek\*.dat
+\deek\
+
+\update\various\Ducklaro\DUCKLARO.DAT
+\various\Ducklaro\
+
+\update\various\Echo\*.dat
+\various\Echo\
+
+\update\various\Fairlght\*.DAT
+\various\Fairlght\
+
+\update\various\fanta\*.dat
+\various\fanta\
+
+# Wilfred Bos
+\update\various\Fun_Fun\2YEARS.DAT
+\various\Fun_Fun\
+          
+\update\various\Gaston\*.dat
+\various\Gaston\
+
+# Wilfred Bos
+\update\various\Gaunt\*.DAT
+\various\Gaunt\
+
+\update\various\Jeff\dawnfall.dat
+\various\Jeff\
+
+\update\various\Klaewer\floating.DAT
+\various\Klaewer\
+
+# From Knatter of XAKK
+\update\various\knatter\*.DAT
+\various\knatter\
+
+# Wilfred Bos
+\update\various\Megastyl\*.DAT
+\various\Megastyl\
+
+\update\various\Morbid\*.DAT
+\various\Morbid\
+
+# Akira/Light Society 
+\update\various\o_neill\*.dat
+\various\o_neill\
+
+# Akira/Light Society...Correct 'Careless Whispers' from Wilfred Bos 
+\update\various\Pri\*.DAT
+\various\Pri\
+
+# Akira/Light Society 
+\update\various\PVCF\*.DAT
+\various\PVCF\
+
+# Wilfred Bos
+\update\various\Selles\*.dat
+\various\Selles\
+
+\update\various\Shavitt\starwars.dat
+\various\Shavitt\
+
+# Akira/Light Society 
+\update\various\shogoon\*.dat
+\various\shogoon\
+
+# Akira/Light Society 
+\update\various\SMC\*.dat
+\various\SMC\
+
+\demos\soho.dat
+\various\SMC\
+
+\demos\chaos.dat
+\various\SMC\
+
+\demos\eastende.dat
+\various\SMC\
+
+\demos\con001.dat
+\various\SMC\
+
+\update\various\Syndrom\*.DAT
+\various\Syndrom\
+
+# Akira/Light Society 
+\update\various\Triad\*.dat
+\various\Triad\
+
+# Akira/Light Society 
+\update\various\T_Error\*.dat
+\various\T_Error\
+
+# Congrats T_Error!  you have your own dir!
+\demos\demandde.dat
+\various\T_Error\
+
+\demos\nightwal.dat
+\various\T_Error\
+
+\demos\sunshine.dat
+\various\T_Error\
+
+\demos\synapesm.dat
+\various\T_Error\
+
+# Kenz
+\update\various\wells\*.DAT
+\various\wells\
+
+# Akira/Light Society 
+\update\various\xayne\oh_boy.dat
+\various\xayne\
+
+# Akira/Light Society 
+\update\various\Zardax\ALKA.DAT
+\various\Zardax\
+
+# Akira/Light Society 
+\update\various\zyron\floating.dat
+\various\zyron\
+
+# MSK now has enough tunes in HV for his own dir!
+MOVE
+\demos\avantgrd.dat
+\various\MSK\
+
+\demos\indiana.dat
+\various\MSK\
+
+\demos\minirolf.dat
+\various\MSK\
+
+\demos\msk_tos2.dat
+\various\MSK\
+
+\demos\triblesp.dat
+\various\MSK\
+
+\demos\unlimits.dat
+\various\MSK\
+
+# Remove Directories...
+
+DELETE
+\update\20cc\
+\update\Daglish\
+\update\Bjerrega\
+\update\feekzoid\
+\update\Kimmel\
+\update\Scoop\
+\update\ouwehand\
+\update\Cooksey\
+\update\games\Euro_a-f\
+\update\games\Euro_g-l\
+\update\games\Euro_m-r\
+\update\games\Euro_s-z\
+\update\games\usa\
+\update\games\
+\update\demos\unknown\
+\update\demos\
+\update\mon\
+\update\metal\
+\update\Schneidr\
+\update\SonicGra\
+\update\deek\
+\update\various\adsr\Cane\
+\update\various\adsr\DOS\
+\update\various\adsr\
+\update\various\Compod\
+\update\various\Bleedn21\
+\update\various\bluesmuz\
+\update\various\Ducklaro\
+\update\various\fairlght\
+\update\various\echo\
+\update\various\fanta\
+\update\various\Fun_Fun\
+\update\various\Gaston\
+\update\various\Gaunt\
+\update\various\Klaewer\
+\update\various\Jeff\
+\update\various\knatter\
+\update\various\Megastyl\
+\update\various\o_neill\
+\update\various\morbid\
+\update\various\PVCF\
+\update\various\Pri\
+\update\various\Selles\
+\update\various\Shavitt\
+\update\various\shogoon\
+\update\various\SMC\
+\update\various\Syndrom\
+\update\various\Triad\
+\update\various\T_Error\
+\update\various\wells\
+\update\various\xayne\
+\update\various\Zardax\
+\update\various\zyron\
+\update\various\
+
+
+#*****************************************************
+#********   Moving some misplaced tunes    ***********
+#*****************************************************
+
+# This is Markus Siebold's tune.
+MOVE
+\Schneidr\orion.dat
+\games\Euro_m-r\
+
+# High Voltage SIDs are smurfy.
+\demos\billyjea.dat
+\games\Euro_s-z\smurf_ii.dat
+
+# The group Strike Force!  not a game!
+\games\Euro_m-r\original.dat
+\demos\strikefo.dat
+
+\demos\connectn.dat
+\various\Lindangr\
+
+\demos\thewizrd.dat
+\various\Lindangr\
+
+# Oliver has done a few game tunes...move him up a level
+\various\klaewer\*.dat
+\klaewer\
+
+DELETE
+\various\klaewer\
+
+# Head Over Heels is by Peter Clarke..not Galway.
+MOVE
+\update\clarke\headover.dat
+\clarke\
+
+# Although the game credits state that John York made
+# the music to 'Samantha Fox Strip Poker', the music
+# was actually arranged by Hubbard.  The reason for
+# this, according to Hubbard, was that he didn't want
+# his name associated with such a game.
+\update\Hubbard\samfoxst.dat
+\Hubbard\
+
+DELETE
+\galway\headover.dat
+\games\euro_s-z\samfox.dat
+\update\clarke\
+\update\Hubbard\
+
+
+#*****************************************************
+#******** REPEATS REPEATS REPEATS REPEATS ************
+#*****************************************************
+
+# WOW! A bunch of repeats here (which we shall now delete).
+# Actually, there might be a little more, but we'll get the
+# rest in the future.  We now have an automated way of
+# finding repeats.
+
+# Thanks to Piccolo for finding these.
+
+DELETE
+#Same as \c64music\metal\BORRRRRI.DAT
+\metal\METAL2.DAT
+
+#Same as \c64music\metal\SDEPRESS.DAT
+\metal\METAL1.DAT
+
+#Same as \c64music\various\graffity\brian\BRIAN15.DAT
+\games\euro_m-r\ROWDY.DAT
+
+#Same as \c64music\various\alabama\ALB_6.DAT
+\various\partybox\BOXT.DAT
+
+#Same as \c64music\klaewer\MANIAX.DAT
+\games\euro_m-r\MANIAX.DAT
+
+#Same as \c64music\various\alabama\RD_5.DAT
+\demos\unknown\RHYMEDES.DAT
+
+#Same as \c64music\ouwehand\THEFINAL.DAT
+\demos\MIRRALYZ.DAT
+
+#Same as \c64music\link\PARTUNO.DAT
+\various\alabama\ALB_Y.DAT
+
+#Same as \c64music\demos\unknown\UNTIT027.DAT
+\various\alabama\ALB_L.DAT
+\various\partybox\BOXU.DAT
+
+#Same as \c64music\drax\EUROWOOD.DAT
+\jch\EUROWOOD.DAT
+
+#Same as \c64music\mon\MON6.DAT
+\various\alabama\ALB_5.DAT
+
+#Same as \c64music\demos\unknown\UNTIT011.DAT
+\various\partybox\BOXB.DAT
+
+#Same as \c64music\artline\FATENO7P.DAT
+\demos\FATENO7P.DAT
+
+#Same as \c64music\demos\unknown\FRESHBRE.DAT
+\demos\unknown\GOODTIME.DAT
+
+#Same as \c64music\various\nilsen\TWOSONGS.DAT -- tune #1
+\various\nilsen\LONGTUNE.DAT
+\various\nilsen\THEBEST.DAT
+\various\nilsen\THOUGHGU.DAT
+
+#Sorry about this!
+#Same as \c64music\various\tlf\TLFTUN08.DAT
+\various\xentrix\TLFXE007.DAT
+#Same as \c64music\various\tlf\TLFTUN15.DAT
+\various\xentrix\TLFXE014.DAT
+#Same as \c64music\various\tlf\TLFTUN06.DAT
+\various\xentrix\TLFXE005.DAT
+#Same as \c64music\various\tlf\TLFTUN07.DAT
+\various\xentrix\TLFXE006.DAT
+#Same as \c64music\various\tlf\TLFTUN03.DAT
+\various\xentrix\TLFXE002.DAT
+#Same as \c64music\various\tlf\RASTRETR.DAT
+\various\xentrix\RASTEREA.DAT
+#Same as \c64music\various\tlf\TLFTUN12.DAT
+\various\xentrix\TLFXE011.DAT
+#Same as \c64music\various\tlf\TLFTUN01.DAT
+\various\xentrix\TLFXENTR.DAT
+#Same as \c64music\various\tlf\TLFTUN11.DAT
+\various\xentrix\TLFXE010.DAT
+#Same as \c64music\various\tlf\TLFTUN14.DAT
+\various\xentrix\TLFXE013.DAT
+#Same as \c64music\various\tlf\TLFTUN09.DAT
+\various\xentrix\TLFXE008.DAT
+#Same as \c64music\various\tlf\MUSICBOX.DAT
+\various\xentrix\MUSICBOX.DAT
+#Same as \c64music\various\tlf\TLFTUN02.DAT
+\various\xentrix\TLFXE001.DAT
+#Same as \c64music\various\tlf\TLFTUN04.DAT
+\various\xentrix\TLFXE003.DAT
+#Same as \c64music\various\tlf\TLFTUN05.DAT
+\various\xentrix\TLFXE004.DAT
+#Same as \c64music\various\tlf\TLFTUN13.DAT
+\various\xentrix\TLFXE012.DAT
+#Same as \c64music\various\tlf\SAVAGEMX.DAT
+\various\xentrix\SAVAGEMI.DAT
+#Same as \c64music\various\tlf\TLFTUN10.DAT
+\various\xentrix\TLFXE009.DAT
+#Same as \c64music\various\nilsen\GRAVEYAR.DAT
+\various\xentrix\GRAVEYAR.DAT
+#Same as \c64music\various\nilsen\BENDEDWA.DAT
+\various\xentrix\BENDEDWA.DAT
+
+MOVE
+\various\xentrix\*.dat
+\various\tlf\
+
+DELETE
+\various\xentrix\
+
+#Same as \c64music\link\VERYCOOL.DAT
+\various\baboons\MEGASND7.DAT
+
+#Same as \c64music\ouwehand\SPEEDZAX.DAT
+\demos\unknown\FORYOURE.DAT
+
+#Same as \c64music\ouwehand\PEPPERED.DAT
+\ouwehand\THE_TUNE.DAT
+
+#Same as \c64music\link\SKYBREKR.DAT
+\various\baboons\MEGASND9.DAT
+
+#Same as \c64music\link\MDNGHTHR.DAT
+\various\baboons\MEGASN12.DAT
+
+#Same as \c64music\deek\KWIK41.DAT
+\deek\RICHARDR.DAT
+
+#Same as \c64music\various\bluesmuz\HIGHPRES.DAT
+\demos\SHARK.DAT
+
+#Same as \c64music\danko\LONGDIST.DAT
+\danko\THOMA002.DAT
+
+#Same as \c64music\laxity\IKARITUN.DAT
+\laxity\BEYOND#1.DAT
+
+#Same as \c64music\demos\UNLIMITS.DAT
+\demos\MSKOFCRE.DAT
+
+#Same as \c64music\various\amorphis\compod\CATS.DAT
+\demos\NVRNDNGS.DAT
+
+#Same as \c64music\20cc\SPIJKER3.DAT
+\various\lordsofs\LOS03.DAT
+
+#Same as \c64music\demos\CLIQUEBA.DAT
+\various\vibrants\DEMON001.DAT
+
+#Same as \c64music\various\blasnik\ROMUZK06.DAT
+\various\blasnik\ZAK2.DAT
+
+#Same as \c64music\soedesof\CARNIVAL.DAT
+\demos\unknown\CARNIVAL.DAT
+
+#Same as \c64music\fame\PARANOIM.DAT
+\demos\unknown\PARANOIM.DAT
+
+#Same as \c64music\link\BRORFLOV.DAT
+\various\alabama\ALB_11.DAT
+
+#Same as \c64music\various\boogaloo\JAMMIN'_.DAT
+\demos\SKYLI001.DAT
+
+#Same as \c64music\soedesof\OHYEAH!.DAT
+\demos\unknown\OHYEAH.DAT
+
+#Same as \c64music\tjelta\AXEL-FMI.DAT
+\tjelta\AXEL2.DAT
+
+#Same as \c64music\link\ROCKNRLL.DAT
+\various\baboons\MEGASN11.DAT
+\various\partybox\BOXQ.DAT
+
+#Same as \c64music\tjelta\SHORTTUN.DAT
+\tjelta\GEIRT008.DAT
+
+#Same as \c64music\tst\jipe\THEHEROC.DAT
+\tst\kaze\THEHRCMS.DAT
+
+#are deek and digital syndicate the same!!??
+#Same as \c64music\deek\TOCATTA-.DAT
+\demos\TOCCATO.DAT
+
+#Same as \c64music\mon\MON2.DAT
+\various\alabama\ALB_S.DAT
+
+#Same as \c64music\link\ALFTHEME.DAT
+\demos\unknown\ALFTHEME.DAT
+\various\alabama\ALB_E.DAT
+
+#Same as \c64music\demos\unknown\UNTIT012.DAT
+\various\partybox\BOXC.DAT
+
+#Same as \c64music\soedesof\ARTAX.DAT
+\demos\ARTAX.DAT
+
+#Same as \c64music\various\nilsen\CONTAXIA.DAT
+\demos\MACMAGIC.DAT
+
+#Same as \c64music\link\TUNENR4.DAT
+\various\alabama\ALB_B.DAT
+
+#Same as \c64music\ouwehand\CONTAXIA.DAT
+\ouwehand\INTZAK2.DAT
+
+#Same as \c64music\sonicgra\ASSAULTC.DAT
+\games\euro_a-f\ASSLTCRS.DAT
+
+#Same as \c64music\various\nilsen\CHAINREA.DAT
+\various\nilsen\HIP-DANC.DAT
+
+#Same as \c64music\various\zyron\LNCY7END.DAT
+\various\zyron\ZYRON001.DAT
+
+#Same as \c64music\various\wuti\EINSTEIN.DAT
+\demos\unknown\EINSTEIN.DAT
+
+#Same as \c64music\mon\RMRKINTR.DAT
+\demos\unknown\CYCLONE.DAT
+
+#Same as \c64music\tjelta\TRADE.DAT
+\tjelta\GEIRT007.DAT
+
+#Same as \c64music\rock\CONTSTDM.DAT
+\demos\unknown\CLASSIC.DAT
+
+#Same as \c64music\games\euro_s-z\SCORPION.DAT
+\mon\MANIACSO.DAT
+
+#Same as \c64music\various\scarzix\LOTUS.DAT
+\various\vibrants\GALACTIX.DAT
+
+#Same as \c64music\demos\unknown\TOGETHER.DAT
+\various\alabama\ALB_O.DAT
+
+#Same as \c64music\link\GOFORIT.DAT
+\various\alabama\ALB_W.DAT
+\various\baboons\MEGASND5.DAT
+
+#Same as \c64music\20cc\MAMAMIA.DAT
+\demos\unknown\MAMA_MIA.DAT
+
+#Same as \c64music\various\zardax\TUNE22B.DAT
+\demos\unknown\FL6.DAT
+\various\partybox\BOX05.DAT
+
+#Same as \c64music\various\triad\COMPLICA.DAT
+\demos\unknown\COMPLICA.DAT
+
+#Same as \c64music\demos\unknown\ENOLAGAY.DAT
+\demos\LEVEL99.DAT
+
+#Same as \c64music\games\euro_a-f\CO&CO.DAT
+\demos\unknown\HOLANDIT.DAT
+\games\euro_g-l\HOLANDIT.DAT
+
+#Same as \c64music\link\STRAMGER.DAT
+\various\baboons\MEGASN10.DAT
+
+#Same as \c64music\link\AMIGARIP.DAT
+\various\partybox\BOXZ.DAT
+
+#Same as \c64music\various\scortia\CANES.DAT
+\various\vibrants\CANES.DAT
+
+#Same as \c64music\link\POWERMSX.DAT
+\demos\unknown\EXODUS_G.DAT
+\various\alabama\ALB_10.DAT
+
+#Same as \c64music\hubbard\SYNTHSA3.DAT
+\demos\unknown\LITTLEME.DAT
+
+#Same as \c64music\games\euro_m-r\MAGIERSK.DAT
+\various\alabama\ALB_17.DAT
+
+#Same as \c64music\games\usa\SENTINEL.DAT
+\games\usa\THESENTI.DAT
+
+#Same as \c64music\link\PSYCHOTN.DAT
+\various\alabama\ALB_C.DAT
+\various\alabama\ALB_J.DAT
+
+#Same as \c64music\various\alabama\ALB_1.DAT
+\various\alabama\ALB_31.DAT
+
+#Same as \c64music\various\bluesmuz\VOYAGE.DAT
+\various\bluesmuz\KRISTIAN.DAT
+
+#Same as \c64music\games\euro_s-z\TOYBALLS.DAT
+\demos\TOYBALLS.DAT
+
+#Same as \c64music\games\euro_m-r\RASTERSC.DAT
+\demos\unknown\RASTERSC.DAT
+
+#Same as \c64music\various\a-man\GOT2SOUL.DAT
+\various\a-man\TRACKS-1.DAT
+
+#Same as \c64music\link\THEPIECE.DAT
+\various\partybox\BOXV.DAT
+
+#Same as \c64music\ouwehand\HOUSESHI.DAT
+\ouwehand\BTMNII06.DAT
+
+#Same as \c64music\link\ROBOCOP.DAT
+\various\alabama\ALB_N.DAT
+
+#Same as \c64music\rock\NENNGHTS.DAT
+\rock\THENEONN.DAT
+
+#Same as \c64music\various\alabama\ALB_M.DAT
+\various\partybox\BOXK.DAT
+
+#Same as \c64music\futurfrk\LASTHERO.DAT
+\demos\unknown\UNTIT033.DAT
+
+#Same as \c64music\games\euro_g-l\GULPER64.DAT
+\games\euro_g-l\LABYRNTH.DAT
+
+#Same as \c64music\metal\XMASBEAT.DAT
+\metal\INTROAFL.DAT
+
+#Same as \c64music\holland\PENETRTR.DAT
+\games\euro_m-r\PENETRAT.DAT
+
+#Same as \c64music\bjerrega\JOHAN001.DAT
+\mon\MON1.DAT
+
+#Same as \c64music\detert\BOUNCE!.DAT
+\games\euro_a-f\BOUNCE!.DAT
+
+#Same as \c64music\various\blasnik\ROMUZK05.DAT
+\various\blasnik\ZAK1.DAT
+
+#Same as \c64music\various\blasnik\ROMUZK02.DAT
+\various\blasnik\BLASNIK.DAT
+
+
+# Text files...
+
+REPLACE
+\update\documnts\*.txt
+\documnts\
+
+# Rename update file that was in first release
+# (thus, not really an update)
+MOVE
+\documnts\update01.txt
+\documnts\update00.hvs
+
+DELETE
+\update\Update.cpp
+\update\documnts\
+
+#end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

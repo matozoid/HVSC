@@ -1,0 +1,1290 @@
+# High Voltage SID Collection Update #2
+# Date: January 11, 1997
+
+# More SIDs coming at you!  The new update program now will run on most
+# UNIX systems, but thus far it has only been tested on Linux.  Look for
+# a Mac update program in the near future.  Also, the update program can
+# now rename SID tune credits.
+
+# After this update, the collection should contain _4845_ SID tunes!
+#
+# This update features (all approximates):
+#      430 new SIDs
+#       42 fixed/better rips
+#       56 repeats/bad rips eliminated
+#       83 SID credit fixes
+#
+# We are always looking for others to help make HV SIDs a better
+# collection.  If you find any errors or have new rips to add, please
+# email both of the people below:
+
+#	The Shark of INC <inc@asu.edu> or <shark@dhp.com>
+#	Jan Diabelez Arnt Harries (Rambones/TST) <nmioaon@vip.cybercity.dk>
+
+# Thanks to all the people who have helped to make HV SIDs the great
+# collection that it is.
+
+# ****************************************************
+# ** 		      REPLACED 		            **
+# ****************************************************
+
+# These tunes are replacements for the versions currently
+# in HV SIDs.
+
+REPLACE
+
+# Fix by The Mage - the unofficial SID fix master!
+# If you d/l'ed HV SIDs off the web, then the version of
+# sys4096 that you have is most likely good.  The version
+# on HV CD #2 is not good!  The reason for this is that
+# is was burned on the CDs before finding this out.
+# Thus to make sure everyone has the correct version...
+\update\various\amj\sys4096.dat
+\demos\sys4096.dat
+
+# hehe..lived up to its name.  Old version
+# made a click at the start.  Not a bad tune if you
+# let it play.  From Wilfred.
+\update\metal\bugstart.dat
+\metal\
+
+# with new version of SIDPlay, old version of tunes played too fast
+\update\hubbard\bumpsets.dat
+\hubbard\
+\update\hubbard\videopok.dat
+\hubbard\
+
+MOVE
+
+# New mini-tune (#13) not in earlier version.
+# Plus, it now uses its release name for the title.
+\update\hubbard\aufmonty.dat
+\hubbard\
+DELETE
+\hubbard\monty_2.dat
+
+REPLACE
+\update\various\zyron\smagma11.dat
+\various\zyron\
+
+# better rip
+\update\20cc\dolphinf.dat
+\20cc\
+# Same as dolphinf.dat (tune #1) which was just added.
+DELETE
+\20cc\sandisi2.dat
+# A better rip will be added below
+\20cc\sandisi1.dat
+# We are about to add a better rip of No Mercy
+\20cc\nomercy1.dat
+
+# This has two more tunes.
+MOVE
+\update\20cc\no_mercy.dat
+\20cc\
+
+\update\20cc\sandisio.dat
+\20cc\
+
+# Hard to detect, but musicmx2.dat sounded bad.
+\update\detert\innosens.dat
+\detert\
+DELETE
+\detert\musicmx2.dat
+
+###########  
+#  All of these tunes below were fixed by The Mage. #
+				        #############
+REPLACE
+
+# These set of tunes use to play too fast!
+
+\update\various\Amorphis\compod\nocturno.dat
+\various\Amorphis\compod\
+
+\update\demos\chubrock.dat
+\demos\
+
+\update\demos\crash_ur.dat
+\demos\
+
+\update\demos\melt_ur.dat
+\demos\
+
+\update\demos\moog_tec.dat
+\demos\
+
+\update\demos\comer_su.dat
+\demos\
+
+\update\drax\heartlss.dat
+\drax\
+
+\update\various\ducklaro\ducklaro.dat
+\various\ducklaro\
+
+\update\various\fairlght\avantgar.dat
+\various\fairlght\
+
+\update\various\fanta\technotr.dat
+\various\fanta\
+
+\update\various\gaston\invitati.dat
+\various\gaston\
+
+\update\various\morbid\
+\various\morbid\
+
+\update\various\msk\avantgrd.dat
+\various\msk\
+
+\update\various\pri\latin_li.dat
+\various\pri\
+
+\update\various\pri\slap_chi.dat
+\various\pri\
+
+\update\various\pri\world_in.dat
+\various\pri\
+
+\update\various\pvcf\
+\various\pvcf\
+
+\update\various\smc\dig_the.dat
+\various\smc\
+
+\update\various\syndrom\
+\various\syndrom\
+
+# Tune #4 locked up at 0:32 mark
+\update\dunn\redheat.dat
+\dunn\
+
+# Fixed Tunes 6 & 8!  Wipeout!
+\update\games\usa\califgms.dat
+\games\usa\
+
+# Filter problem with one voice
+\update\hubbard\sabotr_2.dat
+\hubbard\
+
+# Correct rip (even the whistle -- tune 6)
+\update\joseph\rimrunne.dat
+\joseph\
+
+
+
+# ****************************************************
+# ** 			NEW TUNES 		    **
+# ****************************************************
+
+MOVE
+
+# From Lolo
+\update\various\a-man\
+\various\a-man\
+
+# congrats!  your own directory!
+# Zoolook from Wilfred
+# Unsound Minds from Rambones
+\update\various\amj\
+\various\amj\
+
+# From Ela
+\update\bjerrega\dmc4.dat
+\bjerrega\
+
+# From Rambones...Nice version of Spellbound.
+# From Mr. SID -> LegoLand.dat
+\update\various\bluezmuz\
+\various\bluesmuz\
+
+# From DANIEL NaeSLUND
+\update\various\chock\
+\various\chock\
+
+# From Rambones
+\update\various\chotaire\
+\various\chotaire\
+
+# From Henrik Simonsen and Rambones
+\update\20cc\
+\20cc\
+
+# From Wilfred
+\update\daglish\mask_iii.dat
+\daglish\
+
+# From The Mage: All of the Driven rips
+# From  Mr. SID: snwblsnd  snctheme  krestolo  reggae
+# From  Piccolo: big_logo  comingto  dobee  piceofmi  reflex  websound  xenos
+# From     Lolo: moog  yankee
+# From Rambones: drug64
+\update\demos\
+\demos\
+
+# From Piccolo -> subzero1
+# From Lala -> tangerin
+# From Anders Eriksen -> hubba_v
+# From Mr. SID -> xmasdemo
+\update\demos\unknown\
+\demos\unknown\
+
+# From Mr. SID -> parsec.dat
+\update\detert\
+\detert\
+
+# From Eric Ardem/Antimon (aka Ela)
+\update\various\ela\
+\various\ela\
+
+# From The Mage -> driven7i.dat
+\update\various\fairlght\
+\various\fairlght\
+
+# From Piccolo
+\update\fame\fameagai.dat
+\fame\
+
+# There are two wonderful tunes in this Follin SID sent
+# in by Geir Tjelta.  These tunes were never in a game
+# as far as we know.  The Gauntlet III sid perhaps was
+# from a game which was never released?
+\update\follin\gauntlt3.dat
+\follin\
+
+# From  Wilfred: Hardball  Mrdocstl
+# From The Mage: Ultima IV (highly requested)
+\update\games\usa\
+\games\usa\
+
+# From Anders Eriksen
+# Another highly requested tune...
+\update\games\euro_a-f\creatrs2.dat
+\games\euro_a-f\
+
+# From Ulf Andersen
+\update\games\euro_g-l\
+\games\euro_g-l\
+
+# From Anders Eriksen
+\update\games\euro_m-r\moonsha.dat
+\games\euro_m-r\
+
+# The often requested Hunters Moon loader has arrived.
+# From DANIEL NaeSLUND
+\update\gray_m\huntersl.dat
+\gray_m\
+
+# From DANIEL NaeSLUND
+\update\various\hcl\
+\various\hcl\
+
+# This version of Zoolook was released on CNet as a demo.
+# It starts differently than Chain Reaction and
+# has been confirmed by Hubbard to be legitimate.
+# From Wilfred -> aufmonty.dat  zoolookc.dat
+\update\hubbard\zoolookc.dat
+\hubbard\
+
+# From Piccolo
+\update\various\iron_cat\dearfilt.dat
+\various\iron_cat\
+
+# And you thought you had all of JCH's tunes!
+# From Rambones
+\update\jch\channl42.dat
+\jch\
+
+\update\various\jeff\cybersou.dat
+\various\jeff\
+
+# From Wilfred
+\update\kimmel\zakmckrm.dat
+\kimmel\
+
+# From Rambones
+\update\various\knatter\
+\various\knatter\
+
+# From       Rambones: remarkmu.dat
+# From        Wilfred: fruitbnk.dat
+# From Anders Eriksen: mythinga.dat
+\update\mon\
+\mon\
+
+# From Ulf Andersen
+\update\various\mtchdane\
+\various\mtchdane\
+
+\update\ouwehand\blackmai.dat
+\ouwehand\
+
+# From Mr. SID
+\update\various\prosonix\pettersn\
+\various\prosonix\pettersn\
+
+# From Lolo
+\update\various\pri\panoram2.dat
+\various\pri\
+
+# From Eric Ardem/Antimon (aka Ela)
+\update\various\rokling\
+\various\rokling\
+
+# From Mr. SID: babylon4.dat  itsrlacd.dat  xiphoids.dat
+# From Piccolo: birthdat.dat 
+\update\schneidr\
+\schneidr\
+
+# From Wilfred
+\update\various\shavitt\
+\various\shavitt\
+
+# From Slaygon
+\update\various\slaygon\
+\various\slaygon\
+
+# From Wilfred -> soedes08.dat
+# From Piccolo -> stardus2.dat
+\update\soedesof\
+\soedesof\
+
+# From Ulf Andersen
+\update\various\tbb\tbb.dat
+\various\tbb\
+
+# From Geir Tjelta & Wilfred (as a team)
+\update\tjelta\
+\tjelta\
+
+# From Rambones
+\update\various\trident\
+\various\trident\
+
+\update\various\xayne\
+\various\xayne\
+
+\update\various\zardax\tune1.dat
+\various\zardax\
+
+\update\various\gaston\highvolt.dat
+\various\gaston\
+
+# From Ulf Andersen
+\update\various\zyron\
+\various\zyron\
+
+# From Wisdom
+\update\various\wisdom\
+\various\wisdom\
+
+# ****************************************************
+# ** 		REPEATS / BAD RIPS		    **
+# ****************************************************
+
+# Just when you think you have eliminated most of the
+# repeats...56 repeats/bad rips found for this update.
+
+DELETE
+
+# Bad version of \mon\3d_intro.dat (which is in the wrong dir)
+\20cc\spijker1.dat
+
+# Same as \Turner\morpheus.dat
+\braybrok\morpheus.dat
+
+# Same as \Turner\ranarama.dat
+\braybrok\ranarama.dat
+
+# Same as \Fame\chmbrsfs.dat (3/6)
+\FAME\holgerkn.dat
+
+# Same as \Hubbard\synthsa3.dat (10/11)
+\Games\Euro_a-f\dynamicd.dat
+
+# Same as \Link\oldlevl2.dat
+\demos\unknown\awkstorm.dat
+
+# Same as \Laxity\jupiter.dat
+\Demos\Unknown\madness.dat
+
+# Same as \Drax\rolling.dat
+\demos\unknown\tamer.dat
+
+# Same as \Various\Selles\eligible.dat (muisc routine by Siemons)
+\Demos\eligible.dat
+
+# Same as \Games\Euro_m-r\myth_loa.dat
+\various\Blasnik\romuzk08.dat
+
+# Same as \CANNON\batmantm.dat
+\games\euro_a-f\batmanii.dat
+
+# Same as \demos\unknown\synthmus.dat
+\demos\musicgen.dat
+
+# Same as \various\t_error\ro_moscow.dat
+\demos\m_h_rasw.dat
+
+# Same as \various\msk\minirolf.dat
+# MSK and O'neill are the same, btw.
+\various\o_neill\minirolf.dat
+
+# Same as \deek\kwik41.dat
+\demos\richardr.dat
+
+# Same as \various\o_neill\housezak.dat
+\various\o_neill\oneill_2.dat
+
+# Same as \dunn\newzeall.dat
+# I wonder who wrote "remix"?!
+\DUNN\loader4-.dat
+
+# Same as \fame\warbattl.dat
+# Initial tune is set differntly on each.
+\FAME\untitled.dat
+
+# Same as \games\spacerdr.dat
+\demos\spacerid.dat
+
+# Same as \games\euro_s-z\scumm.dat
+\demos\unknown\scumm.dat
+
+# Same as \games\euro_m-r\ractrslm.dat
+\games\euro_m-r\ractersl.dat
+
+# Same as \rock\contstdm.dat (2/3)
+\rock\futureco.dat
+
+# Same as \rock\7ontop.dat (2/7)
+\rock\sadflngs.dat
+
+# Same as \mon\myth.dat (2/2)
+\demos\unknown\unknown.dat
+
+# Same as \jch\kenetic.dat
+\demos\coolzak.dat
+\demos\nightlig.dat
+
+# Same as \jch\l_l_l.dat
+\demos\sector9.dat
+
+# Same as \jch\stopform.dat
+\demos\unknown\cool.dat
+
+# Same as \jch\laxin.dat
+\demos\unknown\differen.dat
+
+# Same as \jch\bones.dat
+\demos\unknown\vision.dat
+
+# Same as \deek\weebles.dat
+\FAME\notemak2.dat
+
+# Same as \demos\rstrblst.dat
+# Below is also a bad rip.
+\demos\unknown\xxx_euro.dat
+
+# Same as \bjerrega\jbselct3.dat (2/5)
+# below is also missing first few notes.
+\bjerrega\johannes.dat
+
+# Same as \games\euro_s-z\staffofk.dat
+# below plays too slow as well.
+\games\euro_s-z\stafkar.dat
+
+# Same as \Huelsbec\starball.dat
+\demos\unknown\whats.dat
+
+# Same as \Drax\magicfly.dat
+\Drax\-drax17.dat
+
+# Same as \Drax\church.dat
+\Drax\-ssssnt4.dat
+
+# Same as \Drax\overlame.dat
+\Drax\-xratdzx.dat
+
+# Same as \various\prosonix\pettersn\mega-mix.dat
+\demos\unknown\cool_mix.dat
+
+# Same as \Drax\thebass.dat
+\demos\illusion.dat
+
+# Same as \Deek\walawang.dat
+\Deek\follow.dat
+
+# Same as \laxity\thealibi.dat
+\laxity\candleli.dat
+
+# Same as \metal\bezerk.dat
+\metal\metal004.dat
+
+# Same as \metal\virtualr.dat
+\metal\metal10.dat
+
+# Same as \various\triad\lingonbe.dat
+\various\triad\povelpow.dat
+
+# Same as \various\triad\ska_nya.dat
+\various\triad\sangerna.dat
+
+# Same as \various\Zyron\operomn3.dat (2/10)
+\various\Zyron\departur.dat
+
+# Same as \various\Zyron\operomn3.dat (3/10)
+\various\Zyron\latelame.dat
+
+# Same as \various\Zyron\operomn3.dat (4/10)
+\various\Zyron\snatchof.dat
+
+# Same as \various\Zyron\operomn3.dat (5/10)
+\various\Zyron\whirlpoo.dat
+
+# Same as \various\Zyron\operomn3.dat (6/10)
+\various\Zyron\hazelnut.dat
+
+# Same as \various\Zyron\operomn3.dat (7/10)
+\various\Zyron\carrieda.dat
+
+# Same as \various\Zyron\operomn3.dat (9/10)
+\various\Zyron\intoxica.dat
+
+# Same as \various\Zyron\operomn3.dat (10/10)
+\various\Zyron\precocio.dat
+
+# Bad rip - put it out of its misery!
+\various\echo\katakis.dat
+
+# Same as \whittkr\themodel.dat
+\winterbr\dasmodel.dat
+
+
+# ****************************************************
+# **               SID TUNE CREDITS                 **
+# ****************************************************
+
+# Thanks to the tons of people who helped find the correct credits.
+# Special thanks to Adam Lorentzon, JCH, Wilfred, and The Mage for
+# a ton of help with the credits.
+
+#####
+TITLE
+#####
+\20cc\2drunk3.dat
+Learn It the Hard Way
+
+\20cc\2drunk4.dat
+Final Axel
+
+\20cc\2drunk5.dat
+Vlindertjes
+
+\20cc\2drunk7.dat
+Just Cool!
+
+\20cc\2drunk9.dat
+Somewhere Minor
+
+\20cc\2drunk10.dat
+I Just Don't Have the Heart
+
+\20cc\2drunk11.dat
+Edwin's Dream
+
+\danko\audiowon.dat
+No Comment
+
+\demos\unknown\attentio.dat
+Star Ball Preview
+
+\demos\unknown\dlrs10nt.dat
+<?>
+
+\demos\unknown\thisis.dat
+<?>
+
+\huelsbec\ch_uknwn.dat
+<?>
+
+\games\usa\kl.dat
+Pacrunner
+
+\mon\3d_intro.dat
+Spijkerhoek
+
+\mon\airwolf.dat
+Airwolf
+
+\various\alabama\alb_03.dat
+<?>
+
+\various\alabama\alb_18.dat
+Hans Inge tune
+
+\various\alabama\alb_q.dat
+<?>
+
+\various\alabama\rd_7.dat
+Fontastic Background Music
+
+\various\alabama\rd_11.dat
+<?>
+
+\various\alabama\rd_12.dat
+<?>
+
+\various\zardax\unknown.dat
+<?>
+
+\various\zyron\zyron002.dat
+Countryside
+
+\various\zyron\zyron003.dat
+Lonely Season
+
+\various\zyron\zyron004.dat
+Master Ferro
+
+\various\zyron\zyron006.dat
+Karnaugh Map
+
+######
+AUTHOR
+######
+
+# The 'v' in 'van' is LOWER CASE!  Now you know!
+\20cc\2drunk3.dat
+Edwin van Santen
+
+\20cc\2drunk4.dat
+Edwin van Santen
+
+\20cc\2drunk5.dat
+Edwin van Santen
+
+\20cc\2drunk7.dat
+Edwin van Santen
+
+\20cc\2drunk9.dat
+Edwin van Santen
+
+\20cc\2drunk10.dat
+Edwin van Santen
+
+\20cc\2drunk11.dat
+Edwin van Santen
+
+\20cc\airwolf.dat
+Edwin van Santen
+
+\20cc\amtrax.dat
+Edwin van Santen
+
+\20cc\atripint.dat
+Edwin van Santen
+
+\20cc\big_fun.dat
+Edwin van Santen
+
+\20cc\childrn2.dat
+Edwin van Santen
+
+\20cc\cyberfun.dat
+Edwin van Santen
+
+\20cc\dutchbrz.dat
+Edwin van Santen
+
+\20cc\eternal.dat
+Edwin van Santen
+
+\20cc\hiphouse.dat
+Edwin van Santen
+
+\20cc\imbbtngh.dat
+Edwin van Santen
+
+\20cc\iwannada.dat
+Edwin van Santen & Falco Paul
+
+\20cc\hrdcrpwr.dat
+Edwin van Santen
+
+\20cc\lambada.dat
+Falco Paul
+
+\20cc\mamamia.dat
+Edwin van Santen
+
+\20cc\megamix.dat
+Edwin van Santen
+
+\20cc\megamix2.dat
+Edwin van Santen
+
+\20cc\phalanx.dat
+Edwin van Santen
+
+\20cc\popcorn.dat
+Edwin van Santen
+
+\20cc\takeonme.dat
+Edwin van Santen
+
+\20cc\thewords.dat
+Edwin van Santen
+
+\bjerrega\batfunk.dat
+Jesper "Jo" Olsen
+
+# First name is wrong
+\bjerrega\nightdaw.dat
+Johannes Bjerregaard
+
+# We don't think Braybrook ever composed.
+\Braybrok\bushido.dat
+<?>
+\Braybrok\intensit.dat
+<?>
+
+# There was a rumor that his last name was really
+# Dalglish, but this was proved to be false.
+\Daglish\gobots.dat
+Ben Daglish
+\Daglish\mountymi.dat
+Ben Daglish
+\Daglish\pacmania.dat
+Ben Daglish
+\Daglish\pubgames.dat
+Ben Daglish
+
+\demos\tbbofeni.dat
+TBB
+
+\demos\unknown\attentio.dat
+Jeroen Tel
+
+\demos\unknown\dlrs10nt.dat
+Johannes Bjerregaard
+
+\demos\unknown\evolutio.dat
+L. Hoff
+
+\demos\unknown\thisis.dat
+Future Freak
+
+\games\euro_a-f\crossfir.dat
+<?>
+
+\games\euro_a-f\deathorg.dat
+Jay Derrett
+
+# Wrong spelling for Hatlelid.
+\games\euro_a-f\franticf.dat
+Gregor Larson & K. Hatlelid
+
+\games\euro_g-l\ironhors.dat
+David Whittaker
+
+\games\euro_m-r\motos.dat
+Jas Brooke
+
+\games\euro_s-z\steel.dat
+Gari Biasillo
+
+\games\euro_s-z\vengeanc.dat
+Jay Derrett
+
+\laxity\dnawarri.dat
+Laxity & Future Freak
+
+\mon\3d_intro.dat
+Edwin van Santen
+
+\mon\airwolf.dat
+Charles Deenen
+
+\mon\eye2eye.dat
+Maniacs of Noise
+
+\schneidr\marcussc.dat
+Markus Schneider
+
+\schneidr\spclvnts.dat
+Markus Schneider
+
+\schneidr\transwor.dat
+Markus Schneider
+
+\various\alabama\alb_03.dat
+BYLINK
+
+\various\alabama\alb_18.dat
+ELA/Antimon
+
+\various\alabama\alb_q.dat
+Nicolai Thilo  player: C.Deenen
+
+\various\alabama\rd_7.dat
+Michel De Bree (Youth/Heatwave)
+
+\various\alabama\rd_11.dat
+AON
+
+\various\alabama\rd_12.dat
+TROOPER
+
+# Not a member of Vibrants.
+\various\vibrants\terminat.dat
+Gerard Gourley
+
+\various\vibrants\worldcup.dat
+Gerard Gourley
+
+\various\zardax\unknown.dat
+Zonix
+
+
+#########
+COPYRIGHT
+#########
+\20cc\2drunk3.dat
+1990 20th Century Composers
+
+\20cc\2drunk4.dat
+1990 20th Century Composers
+
+\20cc\2drunk5.dat
+1990 20th Century Composers
+
+\20cc\2drunk7.dat
+1990 20th Century Composers
+
+\20cc\2drunk9.dat
+1990 20th Century Composers
+
+\20cc\2drunk10.dat
+1990 20th Century Composers
+
+\20cc\2drunk11.dat
+1990 20th Century Composers
+
+\20cc\amtrax.dat
+1989 20th Century Composers
+
+\20cc\big_fun.dat
+1988 20th Century Composers
+
+\20cc\childrn2.dat
+1988 20th Century Composers
+
+\20cc\cyberfun.dat
+1989 20th Century Composers
+
+\20cc\dutchbrz.dat
+1990 20th Century Composers
+
+\20cc\eternal.dat
+1989 20th Century Composers
+
+\20cc\iwannada.dat
+1988 20th Century Composers
+
+\20cc\megamix2.dat
+1989 20th Century Composers
+
+\20cc\phalanx.dat
+1989 20th Century Composers
+
+\20cc\popcorn.dat
+1988 20th Century Composers
+
+\20cc\thewords.dat
+1989 20th Century Composers
+
+\brandt\paranoia.dat
+1987 Magic Bytes
+
+\danko\russian.dat
+<?>
+
+\demos\unitrax.dat
+1988 Streetwise
+
+\demos\unknown\attentio.dat
+1988 Mic Jones/Reptilia Designs
+
+\demos\unknown\dlrs10nt.dat
+<?>
+
+\demos\unknown\thisis.dat
+<?>
+
+\games\euro_a-f\anarchy.dat
+1987 Hewson
+
+\games\euro_a-f\blood'n'.dat
+<?> American Action
+
+\games\euro_a-f\crossfir.dat
+1983 Sierra Online Ltd.
+
+\games\euro_a-f\deathorg.dat
+1987 CRL
+
+\games\euro_a-f\erebus.dat
+1986 Virgin Games
+
+\games\euro_a-f\franticf.dat
+1983 Commercial Data Systems
+
+\mon\3d_intro.dat
+20cc
+
+\schneidr\babylon.dat
+1988 Markus Schneider
+
+\schneidr\marcussc.dat
+Markus Schneider
+
+\schneidr\ms_unknw.dat
+1988 Markus Schneider
+
+\schneidr\noname.dat
+1988 Markus Schneider
+
+\sonicgra\shadowbe.dat
+1990 Psygnosis
+
+\various\alabama\alb_03.dat
+1989 CHEYENS
+
+\various\alabama\alb_18.dat
+1988 Antimon
+
+\various\alabama\alb_q.dat
+<?>
+
+\various\alabama\rd_7.dat
+1991 Michel De Bree
+
+\various\alabama\rd_11.dat
+<?>
+
+\various\alabama\rd_12.dat
+<?>
+
+\demos\chc_hear.dat
+1993 Chock
+
+# He was never a member of Vibrants.  He only used the Vibrants editor.
+\various\scarzix\axelf.dat
+1990-94
+\various\scarzix\behappy.dat
+1990-94
+\various\scarzix\bluesnds.dat
+1990-94
+\various\scarzix\impuls.dat
+1990-94
+\various\scarzix\jingle.dat
+1990-94
+\various\scarzix\lotus.dat
+<?>
+\various\scarzix\noxius.dat
+1990-94
+\various\scarzix\rolling.dat
+1990-94
+\various\scarzix\tecnochp.dat
+1990-94
+\various\scarzix\telly.dat
+1990-94
+\various\scarzix\thethief.dat
+1990-94
+
+\various\zardax\unknown.dat
+<?>
+
+# ****************************************************
+# **                MISCELLANEOUS                   **
+# ****************************************************
+
+
+# MSK and O'Neill are the same!  ack!
+MOVE
+\various\o_neill\
+\various\msk\
+DELETE
+\various\o_neill\
+
+MOVE
+# wrong dir
+\schneidr\pwrwrrrs.dat
+\demos\
+
+\demos\chicago'.dat
+\games\Euro_a-f\chicagos.dat
+
+\demos\plis.dat
+\games\Euro_m-r\
+
+\demos\unitrax.dat
+\games\Euro_s-z\
+
+\demos\catalyps.dat
+\games\Euro_a-f\
+
+\demos\catalend.dat
+\games\Euro_a-f\
+
+\demos\unknown\halifax.dat
+\games\euro_g-l\
+
+\demos\stagger.dat
+\games\euro_s-z\
+
+\demos\unknown\angle.dat
+\games\euro_a-f\
+
+\games\euro_m-r\motos.dat
+\brooke\
+
+\games\euro_g-l\ironhors.dat
+\whittakr\
+
+\demos\audiomas.dat
+\various\amj\
+
+\demos\blasphmy.dat
+\various\amj\
+
+\demos\selfmexe.dat
+\various\amj\
+
+\demos\sys4096.dat
+\various\amj\
+
+\demos\tbbofeni.dat
+\various\tbb\tbb_unkn.dat
+
+\demos\viidakko.dat
+\various\tbb\
+
+\demos\chc_hear.dat
+\various\chock\heartbre.dat
+
+\demos\m_d_lear.dat
+\various\mtchdane\listenan.dat
+
+\demos\m_d_want.dat
+\various\mtchdane\mostwant.dat
+
+\demos\respect.dat
+\various\fanta\
+
+\demos\ols_pier.dat
+\various\amorphis\olsen\pierdu.dat
+
+\games\euro_a-f\franticf.dat
+\games\usa\
+
+\various\alabama\alb_03.dat
+\demos\bylink.dat
+
+\various\alabama\alb_q.dat
+\demos\thilo.dat
+
+\various\alabama\rd_11.dat
+\demos\aon.dat
+
+\various\alabama\rd_12.dat
+\demos\trooper.dat
+
+\various\zardax\unknown.dat
+\various\zonix\
+
+\games\usa\kl.dat
+\games\usa\pacrunnr.dat
+
+\bjerrega\batfunk.dat
+\demos\
+
+\demos\unknown\attentio.dat
+\mon\starbalp.dat
+
+\demos\unknown\dlrs10nt.dat
+\bjerrega\
+
+\demos\unknown\thisis.dat
+\futurfrk\unknown.dat
+
+\various\vibrants\terminat.dat
+\sonicgra\
+
+\various\vibrants\worldcup.dat
+\sonicgra\
+
+# what a wonderful tune...
+\various\bappalan\brutal-6.dat
+\demos\brutal6.dat
+
+# Changing its name
+\danko\audiowon.dat
+\danko\nocommnt.dat
+
+\demos\unknown\evolutio.dat
+\demos\
+
+\various\alabama\alb_18.dat
+\various\ela\hansinge.dat
+
+# Changing their names
+\20cc\2drunk3.dat
+\20cc\learn_it.dat
+
+\20cc\2drunk4.dat
+\20cc\finlaxel.dat
+
+\20cc\2drunk5.dat
+\20cc\Vlindert.dat
+
+\20cc\2drunk7.dat
+\20cc\justcool.dat
+
+\20cc\2drunk9.dat
+\20cc\somewher.dat
+
+\20cc\2drunk10.dat
+\20cc\ijustdon.dat
+
+\20cc\2drunk11.dat
+\20cc\edwinsdr.dat
+
+\various\alabama\rd_7.dat
+\demos\fontastc.dat
+
+\various\zyron\zyron002.dat
+\various\zyron\countrys.dat
+
+\various\zyron\zyron003.dat
+\various\zyron\lonelys1.dat
+
+\various\zyron\zyron004.dat
+\various\zyron\masterfe.dat
+
+\various\zyron\zyron006.dat
+\various\zyron\karnaugh.dat
+
+\mon\3d_intro.dat
+\20cc\spijker1.dat
+
+\braybrok\bushido.dat
+\games\Euro_a-f\
+
+\braybrok\intensit.dat
+\games\Euro_g-l\
+
+\various\adsr\cane.dat
+\various\adsr\cane\
+
+DELETE
+\braybrok\
+
+# This tune, by J. Bjerregaard, is in a new multi-tune SID in update #2
+\demos\unknown\arabstyl.dat
+
+# Replaced with \various\fairlght\driven7i.dat
+\various\fairlght\heavytec.dat
+
+# Outdated text files
+\documnts\psidcomp.txt
+\documnts\readme.txt
+
+# oops
+\various\nilsen\index
+
+MOVE
+# We now encourage text files from the composers.  These
+# text files can be in any format you like.  They are
+# encouraged since they help give further insight to you
+# and your music.  Please limit the size of the text files
+# to 15K or smaller.
+\update\documnts\rambones.txt
+\tst\rambones\
+
+REPLACE
+\update\documnts\
+\documnts\
+
+# ****************************************************
+# **                 Cleaning Up                    **
+# ****************************************************
+
+DELETE
+
+\update\readme.1st
+
+# I think I need to make this recursively delete.  :)
+\update\various\a-man\
+\update\various\amj\
+\update\various\amorphis\compod\
+\update\various\amorphis\
+\update\various\bluezmuz\
+\update\various\chock\
+\update\various\chotaire\
+\update\various\ducklaro\
+\update\various\ela\
+\update\various\fairlght\
+\update\various\fanta\
+\update\various\gaston\
+\update\various\hcl\
+\update\various\iron_cat\
+\update\various\jeff\
+\update\various\knatter\
+\update\various\morbid\
+\update\various\msk\
+\update\various\mtchdane\
+\update\various\pri\
+\update\various\prosonix\pettersn\
+\update\various\prosonix\
+\update\various\pvcf\
+\update\various\rokling\
+\update\various\shavitt\
+\update\various\slaygon\
+\update\various\smc\
+\update\various\syndrom\
+\update\various\tbb\
+\update\various\trident\
+\update\various\wisdom\
+\update\various\xayne\
+\update\various\zardax\
+\update\various\zyron\
+\update\various\
+\update\20cc\
+\update\bjerrega\
+\update\daglish\
+\update\demos\unknown\
+\update\demos\
+\update\detert\
+\update\documnts\
+\update\drax\
+\update\dunn\
+\update\fame\
+\update\follin\
+\update\games\Euro_a-f\
+\update\games\Euro_g-l\
+\update\games\Euro_m-r\
+\update\games\usa\
+\update\games\
+\update\gray_m\
+\update\hubbard\
+\update\jch\
+\update\joseph\
+\update\kimmel\
+\update\metal\
+\update\mon\
+\update\ouwehand\
+\update\schneidr\
+\update\soedesof\
+\update\tjelta\

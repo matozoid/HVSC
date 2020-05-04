@@ -1,0 +1,1547 @@
+# High Voltage SID Collection Update #4
+# Date: April 27, 1997
+
+# This perhaps the best update thus far featuring many highly requested
+# tunes that were not yet present in the HVSC.  Most notably, tunes such
+# as Maniac Mansion, Grand Prix Circuit, R-Type (in game), Super Pipeline,
+# and Mayhem in Monsterland.  Other great finds include some more Hubbard,
+# Daglish, Jeroen Tel, Galway, and Hülsbeck.  Of course, there are many
+# other great tunes in this update as well.
+
+# Enjoy the new and fixed tunes.
+
+# After this update, the collection should contain 5162 SID tunes!
+#
+# This update features (all approximates):
+#      341 new SIDs
+#       37 fixed/better rips
+#       13 repeats/bad rips eliminated
+#      134 SID credit fixes
+#
+# We are always looking for others to help make HV SIDs a better
+# collection.  If you find any errors or have new rips to add, please
+# email both of the people below:
+
+#	The Shark of INC <inc@asu.edu> or <shark@dhp.com>
+#	Jan Diabelez Arnt Harries (Rambones/TST) <nmioaon@vip.cybercity.dk>
+
+# Thanks to all the people who have helped to make HV SIDs the great
+# collection that it is.
+
+# ****************************************************
+# ** 		      REPLACED 		            **
+# ****************************************************
+
+# These tunes are replacements for the versions currently
+# in HV SIDs.  This could be for various reasons such as
+# more sub-tunes, fixing a speed problem, 100% rip, etc.
+
+REPLACE
+# Rip by Rambones, Bank-switching fix by Wilfred
+\update\beben\hammerfi.dat
+\beben\
+
+# Bank Switching fix - The Mage
+\update\bjerrega\dmc4.dat
+\bjerrega\
+
+# Bank Switching fix - Dennis Lindroos
+\update\brandt\paranoia.dat
+\brandt\
+
+# Voice and subtune was missing from old version - Rambones
+\update\crowther\gryphon.dat
+\crowther\
+
+# 20K shorter and credits fixed - Kristoffer Johansson (KJ)
+\update\detert\megastar.dat
+\detert\
+
+# More tunes added & credits fixed - KJ
+\update\detert\parsec.dat
+\detert\
+
+# Merged (but not a new rip) - KJ
+\update\detert\innosens.dat
+\detert\
+DELETE
+\detert\innosenc.dat
+REPLACE
+
+# More sub-tunes - Rambones
+\update\follin\slyspyse.dat
+\follin\
+
+# Tape loader added - Inge
+\update\galway\daleytho.dat
+\galway\
+
+# More sub-tunes - KJ
+\update\games\a-f\blood'n'.dat
+\games\a-f\
+
+# More sub-tunes - Rambones?
+\update\games\g-l\gi-joe.dat
+\games\g-l\
+
+# Merged - KJ
+\update\games\g-l\littleco.dat
+\games\g-l\
+DELETE
+\games\g-l\littl001.dat
+\games\g-l\littl002.dat
+\games\g-l\littl003.dat
+\games\g-l\littl004.dat
+\games\g-l\littl005.dat
+\games\g-l\littl006.dat
+\games\g-l\littl007.dat
+\games\g-l\littl008.dat
+\games\g-l\littl009.dat
+REPLACE
+
+# Now plays at correct speed - Dennis Lindroos
+\update\games\m-r\mrmephis.dat
+\games\m-r\
+
+# Sub tunes added and credits fixed - KJ
+\update\games\s-z\samurait.dat
+\games\s-z\
+
+# In game tunes added - KJ
+# garrison.dat (new rip - in game) - KJ
+\update\vaca\
+\vaca\
+DELETE
+\games\s-z\turrican.dat
+\various\extermer\turrica1.dat
+\various\extermer\turrican.dat
+
+REPLACE
+# In-game tunes added + files merged - KJ
+\update\games\s-z\turrica2.dat
+\games\s-z\
+
+DELETE
+\games\s-z\turrica3.dat
+\games\s-z\turrica5.dat
+REPLACE
+
+# Bank-switch fix for tunes 12 & 13 - KJ
+\update\gray_m\lastnin2.dat
+\gray_m\
+
+# Beginning of tune plays correctly - Zyron (SIDBurners I)
+\update\holland\explodn2.dat
+\holland\
+
+# Now plays at correct speed (confirmed by Hubbard) - The Mage.
+\update\hubbard\bumpsets.dat
+\hubbard\
+
+# From Rambones.  You can now select the first 256, out
+# of a total of 870 possible mixes.
+\update\hubbard\delta_lo.dat
+\hubbard\
+
+# 100% rip (ending was bugged in other rip) - The Mage
+\update\hubbard\videopok.dat
+\hubbard\
+
+# More tunes added - Wilfred
+\update\huelsbec\circusat.dat
+\huelsbec\
+
+# In game tunes added (Inge)...Merged by KJ
+\update\huelsbec\katakis.dat
+\huelsbec\
+
+# In game tunes added (Inge)...Merged by KJ
+\update\huelsbec\rtype.dat
+\huelsbec\
+
+# Tune #1 of old version incorrectly stopped at ~2:50
+# From Peter ´Panda´ Sandén
+\update\huelsbec\thebabyo.dat
+\huelsbec\
+
+# Play at correct speed by default - KJ
+# (small fix to brubaker.dat by Adam Lorentzon)
+\update\jch\
+\jch\
+
+# One tune added, plus all tunes 100% working - KJ
+\update\leitch\marauder.dat
+\leitch\
+
+# Merged - KJ
+\update\ouwehand\firepit.dat
+\ouwehand\
+DELETE
+\ouwehand\firepitg.dat
+\ouwehand\firepitt.dat
+\ouwehand\firepitl.dat
+REPLACE
+
+# More sub-tunes. - The Mage
+\update\rowlands\retrogra.dat
+\rowlands\
+
+# Robocop3.dat->Ingame + End tune added, credits fixed too - KJ
+\update\tel\robocop3.dat
+\tel\
+
+#  Smashtv.dat->Intro + game tunes added, credits fixed too - KJ
+\update\tel\smashtv.dat
+\tel\
+
+# Goldenax.dat->More sub-tunes added - KJ
+\update\tel\goldenax.dat
+\tel\
+
+# Supermgp.dat->same as jeroente.dat; now with correct credits+more tunes-KJ
+\update\tel\supermgp.dat
+\tel\
+
+# Sound effects and proper credits added - KJ
+\update\tel\dandare3.dat
+\tel\
+
+DELETE
+\tel\jeroente.dat
+REPLACE
+
+# Now play at correct speed. - Rambones
+MOVE
+\update\winterbr\spacetra.dat
+\winterbr\
+\update\winterbr\futurema.dat
+\winterbr\
+DELETE
+\winterbr\micha001.dat
+\winterbr\micha002.dat
+REPLACE
+\update\winterbr\morphicl.dat
+\winterbr\
+
+# ****************************************************
+# ** 			NEW TUNES 		    **
+# ****************************************************
+
+MOVE
+
+# From KJ:  wwf_euro.dat
+# From Wilfred:  Command86.dat
+\update\cooksey\
+\cooksey\
+
+#      From KJ:  centurio.dat
+# From Wilfred:  bevhillc.dat (the most covered tune in C64 history)
+\update\crowther\
+\crowther\
+
+# Same as centurio.dat (tune #2)
+DELETE
+\crowther\hmmm.dat
+MOVE
+
+# From KJ:  terramex.dat
+# From Zyron (SIDBurners III):  returnof.dat
+# From Dennis:  pottypig.dat
+\update\daglish\
+\daglish\
+
+# From Rambones:  f4cgcrki.dat
+#  From Mr. SID:   5people.dat  compotne.dat  fruitfst.dat
+#                    nitro.dat  slpdbass.dat  spacedrm.dat
+#   From Dennis:  livingon.dat
+\update\demos\
+\demos\
+
+# From Adam Lorentzon  
+\update\demos\unknown\ikaricyb.dat
+\demos\unknown\
+
+# All from KJ
+\update\detert\
+\detert\
+
+# From KJ:  bartvssm.dat
+\update\dunn\
+\dunn\
+
+# From Dennis Lindroos:  cavofsil.dat  fireking.dat
+# From Rambones:  frogger2.dat
+# From KJ:  alien3.dat  airbornr.dat  avoid_em.dat  cross_it.dat
+#           escfrmpr.dat
+# From Zyron (SIDBurners):  escapeny.dat  euro5asf.dat  bombuzal.dat
+#                               fred.dat
+# From Wilfred:  epyxload.dat
+# From Inge:  aquanaut.dat  cjelepha.dat  captdyna.dat
+\update\games\a-f\
+\games\a-f\
+
+# From Dennis Lindroos:  hideousb.dat
+#              From KJ:  grandprc.dat  hate.dat  intrugbs.dat
+#                        lawofwes.dat
+#        From The Mage:  hercload.dat
+\update\games\g-l\
+\games\g-l\
+
+# From KJ:  maniacma.dat  marksetg.dat
+# From Zyron (SIDBurners):  robinoft.dat
+# From Wilfred:  popeye.dat
+# From Inge: panicdiz.dat
+\update\games\m-r\
+\games\m-r\
+
+# From Inge:  startrdr.dat  superpip.dat  stegslug.dat
+#   From KJ:  skullncb.dat  spacecru.dat
+# From Zyron (SIDBurners):  sabrewul.dat  starsold.dat  tapper.dat
+#                           slamball.dat
+#            From Wilfred:  verkeerr.dat
+#           From The Mage:  spyvspy3.dat
+\update\games\s-z\
+\games\s-z\
+
+# From KJ:  eddtduck.dat  intrtenn.dat  jockywil.dat
+#           neighbrs.dat
+\update\gilmore\
+\gilmore\
+
+# From KJ:  motocros.dat
+\update\gray_m\
+\gray_m\
+
+# From Dennis Lindroos:  bopnrumb.dat
+\update\holland\
+\holland\
+
+# From Dennis Lindroos:  kingso_i.dat
+\update\hubbard\
+\hubbard\
+
+# From KJ:  gem_x.dat
+# From Rambones:  compilat.dat
+\update\huelsbec\
+\huelsbec\
+
+# From KJ:  turn_it2.dat
+\update\jo\
+\jo\
+
+# From Rambones:  barbaria.dat  wicked.dat
+\update\joseph\
+\joseph\
+
+# From A. Lorentzon:  ICUPS.dat
+#           From KJ:  xenophob.dat
+\update\leitch\
+\leitch\
+
+# From KJ
+\update\ouwehand\heliresc.dat
+\ouwehand\
+
+# From The Mage:  retrogtl.dat
+# From KJ:  mayhemin.dat
+\update\rowlands\
+\rowlands\
+
+# All from KJ
+\update\schneidr\
+\schneidr\
+
+# From Inge:     cjs_4.dat  stuntman.dat
+#   From KJ:  ruffnred.dat  superlea.dat
+\update\sonicgra\
+\sonicgra\
+
+# From KJ:  lemminge.dat  lemmings.dat  tmht.dat
+#           megaphoe.dat
+\update\tel\
+\tel\
+
+# From Rambones:  amynoidi.dat  bachviol.dat
+#                 brevtild.dat  cryingou.dat
+\update\tst\rambones\
+\tst\rambones\
+
+# From Kris/Clique
+\update\various\babyface\
+\various\babyface\
+
+# From Ron Rickert
+\update\various\cleve\
+\various\cleve\
+
+# From Dennis Lindroos (Deadman)
+\update\various\deadman\
+\various\deadman\
+
+# From mr. sid
+\update\various\jeff\analogue.dat
+\various\jeff\
+
+# From    Lala:  Thelords.dat
+# From Mr. SID:  magicdsk.dat
+\update\various\lordsofs\
+\various\lordsofs\
+
+# From Ron Rickert
+\update\various\moog\
+\various\moog\
+
+# From mr. sid:  gloria.dat
+\update\various\mtchdane\
+\various\mtchdane\
+
+# From Ron Rickert
+\update\various\scarlet\
+\various\scarlet\
+
+# From Zyron
+\update\various\zyron\
+\various\zyron\
+
+# From KJ:  dragnbrd.dat  rodland.dat  swiv.dat
+\update\walker\
+\walker\
+
+# From A. Lorentzon:  dizzy.dat     grangehi.dat  heltersk.dat
+#                     zub.dat
+#           From KJ:  emlynhug.dat  extrmntr.dat    gazza2.dat
+\update\whittakr\
+\whittakr\
+
+# From Rambones
+\update\winterbr\
+\winterbr\
+
+# From D. Lindroos
+# The version in BMX Kidz *IS* different than scrllmac.dat (tune #1). One
+# thing is the sawtooth-lead sound which has SYNC on.  It's a bit longer too. 
+\update\yip\bmxhigh.dat
+\yip\
+
+# ****************************************************
+# ** 		REPEATS / BAD RIPS		    **
+# ****************************************************
+
+# eeeeeeeeeeekkk!
+
+DELETE
+
+# same as \bjerrega\dmc4.dat (tune 4)
+\bjerrega\tele64.dat
+
+# same as \daglish\vikings1.dat
+# We would have deleted this earlier, but we weren't sure
+# if Vikings II (the game) existed.
+\daglish\vikings2.dat
+
+# same as \norman\forbidd2.dat (tune 8)
+\demos\unknown\1001intr.dat
+
+# same as \norman\forbidd2.dat (tune 9)
+\demos\unknown\lightcir.dat
+
+# same as \norman\forbidd2.dat (tune 11)
+\demos\unknown\yetiintr.dat
+
+# Hubbard didn't make a loader tune for I-Ball.
+# This tune is a screwed rip of \laxity\edieball.dat
+\hubbard\i-balllo.dat
+
+# same as \various\nilsen\thefinal.dat
+\demos\snp_atla.dat
+
+# same as \various\nilsen\chechnob.dat (orig. by Laxity)
+\demos\snp_cheb.dat
+
+# same as \various\nilsen\talesoft.dat
+\demos\snp_hero.dat
+
+# same as \tel\afterbur.dat (ingame tunes)
+# This was obvious, but now afterbur.dat has
+# the correct speed.  :)
+\tel\afterbu1.dat
+\tel\afterbu2.dat
+
+# same as \leitch\thechick.dat (plus it is Leitch's)
+\taylor\chicksng.dat
+
+# same as \various\zonix\unknown.dat
+\various\zonix\zonixoxy.dat
+
+# same as \various\zyron\operomn3.dat (tune 8)
+\various\zyron\ghostsmi.dat
+
+
+# ****************************************************
+# **               SID TUNE CREDITS                 **
+# ****************************************************
+
+# Thanks to the tons of people who helped find the correct credits.
+
+CREDITS
+
+\bjerrega\aceiirmk.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard 
+
+\bjerrega\balloon.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\billiejn.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\can'tsto.dat
+Can't Stop
+*
+1988 Johannes Bjerregaard
+
+\bjerrega\dmmynyts.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\dominoda.dat
+Domino Dancing
+*
+1988 Johannes Bjerregaard
+
+\bjerrega\dummyii.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\flimbo's.dat
+*
+Jeroen Tel & J. Bjerregaard
+1991 System 3 / MoN
+
+\bjerrega\frnchfrt.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\hppyjngl.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\jazz1.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\jazz2.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\jazz3.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\jazz4.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\johan001.dat
+<?>
+<?>
+<?>
+
+\bjerrega\mixerplo.dat
+*
+Johannes Bjerregaard
+1988 Johannes Bjerregaard
+
+\bjerrega\msidemo.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\musicdem.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\shape.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\soapthem.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\deel1.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\deel2.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\mythdemo.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\nightdaw.dat
+*
+Johannes Bjerregaard
+1988 Johannes Bjerregaard
+
+\bjerrega\pmplsqz3.dat
+*
+Johannes Bjerregaard
+1990 Johannes Bjerregaard
+
+\bjerrega\test.dat
+*
+Johannes Bjerregaard
+1989 Johannes Bjerregaard
+
+\bjerrega\wannaget.dat
+*
+Johannes Bjerregaard
+1988 Johannes Bjerregaard
+
+\bjerrega\whenwill.dat
+When Will I be Famous?
+Johannes Bjerregaard
+1988 Johannes Bjerregaard
+
+\brandt\dentalwa.dat
+<?>
+Charles Deenen
+<?> Maniacs of Noise
+
+\daglish\ben_tony.dat
+Ben & Tony Music
+Ben Daglish & Tony Crowther
+1985 W.E.M.U.S.I.C.
+
+\deenen\beastieb.dat
+*
+Jeroen Tel
+1988 Maniacs of Noise
+
+\deenen\ikari_i2.dat
+Reggae Example
+Jeroen Tel
+1987 Maniacs of Noise
+
+\deenen\pseidon.dat
+*
+Jeroen Tel
+1988 Maniacs of Noise
+
+\deenen\thtsprvw.dat
+*
+Jeroen Tel
+1988 Maniacs of Noise
+
+\deenen\wizzy.dat
+*
+Jeroen Tel
+1987 Maniacs of Noise
+
+\demos\evolutio.dat
+<?>
+Lars Hoff
+<?> Lars Hoff
+
+\demos\rage.dat
+<?>
+Rage
+Megastyle Designs
+
+\demos\scr_none.dat
+Kombi 2
+Scarlet / Samar
+<?> Scarlet
+
+\demos\unknown\lordofso.dat
+<?>
+Lords of Sonics
+<?> Lords of Sonics
+
+\games\a-f\cstdrcrp.dat
+The Castles of Doctor Creep
+<?>
+1984 Brøderbund Software
+
+\games\a-f\elite.dat
+*
+<?>
+1985 Firebird
+
+\games\m-r\madsprin.dat
+*
+Markus Schneider
+1990 Double Density
+
+\huelsbec\rtype.dat
+R-Type (title)
+Chris Hülsbeck & Ramiro Vaca
+1990 Rainbow Arts
+
+\tel\jeroent1.dat
+The Mon Demo 1991
+*
+1991 Maniacs of Noise
+
+\tel\jeroent2.dat
+JT 42
+*
+1990 Maniacs of Noise
+
+\tel\jt_early.dat
+The Beginning
+*
+1987 Maniacs of Noise
+
+\tel\jtinrobs.dat
+The Classic Piece
+*
+1987 Maniacs of Noise
+
+\tel\melig.dat
+Melig
+Charles Deenen
+1989 Maniacs of Noise
+
+\tel\rweintro.dat
+*
+Charles Deenen
+1988 Maniacs of Noise/RWE
+
+\tel\violin.dat
+Viool Tello
+*
+1988 Maniacs of Noise
+
+\winterbr\oxygene.dat
+Synth Music IV
+Michael Winterberg
+1986 Michael Winterberg
+
+
+#####
+TITLE
+#####
+
+\daglish\mask_iii.dat
+MASK III: Venom Strikes Back
+
+\daglish\superski.dat
+Gary Lineker's Super Skills
+
+\deenen\mythinga.dat
+Myth (cartridge version)
+
+\demos\unknown\hubbrd85.dat
+FAC Intro <#>
+
+\games\a-f\dewerld.dat
+De Wereld
+
+# Okay folks!  Stop sending email about this now!  :)
+\games\g-l\kicksta2.dat
+Kikstart II
+
+\various\zyron\zyron005.dat
+Hybrid Stone
+
+\winterbr\x-masmix.dat
+Christmas Mix
+
+######
+AUTHOR
+######
+
+\bjerrega\dpchmdsn.dat
+Johannes Bjerregaard
+
+\bjerrega\dream001.dat
+Johannes Bjerregaard
+
+\bjerrega\dreaming.dat
+Johannes Bjerregaard
+
+\bjerrega\fruitbnk.dat
+Johannes Bjerregaard
+
+\bjerrega\inthemoo.dat
+Johannes Bjerregaard
+
+\bjerrega\jbselct3.dat
+Johannes Bjerregaard
+
+\bjerrega\kamikaze.dat
+Johannes Bjerregaard
+
+\bjerrega\m_a_c_h.dat
+Johannes Bjerregaard
+
+\bjerrega\strboxin.dat
+Johannes Bjerregaard
+
+\bjerrega\strmldv2.dat
+Johannes Bjerregaard
+
+\bjerrega\subwayvi.dat
+Johannes Bjerregaard
+
+\bjerrega\tigermis.dat
+Johannes Bjerregaard
+
+\bjerrega\viking_l.dat
+Johannes Bjerregaard
+
+\daglish\flintsto.dat
+Ben Daglish
+
+\demos\brandenb.dat
+<?>
+
+\demos\fbr2001t.dat
+<?>
+
+\games\a-f\barbrnii.dat
+Richard Joseph
+
+\games\a-f\bardsta3.dat
+Kurt Heiden
+
+\games\a-f\crystldz.dat
+Gerard Gourley
+
+\games\m-r\powerdri.dat
+Dave Lowe
+
+\hubbard\aufmonty.dat
+Rob Hubbard & Ben Daglish
+
+\hubbard\thanatos.dat
+Rob Hubbard
+
+\tel\afterthe.dat
+Charles Deenen/Maniacs of Noise
+
+\various\pri\olvmrkr1.dat
+Olav Mørkrid
+
+\various\pri\panoram2.dat
+Henning Rokling
+
+#########
+COPYRIGHT
+#########
+
+\bjerrega\alftvthe.dat
+1988 Johannes Bjerregaard
+
+\bjerrega\chase.dat
+1988 Johannes Bjerregaard
+
+\bjerrega\crazycom.dat
+1988 Johannes Bjerregaard
+
+\bjerrega\omegafor.dat
+<?>
+
+\bjerrega\rosanna.dat
+1988 Johannes Bjerregaard
+
+\bjerrega\zoom.dat
+1988 Discovery Software Int'l
+
+\daglish\bensmus1.dat
+1985 W.E.M.U.S.I.C.
+
+\daglish\bensmus2.dat
+1986 W.E.M.U.S.I.C.
+
+\daglish\bulldog.dat
+1987 Gremlin Graphics
+
+\daglish\football.dat
+1986 Gremlin Graphics
+
+\daglish\mask_ii.dat
+1987 <?>
+
+\daglish\r1d1.dat
+1986 <?>
+
+\daglish\rebounde.dat
+<?>
+
+\daglish\satisfac.dat
+1986 W.E.M.U.S.I.C.
+
+\daglish\stairway.dat
+1986 W.E.M.U.S.I.C.
+
+\daglish\thechick.dat
+1986 W.E.M.U.S.I.C.
+
+\daglish\zapp_64.dat
+1986 W.E.M.U.S.I.C.
+
+\deenen\zamzara.dat
+1988 Rack-It
+
+\demos\brutal6.dat
+1991 Side B & Death Sector
+
+\fitzpatr\indoorsp.dat
+198? Silver Time / Mindscape
+
+\fitzpatr\supersta.dat
+198? Silver Time / Mindscape
+
+\follin\qix.dat
+1989 Taito
+
+\games\a-f\beachbug.dat
+1988 Firebird
+
+\games\m-r\rock'nbo.dat
+1986 Action Graphics/Activision
+
+\games\s-z\spyvsspy.dat
+1985 First Star Software
+
+\tait\lastcrsd.dat
+1989 Lucasfilm Ltd. / US Gold
+
+\tel\jtunknow.dat
+1988 Maniacs of Noise
+
+\tel\macc.dat
+1988 Maniacs of Noise
+
+\tel\nighthun.dat
+1989 Ubi-Soft
+
+\tel\noisypil.dat
+1987 Maniacs of Noise
+
+\tel\northsth.dat
+1991 Infogrames
+
+\various\scarzix\axelf.dat
+1990-94 Scarzix
+\various\scarzix\behappy.dat
+1990-94 Scarzix
+\various\scarzix\bluesnds.dat
+1990-94 Scarzix
+\various\scarzix\impuls.dat
+1990-94 Scarzix
+\various\scarzix\jingle.dat
+1990-94 Scarzix
+\various\scarzix\lotus.dat
+<?> Scarzix
+\various\scarzix\noxius.dat
+1990-94 Scarzix
+\various\scarzix\rolling.dat
+1990-94 Scarzix
+\various\scarzix\tecnochp.dat
+1990-94 Scarzix
+\various\scarzix\telly.dat
+1990-94 Scarzix
+\various\scarzix\thethief.dat
+1990-94 Scarzix
+
+\various\zonix\juliarob.dat
+<?> Zonix
+
+\various\zonix\leviatha.dat
+1991 Zonix
+
+\various\zonix\microwav.dat
+<?> Zonix
+
+\various\zonix\sunland.dat
+1991 Zonix
+
+\various\zonix\turnesou.dat
+1991 Zonix
+
+\various\zyron\floating.dat
+1994 Zyron
+
+\various\zyron\theparty.dat
+1993 Zyron
+
+#####
+SONGS
+#####  number of songs, starting tune
+
+\bjerrega\zoom.dat
+4,2
+
+\follin\blacklam.dat
+5,2
+
+\follin\qix.dat
+11,11
+
+\games\m-r\madsprin.dat
+5,3
+
+\games\m-r\moonsha.dat
+4,4
+
+\gray_f\firefly.dat
+4,2
+
+\tel\noisypil.dat
+3,3
+
+\tel\tintinon.dat
+3,1
+
+#####
+SPEED
+#####  in hexadecimal (32 bits max)
+
+/games/a-f/4th&inch.dat
+7F
+
+/tel/afterbur.dat
+1FE
+
+/tel/badbld_e.dat
+FF
+
+/tel/badbld_i.dat
+FFF
+
+/tel/badbld_t.dat
+1
+
+# ****************************************************
+# **                MISCELLANEOUS                   **
+# ****************************************************
+
+MOVE
+\bjerrega\flimbo's.dat
+\tel\flimbosq.dat
+
+\bjerrega\johan001.dat
+\demos\unknown\unknown1.dat
+
+\brandt\dentalwa.dat
+\deenen\cd_unkn2.dat
+
+\daglish\vikings1.dat
+\daglish\vikings.dat
+
+\deenen\beastieb.dat
+\tel\
+
+\deenen\ikari_i2.dat
+\tel\reggae.dat
+
+\deenen\pseidon.dat
+\tel\
+
+\deenen\thtsprvw.dat
+\tel\
+
+\deenen\wizzy.dat
+\tel\
+
+\demos\brandenb.dat
+\demos\unknown\
+
+\demos\evolutio.dat
+\various\prosonix\hoff\
+
+\demos\fbr2001t.dat
+\demos\unknown\
+
+\demos\magnetic.dat
+\demos\unknown\
+
+\demos\mstrsmpl.dat
+\demos\unknown\
+
+\demos\scr_glry.dat
+\various\scarlet\galerya.dat
+
+\demos\scr_none.dat
+\various\scarlet\kombi_2.dat
+
+\demos\rage.dat
+\various\megastyl\rage3.dat
+
+\demos\rage2.dat
+\various\megastyl\rage4.dat
+
+\demos\unknown\hubbrd85.dat
+\demos\unknown\facintro.dat
+
+\various\lordsofs\
+\lordsofs\
+DELETE
+\various\lordsofs\
+MOVE
+
+\demos\unknown\lordofso.dat
+\lordsofs\
+
+\games\a-f\barbrnii.dat
+\joseph\
+
+\games\a-f\bosconia.dat
+\brooke\
+
+\games\a-f\crystldz.dat
+\sonicgra\
+
+\games\g-l\kicksta2.dat
+\games\g-l\kikstar2.dat
+
+DELETE
+# Die SIDPlayer tune!  (although it is a nice one!)
+\games\g-l\galactic.dat
+
+MOVE
+
+\tel\afterthe.dat
+\deenen\
+
+\tel\jt_early.dat
+\tel\beginnin.dat
+
+\tel\jtinrobs.dat
+\tel\classicp.dat
+
+\tel\melig.dat
+\deenen\
+
+\tel\rweintro.dat
+\deenen\
+
+\various\extermer\
+\vaca\
+DELETE
+\various\extermer\
+
+MOVE
+# The two are the same.
+\various\gaunt\
+\danko\
+DELETE
+\various\gaunt\
+
+MOVE
+\various\pri\olvmrkr1.dat
+\demos\
+
+\various\pri\ontherun.dat
+\demos\
+
+\various\pri\panoram2.dat
+\various\rokling\
+
+# Ooops!
+MOVE
+\various\wuti\
+\various\wuiti\
+DELETE
+\various\wuti\
+
+MOVE
+\various\zyron\zyron005.dat
+\various\zyron\hybridst.dat
+
+\winterbr\oxygene.dat
+\winterbr\snthmus4.dat
+
+# Due to an error in Update #2, a carriage return was added to the
+# credits for all people who updated on Linux.  In order to make
+# the fix as easy and transparent as possible, here is somewhat
+# of a repeat of the credit changes in Update #2.
+#     #
+CREDITS
+#     #
+\20cc\amtrax.dat
+*
+Edwin van Santen
+1989 20th Century Composers
+
+\20cc\big_fun.dat
+*
+Edwin van Santen
+1988 20th Century Composers
+
+\20cc\childrn2.dat
+*
+Edwin van Santen
+1988 20th Century Composers
+
+\20cc\cyberfun.dat
+*
+Edwin van Santen
+1989 20th Century Composers
+
+\20cc\dutchbrz.dat
+*
+Edwin van Santen
+1990 20th Century Composers
+
+\20cc\edwinsdr.dat
+Edwin's Dream
+Edwin van Santen
+1990 20th Century Composers
+
+\20cc\eternal.dat
+*
+Edwin van Santen
+1989 20th Century Composers
+
+\20cc\finlaxel.dat
+Final Axel
+Edwin van Santen
+1990 20th Century Composers
+
+\20cc\ijustdon.dat
+I Just Don't Have the Heart
+Edwin van Santen
+1990 20th Century Composers
+
+\20cc\iwannada.dat
+*
+Edwin van Santen & Falco Paul
+1988 20th Century Composers
+
+\20cc\justcool.dat
+Just Cool!
+Edwin van Santen
+1990 20th Century Composers
+
+\20cc\learn_it.dat
+Learn It the Hard Way
+Edwin van Santen
+1990 20th Century Composers
+
+\20cc\mamamia.dat
+Mama Mia
+Edwin van Santen
+*
+
+\20cc\megamix2.dat
+*
+Edwin van Santen
+1989 20th Century Composers
+
+\20cc\phalanx.dat
+*
+Edwin van Santen
+1989 20th Century Composers
+
+\20cc\popcorn.dat
+*
+Edwin van Santen
+1988 20th Century Composers
+
+\20cc\somewher.dat
+Somewhere Minor
+Edwin van Santen
+1990 20th Century Composers
+
+\20cc\spijker1.dat
+Spijkerhoek
+Edwin van Santen
+*
+
+\20cc\takeonme.dat
+Take On Me
+Edwin van Santen
+*
+
+\20cc\thewords.dat
+*
+Edwin van Santen
+1989 20th Century Composers
+
+\20cc\vlindert.dat
+Vlindertjes
+Edwin van Santen
+1990 20th Century Composers
+
+\deenen\airwolf.dat
+Airwolf
+Charles Deenen
+*
+
+\demos\aon.dat
+<?>
+AON
+<?> AON
+
+\demos\bylink.dat
+<?>
+BYLINK
+1989 CHEYENS
+
+\demos\fontastc.dat
+Fontastic Background Music
+Michel De Bree (Youth/Heatwave)
+1991 Michel De Bree
+
+\demos\trooper.dat
+<?>
+TROOPER
+<?> TROOPER
+
+\bjerrega\dlrs10nt.dat
+<?>
+Johannes Bjerregaard
+<?> Johannes Bjerregaard
+
+\derrett\deathorg.dat
+*
+Jay Derrett
+1987 CRL
+
+\games\a-f\crossfir.dat
+*
+<?>
+1983 Sierra Online Ltd.
+
+\games\a-f\franticf.dat
+*
+Gregor Larson & K. Hatlelid
+1983 Commercial Data Systems
+
+\schneidr\marcussc.dat
+*
+Markus Schneider
+<?> Markus Schneider
+
+\sonicgra\terminat.dat
+Terminator Title <?>
+Gerard Gourley
+*
+
+\sonicgra\worldcup.dat
+*
+Gerard Gourley
+<?>
+
+\norman\pacrunnr.dat
+Pacrunner
+Paul Norman <?>
+<?>
+
+\various\ela\hansinge.dat
+Hans Inge Tune
+ELA/Antimon
+1988 Antimon
+
+\various\zenox\thilo.dat
+<?>
+Nicolai Thilo (Zenox)
+<?> Nicolai Thilo
+
+\various\zonix\unknown.dat
+<?>
+Zonix
+<?> Zonix
+
+
+#   #
+TITLE
+#   #
+\danko\nocommnt.dat
+No Comment
+
+\huelsbec\ch_uknwn.dat
+<?>
+
+\various\zyron\countrys.dat
+Countryside
+
+\various\zyron\karnaugh.dat
+Karnaugh Map
+
+\various\zyron\lonelys1.dat
+Lonely Season
+
+\various\zyron\masterfe.dat
+Master Ferro
+
+
+#    #
+AUTHOR
+#    #
+
+\20cc\airwolf.dat
+Edwin van Santen
+
+\20cc\atripint.dat
+Edwin van Santen
+
+\20cc\hiphouse.dat
+Edwin van Santen
+
+\20cc\hrdcrpwr.dat
+Edwin van Santen
+
+\20cc\imbbtngh.dat
+Edwin van Santen
+
+\20cc\lambada.dat
+Falco Paul
+
+\20cc\megamix.dat
+Edwin van Santen
+
+\jo\batfunk.dat
+Jesper "Jo" Olsen
+
+\brooke\motos.dat
+Jas Brooke
+
+\Daglish\gobots.dat
+Ben Daglish
+\Daglish\mountymi.dat
+Ben Daglish
+\Daglish\pacmania.dat
+Ben Daglish
+\Daglish\pubgames.dat
+Ben Daglish
+
+\derrett\vengeanc.dat
+Jay Derrett
+
+\games\s-z\steel.dat
+Gari Biasillo
+
+\laxity\dnawarri.dat
+Laxity & Future Freak
+
+\schneidr\spclvnts.dat
+Markus Schneider
+
+\schneidr\transwor.dat
+Markus Schneider
+
+\various\tbb\tbb.dat
+TBB
+
+\whittakr\ironhors.dat
+David Whittaker
+
+
+#       #
+COPYRIGHT
+#       #
+
+\danko\russian.dat
+<?>
+
+\games\a-f\anarchy.dat
+1987 Hewson
+
+\games\a-f\erebus.dat
+1986 Virgin Games
+
+\games\s-z\unitrax.dat
+1988 Streetwise
+
+\schneidr\babylon.dat
+1988 Markus Schneider
+
+\schneidr\ms_unknw.dat
+1988 Markus Schneider
+
+\schneidr\noname.dat
+1988 Markus Schneider
+
+\sonicgra\shadowbe.dat
+1990 Psygnosis
+
+\various\chock\heartbre.dat
+1993 Chock
+
+
+# ****************************************************
+# **                 Cleaning Up                    **
+# ****************************************************
+
+REPLACE
+\update\documnts\
+\documnts\
+
+DELETE
+\update\readme.1st
+\update\beben\
+\update\bjerrega\
+\update\brandt\
+\update\cooksey\
+\update\crowther\
+\update\daglish\
+\update\demos\unknown\
+\update\demos\
+\update\detert\
+\update\documnts\
+\update\dunn\
+\update\follin\
+\update\galway\
+\update\games\a-f\
+\update\games\g-l\
+\update\games\m-r\
+\update\games\s-z\
+\update\games\
+\update\gilmore\
+\update\gray_m\
+\update\holland\
+\update\hubbard\
+\update\huelsbec\
+\update\jch\
+\update\jo\
+\update\joseph\
+\update\leitch\
+\update\ouwehand\
+\update\rowlands\
+\update\schneidr\
+\update\sonicgra\
+\update\tel\
+\update\tst\rambones\
+\update\tst\
+\update\vaca\
+\update\various\babyface\
+\update\various\cleve\
+\update\various\deadman\
+\update\various\jeff\
+\update\various\lordsofs\
+\update\various\moog\
+\update\various\mtchdane\
+\update\various\scarlet\
+\update\various\zyron\
+\update\various\
+\update\walker\
+\update\whittakr\
+\update\winterbr\
+\update\yip\

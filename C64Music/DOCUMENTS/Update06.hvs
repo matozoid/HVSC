@@ -1,0 +1,2116 @@
+# High Voltage SID Collection Update #6
+# Date: September 9, 1997
+
+# Welcome to the final update that shall support MSDOS's 8.3 file naming
+# convention.  Unless some other party decides to pick up the task,
+# MSDOS users will have to update by hand (if at all).  But always
+# remember -- MSDOS users will still be able to listen to the SIDs
+# in future updates.  Only the Update program shall be incompatible.
+# We truely hope that MSDOS/Atari Falcon users are not bitter with our
+# decision.  MSDOS is clearly a pathetic OS and not suited for the modern
+# world.  Further, we can no longer devote our attention to such a small
+# audience.
+#
+# As for the SIDs, this update has more than its share of some cool tunes.
+# We continue to also replace bad tunes as well as fix many credits to
+# adhere to our standard.  Enjoy!
+
+# After this update, the collection should contain 5805 DAT files!
+#
+# This update features (all approximates):
+#      310 new SIDs
+#       26 fixed/better rips
+#       12 repeats/bad rips eliminated
+#      300 SID credit fixes
+#
+# We are always looking for others to help make HV SIDs a better
+# collection.  If you find any errors or have new rips to add, please
+# email both of the people below:
+
+#	The Shark of INC <shark@dhp.com>
+#	Jan Diabelez Arnt Harries (Rambones/TST) <nmioaon@vip.cybercity.dk>
+
+# Thanks to all the people who have helped to make HV SIDs the great
+# collection that it is.
+
+# ****************************************************
+# ** 		      REPLACED 		            **
+# ****************************************************
+
+# These tunes are replacements for the versions currently
+# in HV SIDs.  This could be for various reasons such as
+# more sub-tunes, fixing a speed problem, 100% rip, etc.
+
+REPLACE
+
+# From KJ - Bank Switch fix
+/update/brandt/bob_morm.dat
+/brandt/
+
+# From KJ - Bank Switch fix + author fix
+/update/cannon/untchbls.dat
+/cannon/
+DELETE
+/dunn/untchbls.dat
+REPLACE
+
+# From KJ - Bank Switch fix
+/update/clarke/headover.dat
+/clarke/
+
+# From The Mage - 100% rip
+/update/cooksey/paperboy.dat
+/cooksey/
+
+# From KJ - Bank Switch fix
+/update/demos/rockthis.dat
+/demos/
+
+# From Wilfred - Should now work on RSP
+/update/detert/artstsft.dat
+/detert/
+
+# From KJ - Bank Switch fix, more tunes added
+/update/dunn/renegad3.dat
+/dunn/
+
+# From KJ - Merged and samples fixed
+/update/dunn/vindicat.dat
+/dunn/
+DELETE
+/dunn/vindica1.dat
+/dunn/vindica2.dat
+REPLACE
+
+# From Fungus - 100% rip
+/update/follin/bionicco.dat
+/follin/
+
+# From Mage; merged by KJ - more sub-tunes added
+/update/galway/timeslor.dat
+/galway/
+
+# From King Fisher - More sub-tunes, plus the main tune
+#                    now plays correctly.
+/update/games/a-f/druid2.dat
+/games/a-f/
+
+# From Adam - more sub-tunes added
+/update/games/m-r/robinoft.dat
+/games/m-r/
+
+# From KJ - Bank Switch fix
+/update/games/m-r/rogrrbbt.dat
+/games/m-r/
+
+# From Inge - More sub-tunes
+/update/games/s-z/sinbad.dat
+/games/s-z/
+
+# From KJ - theantic.dat
+/update/games/s-z/theantic.dat
+/games/s-z/
+
+# From Adam - more sub-tunes
+/update/games/s-z/turbocha.dat
+/games/s-z/
+
+# From The Mage - missing voice added
+/update/games/s-z/upndown.dat
+/games/s-z/
+
+# From KJ - Bank Switch fixes
+/update/holland/rocknwre.dat
+/holland/
+DELETE
+/holland/rock'nwr.dat
+REPLACE
+
+# From KJ - Bank Switch fixes
+/update/joseph/
+/joseph/
+
+/update/laxity/satelli2.dat
+/laxity/
+
+# From KJ - Bank Switch fix
+/update/taylor/rewindmx.dat
+/taylor/
+
+# From KJ - "Welcome to Myth"  :)
+/update/tel/myth.dat
+/tel/myth.dat
+
+# From KJ - Full rip
+/update/tel/outruneu.dat
+/tel/
+DELETE
+/tel/outreul2.dat
+REPLACE
+
+# From KJ - Full rip
+/update/tel/turboout.dat
+/tel/
+DELETE
+/tel/turboou1.dat
+REPLACE
+
+# From KJ - Bank Switch fix
+/update/various/mc/rockmon4.dat
+/various/mc/
+
+# From Burglar - plays at correct speed and works w/ RSP
+/update/winterbr/kraftwer.dat
+/winterbr/
+
+# ****************************************************
+# **                  NEW TUNES                     **
+# ****************************************************
+
+MOVE
+# From Adam: sascomba.dat
+#   From KJ: pulsewar.dat
+/update/barrett/
+/barrett/
+
+# From Adam: salamand.dat
+#   From KJ: firststr.dat
+/update/cooksey/
+/cooksey/
+
+# From Gabe: rickdang.dat
+/update/daglish/
+/daglish/
+
+# From Tomas Danko
+/update/danko/
+/danko/
+
+#    From Adam: leavemea.dat  littlelo.dat  pulse.dat  warworld.dat
+# From Burglar:  resonic.dat   thewave.dat
+#      From KJ: excalibu.dat  legendin.dat
+#  From mr sid:  145tune.dat    doehet.dat  drkbezig.dat
+#               partyjam.dat       zak.dat
+# From Unifier:  unifier.dat
+/update/demos/
+/demos/
+
+# From Mage
+/update/derrett/
+/derrett/
+
+# From Seven/Hitmen; merged by KJ
+/update/feiweier/
+/feiweier/
+
+# From KJ
+/update/follin/
+/follin/
+
+# From KJ
+/update/furniss/
+/furniss/
+
+# From Adam:   bigfoot.dat     cybex.dat
+#             defearth.dat  demonkis.dat
+#   From KJ:  amazngsm.dat  battlcmd.dat  cloudkng.dat
+# From Gabe:  buckrgrs.dat  champion.dat  curse_of.dat  deathkni.dat
+/update/games/a-f/
+/games/a-f/
+
+# From Adam: hellforl.dat
+#   From KJ: galdrdom.dat  herobotx.dat  jetbikes.dat
+# From Gabe: lupoalbe.dat
+/update/games/g-l/
+/games/g-l/
+
+# From Adam: projfire.dat  rickdan2.dat
+#   From KJ: memomani.dat     mercs.dat      narc.dat  ninjawar.dat
+#            outontti.dat      pang.dat  proskats.dat
+#             pulsoid.dat    radius.dat  rallycro.dat
+# From Inge:  pirates.dat  posterpa.dat
+# From Wilfred: nightshi.dat
+/update/games/m-r/
+/games/m-r/
+
+# From Adam: streetwa.dat  supralla.dat  suprcars.dat
+#   From KR: switchbl.dat  testdriv.dat     xenon.dat
+# From Wilfred: spysdemi.dat
+# From SIDBurner's II: spelunkr.dat zeppelin.dat
+/update/games/s-z/
+/games/s-z/
+
+# From KJ
+/update/gray_f/
+/gray_f/
+
+# From KJ
+/update/gray_m/
+/gray_m/
+
+# From KJ
+/update/hatlelid/
+/hatlelid/
+
+# From Adam
+/update/japmastr/
+/japmastr/
+
+# From KJ
+/update/leitch/
+/leitch/
+
+# From Geir Tjelta
+/update/mozicart/
+/mozicart/
+
+/update/mozicart/tjelta/
+/mozicart/tjelta/
+
+# From Adam
+/update/schneidr/
+/schneidr/
+
+# From Soedesoft
+/update/soedesof/
+/soedesof/
+
+# From Gabe:  miamicha.dat
+#   From KJ:  coolwrld.dat
+/update/sonicgra/
+/sonicgra/
+
+#      From KJ:   mythmix.dat  outruneu.dat  hardrock.dat  koud_he.dat
+#                turboout.dat
+# From Gabriel:  invest.dat
+/update/tel/
+/tel/
+
+# From KJ
+/update/tel/hcs_etc/
+/tel/hcs_etc/
+
+# From Tomas Danko
+/update/various/alien/
+/various/alien/
+
+# From mr sid and Glenn Rune Gallefoss
+/update/various/bluesmuz/grg/
+/various/bluesmuz/grg/
+
+# From Ron Rickert
+/update/various/decoy/
+/various/decoy/
+
+# From Ville Muikkula
+/update/various/fairlght/reddevil/
+/various/fairlght/reddevil/
+
+# From Adam
+/update/various/morbid/
+/various/morbid/
+
+# From The Mage
+/update/various/pvcf/
+/various/pvcf/
+
+# From Burglar: crzycrs3.dat
+/update/various/shavitt/
+/various/shavitt/
+
+# From KJ
+/update/various/smc/
+/various/smc/
+
+# From Adam
+/update/various/triad/
+/various/triad/
+
+# From Adam
+/update/various/trident/
+/various/trident/
+
+# From Vincent Voois
+/update/various/voois/
+/various/voois/
+
+# From KJ & Weber Bros.
+/update/various/weber/
+/various/weber/
+
+# From mr sid
+/update/various/wisdom/
+/various/wisdom/
+
+# From mr sid
+/update/various/zyron/
+/various/zyron/
+
+# From KJ
+/update/walker/
+/walker/
+
+# From Adam
+/update/whittakr/
+/whittakr/
+
+# ****************************************************
+# ** 		REPEATS / BAD RIPS		    **
+# ****************************************************
+
+DELETE
+# Same as /mateus/creazydr.dat
+/demos/mateus.dat
+
+# Same as /drax/unitechn.dat
+/demos/unknown/unk3.dat
+
+# Something is seriously wrong with this tune
+/demos/unknown/xxx_unk2.dat
+
+# Same as /drax/jammalad.dat
+/drax/-drax26.dat
+
+# Same as /drax/feelit.dat
+/drax/-note2.dat
+
+# Same as /link/tunenr2.dat
+/soedesof/trail003.dat
+
+# Replaced with new updates...correct names
+# and the new rips do not use RTS to return
+# from an interrupt (I hope)!
+# Both from the game "Brain Artifice"
+/tjelta/lazyfast.dat
+/tjelta/noname.dat
+
+# Same as /various/knatter/bizarre.dat
+/various/knatter/btbbintr.dat
+
+# Same as /various/knatter/plorri.dat
+/various/knatter/btbb_2.dat
+
+# Same as /various/knatter/bladd.dat
+/various/knatter/unknown.dat
+
+# Same as /deek/weebles.dat
+/various/vibrants/slimer.dat
+
+
+# ****************************************************
+# **               SID TUNE CREDITS                 **
+# ****************************************************
+
+# Thanks to the tons of people who helped find the correct credits.
+
+#######
+CREDITS
+#######
+
+/demos/abj_exil.dat
+<?>
+Abject
+<?> Abject/Exile
+
+/demos/emx_smsh.dat
+<?>
+Emax
+<?> Emax/Smash Designs
+
+/demos/eye_verm.dat
+<?>
+*
+<?> Eye
+
+/demos/longhar2.dat
+<?>
+*
+<?> Longhair
+
+/demos/strikefo.dat
+Strike Force Introtune
+*
+<?> Diflex
+
+/demos/tuskerin.dat
+Tusker Intro
+*
+<?> Science 451
+
+/demos/unknown/alb_05.dat
+Cruelcruncher V1.2
+Galleon / Oneway
+1989 Galleon
+
+/demos/unknown/musccll1.dat
+*
+Double Jonas
+1987 Double Jonas
+
+/demos/unknown/musccll2.dat
+*
+Double Jonas
+1987 Double Jonas
+
+/demos/unknown/plotting.dat
+*
+Zardax
+199? Zardax
+
+/demos/unknown/suburbia.dat
+*
+Chris/711
+<?> Chris/711
+
+/demos/unknown/together.dat
+Together Forever
+<?>
+<?>
+
+/galway/micropro.dat
+MicroProse Soccer
+*
+1988 MicroProse Soccer
+
+/games/a-f/cyclons.dat
+Cyclons
+<?>
+1984 Rabbit Software
+
+/games/a-f/epyxload.dat
+US Gold Tape Loader
+*
+198? US Gold
+
+/klaewer/unkno001.dat
+<?>
+*
+<?> Oliver Klaewer
+
+/klaewer/unknown0.dat
+<?>
+*
+<?> Oliver Klaewer
+
+/laxity/laxity.dat
+<?>
+Thomas Petersen (Laxity)
+<?> Thomas Petersen
+
+/laxity/unknown(.dat
+<?>
+Thomas Petersen (Laxity)
+*
+
+/mad/mad.dat
+<?>
+Marcel Donne (Mad)
+<?> Marcel Donne
+
+/rock/rock.dat
+<?>
+*
+<?> Rock
+
+/schneidr/mania001.dat
+Double Density Commercial
+Markus Schneider
+1989 Double Density
+
+/schneidr/marku001.dat
+<?>
+*
+<?> Markus Schneider
+
+/schneidr/markussc.dat
+<?>
+*
+<?> Markus Schneider
+
+/soedesof/carnival.dat
+Lickpipe #1 (Vector)
+David Fahlander (Daw)
+1992 Triad
+
+/soedesof/ohyeah!.dat
+Funky Stuff
+SoedeSoft
+1988 SoedeSoft
+
+/soedesof/shining8.dat
+*
+SoedeSoft
+1988 SoedeSoft
+
+/soedesof/soede001.dat
+<?>
+Soedesoft
+1988 Soedesoft
+
+/soedesof/soede002.dat
+<?>
+*
+<?> Soedesoft
+
+/soedesof/soede003.dat
+<?>
+*
+<?> Soedesoft
+
+/soedesof/stardus2.dat
+Swing
+SoedeSoft
+1988 SoedeSoft
+
+/soedesof/trail002.dat
+<?>
+<?>
+<?>
+
+/soedesof/trailrem.dat
+<?>
+<?>
+<?>
+
+/tel/thats_mn.dat
+That's the Way It Is (main)
+*
+<?> Maniacs of Noise
+
+/tjelta/nibbling.dat
+Niggling
+Geir Tjelta
+1989 Geir Tjelta
+
+/tjelta/soplayen.dat
+S.O. Playency
+Trond K. Lindanger
+1989 Moz(IC)Art
+
+/tjelta/surrende.dat
+*
+G. Tjelta & T. Lindanger
+1989 Moz(IC)Art
+
+/vaca/extermer.dat
+<?>
+Ramiro Vaca (Extermer)
+<?> Ramiro Vaca
+
+/various/adsr/cane/unnamed1.dat
+<?>
+*
+<?> Cane
+
+/various/adsr/cane/unnamed2.dat
+<?>
+*
+<?> Cane
+
+/various/adsr/dos/unnamed1.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed2.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed3.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed4.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed5.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed6.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed7.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed8.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamed9.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnameda.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/adsr/dos/unnamedb.dat
+<?>
+DOS / ADSR
+<?> DOS
+
+/various/alien/1stintro.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/4amagazi.dat
+4 A Magazine
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/aliensmi.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/aprilbea.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/beat_boy.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/classic.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/come_on.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/culture.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/deepdanc.dat
+Deepdance
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/effectiv.dat
+*
+Stefan Konarkowski (Alien)
+1993 Black Code Design
+
+/various/alien/givememo.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/goodthin.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/greyworl.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/holyword.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/iamready.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/jumparou.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/menudriv.dat
+Menudriver
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/nearlyfr.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/silentni.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/silverst.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/the_end.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/the_past.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/timeisfu.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/unknwn72.dat
+It's Partytime
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/weareali.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/alien/whoompte.dat
+*
+Stefan Konarkowski (Alien)
+1994 Black Code Design
+
+/various/amorphis/compod/cats.dat
+Neverending Story
+Glenn Rune Gallefoss
+1992 Digital Designs
+
+/various/banana/tekdigis.dat
+TEK Digistyle <?>
+*
+<?> The Electric Knights
+
+/various/bleedn21/2_suns_i.dat
+Two Suns in One Sunset
+*
+<?> Bleed Into One
+
+/various/coax/coaxtopa.dat
+<?>
+*
+<?> Coax
+
+/various/coax/topaz#2.dat
+<?>
+*
+<?> Coax
+
+/various/coax/topaz#3.dat
+<?>
+*
+<?> Coax
+
+/various/crcksbst/funeral.dat
+*
+Jeroen Tel
+1987 Helmond Cracking Service
+
+/various/crcksbst/hangon.dat
+*
+Jeroen Tel
+1987 Helmond Cracking Service
+
+/various/crcksbst/jarremix.dat
+*
+Jeroen Tel
+1987 Helmond Cracking Service
+
+/various/fairlght/fairlig2.dat
+FairLight II
+*
+<?> Wedge / FairLight
+
+/various/fairlght/reddevil.dat
+Moondance
+Emil Helldin (Red Devil)
+1993 FairLight
+
+/various/fairlght/redde001.dat
+Legoland 3 (tune 1)
+Emil Helldin (Red Devil)
+1993 FairLight
+
+/various/fairlght/redde002.dat
+Timemachine
+Emil Helldin (Red Devil)
+1993 FairLight
+
+/various/fairlght/redde003.dat
+New Reformation
+Emil Helldin (Red Devil)
+1993 FairLight
+
+/various/fairlght/redde004.dat
+For Jamaica
+Emil Helldin (Red Devil)
+1993 FairLight
+
+/various/fairlght/skaan002.dat
+Extra Life
+Emil Helldin (Red Devil)
+1993 FairLight
+
+/various/fairlght/skaan003.dat
+Off Hook
+Emil Helldin (Red Devil)
+1993 FairLight
+
+/various/fulcrum/come_tog.dat
+Come Together
+*
+1995 Svante Hellstadius
+
+/various/fulcrum/unholy.dat
+Unholy
+*
+1995 Svante Hellstadius
+
+/various/gaston/cm_game4.dat
+Cubemagik (Ingame 4)
+*
+<?> The Imperium Arts
+
+/various/gaston/flummis2.dat
+Flummi's World (intro) <?>
+*
+<?> The Imperium Arts
+
+/various/jeff/jeffc001.dat
+<?>
+*
+<?> Jeff / Camelot
+
+/various/lindangr/thewizrd.dat
+The Wizard
+Trond Lindanger
+1990 Moz(IC)Art / Shape
+
+/various/mixer/mixer001.dat
+<?>
+*
+<?> Origo Dreamline
+
+/various/moon/moon#1.dat
+<?>
+*
+<?> Moon
+
+/various/morbid/morbid_1.dat
+<?>
+Morbid
+<?> Bass/Onslaught
+
+/various/msk/oneill_1.dat
+<?>
+*
+<?> O'Neill
+
+/various/partybox/box01.dat
+<?>
+<?>
+<?>
+
+/various/partybox/box02.dat
+<?>
+<?>
+<?>
+
+/various/partybox/box03.dat
+<?>
+<?>
+<?>
+
+/various/partybox/box04.dat
+<?>
+<?>
+<?>
+
+/various/partybox/box06.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxa.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxd.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxe.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxf.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxg.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxi.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxj.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxl.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxm.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxn.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxo.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxs.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxw.dat
+<?>
+<?>
+<?>
+
+/various/partybox/boxy.dat
+<?>
+<?>
+<?>
+
+/various/pvcf/access_1.dat
+Access Denied
+*
+<?> PVCF
+
+/various/pvcf/pvcf_2.dat
+<?>
+PVCF
+<?> PVCF/Reflex
+
+/various/pvcf/pvcf_3.dat
+<?>
+PVCF
+<?> PVCF/Reflex
+
+/various/pvcf/pvcf_4.dat
+<?>
+PVCF
+<?> PVCF/Reflex
+
+/various/pvcf/pvcf_6.dat
+<?>
+PVCF
+<?> PVCF/Reflex
+
+/various/pvcf/pvcf_7.dat
+<?>
+PVCF
+<?> PVCF/Reflex
+
+/various/pvcf/pvcf_8.dat
+<?>
+PVCF
+<?> PVCF/Reflex
+
+/various/smc/con001.dat
+Con (MSDOS Title Problem)
+*
+<?> SMC
+
+/various/stax/rhythmis.dat
+Rhythm is a Dancer
+*
+<?> Snap
+
+/various/stax/stax_var.dat
+<?>
+*
+<?> Varsity
+
+/various/stax/stax001.dat
+<?>
+*
+<?> Varsity
+
+/various/stax/stax002.dat
+<?>
+*
+<?> Varsity
+
+/various/stax/staxvars.dat
+<?>
+*
+<?> Varsity
+
+/various/syndrom/black_or.dat
+Black or White
+*
+<?> The Imperium Arts
+
+/various/syndrom/cm_game2.dat
+Cubemagik (Ingame 2)
+*
+<?> The Imperium Arts
+
+/various/syndrom/cm_game3.dat
+Cubemagik (Ingame 3)
+*
+<?> The Imperium Arts
+
+/various/syndrom/cm_game5.dat
+Cubemagik (Ingame 5)
+*
+<?> The Imperium Arts
+
+/various/syndrom/cosmic_s.dat
+Cosmic Style
+*
+<?> The Imperium Arts
+
+/various/syndrom/musicfor.dat
+Music for Script
+*
+<?> The Syndrom
+
+/various/syndrom/slynehea.dat
+Slynehead
+*
+<?> The Imperium Arts
+
+/various/syndrom/'verystr.dat
+Very Strange Music
+*
+<?> Syndrom
+
+/various/tbb/tbb_unkn.dat
+<?>
+TBB
+<?> TBB
+
+/various/tlf/tlftun01.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun02.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun03.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun04.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun05.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun06.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun07.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun08.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun09.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun10.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun11.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun12.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun13.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun14.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun15.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/tlf/tlftun01.dat
+<?>
+Chris Lightfoot (TLF)
+<?> Sonic Uproar
+
+/various/triad/alfatech.dat
+Galway-tune
+Che Lalic (Alfatech)
+1992 Triad
+
+/various/triad/a-minorq.dat
+A-minor Quintett
+The Dungeon Master
+1992 Triad
+
+/various/triad/arcanoid.dat
+Arcanoid
+The Dungeon Master
+1992 Triad
+
+/various/triad/classix.dat
+Classix
+The Dungeon Master
+1992 Triad
+
+/various/triad/complica.dat
+Complications
+The Dungeon Master
+1992 Triad
+
+/various/triad/dixiesla.dat
+Dixies Land
+The Dungeon Master
+1992 Triad
+
+/various/triad/eargasm.dat
+Eargasm
+The Dungeon Master
+1992 Triad
+
+/various/triad/eleanorr.dat
+Eleanor Rigby
+The Dungeon Master
+1992 Triad
+
+/various/triad/fourchan.dat
+Four Channels
+The Dungeon Master
+1992 Triad
+
+/various/triad/gamer001.dat
+Gamers Guide #2
+The Dungeon Master
+1992 Triad
+
+/various/triad/gamersgu.dat
+Gamers Guide Intro
+The Dungeon Master
+1992 Triad
+
+/various/triad/gothic.dat
+Gothic
+The Dungeon Master
+1992 Triad
+
+/various/triad/heavyint.dat
+Heavy Intro Tune
+The Dungeon Master
+1992 Triad
+
+/various/triad/hemsk.dat
+Hemsk
+The Dungeon Master
+1992 Triad
+
+/various/triad/hotelcal.dat
+Hotel California
+The Dungeon Master
+1992 Triad
+
+/various/triad/iamthewa.dat
+I Am The Walrus
+The Dungeon Master
+1992 Triad
+
+/various/triad/lingonbe.dat
+Lingonben
+The Dungeon Master
+1992 Triad
+
+/various/triad/liveinle.dat
+Live in Leningrad
+The Dungeon Master
+1992 Triad
+
+/various/triad/metal001.dat
+Metal Generation 1992
+TDM & Magnus Wahlberg
+1992 Triad
+
+/various/triad/metalgen.dat
+Metal Generation
+TDM & Magnus Wahlberg
+1992 Triad
+
+/various/triad/raped.dat
+Raped
+The Dungeon Master
+1992 Triad
+
+/various/triad/sagostun.dat
+Sagostunden
+The Dungeon Master
+1992 Triad
+
+/various/triad/ska_nya.dat
+Ska Nya Röster Sjunga
+The Dungeon Master
+1992 Triad
+
+/various/triad/strange.dat
+Strange
+The Dungeon Master
+1992 Triad
+
+/various/triad/stune.dat
+S Tune
+The Dungeon Master
+1992 Triad
+
+/various/triad/tango.dat
+<?>
+Tango
+Triad
+
+/various/triad/technode.dat
+Techno Death
+Che Lalic (Alfatech)
+1992 Triad
+
+/various/triad/thecold.dat
+The Cold
+The Dungeon Master
+1992 Triad
+
+/various/triad/turkisht.dat
+Turkish Tune
+TDM & Magnus Wahlberg
+1992 Triad
+
+/various/triad/v-nd_dig.dat
+Vänd Dig Om
+The Dungeon Master
+1992 Triad
+
+/various/triad/weatherw.dat
+Weather Wax
+Mikael Backlund (Twoflower)
+Triad
+
+/various/triad/vinews.dat
+Vinews
+Germund Ericsson (Kravin)
+1991 Triad
+
+/various/triad/vinewsth.dat
+Vinews Theme
+The Dungeon Master
+1991 Triad
+
+/various/triad/wizball.dat
+Wizball (cover)
+The Dungeon Master
+1991 Triad
+
+/various/xayne/chrisand.dat
+<?>
+Chris and Xayne
+<?>
+
+/various/zardax/zarda001.dat
+<?>
+*
+<?> Origo Dreamline
+
+/various/zenox/popcorn.dat
+Popcorn
+Nicolai Thilo (Zenox)
+<?> Starion
+
+/various/zenox/strnintr.dat
+Starion Intro
+Nicolai Thilo (Zenox)
+<?> Starion
+
+
+#####
+TITLE
+#####
+
+/20cc/megamix.dat
+1988 Top 40 MEGAMIX
+
+/20cc/note.dat
+Note (advertising intro)
+
+/20cc/spijker3.dat
+Spijkerhoek 3
+
+/baldwin/lstinspc.dat
+Lost in Space
+
+/crowther/ratt3.dat
+Ratt Demo 3 (DAN1-3 & WAR1-6)
+
+/daglish/he_man_l.dat
+Masters of the Universe (load)
+
+/deenen/brngmdlg.dat
+Shitty Disco Dump
+
+/deenen/tune.dat
+Hotline Intro Music
+
+/demos/deutschl.dat
+Deutschlandlied
+
+/demos/pet_flat.dat
+From Flatline Demo - 2
+
+/demos/unknownm.dat
+<?>
+
+/demos/unknown/ikaricyb.dat
+Ikari Cybernoid Crack Intro
+
+/demos/unknown/ripp4.dat
+Ripp 4 (Ikari Intro)
+
+/derrett/deathorg.dat
+Death or Glory
+
+/detert/magicdis.dat
+A Magic Disk Music
+
+/detert/sprtofrt.dat
+Spirit of Art
+
+/drax/unknown.dat
+<?>
+
+/dunn/runthega.dat
+Run the Gauntlet
+
+/fame/unknown.dat
+<?>
+
+/feekzoid/arnie.dat
+Arnie-Rap
+
+/feekzoid/nin4int.dat
+Last Ninja 4 (intro)
+
+/feekzoid/phant92.dat
+Phantoms of the Asteroid Remix
+
+/feekzoid/scepend.dat
+Sceptre of Bagdhad (end)
+
+/feekzoid/sceptreo.dat
+Sceptre of Bagdhad
+
+/follin/agentxii.dat
+Agent X II: The Mad Profs Back
+
+/follin/magicjoh.dat
+Magic Johnson's Basketball
+
+/games/a-f/andycapp.dat
+Andy Capp - The Game
+
+/games/a-f/catalend.dat
+Catalypse (end)
+
+/games/a-f/fighterb.dat
+Fighter Bomber (intro)
+
+/games/g-l/howardth.dat
+Howard the Duck
+
+/games/g-l/illgenlo.dat
+Illgen (loader)
+
+/games/g-l/kapriole.dat
+Kapriolen (Floyd the Droid)
+
+/games/g-l/loganint.dat
+Logan (intro)
+
+/games/m-r/masterof.dat
+Master of the Lamps
+
+/games/m-r/mrdocstl.dat
+Mr. Do's Castle
+
+/games/m-r/ninjarab.dat
+Ninja Rabbits
+
+/games/m-r/peterbif.dat
+Peter Beardsley's Int. Football
+
+/games/m-r/poolofra.dat
+Pool of Radiance
+
+/games/m-r/powerats.dat
+Power at Sea
+
+/games/m-r/racewith.dat
+Race With the Devel
+
+/games/m-r/raster_i.dat
+Raster Runner (intro)
+
+/games/m-r/revengeo.dat
+Revenge of the Mutant Camels
+
+/games/m-r/rupert&i.dat
+Rupert & the Ice Castle
+
+/games/s-z/talesara.dat
+Tales of Arabian Nights
+
+/games/s-z/targetin.dat
+Target (intro & end)
+
+/games/s-z/tiebreak.dat
+Tie-break
+
+/games/s-z/tiebrk_i.dat
+Tie-break (intro)
+
+/games/s-z/tohellnb.dat
+To Hell and Back
+
+/games/s-z/werewolf.dat
+Werewolves of London
+
+/gilmore/eddtduck.dat
+Edd the Duck
+
+/gray_m/quedexlo.dat
+Quedex (loader)
+
+/holland/explodn1.dat
+The Way of the Exploding Fist
+
+/holland/explodn2.dat
+The Way of the Exploding Fist 2
+
+/holland/usagiyoj.dat
+Samurai Warrior, Usagi Yojimbo
+
+/hubbard/1on1_2.dat
+One-on-One 2 (ingame)
+
+/hubbard/1on1_2lo.dat
+One-on-One 2 (intro)
+
+/hubbard/battleof.dat
+Battle of Britain
+
+/hubbard/chainrea.dat
+Chain Reaction
+
+/hubbard/finalsy1.dat
+Final Synth Sample I
+
+/hubbard/formula1.dat
+Formula 1 Simulator
+
+/hubbard/gerrythe.dat
+Gerry the Germ
+
+/hubbard/hollywoo.dat
+Hollywood or Bust
+
+/hubbard/kngsfbch.dat
+Kings of the Beach (ingame)
+
+/hubbard/monty_1.dat
+Monty on the Run
+
+/hubbard/nemesist.dat
+Nemesis the Warlock
+
+/hubbard/phantoms.dat
+Phantoms of the Asteroid
+
+/hubbard/skateord.dat
+Skate or Die
+
+/hubbard/thingona.dat
+Thing on a Spring
+
+/hubbard/warhawk.dat
+Warhawk
+
+/hubbard/zoolookc.dat
+Zoolook
+
+/huelsbec/downat_i.dat
+Down at the Trolls (intro)
+
+/huelsbec/tobeon_i.dat
+To Be on Top (intro)
+
+/huelsbec/tobeonto.dat
+To Be on Top
+
+/jch/crwdnois.dat
+Crowdnoise
+
+/jch/dark_iv.dat
+Darkness  TIME: 4:43
+
+/jch/moonligh.dat
+Moonlight
+
+/jch/nyt_inxs.dat
+Need You Tonight'89  TIME: 3:05
+
+/kimmel/dontgo.dat
+Don't Go
+
+/lordsofs/magicdsk.dat
+Magic Disk Music
+
+/norman/forbidd2.dat
+Forbidden Forest II
+
+/ouwehand/unknownr.dat
+<?>
+
+/schneidr/ms_unknw.dat
+<?>
+
+/tel/ikari_u.dat
+Ikari Union
+
+/tel/jtunknow.dat
+Gaplus Preview
+
+/tel/pseidon.dat
+Poseidon
+
+/tel/space.dat
+JT in Space
+
+/tjelta/depresse.dat
+Depressed V2
+
+/tjelta/orcanic.dat
+Orcanic V2
+
+/tjelta/syntheti.dat
+Synthetic Jazz
+
+/walker/dominati.dat
+Dominion
+
+/various/cleve/szybka_3.dat
+Szybka 3
+
+/various/knatter/diefuck.dat
+Die F**ng Bitch
+
+/various/wisdom/dawnpatr.dat
+Dawn Patrol
+
+/various/zardax/zardax.dat
+<?>
+
+/various/zyron/conclus2.dat
+The Conclusion 2
+
+/various/zyron/fastlan2.dat
+Fast Lane 2
+
+/various/zyron/freeway2.dat
+Freeway 2
+
+/various/zyron/happyjo2.dat
+Happy Journey 2
+
+/various/zyron/lonelys2.dat
+Lonely Season 2
+
+/various/zyron/maximu2.dat
+Maximum 2
+
+/various/zyron/yellow_r.dat
+Yellow Rain 2
+
+/various/zyron/zyron.dat
+<?>
+
+/winterbr/bonecrut.dat
+BoneCruncher (hack <?>)
+
+######
+AUTHOR
+######
+
+/cannon/qundmntn.dat
+Johnathan Dunn
+
+/deenen/deel4.dat
+Jeroen Tel
+
+/dunn/crktsthm.dat
+<?>
+
+/galway/daleytho.dat
+Martin Galway & David Dunn <?>
+
+/games/g-l/highnoon.dat
+David Dunn <?>
+
+/games/g-l/jumpjet.dat
+David Dunn <?>
+
+# oops.  :)
+/tel/flimbosq.dat
+Reyn Ouwehand & J. Bjerregaard
+
+
+#########
+COPYRIGHT
+#########
+
+/follin/ghoulsng.dat
+1989 Irem Corp. / Capcom
+
+/games/m-r/mule.dat
+1983 Electronic Arts
+
+/gray_f/streetsp.dat
+198? Imagine
+
+/turner/morpheus.dat
+1988 Graftgold/Rainbird
+
+/whittakr/lazyjone.dat
+1984 Terminal Software
+
+#####
+SONGS
+#####  number of songs,starting tune
+
+/detert/bbobs.dat
+6,5
+
+/huelsbec/hardnhea.dat
+10,5
+
+
+#####
+SPEED
+#####  in hexadecimal (32 bits max)
+
+/deenen/lordofth.dat
+1FF
+
+# ****************************************************
+# **                MISCELLANEOUS                   **
+# ****************************************************
+
+MOVE
+
+/cannon/qundmntn.dat
+/dunn/
+
+/deenen/brngmdlg.dat
+/deenen/shittydi.dat
+
+/deenen/deel4.dat
+/tel/
+
+/demos/dec_bkil.dat
+/various/decoy/brainkil.dat
+
+/demos/unknown/alb_05.dat
+/demos/
+
+/demos/unknown/musccll1.dat
+/demos/
+
+/demos/unknown/musccll2.dat
+/demos/
+
+/demos/unknown/suburbia.dat
+/demos/
+
+/demos/unknown/plotting.dat
+/various/zardax/
+
+/dunn/crktsthm.dat
+/demos/unknown/
+
+/games/a-f/dizzyml.dat
+/games/m-r/magiclan.dat
+
+/games/a-f/epyxload.dat
+/games/s-z/us_goldl.dat
+
+/games/a-f/franticf.dat
+/hatlelid/
+
+/games/g-l/grandprc.dat
+/hatlelid/
+
+/games/m-r/powerats.dat
+/hatlelid/
+
+/games/s-z/tmht.dat
+/hatlelid/
+
+/games/s-z/testdrv2.dat
+/hatlelid/
+
+/games/s-z/theantic.dat
+/games/a-f/
+
+/gray_f/streetsp.dat
+/gray_f/supersoc.dat
+
+/walker/dominati.dat
+/walker/dominion.dat
+
+/soedesof/carnival.dat
+/various/triad/lickpip1.dat
+
+/soedesof/trail002.dat
+/demos/unknown/unknw000.dat
+
+/soedesof/trailrem.dat
+/demos/unknown/unknw001.dat
+
+/tel/bantam.dat
+/tel/hcs_etc/
+
+/tel/dthorglr.dat
+/tel/hcs_etc/
+
+/tel/earthquk.dat
+/tel/hcs_etc/
+
+/tel/flimbosq.dat
+/ouwehand/
+
+/tel/fnlcntdw.dat
+/tel/hcs_etc/
+
+/tel/getready.dat
+/tel/hcs_etc/
+
+/tel/iou.dat
+/tel/hcs_etc/
+
+/tel/jtunknow.dat
+/tel/gap_prev.dat
+
+/tel/lostchin.dat
+/tel/hcs_etc/
+
+/tel/madonnmx.dat
+/tel/hcs_etc/
+
+/tel/onlyyou.dat
+/tel/hcs_etc/
+
+/tel/sometims.dat
+/tel/hcs_etc/
+
+/tel/syndrome.dat
+/tel/hcs_etc/
+
+/tel/tuneledr.dat
+/tel/hcs_etc/
+
+/tel/violin.dat
+/tel/hcs_etc/
+
+/tjelta/corporat.dat
+/mozicart/
+
+/tjelta/depresse.dat
+/mozicart/
+
+/tjelta/luminous.dat
+/mozicart/
+
+/tjelta/syntheti.dat
+/mozicart/
+
+/tjelta/
+/mozicart/tjelta/
+
+/various/lindangr/
+/mozicart/lindangr/
+
+DELETE
+/tjelta/
+/various/lindangr/
+MOVE
+
+/various/alien/unknwn72.dat
+/various/alien/itsparty.dat
+
+/various/amorphis/compod/cats.dat
+/various/bluesmuz/grg/neverend.dat
+
+/various/bluesmuz/airwalki.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/airwalk.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/careless.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/cheesepo.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/computar.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/darkmoon.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/dott.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/genesis.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/highpres.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/hyperfoo.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/milkshak.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/odetobug.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/psychic.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/rectum.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/scs-trc.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/spellbou.dat
+/various/bluesmuz/grg/
+
+/various/bluesmuz/velomatr.dat
+/various/bluesmuz/grg/
+
+/various/crcksbst/funeral.dat
+/tel/hcs_etc/
+
+/various/crcksbst/hangon.dat
+/tel/hcs_etc/
+
+/various/crcksbst/jarremix.dat
+/tel/hcs_etc/
+
+/various/crcksbst/orownsng.dat
+/demos/
+
+/various/crcksbst/
+/demos/unknown/
+
+/various/fairlght/avantgar.dat
+/various/fairlght/reddevil/
+
+/various/fairlght/dominati.dat
+/various/fairlght/reddevil/
+
+/various/fairlght/driven7i.dat
+/various/fairlght/reddevil/
+
+/various/fairlght/redde001.dat
+/various/fairlght/reddevil/legoldt3.dat
+
+/various/fairlght/redde002.dat
+/various/fairlght/reddevil/timemach.dat
+
+/various/fairlght/redde003.dat
+/various/fairlght/reddevil/newrefor.dat
+
+/various/fairlght/redde004.dat
+/various/fairlght/reddevil/forjamic.dat
+
+/various/fairlght/reddevil.dat
+/various/fairlght/reddevil/moondanc.dat
+
+/various/fairlght/skaan001.dat
+/various/fairlght/reddevil/
+
+/various/fairlght/skaan002.dat
+/various/fairlght/reddevil/extralif.dat
+
+/various/fairlght/skaan003.dat
+/various/fairlght/reddevil/off_hook.dat
+
+/various/fairlght/skaanela.dat
+/various/fairlght/reddevil/
+
+/various/partybox/
+/demos/unknown/
+
+/various/triad/gamer001.dat
+/various/triad/gamergu2.dat
+
+DELETE
+/various/crcksbst/
+/various/partybox/
+
+# Now a sub-tune in the newly added mathmat1.dat
+/various/pvcf/notemusi.dat
+
+
+
+# ****************************************************
+# **                 Cleaning Up                    **
+# ****************************************************
+
+REPLACE
+\update\documnts\
+\documnts\
+
+DELETE
+\update\readme.1st
+\update\barrett\
+\update\brandt\
+\update\cannon\
+\update\clarke\
+\update\cooksey\
+\update\daglish\
+\update\danko\
+\update\demos\
+\update\derrett\
+\update\detert\
+\update\documnts\
+\update\dunn\
+\update\feiweier\
+\update\follin\
+\update\furniss\
+\update\galway\
+\update\games\a-f\
+\update\games\g-l\
+\update\games\m-r\
+\update\games\s-z\
+\update\games\
+\update\gray_f\
+\update\gray_m\
+\update\hatlelid\
+\update\holland\
+\update\japmastr\
+\update\joseph\
+\update\laxity\
+\update\leitch\
+\update\mozicart\tjelta\
+\update\mozicart\
+\update\schneidr\
+\update\soedesof\
+\update\sonicgra\
+\update\taylor\
+\update\tel\hcs_etc\
+\update\tel\
+\update\various\alien\
+\update\various\bluesmuz\grg\
+\update\various\bluesmuz\
+\update\various\decoy\
+\update\various\fairlght\reddevil\
+\update\various\fairlght\
+\update\various\mc\
+\update\various\morbid\
+\update\various\pvcf\
+\update\various\shavitt\
+\update\various\smc\
+\update\various\triad\
+\update\various\trident\
+\update\various\voois\
+\update\various\weber\
+\update\various\wisdom\
+\update\various\zyron\
+\update\various\
+\update\walker\
+\update\whittakr\
+\update\winterbr\
