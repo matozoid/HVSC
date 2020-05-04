@@ -1,0 +1,236 @@
+High Voltage SID Collection: Update #59
+Date: June 28, 2013
+
+Resulting Version: 59
+ Previous Version: 58
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+After this update, the collection should contain 43,856 SID files!
+
+This update features (all approximates):
+     747 new SIDs
+     315 fixed/better rips
+       7 repeats/bad rips eliminated
+     629 SID credit fixes
+     750 SID model/clock infos
+       9 tunes from /DEMOS/UNKNOWN/ identified
+       5 tunes from /GAMES/ identified
+      27 tunes moved out of /DEMOS/ to their composers' directories
+      15 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+###################
+# SID-Wizard v1.4 #
+###################
+
+Mihaly Horvath (Hermit) released a new version of SID-Wizard. SID Wizard is an
+open-source C64 music tracker. This tracker runs on the C64 itself.
+
+The following has been changed since version 1.2:
+
+- sng2swm converter added
+- more examples added
+- more pattern-effects added
+- F2 playback processes preceding effects
+- player-info (size, raster time) and author-info shown
+
+The tracker can be downloaded from:
+
+http://csdb.dk/release/?id=115599
+
+The source code can be found here:
+
+http://sourceforge.net/projects/sid-wizard/files/
+
+
+#######################
+# SID Duzz' It v2.1.6 #
+#######################
+
+SID Duzz' It v2.1.6 has been released. SID Duzz' It is a Commodore 64 music
+editor made by Geir Tjelta and Glenn Rune Gallefoss.
+In this release several bugs has been fixed. Music player
+sources has been rewritten to take less raster time. New functions and routines
+has been added to the editor and player.
+
+Get it from here: http://csdb.dk/release/?id=114693
+
+
+################
+# ACID64 v3.40 #
+################
+
+A new version of ACID64 has been released. ACID64 is a cycle based player for
+Windows that can play SID tunes on sound devices with a real SID chip and via
+network devices that emulate the SID chip, like JSidDevice that is part of
+JSidplay2.
+
+Changes in version 3.4:
+
+- Emulation improvements
+- COMPUTE!'s Sidplayer (MUS file) support with support of stereo files. Visit
+  Compute's Gazette Sid Collection for Sidplayer tunes
+- Improved speed of identifying players
+- STIL window state is now preserved (configurable in preferences)
+- Second SID device settings for HardSID devices are now stored correctly
+- Property dialog to show info about the loaded SID file can now stay open
+- Pressing F5 will now refresh folder tree and corresponding files
+- CTRL-A can now be used to select all text in search boxes
+- CTRL-H is now used for Author search
+- UNC paths are now handled correctly
+- Rare access denied error fixed when traversing files
+- SID Search improvements for searching certain words and characters
+- Added "search by this author/publisher/group" feature in search grid
+- Added triple click support on the search box to select all text
+- ACID64 works on Windows 98 again for HardSID PCI and ISA cards
+- Small improvements
+
+The new version can be found at: http://www.acid64.com
+
+
+#####################################
+# MICRO64 1.00.2013.05.11 Build 714 #
+#####################################
+
+MICRO64 is a Commodore 64 emulator for Windows and Linux aimed to become the
+most accurate C64 emulator. Currently MICRO64 has two different VIC II
+emulation modes (both are half-cycle exact).
+
+The following changes have been made since build 713:
+
+- Various VIA6522 emulation tweaks
+- Fixed dead lock bug in the high-tap-count SINC resampler SSE consolve
+  inline assembler routine in the SID emulation.
+- Added black frame insertion feature for >=100Hz monitors.
+- Added BMP screenshot function that can be accessed via Alt+S.
+- Added AVI video capturing function with own Open-DML AVI writer and I420
+  encoder routines.
+- Various another small fixes.
+
+You can get the emulator here: http://www.micro64.de/
+
+
+######################
+# CheeseCutter 2.5.0 #
+######################
+
+CheeseCutter 2.5.0 has been released. CheeseCutter is an open source
+cross-platform music editor. It uses the reSID engine for SID emulation.
+CheeseCutter is made by Abaddon of Fairlight.
+
+In this release a lot of changes have been made to the editor and player.
+A Mac port is also available now.
+
+Check out: http://theyamo.kapsi.fi/ccutter/
+
+
+###################
+# Hoxs64 v1.0.8.0 #
+###################
+
+Hoxs64 v1.0.8.0 has been released. Hoxs64 is a C64 emulator for Windows XP/7/8.
+
+Changes:
+
+- Bug fix to opcodes AXH/SHY/AHX/TAS broken in v1.0.8.3.
+- Bug fix to VIC. Removed faulty VIC ClockNextWakeUpClock optimiser code.
+- EasyFlash v2 title screen glitch now fixed by correcting the "hard reset"
+  code to set the sprite Y expansion flip-flops.
+- Added the EasyFlash 1MB cartridge.
+- Fixed freeze and soft reset.
+- New cartridge emulation with freeze function.
+- Fixed misreported raster position in the debugger when starting a new frame.
+
+More info: http://www.hoxs64.net/
+
+
+#######################
+# 1raster-tracker 1.0 #
+#######################
+
+1raster-tracker 1.0 is a new music editor and player made by Mihaly Horvath
+(Hermit). As the title already mentions, the tracker only uses 1 raster time
+to play the music.
+
+Check it out here: http://csdb.dk/release/?id=117935
+
+
+######################
+# XSidplay2 - v2.1.4 #
+######################
+
+Tognon Stefano (ice00) released a new version of XSidplay for Linux.
+XSidplay is a SID music player for Linux, initially developed by Michael
+Schwendt. Changes in this version: Libsidplayfp 1.0.2 with resid 1.0
+emulation. Fix for the mileage and usage timing calculation and
+preliminary resid-fp emulation added.
+
+http://sourceforge.net/projects/xsidplay2/
+
+
+########################
+# Infernal Cycle - C64 #
+########################
+
+Infernal Cycle is a new music program for the Commodore C64. The program
+is made by LDX#40. This program is a synthesizer noise generator and can
+be controlled with a joystick. LDX#40 used this program at Bended
+Realities Festival in Offenbach.
+
+http://csdb.dk/release/?id=119145
+
+
+#############
+# DefleMask #
+#############
+
+DefleMask is a Multi-System music tracker for producing music for many
+sound chips and old school systems. The system uses real-time emulation,
+it has an FM instruments editor, Envelopes editor and a Wavetable
+instruments editor. DefleMask can produce files for SEGA, Nintendo, NEC
+PC-Engine/TurboGrafx-16 and the Commodore 64.
+
+http://delek.com.ar/deflemask
+
+
+###################
+# SID Known v1.06 #
+###################
+
+Wilfred Bos has released SID Known v1.06. This version supports now HVSC #59.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Two new features has been added in this release. For binary searches, you will
+now be notified when there are multiple matches found for the same hit
+percentage. Also you will now be notified when the match that is found might
+not be reliable.
+
+Get the tool here: http://csdb.dk/release/?id=119923
+

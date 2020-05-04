@@ -1,23 +1,19 @@
-June 24, 2012
+June 28, 2013
 
 (1) The new HVSC Update Tool only currently works on these platforms:
 
-     - Windows (95 through to Win7)
+     - Windows (95 through to Win8)
      - Linux (Intel, ELF)
 
     Note also that as of HVSC Update #55, you _must_ use Update Tool
     2.8.5 upwards.  This is because the script relies on new directives
     which are only specified in this new version.
 
-    The Windows binary of the Update Tool was compressed with
-    the Ultimate Packer for eXecutables v3.07w, (C) 1996-2010 by
-    Markus F.X.J. Oberhumer & László Molnár.
-
     Note that the Windows executable is the only version included
     with this Update.  Please see the HVSC web page for links to
     all other operating system versions (URL at bottom).
     It will also work on other UNIX systems, but you will have to
-    email <hvsc@c64.org> for the source code.  Please
+    email <hvsc (sid) c64.org> for the source code.  Please
     also do so if you would like to provide publicly available ports of
     the Update Tool for any other popular operating system.
 
