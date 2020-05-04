@@ -1,0 +1,207 @@
+High Voltage SID Collection: Update #66
+Date: December 23, 2016
+
+Resulting Version: 66
+ Previous Version: 65
+
+After this update, the collection should contain 48,943 SID files!
+
+This update features (all approximates):
+     430 new SIDs
+      50 fixed/better rips
+       3 repeats/bad rips eliminated
+     201 SID credit fixes
+      26 SID model/clock infos
+       7 tunes from /DEMOS/UNKNOWN/ identified
+       5 tunes from /GAMES/ identified
+      22 tunes moved out of /DEMOS/ to their composers' directories
+      10 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+############
+# VICE 3.0 #
+############
+
+VICE 3.0 has been released. VICE is an open source cross-platform emulator of
+several Commodore machines.
+
+This version has a lot of fixes and improvements since the last official
+release.
+
+Check it out here:
+
+https://sourceforge.net/projects/vice-emu/files/releases/
+
+
+#########
+# exSID #
+#########
+
+exSID USB is a USB audio device that can control a real 6581 and 8580 SID chip.
+It is natively supported by sidplayfp. The hardware can be used on Linux, OSX
+and Windows. The project was inspired by the SIDBlaster/USB hardware project.
+
+The hardware schematics, firmware and software are available on the projects
+home page.
+
+More info:
+
+http://hacks.slashdirt.org/hw/exsid/ which is supported by sidplayfp
+
+
+#################
+# Virtuoso 0.99 #
+#################
+
+Hein Holt released a new version of his C64 music editor. Virtuoso runs on the
+C64. It has a nice interface and the player supports 8 commands per tick. The
+editor comes with some examples tunes as well.
+
+Changes:
+
+- ZP selection during export crippled exported tune
+- Mono jam mode didn't clear other channels
+- Display could break when inserting/removing spaces in instrument tables
+
+Get the new version from: http://csdb.dk/release/?id=149424
+
+
+##########
+# MixSID #
+##########
+
+MixSID is a flexible stereo SID board with integrated channel mixer that can be
+placed in a Commodore 64. It can be used with any combination of SID models on
+a wide range of C64 mainboards.
+
+Features:
+
+* Supports any combination of SID models independent of mainboard
+* Compatible with the most common mainboards and cases
+* Reconfigure any time for different models/mainboards, no fixed setup
+* Integrated digitally controlled stereo channel mixer
+* Pragmatic stereo addressing (2nd SID on all stereo addresses simultaneously)
+* Control inclusion of $DE00/$DF00 for second SID to avoid hardware conflicts
+* Virtually swap SIDs in terms of stereo addressing
+* Control which SID responds to software detection
+* Paddles and mice work any time, regardless of current configuration
+* Authentic output, integrated audio-in, noise reduction and digiboost circuits
+* Addressing, Mixing, Priority, IO-Area-Usage can all be switched at runtime
+* Simple design, easy to produce, easy to solder, completely open source and
+  extensively documented
+
+More info: http://www.henning-bekel.de/mixsid/
+
+See also a nice review about the board:
+
+https://ilesj.wordpress.com/2016/10/07/mixsid-dual-sid-board/
+
+
+##############
+# CGSC v1.33 #
+##############
+
+The Compute Sidplayer Collection has been updated and contains now 15311 MUS
+files, 4208 STR files and 5224 WDS files.
+
+Get the collection here: http://www.c64music.co.uk/
+
+
+##############################
+# in_sidplay2 WinAmp library #
+##############################
+
+Zbigniew Ross (Zross) released a new WinAmp library for playing SID files based
+on the latest version of libsidplay (reSIDfp).
+
+Features:
+
+- Easy way to build playlist with automatically added subsongs
+- Song length database support
+- Support of 2SID and 3SID songs
+- Pseudo stereo mode
+- Mute/unmute selected sid voice
+
+Get it here: http://csdb.dk/release/?id=149773
+
+
+################################
+# ESP8266 Wireless SID Project #
+################################
+
+Mark Baseggio created a wireless SID board based on the ESP8266 wireless SoC.
+SID data is sent over the network to the wireless SID board to finally reach
+the SID chip to produce the audio.
+
+The project and source code can be found here:
+
+http://dangerousprototypes.com/forum/viewtopic.php?f=56&t=7849
+
+You can also watch a little video of the project:
+
+https://www.youtube.com/watch?v=VwTKdCBm7dU
+
+
+#######################
+# FPGASID alpha-phase #
+#######################
+
+The FPGASID project is a hardware project that emulates the SID chip with an
+FPGA chip. It aims for a better SID than any SID has ever been before.
+The new FPGASID prototype will become available in the beginning of 2017 and is
+now in its alpha-phase.
+
+Features:
+
+Full SID Compatibility
+- All registers implemented
+- High quality Audio Filters
+- Exact reproduction of the original 6581 chip sound
+
+Stereo Support
+- Two completely independent SID instances.
+- Register selectable addresses for the second SID.
+- Compatible to existing Stereo SID tunes.
+
+Analog audio input
+- Seldom used but required by some musicians and for special applications.
+
+Paddle support
+- Allows using Paddles or a Mouse with your C64.
+
+JTAG interface for FPGA updates and debugging
+- FPGA developers are encouraged to help with the debugging.
+
+More info: http://www.fpgasid.de/
+
+
+#############################
+# SID Known Database Update #
+#############################
+
+For HVSC #66 a new database is generated for SID Known v1.12.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool and new database here: http://csdb.dk/release/?id=149341
