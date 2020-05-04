@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#  STIL v42 - SID Tune Information List (Wed Jun  8 15:34:38 CEST 2005)
+#  STIL v43 - SID Tune Information List (Tue Sep 20 22:22:35 CEST 2005)
 #
 #  If you want to contribute to the STIL, read the STIL.faq first.
 #  Questions, comments? See the STIL FAQ for details.
@@ -19,9 +19,7 @@
 #
 # ABOUT THIS VERSION OF THE STIL:
 #
-# - The usual, more entries and fixes.
-# - Version jump from 5.9 to 42 to bring it in line with the HVSC.
-# - The FAQ has been updated.
+# - More entries, some cleanup.
 #
 ##############################################################################
 
@@ -146,12 +144,12 @@ COMMENT: Commercial break end tune.
 
 /20CC/van_Santen_Edwin/Dolphinforce.sid
 (#2)
-  TITLE: Yeke Yeke [0:08-0:23]
+  TITLE: Yeke Yeke [from Akwaba Beach] (0:08-0:23)
  ARTIST: Mory Kante
 
 /20CC/van_Santen_Edwin/Dolphinforce_v2.sid
 (#1)
-  TITLE: Yeke Yeke [0:08-0:23]
+  TITLE: Yeke Yeke [from Akwaba Beach] (0:08-0:23)
  ARTIST: Mory Kante
 
 /20CC/van_Santen_Edwin/Enigma_Intro_Tune.sid
@@ -168,11 +166,11 @@ COMMENT: The start of this tune resembles "Cybernoid 2" at 2:35.
  ARTIST: Deee-Lite
 
 /20CC/van_Santen_Edwin/I_Just_Dont_Have_the_Heart.sid
-  TITLE: I Just Don't Have the Heart
+  TITLE: I Just Don't Have the Heart [from I Just Don't Have the Heart]
  ARTIST: Cliff Richard
 
 /20CC/van_Santen_Edwin/Im_Your_Baby_Tonight.sid
-  TITLE: I'm Your Baby Tonight
+  TITLE: I'm Your Baby Tonight [from I'm Your Baby Tonight]
  ARTIST: Whitney Houston
 
 /20CC/van_Santen_Edwin/Layla_Mix.sid
@@ -209,7 +207,7 @@ COMMENT: Title is Dutch for Little Red Riding Hood.
 
 /20CC/van_Santen_Edwin/Saddamskis_Killer.sid
   TITLE: Killer
- ARTIST: Adamski
+ ARTIST: Adam Tinley (Adamski)
 
 /20CC/van_Santen_Edwin/Sandision.sid
 (#1)
@@ -571,7 +569,7 @@ COMMENT: Almost identical to /BOGG/Detergent.sid. Barry Leitch's
  ARTIST: Tears for Fears
 
 /BOGG/Russians.sid
-  TITLE: Russians
+  TITLE: Russians [from The Dream of the Blue Turtles]
  ARTIST: Sting
 
 /BOGG/Shake_The_Disease.sid
@@ -596,8 +594,31 @@ COMMENT: Almost identical to /BOGG/Detergent.sid. Barry Leitch's
  ARTIST: Howard Jones
 
 /BOGG/White_Wedding.sid
-  TITLE: White Wedding
+  TITLE: White Wedding [from Billy Idol]
  ARTIST: Billy Idol
+
+### /Baguley_Jim #############################################################
+
+/Baguley_Jim/Bizy_Beez.sid
+  TITLE: Teddy Bears' Picnic (0:00)
+ ARTIST: John W Bratton (music), Jimmy Kennedy (lyrics)
+  TITLE: The Bare Necessities [from the movie The Jungle Book] (2:19)
+ ARTIST: Phil Harris
+  TITLE: Bibbidi-Bobbidi-Boo [from the movie Cinderella] (5:54)
+ ARTIST: Mack David and Al Hoffman (music), Jerry Livingston (lyrics)
+  TITLE: Follow the Yellow Brick Road [from the movie The Wizard of Oz] (7:09)
+ ARTIST: Harold Arlen (music), E.Y. Harburg (lyrics)
+
+/Baguley_Jim/Jungle_Quest.sid
+(#1)
+  TITLE: I Wanna Be Like You [from the movie The Jungle Book]
+ ARTIST: Louis Prima
+(#2)
+  TITLE: Congratulations
+ ARTIST: Cliff Richard
+(#3)
+  TITLE: Rivers of Babylon
+ ARTIST: The Melodians
 
 ### /Baldwin_Neil ############################################################
 
@@ -1655,7 +1676,7 @@ COMMENT: Comments by Matthew Cannon are denoted (MC).
 /Cannon_Matthew/Operation_Thunderbolt.sid
 (#2)
   TITLE: <?> [from the arcade game Operation Thunderbolt]
- ARTIST: Zuntata
+ ARTIST: Shizuo Aizawa (Splatter. A/Zuntata)
 
 /Cannon_Matthew/Parallax_Rip-Off.sid
   TITLE: Parallax, Tune #1
@@ -2326,7 +2347,7 @@ COMMENT: See /Hubbard_Rob/Warhawk.sid for more information.
 ### /Crossley_Neil ###########################################################
 
 /Crossley_Neil/G-Loc_R360.sid
-  TITLE: <?> [from the arcade game]
+  TITLE: Congratulations [from the arcade game G-Loc Air Battle]
  ARTIST: SEGA Sound Team
 COMMENT: The conversion was originally composed on Noisetracker by Matt
          Simmonds (4-Mat) and then converted to C64 by Neil Crossley with a
@@ -2605,10 +2626,6 @@ COMMENT: This game is sometimes mistitled "Olé!" due to the fact that word
 
 ### /DEMOS/ ##################################################################
 
-/DEMOS/7_Days_plus_1_Week.sid
-  TITLE: Seven Days And One Week
- ARTIST: BBE
-
 /DEMOS/Acid_2.sid
   TITLE: Doggy Style
  ARTIST: Thomas Detert
@@ -2654,6 +2671,10 @@ COMMENT: Performed by Faltermeyer and Steve Stevens.
 /DEMOS/Arrival_of_the_queen_Sheba.sid
   TITLE: Arrival of the Queen of Sheba [from Solomon]
  ARTIST: Georg Friedrich Händel
+
+/DEMOS/Atomic_Design_01.sid
+  TITLE: Ski Dance [from the movie Fire & Ice]
+ ARTIST: Gary Wright
 
 /DEMOS/Axel_F.sid
   TITLE: Axel F [from the movie Beverly Hills Cop]
@@ -2753,11 +2774,7 @@ COMMENT: Inspired by the title song of the movie "Coming to America".
 
 /DEMOS/Crestfallen.sid
   TITLE: Velo Matrix [from the Amiga MOD module]
- ARTIST: Martin Iveson (Nuke/Anarchy)
-
-/DEMOS/Crying_in_the_Rain.sid
-  TITLE: Crying In The Rain [from Headlines and Deadlines]
- ARTIST: A-Ha
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 
 /DEMOS/Dance_At_Night_Remix.sid
   TITLE: Dance At Night
@@ -2819,12 +2836,6 @@ COMMENT: The "Humanoid" sample is sampled from the "Gorf" arcade machine.
   TITLE: Dr. Who Theme [from the TV series]
  ARTIST: Ron Grainer
 
-/DEMOS/Dynamical_Waves.sid
-  TITLE: Deck The Halls With Boughs of Holly
- ARTIST: Welsh Traditional
-  TITLE: Jingle Bells (1:12-1:32)
- ARTIST: James Pierpont
-
 /DEMOS/Electrosound.sid
   TITLE: Le Quattro Stagioni, Op.8 n.1 "La primavera" (Allegro) (0:00-0:32)
  ARTIST: Antonio Vivaldi
@@ -2861,10 +2872,6 @@ COMMENT: Heavily inspired by this tune.
 /DEMOS/Equinoxe_5.sid
   TITLE: Equinoxe 5 [from Equinoxe]
  ARTIST: Jean Michel Jarre
-
-/DEMOS/Errors.sid
-  TITLE: Plastic Age
- ARTIST: Interface
 
 /DEMOS/Falu_Mix.sid
 COMMENT: The word "Falu" in the title means "village" in Hungarian as
@@ -3060,6 +3067,10 @@ COMMENT: Similar melody as well as same bass line, instruments and arpeggios as
   TITLE: Heart [from Actually]
  ARTIST: Pet Shop Boys
 
+/DEMOS/Makumba.sid
+  TITLE: Makumba [from Z gitara wsrod zwierzat]
+ ARTIST: Big Cyc
+
 /DEMOS/Mash_Theme.sid
   TITLE: Suicide is Painless
  ARTIST: Johnny Mandel
@@ -3119,16 +3130,6 @@ COMMENT: "If Mega Man was ever made for the C64, the music could have been
   TITLE: Jingle Bells
  ARTIST: James Pierpont
 
-/DEMOS/Mister_Ls_Techno_Mega-Mix.sid
-(#1)
-  TITLE: No Limit [from No Limits] (4:54)
- ARTIST: 2 Unlimited
-COMMENT: not a direct cover, but the melody and the bassline are clear.
-(#2)
-  TITLE: No Limit [from No Limits] (5:26)
- ARTIST: 2 Unlimited
-COMMENT: not a direct cover, but the melody and the bassline are clear.
-
 /DEMOS/Monster_Show.sid
   TITLE: Toccata [from Toccata and Fugue in D Minor (BWV 565)]
  ARTIST: Johann Sebastian Bach
@@ -3183,14 +3184,6 @@ COMMENT: "I heard this piece in an old Amiga cracktro, therefore I picked
 /DEMOS/Oxygene_IV.sid
   TITLE: Oxygene 4 [from Oxygene]
  ARTIST: Jean Michel Jarre
-
-/DEMOS/Papa_Dont_Preach.sid
-  TITLE: Papa Don't Preach [from True Blue]
- ARTIST: Madonna
-
-/DEMOS/Papa_Dont_Preach_PSID.sid
-  TITLE: Papa Don't Preach [from True Blue]
- ARTIST: Brian Elliot & Madonna, Performed by Madonna
 
 /DEMOS/Patman_Isqatsi.sid
   TITLE: Koyaanisqatsi [from the movie]
@@ -3385,6 +3378,14 @@ COMMENT: Makes fun of all the SID Chicken Song covers made in the 80's. See
  ARTIST: <?>
 COMMENT: Children's "song".
 
+/DEMOS/Tel_Me_You_Love_Me.sid
+  TITLE: Ev'ry Little Move She Makes
+ ARTIST: Tony Macaulay
+COMMENT: "Cover of 70's hit song called "Ev'ry Little Move She Makes" by Tony
+         Macaulay (it is better known in Finland with its Finnish title
+         "Elämältä kaiken sain"). Obviously, I was trying to sound something
+         like Jeroen Tel." (info from Teemu Maki (SLO))
+
 /DEMOS/Temple.sid
   TITLE: Temple of Love
  ARTIST: The Sister of Mercy
@@ -3486,6 +3487,11 @@ COMMENT: Yes, the man behind this tune is indeed THE Jesper Kyd from Silents.
 /DEMOS/Zargon_02.sid
 COMMENT: Yes, the man behind this tune is indeed THE Jesper Kyd from Silents.
 
+/DEMOS/Zuzia.sid
+  TITLE: Zuzia lalka niedu¿a
+ ARTIST: Natalia Kukulska
+COMMENT: Polish children's song.
+
 ### /DEMOS/Broderbund_Music_Shop #############################################
 
 /DEMOS/Broderbund_Music_Shop/1812_Overture.sid
@@ -3493,8 +3499,11 @@ COMMENT: Yes, the man behind this tune is indeed THE Jesper Kyd from Silents.
  ARTIST: Pyotr Ilyich Tchaikovsky
 
 /DEMOS/Broderbund_Music_Shop/America.sid
-  TITLE: The Star Spangled Banner (National Anthem of the U.S.A.)
- ARTIST: Sir Francis Scott Key (lyrics), John Stafford Smith (music)
+  TITLE: God Save the King/Queen (The National Anthem of the U.K.)
+ ARTIST: Traditional
+COMMENT: This anthem is traditional and possibly one of the most known national
+         anthems in the world. Each verse was written at a different time,
+         ranging from the 1740s to the present day.
 
 /DEMOS/Broderbund_Music_Shop/Canon_in_D.sid
   TITLE: Canon in D major
@@ -3632,10 +3641,6 @@ COMMENT: This tune takes 33 seconds to start, just like the corresponding
   TITLE: The Entertainer
  ARTIST: Scott Joplin
 
-/DEMOS/Commodore/C_PRG_ex_06_BASIC.sid
-  TITLE: The Entertainer
- ARTIST: Scott Joplin
-
 /DEMOS/Commodore/C_Users_Guide_NTSC_BASIC.sid
   TITLE: Michael Row The Boat Ashore
  ARTIST: Traditional folksong
@@ -3754,10 +3759,6 @@ COMMENT: Title theme from a Polish cartoon series.
   TITLE: Don't Worry, Be Happy [from Simple Pleasures]
  ARTIST: Bobby McFerrin
 
-/DEMOS/UNKNOWN/Dust.sid
-  TITLE: Magic Fly
- ARTIST: Didier Marouani (Ecama), performed by Space
-
 /DEMOS/UNKNOWN/Dynamix_Crak.sid
   TITLE: Blue Angel 69, Tune #1
  ARTIST: Thomas Detert
@@ -3797,10 +3798,6 @@ COMMENT: Title theme from a Polish cartoon series.
 /DEMOS/UNKNOWN/Heart.sid
   TITLE: Heart [from Actually]
  ARTIST: Pet Shop Boys
-
-/DEMOS/UNKNOWN/I_just_cant_get_enough.sid
-  TITLE: Just Can't Get Enough [from Speak & Spell]
- ARTIST: Depeche Mode
 
 /DEMOS/UNKNOWN/Ikari_Cybernoid_Crack_Intr.sid
   TITLE: Gökvalsen (The Cuckoo Waltz)
@@ -3951,10 +3948,6 @@ COMMENT: Covers various tunes from the game.
   TITLE: Axel F. [from the movie Beverly Hills Cop]
  ARTIST: Harold Faltermeyer
 
-/DEMOS/UNKNOWN/Stand_By_Me.sid
-  TITLE: Stand By Me
- ARTIST: Ben E. King
-
 /DEMOS/UNKNOWN/Summer_Rain_D020_D021.sid
   TITLE: Title Tune [from the Amiga game Amegas]
  ARTIST: Karsten Obarski
@@ -3998,13 +3991,9 @@ COMMENT: There are likely many more covers in this SID.
   TITLE: Visitors [from Masterpieces]
  ARTIST: Koto
 
-/DEMOS/UNKNOWN/Unknown_72.sid
-  TITLE: Ski Dance
- ARTIST: Gary Wright
-
-/DEMOS/UNKNOWN/Wanderer_twg_intro.sid
-  TITLE: The Wanderer
- ARTIST: Dion and the Belmonts
+/DEMOS/UNKNOWN/Unknown_BASIC.sid
+  TITLE: Jesu, Joy of Man's Desiring (Cantata, BWV 147)
+ ARTIST: Johann Sebastian Bach
 
 /DEMOS/UNKNOWN/Winner_Takes_All.sid
   TITLE: The Winner Takes It All [from Super Trouper]
@@ -4013,15 +4002,6 @@ COMMENT: There are likely many more covers in this SID.
 /DEMOS/UNKNOWN/Wonderwimp_part_6.sid
   TITLE: The Entertainer
  ARTIST: Scott Joplin
-
-/DEMOS/UNKNOWN/X-mas_special.sid
-  TITLE: Oh, du Fröhliche (0:00-0:30)
- ARTIST: Johann Gottfried Herder
-  TITLE: Jingle Bells (0:30-1:16)
- ARTIST: James Pierpont
-  TITLE: Bald ist Weihnacht Abend da (1:20-1:40)
- ARTIST: Traditional
-COMMENT: Traditional German Christmas-Song.
 
 /DEMOS/UNKNOWN/Yesterday_BASIC.sid
   TITLE: Yesterday [from Help!]
@@ -5676,6 +5656,10 @@ COMMENT: "This is the GAME OVER jingle for the game Doug is working on." (RR)
 /Deek/Deexity.sid
 COMMENT: Different version of /Deek/Lazity.sid.
 
+/Deek/Demo_Tune_9.sid
+(#1)
+COMMENT: Identical to /Deek/Scrapgame.sid.
+
 /Deek/Extreme.sid
 COMMENT: This is possibly the original set of tunes of sound effects that were
          to be used in Digital Integration's game 'Extreme' but other music by
@@ -5781,6 +5765,9 @@ COMMENT: "Another tune in early stages (I like to get my ideas put down when I
   TITLE: sll3 [from the Amiga MOD module]
  ARTIST: Sten Lysholm Larsen (SLL of Kefrens)
 
+/Deek/Scrapgame.sid
+COMMENT: Identical to /Deek/Demo_Tune_9.sid, tune #1.
+
 /Deek/Sequel.sid
 (#1)
 COMMENT: Same as /Deek/Kwik_4_TDM_1.sid
@@ -5794,6 +5781,11 @@ COMMENT: Same as /Deek/Kwik_4_TDM_1.sid
  ARTIST: Bill Conti
   TITLE: Anyone Can Fall In Love [from TV series Eastenders] (1:02-1:15)
  ARTIST: Anita Dobson featuring the Simon May Orchestra
+
+/Deek/Sonic_Tonic.sid
+  TITLE: 4aces-high [from the Amiga MOD module] (0:00-0:07)
+ ARTIST: Eike Steffen (Romeo Knight)
+COMMENT: The entire song uses a similar bassline.
 
 /Deek/Take_My_Breath_Away.sid
   TITLE: Take My Breath Away [from the movie Top Gun]
@@ -6496,6 +6488,10 @@ COMMENT: Composed by Aidan Bell, C64 music and routine programmed by David Dunn
 
 /Dunn_David/Nonterraqueous.sid
 COMMENT: The title screen spells the game's name as "Nonterraqveous".
+
+/Dunn_David/Star_Trek-Rebel_Universe.sid
+  TITLE: Star Trek [from the TV series]
+ ARTIST: Alexander Courage
 
 /Dunn_David/Theatre_Europe.sid
   TITLE: Give Peace A Chance
@@ -7940,16 +7936,6 @@ COMMENT: Covers the Amiga version by Jean Baudlot.
 /GAMES/A-F/Bionic_Commando_USA_Vers.sid
 COMMENT: Cover of the arcade music.
 
-/GAMES/A-F/Bizy_Beez.sid
-  TITLE: Teddy Bears' Picnic (0:00)
- ARTIST: John W Bratton (music), Jimmy Kennedy (lyrics)
-  TITLE: The Bare Necessities [from the movie The Jungle Book] (2:19)
- ARTIST: Phil Harris
-  TITLE: Bibbidi-Bobbidi-Boo [from the movie Cinderella] (5:54)
- ARTIST: Mack David and Al Hoffman (music), Jerry Livingston (lyrics)
-  TITLE: Follow the Yellow Brick Road [from the movie The Wizard of Oz] (7:09)
- ARTIST: Harold Arlen (music), E.Y. Harburg (lyrics)
-
 /GAMES/A-F/Black_Adder_BASIC.sid
   TITLE: Blackadder [from the TV series]
  ARTIST: Howard Goodall
@@ -8974,6 +8960,15 @@ COMMENT: Also used in a very popular non-commercial game called "Sex Games".
   TITLE: 633rd Squadron [from the movie]
  ARTIST: Ron Goodwin
 
+/GAMES/G-L/James_Pond_II-Robocod.sid
+(#1)
+  TITLE: James Pond II - RoboCod (title) [from the Amiga game]
+ ARTIST: Richard Joseph
+COMMENT: Spoof medley of the RoboCop soundtrack by Basil Poledouris.
+(#2)
+  TITLE: James Pond II - RoboCod (ingame 1) [from the Amiga game]
+ ARTIST: Richard Joseph
+
 /GAMES/G-L/Jaws.sid
 (#1)
   TITLE: Jaws [from the movie]
@@ -9044,17 +9039,6 @@ COMMENT: Originally from the game "Jumpman"
 COMMENT: Originally from the game "Jumpman"
 (#8)
 COMMENT: Originally from the game "Jumpman"
-
-/GAMES/G-L/Jungle_Quest.sid
-(#1)
-  TITLE: I Wanna Be Like You [from the movie The Jungle Book]
- ARTIST: Louis Prima
-(#2)
-  TITLE: Congratulations
- ARTIST: Cliff Richard
-(#3)
-  TITLE: Rivers of Babylon
- ARTIST: The Melodians
 
 /GAMES/G-L/Jupiter_Lander.sid
 (#3)
@@ -9449,6 +9433,15 @@ COMMENT: The melody of the US national anthem ironically comes from a popular
 /GAMES/M-R/Novaload_07.sid
   TITLE: Land Of Hope And Glory [from Pomp and Circumstance March No.1]
  ARTIST: Edward Elgar (music), A.C. Benson (lyrics)
+
+/GAMES/M-R/Novaload_10.sid
+  TITLE: Pop Looks Bach [from the BBC TV programme Ski Sunday]
+ ARTIST: Sam Fonteyn
+
+/GAMES/M-R/Novaload_11.sid
+  TITLE: Countdown
+ ARTIST: Alan Hawkshaw
+COMMENT: Theme tune to the UK Channel 4 TV series.
 
 /GAMES/M-R/Official_Father_Christmas.sid
 (#1)
@@ -9881,13 +9874,13 @@ COMMENT: This piece is a cover of the arcade version.
   TITLE: Creepshow Main Theme [from the TV series] (0:00-0:23)
  ARTIST: John Harrison
 
+/GAMES/S-Z/Star_Raiders_II.sid
+  TITLE: G.I. Joe, Tune #4
+ ARTIST: Bob Vieira
+
 /GAMES/S-Z/Star_Trader.sid
   TITLE: Prelude #5 [from Well-tempered Clavier I (BWV 850)]
  ARTIST: Johann Sebastian Bach
-
-/GAMES/S-Z/Star_Trek-Rebel_Universe.sid
-  TITLE: Star Trek [from the TV series]
- ARTIST: Alexander Courage
 
 /GAMES/S-Z/Stealth.sid
   TITLE: Allegro No. 1 [from Keyboard Concerto No. 1 in D minor (BWV 1052)]
@@ -10228,6 +10221,10 @@ COMMENT: Plays at about half its original speed
   TITLE: Toccata [from Toccata and Fugue in D Minor (BWV 565)]
  ARTIST: Johann Sebastian Bach
 
+/GAMES/S-Z/Tusg.sid
+  TITLE: Super Nova (part 4)
+ ARTIST: Markus Mueller (Superbrain)
+
 /GAMES/S-Z/UN_Squadron.sid
 (#1)
   TITLE: Oil Refinery (Round 1) [from the arcade game U.N. Squadron]
@@ -10333,6 +10330,11 @@ COMMENT: Russian folk song.
   TITLE: The Stars and Stripes Forever
  ARTIST: John Philip Sousa
 COMMENT: Often known to sports fans as "Here We Go".
+
+/GAMES/S-Z/White_Viper.sid
+(#1)
+  TITLE: Oboe concerto in D minor
+ ARTIST: Alessandro Marcello
 
 /GAMES/S-Z/Who_Dares_Wins.sid
   TITLE: Theme from The Great Escape [from the movie]
@@ -12727,22 +12729,28 @@ COMMENT: Sounds somewhat inspired by a jingle from Bubble Bobble.
 /Hogg_Ashley/Classical_1_Merry_Melody.sid
 COMMENT: These tunes were later used in the playable demo of a Genesis game
          "Spellcast", given away on a Zzap! 64 tape later in 1991.
+(#1)
+  TITLE: Odissea Veneziana [from Odissea Veneziana 1984]
+ ARTIST: Rondò Veneziano
 
 /Hogg_Ashley/Classical_1_Merry_PSID.sid
 COMMENT: These tunes were later used in the playable demo of a Genesis game
          "Spellcast", given away on a Zzap! 64 tape later in 1991.
+(#1)
+  TITLE: Odissea Veneziana [from Odissea Veneziana 1984]
+ ARTIST: Rondò Veneziano
 
 /Hogg_Ashley/Classical_2.sid
   TITLE: La Serenissima [from Venezia 2000]
- ARTIST: Rondo Veneziano
+ ARTIST: Rondò Veneziano
 
 /Hogg_Ashley/Classical_2_PSID.sid
   TITLE: La Serenissima [from Venezia 2000]
- ARTIST: Rondo Veneziano
+ ARTIST: Rondò Veneziano
 
 /Hogg_Ashley/Conversion_2.sid
   TITLE: La Serenissima [from Venezia 2000]
- ARTIST: Rondo Veneziano
+ ARTIST: Rondò Veneziano
 COMMENT: Almost the same as Classical_2.sid.
 
 /Hogg_Ashley/Elephant_Antics_Remix.sid
@@ -12774,12 +12782,12 @@ COMMENT: The original demo this was taken from had a neat touch, where you
   TITLE: Spike in Transylvania, Tune #1
  ARTIST: Ashley Hogg
 (#6)
-  TITLE: Classical 1
- ARTIST: Ashley Hogg
+  TITLE: Odissea Veneziana [from Odissea Veneziana 1984]
+ ARTIST: Rondò Veneziano
 COMMENT: Same as /Hogg_Ashley/Classical_1_Merry_Melody.sid, Tune #1.
 (#7)
   TITLE: La Serenissima [from Venezia 2000]
- ARTIST: Rondo Veneziano
+ ARTIST: Rondò Veneziano
 COMMENT: Same as Classical_2.sid.
 (#8)
   TITLE: Merry Melody
@@ -12818,6 +12826,12 @@ COMMENT: Sounds somewhat inspired by a jingle from Bubble Bobble.
 (#6)
   TITLE: Spike in Transylvania, Tune #2
  ARTIST: Ashley Hogg
+
+/Hogg_Ashley/Spellcast_PSID.sid
+(#1)
+  TITLE: Odissea Veneziana [from Odissea Veneziana 1984]
+ ARTIST: Rondò Veneziano
+COMMENT: Same as /Hogg_Ashley/Classical_1_Merry_Melody.sid, Tune #1.
 
 ### /Howlin_Mad ##############################################################
 
@@ -13823,10 +13837,8 @@ COMMENT: "When I composed Shades, I had a slightly out of whack filter in my
          much closer to how it was intended to sound." (CH)
 
 /Huelsbeck_Chris/Ski_Dance.sid
-  TITLE: Ski Dance
+  TITLE: Ski Dance [from the movie Fire & Ice]
  ARTIST: Gary Wright
-COMMENT: A commercial song from the break-dance era. Has appeared in Willy
-         Bogner's movie "Fire & Ice".
 
 /Huelsbeck_Chris/Spherical.sid
 (#1)
@@ -15380,15 +15392,6 @@ COMMENT: This tune is more famous as being the theme tune to BBC's coverage of
 COMMENT: This tune is more famous as being the theme tune to BBC's coverage of
          the Wimbledon tennis tournament.
 
-/Joseph_Richard/James_Pond_II-Robocod.sid
-(#1)
-  TITLE: James Pond II - RoboCod (title) [from the Amiga game]
- ARTIST: Richard Joseph
-COMMENT: Spoof medley of the RoboCop soundtrack by Basil Poledouris.
-(#2)
-  TITLE: James Pond II - RoboCod (ingame 1) [from the Amiga game]
- ARTIST: Richard Joseph
-
 /Joseph_Richard/Rimrunner.sid
 (#4)
   TITLE: Funeral March [from Sonate No. 2 in B flat minor Op. 35]
@@ -15702,6 +15705,16 @@ COMMENT: Probably based on Reyn Ouwehand's version in
          /Ouwehand_Reyn/Spidie_Aga.sid
 
 ### /Kramer_C ################################################################
+
+/Kramer_C/All_Risks.sid
+(#1)
+COMMENT: Bass line of tune #2.
+(#2)
+COMMENT: Rendition of a commercial tune of an old Dutch insurance company
+         called Victoria Vesta.
+(#3)
+  TITLE: I Got Rhythm [from the musical Girl Crazy]
+ ARTIST: George Gershwin, Lyrics by Ira Gershwin
 
 /Kramer_C/Snoopy.sid
   TITLE: The Entertainer
@@ -18412,6 +18425,10 @@ COMMENT: Later used in the game "Astatin", (c) 1994 Tale Software.
 
 ### /Prosonix/Pedersen_Stein #################################################
 
+/Prosonix/Pedersen_Stein/Composah.sid
+COMMENT: "This tune was quickly abandoned as I thought it was really crap, but
+         once again, Lars Hoff compiled it and released it." (Stein)
+
 /Prosonix/Pedersen_Stein/Oxygene_IV.sid
   TITLE: Oxygene 4 [from Oxygene]
  ARTIST: Jean Michel Jarre
@@ -18420,6 +18437,15 @@ COMMENT: Later used in the game "Astatin", (c) 1994 Tale Software.
   TITLE: Savage, Tune #3
  ARTIST: Jeroen Tel
 COMMENT: Heavily inspired by it.
+
+/Prosonix/Pedersen_Stein/Tjong.sid
+COMMENT: "This tune was never finished, but somehow Lars Hoff got hold of it,
+         compiled it with the wrong playback-speed (it's way too fast) and
+         released it." (SP)
+(#1)
+COMMENT: Played at the speed Stein originally intended.
+(#2)
+COMMENT: Played at the released speed (wrong speed).
 
 ### /Prosonix/Pettersen_Ole-Marius ###########################################
 
@@ -18525,16 +18551,6 @@ COMMENT: There might be more covers in here.
 (#1)
   TITLE: Ending [from the arcade game Alien Syndrome]
  ARTIST: Tohru Nakabayashi (SEGA Sound Team)
-
-/Red/All_Risks.sid
-(#1)
-COMMENT: Bass line of tune #2.
-(#2)
-COMMENT: Rendition of a commercial tune of an old Dutch insurance company
-         called Victoria Vesta.
-(#3)
-  TITLE: I Got Rhythm [from the musical Girl Crazy]
- ARTIST: George Gershwin, Lyrics by Ira Gershwin
 
 /Red/Big_Deal.sid
 (#1)
@@ -19264,6 +19280,11 @@ COMMENT: Most copies of the game had a bug which overwrote some of the
 (#9)
  AUTHOR: Markus Siebold
 
+### /Snyder_Tom ##############################################################
+
+/Snyder_Tom/
+COMMENT: All of these tunes were confirmed by Tom Snyder.
+
 ### /SoedeSoft/ ##############################################################
 
 /SoedeSoft/
@@ -19777,6 +19798,11 @@ COMMENT: The TV show was the inspiration behind the game.
   TITLE: The Entertainer
  ARTIST: Scott Joplin
 
+/Southern_Shaun/Operation_Fireball.sid
+(#1)
+  TITLE: James Bond Theme [from the James Bond series of movies]
+ ARTIST: Monty Norman
+
 ### /Stember_Rudolf ##########################################################
 
 /Stember_Rudolf/Happy_Birthday.sid
@@ -19984,7 +20010,7 @@ COMMENT: Cover of /Hatlelid_Kris/Frantic_Freddie.sid, Tune #11.
  ARTIST: Georg Friedrich Händel
 COMMENT: Cover of /GAMES/M-R/Meta_Galactic_Llamas.sid.
   TITLE: Cauldron (5:36)
- ARTIST: <?>
+ ARTIST: Keith Miller
 COMMENT: Cover of /GAMES/A-F/Cauldron.sid.
   TITLE: Peer Gynt - In The Hall of The Mountain King (6:14)
  ARTIST: Edvard Grieg
@@ -20519,6 +20545,13 @@ COMMENT: Influenced by the arcade game soundtrack by Konami.
 /Tel_Jeroen/Thats_preview.sid
 COMMENT: The bass line is similar to the one in
          /Hubbard_Rob/Formula_1_Simulator.sid.
+
+/Tel_Jeroen/Trivia_Ultimate_Challenge.sid
+(#1)
+  TITLE: Dinner Set
+ ARTIST: Adrian Scott
+COMMENT: This was one of 8 demosongs of the Roland D20 Synthesizer, released
+         in 1988.
 
 /Tel_Jeroen/Turbo_Outrun.sid
 COMMENT: Most of the tunes are heavily inspired by the music in the arcade
@@ -21179,6 +21212,11 @@ COMMENT: In Hungarian this song has funny lyrics and is known with the title
          "János bácsi a csatában" (Uncle John in the battle), which explains
          the title.
 
+/VARIOUS/A-F/Abject/Something_Was_Ended.sid
+  TITLE: Valami véget ért [from Monumentum]
+ ARTIST: Bonanza Banzai
+COMMENT: The English translation of the title would be "Something has ended".
+
 ### /VARIOUS/A-F/Ace64 #######################################################
 
 /VARIOUS/A-F/Ace64/
@@ -21341,7 +21379,7 @@ COMMENT: "'Kummatti' was actually a dark, tedious and little part of the town
 
 /VARIOUS/A-F/Agemixer/Let_Me_Hear_You_Say_Yeah.sid
   TITLE: Let Me Hear You Say Yeah
- ARTIST: FBI Project
+ ARTIST: FPI Project
 
 /VARIOUS/A-F/Agemixer/Lion_King.sid
   TITLE: The Circle of Life
@@ -21506,37 +21544,44 @@ COMMENT: Russian folk song.
   TITLE: Katjusha (0:32)
  ARTIST: Matvei Blanter & M. Isakovski
 
-### /VARIOUS/A-F/Alien #######################################################
+### /VARIOUS/A-F/Alien_Intruders #############################################
 
-/VARIOUS/A-F/Alien/Cover_01.sid
+/VARIOUS/A-F/Alien_Intruders/Dreary_loader_part_2.sid
+  TITLE: Das Boot [from the movie]
+ ARTIST: Klaus Doldinger
+COMMENT: Not a direct cover, but clearly inspired by it.
+
+### /VARIOUS/A-F/Alien_WOW ###################################################
+
+/VARIOUS/A-F/Alien_WOW/Cover_01.sid
   TITLE: Zammis
  ARTIST: Thomas Mogensen (DRAX)
 
-/VARIOUS/A-F/Alien/Expression.sid
+/VARIOUS/A-F/Alien_WOW/Expression.sid
   TITLE: Expression <?> [from the MOD]
  ARTIST: <?>
 
-/VARIOUS/A-F/Alien/Fall_from_Sky.sid
+/VARIOUS/A-F/Alien_WOW/Fall_from_Sky.sid
   TITLE: Fall from Sky [from the PC XM module]
  ARTIST: Jussi Salmela (Elwood)
 
-/VARIOUS/A-F/Alien/Freak_Show.sid
+/VARIOUS/A-F/Alien_WOW/Freak_Show.sid
   TITLE: Freak Show [from the PC XM module]
  ARTIST: Stefano Palmonari (Dustbin/CharlieBrownRecords)
 
-/VARIOUS/A-F/Alien/Happy_Hour.sid
+/VARIOUS/A-F/Alien_WOW/Happy_Hour.sid
   TITLE: c.chips#0086 [from the Amiga MOD module]
  ARTIST: Cartoon
 
-/VARIOUS/A-F/Alien/Hardcore.sid
+/VARIOUS/A-F/Alien_WOW/Hardcore.sid
   TITLE: Hardcore-Theme [from the Amiga MOD module]
  ARTIST: Matt Simmonds (4-Mat)
 
-/VARIOUS/A-F/Alien/Imaginary_Friend.sid
+/VARIOUS/A-F/Alien_WOW/Imaginary_Friend.sid
   TITLE: Imaginary Friend [from the Amiga MOD]
  ARTIST: Radix
 
-/VARIOUS/A-F/Alien/Licence_and_Turn_The_Disk.sid
+/VARIOUS/A-F/Alien_WOW/Licence_and_Turn_The_Disk.sid
 (#1)
   TITLE: Nine One One [from the PC XM module] (0:00-0:45)
  ARTIST: Jeroen Tel
@@ -21551,71 +21596,75 @@ COMMENT: Listen very carefully to Licence_and_Turn_The_Disk.sid #2 and
          identical tunes play in a different key to each other. This was
          intentionally done by Alien.
 
-/VARIOUS/A-F/Alien/Macrocosm.sid
+/VARIOUS/A-F/Alien_WOW/Macrocosm.sid
   TITLE: Macrocosm [from the Amiga MOD module]
  ARTIST: Firefox & Tip of Phenomena
 
-/VARIOUS/A-F/Alien/Mangroove.sid
+/VARIOUS/A-F/Alien_WOW/Mangroove.sid
   TITLE: Mangrove
  ARTIST: Peter Hajba (Skaven of Future Crew)
 
-/VARIOUS/A-F/Alien/Megaforce.sid
+/VARIOUS/A-F/Alien_WOW/Megaforce.sid
   TITLE: megaforce02 (Megaforce Demo Music) [from the Amiga MOD module]
  ARTIST: Luxor of Megaforce
 
-/VARIOUS/A-F/Alien/Mendip.sid
+/VARIOUS/A-F/Alien_WOW/Mendip.sid
   TITLE: <?> (0:00)
  ARTIST: Geir Tjelta
 COMMENT: Cover of /MozIcArt/Tjelta_Geir/Geir_Tjelta-11.sid
 
-/VARIOUS/A-F/Alien/Mr_Vain.sid
+/VARIOUS/A-F/Alien_WOW/Mr_Vain.sid
   TITLE: Mr. Vain [from Serenity]
  ARTIST: Culture Beat
 
-/VARIOUS/A-F/Alien/Ode_to_Rob_Hubbard.sid
+/VARIOUS/A-F/Alien_WOW/Ode_to_Rob_Hubbard.sid
   TITLE: Dear Rob [from the Amiga MOD module]
  ARTIST: Frederick Hahn (Fred)
 
-/VARIOUS/A-F/Alien/P_R_I_Styled.sid
+/VARIOUS/A-F/Alien_WOW/P_R_I_Styled.sid
 COMMENT: Inspired by the SID music of Volker Meitz (PRI).
 
-/VARIOUS/A-F/Alien/Question_of_Guilt.sid
+/VARIOUS/A-F/Alien_WOW/Question_of_Guilt.sid
   TITLE: Question of Guilt [from the PC XM module]
  ARTIST: Thomas Mogensen (DRAX)
 
-/VARIOUS/A-F/Alien/Quickstep.sid
+/VARIOUS/A-F/Alien_WOW/Quickstep.sid
   TITLE: Quickstep [from the PC XM module]
  ARTIST: Thomas Mogensen (DRAX)
 
-/VARIOUS/A-F/Alien/Revolution.sid
+/VARIOUS/A-F/Alien_WOW/Revolution.sid
 COMMENT: Originally composed by Vincenzo on PC (for Mooziq sidcompo) and
          converted to the C64 by Alien/WOW. The PC music reached the 3rd place,
          and the conversion reached 4th place at MekkaSymposium2002.
 
-/VARIOUS/A-F/Alien/Space_Debris.sid
+/VARIOUS/A-F/Alien_WOW/Space_Debris.sid
   TITLE: Space Debris [from the Amiga MOD module]
  ARTIST: Markus Kaarlonen (Captain)
 COMMENT: This tune finished 3rd at the Assembly '97 C64 music competition.
 
-/VARIOUS/A-F/Alien/Suspiria.sid
+/VARIOUS/A-F/Alien_WOW/Suspiria.sid
 COMMENT: Same tune as /Cannon_Matthew/Batman_The_Movie.sid, Tune #9, but covers
          Jogeir Liljedahl's version (also called Suspiria) of it.
 
-/VARIOUS/A-F/Alien/These_Days-Licence_Version.sid
+/VARIOUS/A-F/Alien_WOW/These_Days-Licence_Version.sid
   TITLE: Checknobankh [from the Amiga MOD module]
  ARTIST: Anders E. Hansen (Laxity of Kefrens)
 
-/VARIOUS/A-F/Alien/These_Days.sid
+/VARIOUS/A-F/Alien_WOW/These_Days.sid
   TITLE: Checknobankh [from the Amiga MOD module]
  ARTIST: Anders E. Hansen (Laxity of Kefrens)
 
-/VARIOUS/A-F/Alien/Tribaldance_plus_Nolimit.sid
+/VARIOUS/A-F/Alien_WOW/Tribaldance_plus_Nolimit.sid
   TITLE: Tribal Dance [from No Limits] (0:00)
  ARTIST: 2 Unlimited
   TITLE: No Limit [from No Limits] (2:20)
  ARTIST: 2 Unlimited
 
-/VARIOUS/A-F/Alien/Turn_it-Licence.sid
+/VARIOUS/A-F/Alien_WOW/Tribute_2_Einstein.sid
+  TITLE: The Recovery
+ ARTIST: Lars Hoff
+
+/VARIOUS/A-F/Alien_WOW/Turn_it-Licence.sid
   TITLE: Terminator 2 Title Theme [from the movie]
  ARTIST: Brad Fiedel
 COMMENT: The drum sequence is from this movie score.
@@ -21623,20 +21672,13 @@ COMMENT: The drum sequence is from this movie score.
          Turn_it-Licence.sid, and you will notice that the tunes play in a
          different key to each other. This was intentionally done by Alien.
 
-/VARIOUS/A-F/Alien/UNREAL_II.sid
+/VARIOUS/A-F/Alien_WOW/UNREAL_II.sid
   TITLE: Second Reality [from the PC demo]
  ARTIST: Jonne Valtonen (Purple Motion of Future Crew)
 
-/VARIOUS/A-F/Alien/Weather_Girl.sid
+/VARIOUS/A-F/Alien_WOW/Weather_Girl.sid
   TITLE: Weather Girl [from the PC XM module]
  ARTIST: Radix
-
-### /VARIOUS/A-F/Alien_Intruders #############################################
-
-/VARIOUS/A-F/Alien_Intruders/Dreary_loader_part_2.sid
-  TITLE: Das Boot [from the movie]
- ARTIST: Klaus Doldinger
-COMMENT: Not a direct cover, but clearly inspired by it.
 
 ### /VARIOUS/A-F/Almered_Per #################################################
 
@@ -21709,12 +21751,18 @@ COMMENT: "This is the song used in Talk, my first (and probably, but not
  ARTIST: Koto
 
 /VARIOUS/A-F/Amadeus_Attic/Ucieczka_z_Tropiku_1.sid
-  TITLE: Ucieczka z tropiku
+  TITLE: Ucieczka z tropiku [from Ucieczka Do tropiku]
  ARTIST: Marek Bilinski
+COMMENT: The title translates from Polish as "Escape from the tropic zone".
+         Marek Bilinski was some kind of a Polish J.M.Jarre, and had a string
+         of instrumental hits back in the 80's.
 
 /VARIOUS/A-F/Amadeus_Attic/Ucieczka_z_Tropiku_2.sid
-  TITLE: Ucieczka z tropiku
+  TITLE: Ucieczka z tropiku [from Ucieczka Do tropiku]
  ARTIST: Marek Bilinski
+COMMENT: The title translates from Polish as "Escape from the tropic zone".
+         Marek Bilinski was some kind of a Polish J.M.Jarre, and had a string
+         of instrumental hits back in the 80's.
 
 /VARIOUS/A-F/Amadeus_Attic/Visitors.sid
   TITLE: Visitors [from Masterpieces]
@@ -21769,6 +21817,8 @@ COMMENT: "Another song from the game I'm designing, 'Castle of Zokor.' This is
          the background music for the second floor of the castle." (JA)
 
 /VARIOUS/A-F/Ames_John/Chrono_Trigger-Battle.sid
+  TITLE: Battle 1 [from the SNES game Chrono Trigger]
+ ARTIST: Yasunori Mitsuda
 COMMENT: "Chrono Trigger, in my opinion, ties with GoldenSun for Best
           RPG of all time. One of the largest reasons is the music. This
           is my version of the battle theme from Chrono Trigger.
@@ -21778,7 +21828,8 @@ COMMENT: "Chrono Trigger, in my opinion, ties with GoldenSun for Best
           the rest of the song turned out nice." (JA)
 
 /VARIOUS/A-F/Ames_John/Chrono_Trigger-Battle_2.sid
-  TITLE: Chrono Trigger - Unreleased Battle Theme
+  TITLE: Battle 2 [from the SNES game Chrono Trigger]
+ ARTIST: Yasunori Mitsuda
 COMMENT: "This is a battle theme from the Chrono Trigger Demo that never made
          it into the final game. Pity, too." (JA)
 
@@ -21804,35 +21855,48 @@ COMMENT: "A back-to-back playing of the battle themes from Final Fantasy 1-6,
 (#1)
 COMMENT: Battle Medley (from Final Fantasy 1-6).
 (#2)
-  TITLE: Battle Theme [from Final Fantasy]
+  TITLE: Battle Theme [from the NES game Final Fantasy]
  ARTIST: Nobuo Uematsu
 (#3)
-  TITLE: Battle Theme [from Final Fantasy II]
+  TITLE: Battle Theme [from the NES game Final Fantasy II]
  ARTIST: Nobuo Uematsu
 (#4)
-  TITLE: Battle Theme [from Final Fantasy III]
+  TITLE: Battle Theme [from the NES game Final Fantasy III]
  ARTIST: Nobuo Uematsu
 (#5)
-  TITLE: Battle Theme [from Final Fantasy IV]
+  TITLE: Battle Theme [from the SNES game Final Fantasy IV]
  ARTIST: Nobuo Uematsu
 (#6)
-  TITLE: Battle Theme [from Final Fantasy V]
+  TITLE: Battle Theme [from the SNES game Final Fantasy V]
  ARTIST: Nobuo Uematsu
 (#7)
-  TITLE: Battle Theme [from Final Fantasy VI]
+  TITLE: Battle Theme [from the SNES game Final Fantasy VI]
+ ARTIST: Nobuo Uematsu
+
+/VARIOUS/A-F/Ames_John/Final_Fantasy-Battle_Theme.sid
+  TITLE: Battle Theme [from the NES game Final Fantasy]
+ ARTIST: Nobuo Uematsu
+
+/VARIOUS/A-F/Ames_John/Final_Fantasy_6-Battle.sid
+  TITLE: Battle Theme [from the SNES game Final Fantasy VI]
  ARTIST: Nobuo Uematsu
 
 /VARIOUS/A-F/Ames_John/Final_Fantasy_IV-Overworld.sid
-  TITLE: Final Fantasy IV - Main Theme [from the SNES game]
+  TITLE: Main Theme [from the SNES game Final Fantasy IV]
+ ARTIST: Nobuo Uematsu
 COMMENT: "Another piece from Squaresoft's wonderful 'Final Fantasy' series.
          This is the overworld map theme from Final Fantasy IV. (or II in the
          US.)" (JA)
 
 /VARIOUS/A-F/Ames_John/Final_Fantasy_Theme.sid
-COMMENT: "The Final Fantasy theme song, as heard in Final Fantasy for NES."(JA)
+  TITLE: Opening Theme [from the NES game Final Fantasy]
+ ARTIST: Nobuo Uematsu
+COMMENT: "The Final Fantasy theme song, as heard in Final Fantasy for NES."
+         (JA)
 
 /VARIOUS/A-F/Ames_John/Final_Fantasy_V-Gilgamesh.sid
-  TITLE: Battle with Gilgamesh [from Final Fantasy V]
+  TITLE: Battle with Gilgamesh [from the SNES game Final Fantasy V]
+ ARTIST: Nobuo Uematsu
 
 /VARIOUS/A-F/Ames_John/Jill_of_the_Jungle.sid
 COMMENT: "This is the (almost) complete soundtrack from Epic Megagames' great
@@ -21870,7 +21934,7 @@ COMMENT: "This is the (almost) complete soundtrack from Epic Megagames' great
  ARTIST: Dan Froelich
 
 /VARIOUS/A-F/Ames_John/Legend_Of_Zelda-Dungeon.sid
-  TITLE: Legend Of Zelda - Dungeon Theme [from the NES game]
+  TITLE: Dungeon Theme [from the NES game Legend of Zelda]
  ARTIST: Koji Kondo
 COMMENT: "The dungeon theme from Nintendo's 'Legend of Zelda.'" (JA)
 
@@ -21895,11 +21959,11 @@ COMMENT: "All the versions I've heard have been crystalline bells and synths,
 
 /VARIOUS/A-F/Ames_John/MM7-Bass_Theme.sid
   TITLE: Bass's theme [from the SNES game Mega Man VII]
- ARTIST: Capcom
+ ARTIST: Capcom Sound Team
 
 /VARIOUS/A-F/Ames_John/MMX-Storm_Eagle.sid
   TITLE: Storm Eagle's stage [from the SNES game Mega Man X]
- ARTIST: Capcom
+ ARTIST: Capcom Sound Team
 COMMENT: "I LOVE this song. Sorry about the crummy approximation of a
          guitar, this was my first SID, and anyway, I like it like this." (JA)
 
@@ -21917,10 +21981,10 @@ COMMENT: "The two "stage select screen" songs from Capcom's Megaman X. The
          first is the normal Stage Select, the second is the one played after
          you defeat all 8 Mavericks." (JA)
 (#1)
-  TITLE: Stage Select (normal)
+  TITLE: Stage Select (normal) [from the game Megaman X]
  ARTIST: Capcom Sound Team
 (#2)
-  TITLE: Stage Select (Sigma's Fortress)
+  TITLE: Stage Select (Sigma's Fortress) [from the game Megaman X]
  ARTIST: Capcom Sound Team
 
 /VARIOUS/A-F/Ames_John/Megaman_X-Zero.sid
@@ -21929,11 +21993,11 @@ COMMENT: "The two "stage select screen" songs from Capcom's Megaman X. The
 
 /VARIOUS/A-F/Ames_John/Megaman_X3-Gravity_Beetle.sid
   TITLE: Gravity Beetle [from the game Megaman X3]
- ARTIST: Capcom Sound Team
+ ARTIST: Toshihiko Horiyama
 
 /VARIOUS/A-F/Ames_John/Megaman_X5-Select.sid
   TITLE: Stage Select (Sigma's Fortress)
- ARTIST: Capcom Sound Team
+ ARTIST: Akemi Kimura
 COMMENT: "This is the "Sigma's Fortress" stage select music from Capcom's
          Megaman X5." (JA)
 
@@ -21959,11 +22023,13 @@ COMMENT: "This is the ingame music from Moon Patrol, which happens to be my
           this." (JA)
 
 /VARIOUS/A-F/Ames_John/Myst-The_Myst_Book.sid
+  TITLE: <?>
+ ARTIST: Robyn Miller
 COMMENT: "This is from Cyan Software's game 'Myst.' It is the music that plays
          as you watch the fly-in on the Myst book's linking panel." (JA)
 
 /VARIOUS/A-F/Ames_John/Pokemon-Elite_Four.sid
-  TITLE: <?>
+  TITLE: Pokemon Gym [from the GB games Pokemon Red/Blue/Yellow/Green]
  ARTIST: Junichi Masuda
 COMMENT: "The Elite Four/Gym theme from Pokemon (all versions.) I'm not
           really into Pokemon (I kinda like it,) but it has really nice
@@ -21989,10 +22055,10 @@ COMMENT: "This will eventually be a complete SID soundtrack for Nintendo
           version where I will remix them in full SID glory instead of
           having them sound like Nintendo music!" (JA)
 (#1)
-  TITLE: Super Mario Bros. Tune 1
+  TITLE: Overworld BGM [from the NES game Super Mario Bros.]
  ARTIST: Koji Kondo
 (#2)
-  TITLE: Super Mario Bros. Tune 2
+  TITLE: Underground BGM [from the NES game Super Mario Bros.]
  ARTIST: Koji Kondo
 
 /VARIOUS/A-F/Ames_John/Teen_Spirit_1_main_guitar.sid
@@ -22270,6 +22336,10 @@ COMMENT: Covers Edwin van Santen's C64 version in
 /VARIOUS/A-F/Arne/Happy_Hour.sid
   TITLE: Rock Around the Clock
  ARTIST: Bill Haley & The Comets
+
+/VARIOUS/A-F/Arne/He_is_Back_II.sid
+  TITLE: Stand By Me
+ ARTIST: Ben E. King
 
 /VARIOUS/A-F/Arne/Laser_Remix.sid
   TITLE: Fear [from Future Generation]
@@ -23392,21 +23462,45 @@ COMMENT: This is a popular Jewish (Hasidic) song whose title translates to
  ARTIST: Deep Purple
 
 /VARIOUS/A-F/Benji/Benji_01.sid
+COMMENT: Mix of various Christmas carols.
   TITLE: Gdy sie Chrystus rodzi (0:00)
  ARTIST: <?>
+COMMENT: The title translates from Polish as "When Christ is Born".
   TITLE: W zlobie lezy (0:29)
- ARTIST: <?>
+ ARTIST: Piotr Skarga (lyrics), A. Adamski (music)
+COMMENT: The title translates from Polish as "Lying in the Manger".
   TITLE: Pojdzmy wszyscy do stajenki (1:02)
  ARTIST: <?>
+COMMENT: The title translates from Polish as "Let's All Go to the Stable".
   TITLE: Jezus malusienki (1:19)
  ARTIST: <?>
+COMMENT: The title translates from Polish as "Baby Jesus".
   TITLE: Przybiezeli do Betlejem (1:45)
  ARTIST: <?>
-COMMENT: Mix of various Christmas carols.
+COMMENT: The title translates from Polish as "They Hastened to Bethlehem".
+
+/VARIOUS/A-F/Benji/Castle.sid
+(#4)
+  TITLE: Koziolek Matolek [from a cartoon series] (0:00-0:14)
+ ARTIST: Adam Markiewicz
 
 /VARIOUS/A-F/Benji/Technolog_Snow_hidden_part.sid
-  TITLE: Przybyli ulani pod okienko
- ARTIST: Traditional Polish
+  TITLE: Przybyli ulani pod okienko (00:00-00:16)
+ ARTIST: Polish folk traditional
+  TITLE: <?> (00:23-00:33)
+ ARTIST: Polish folk traditional
+  TITLE: <?> (00:34-00:45)
+ ARTIST: Polish folk traditional
+  TITLE: Koziolek Matolek [from a cartoon series] (00:51-01:01)
+ ARTIST: Adam Markiewicz
+  TITLE: <?> (01:02-01:13)
+ ARTIST: Polish folk traditional
+  TITLE: <?> (01:20-01:36)
+ ARTIST: Polish folk traditional
+  TITLE: Po ten kwiat czerwony (01:43-01:53)
+ ARTIST: Jerzy Wasowski
+  TITLE: W murowanej piwnicy (02:00-02:11)
+ ARTIST: Polish folk traditional
 
 ### /VARIOUS/A-F/Bionic_Hands ################################################
 
@@ -23932,7 +24026,7 @@ COMMENT: From the TV-series Twin Peaks <?>
 
 /VARIOUS/A-F/Blues_Muz/Gallefoss_Glenn/Velomatrix.sid
   TITLE: Velo Matrix [from the Amiga MOD module]
- ARTIST: Martin Iveson (Nuke/Anarchy)
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 
 /VARIOUS/A-F/Blues_Muz/Gallefoss_Glenn/Vicious_Circles.sid
   TITLE: Vicious Circles [from the PC XM module]
@@ -23973,9 +24067,76 @@ COMMENT: From Monty Python's movie, which was banned from UK television release
 
 ### /VARIOUS/A-F/Blues_Muz/Nordboe_Kjell #####################################
 
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/
+COMMENT: Sadly, Kjell Nordbø passed away in June 2005. All comments by him
+         are denoted (KJ).
+
 /VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/1001_Ride.sid
   TITLE: Herning'93
  ARTIST: Blues Muz'
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/A_New_Life.sid
+(#1)
+   NAME: In Another Time & Space
+(#2)
+   NAME: I Can See
+(#3)
+   NAME: Siv My Illusion
+(#4)
+   NAME: Not Far Away
+(#5)
+   NAME: Very Close Indeed
+(#6)
+   NAME: Skycity
+(#7)
+   NAME: Kvile På Sofaen
+(#8)
+   NAME: Meaning
+COMMENT: "Meaning" sounds like it restarts after a while, it doesn't! (KN)
+(#9)
+   NAME: Advantage
+(#10)
+   NAME: Full Time Blues
+(#11)
+   NAME: I Havets Vold
+COMMENT: "'I Havets Vold' is a story about a sailboat and a duckling, two
+         worlds but both are on the sea, the sailboat enjoys a trip at sea in
+         the great weather while the duckling is drifting on the waves without
+         any idea about a sailboat, which are coming closer and closer all the
+         time, with no idea about a duckling, and the result is fatal. The
+         sailboat runs over the duckling and leaving it behind, dead,
+         continuing its travel." (KN)
+(#12)
+   NAME: True Lust
+(#13)
+   NAME: As Long As...
+(#14)
+   NAME: Cold
+(#15)
+   NAME: Hymn to the Living Dead
+(#16)
+   NAME: Freedom
+COMMENT: "'Freedom' sounds like it restarts after a while, it doesn't!" (KN)
+(#17)
+   NAME: Trying the Carousel
+(#18)
+   NAME: Spacebeing Dollin
+(#19)
+   NAME: All On Board
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Angus_Young_Live.sid
+  TITLE: Angus Young Live ("Standard-Stage-Show")
+ ARTIST: <?>
+COMMENT: "Dedicated to my brother Tore which likes AC/DC. (Hei Erot!)" (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Child.sid
+COMMENT: "Written by Frode Nordbø (Amiga), and rearranged by me." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Children.sid
+COMMENT: "Composed by Frode and rearranged by me." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Frode.sid
+COMMENT: "Dedicated to Frode." (KN)
 
 /VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Ghost_Escapes_Body.sid
 (#1)
@@ -23986,6 +24147,8 @@ COMMENT: From Monty Python's movie, which was banned from UK television release
    NAME: Identity Icon
 (#4)
    NAME: Invisible
+COMMENT: In the original demo, this tune had lyrics presented karakoe-style,
+         while the tune was playing.
 (#5)
    NAME: Jeg er feil sangen
 (#6)
@@ -24015,13 +24178,165 @@ COMMENT: From Monty Python's movie, which was banned from UK television release
 COMMENT: When this tune reaches its end, the demo starts to erase
          the whole memory!
 
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Good_Night.sid
+COMMENT: "Dedicated to Kristian." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Heidi.sid
+COMMENT: "Dedicated to Heidi." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Honey_Soup.sid
+COMMENT: "Dedicated to David." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Jallas_Quest.sid
+COMMENT: "I did stop it right there, maybe anyone of you want to make a
+         continue of the adventure?" (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Joy_in_Repetition.sid
+COMMENT: "If we were together. But we are not" (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Ladies_King.sid
+COMMENT: "A song about THE MAN OF THE WORLD, in charge, the party attraction."
+         (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Last_Flight.sid
+COMMENT: "'Last Flight' is the song about a person which is taking drugs. It
+         is a sad story for both the family to the user, and the user itself,
+         which later in the song dies, it's the user's last flight. The family
+         which stands back with their dead son or daughter is so unhappy and
+         sad that they don't know anything anymore. They're feeling a huge
+         emptyness inside, they only wish their child back again, staying
+         alive. But that will never happen... The last few minutes when the
+         child was alive, it dreamed about a sky of marvelous and wonderful
+         things flying all around. The longer it lasted the longer away this
+         person was to all real things we know here on earth. This child, so
+         young, has left the world. Not alive anymore. Doesn't exist, only the
+         body left for the family to bury and their memories to keep. Why do
+         some want to legalize it?" (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Mad_Mans_Dream.sid
+(#2)
+   NAME: Galaxy Acquaintance
+(#3)
+   NAME: The Border
+(#4)
+   NAME: It Can Happend Here
+(#5)
+   NAME: In Life
+(#6)
+   NAME: Experience
+(#7)
+   NAME: Costr
+(#8)
+   NAME: Blood
+(#9)
+   NAME: Ingen Vil Med Meg
+COMMENT: "'Ingen vil med meg' is an extended stage version of the earlier 'Meg
+         vil ingen ha' from *oss*" (KN)
+(#10)
+   NAME: Into My Picture
+(#11)
+   NAME: Out of Darkness
+(#12)
+   NAME: I
+(#13)
+   NAME: The Collector
+COMMENT: "'The Collector' is a song about the devil which are collecting souls
+         for his empire, beware!" (KN)
+(#14)
+   NAME: Sleep Awake
+(#15)
+   NAME: Jeg Er Rar Sangen
+(#16)
+   NAME: Hostile Scenery
+(#17)
+   NAME: Understand Me
+(#18)
+   NAME: Searching Space
+(#19)
+   NAME: Mystery
+(#20)
+   NAME: Facing the Pain
+(#21)
+   NAME: Risky Roulette
+COMMENT: "'Risky Roulette' is a song about when someone places bets higher than
+         one really can afford to lose." (KN)
+(#22)
+   NAME: The Other Side
+(#23)
+   NAME: Change of Views
+COMMENT: Once upon a time, Kristian Røstøen helped me with the song "Change
+         of Views" to get it better, and it did I think (back in 1993 it
+         must have been). (KN)
+(#24)
+   NAME: Rock Thunder
+(#25)
+   NAME: Going Back Home
+COMMENT: "'Going Back Home' isn't over were you might think, it continues."
+         (KN)
+(#26)
+   NAME: The Beginning
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Move_On.sid
+COMMENT: "Dedicated to Jens Christian." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Ole.sid
+COMMENT: "Dedicated to Ole." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Promise.sid
+COMMENT: Dedicated to Bacchus/FLT & his family. (KN)
+
 /VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Raped.sid
   TITLE: Thrust II, tune #2 (0:39-1:08)
  ARTIST: Dave Korn (Ubik)
 
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Revenge_of.sid
+COMMENT: "First C64 rap song?" (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/She_Got_It_All.sid
+COMMENT: "Dedicated to Heidi." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Shoot_To_Kill.sid
+COMMENT: "'Shoot To Kill' (The pianoplayer!)" (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Sjoemannsvalsen.sid
+COMMENT: "A song telling from the life on sea." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Small_Path.sid
+COMMENT: "Dedicated to Eivind." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Snille_Astrid.sid
+COMMENT: "'Snille Astrid' may be the most kind person in this world." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/So_Nice.sid
+COMMENT: "Written by Frode Nordbø. He's not a member of Blues Muz' or SHAPE.
+         He makes music on the Amiga." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Surrounded.sid
+COMMENT: "'Surrounded' is a song about a hunted man which realize that his
+         last minutes has come and he will now die very soon, the enemy are
+         circle in and you watch their faces, they haven't discovered you yet
+         but they will every second now and afterwards you watch your own
+         funeral, from another place." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Sweet_Like_Sugar.sid
+COMMENT: "Dedicated to Geir." (KN)
+
 /VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/That_Sign.sid
   TITLE: Classical
  ARTIST: Kjell Nordbø
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Two_Truths.sid
+COMMENT: "The God gives, The Evil takes." (KN)
+
+/VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/Use_My_Fire.sid
+COMMENT: "'Use My Fire' is a song which is about a human which ain't included
+         in anything to the community, like;  have no job, doesn't have any
+         relationship with other people, and this human got so much willing,
+         but nobody cares. Use My Fire! is all what this person is begging
+         for, to get a chance to show that he or she doesn't want to die, but
+         live, like all others, which got money and a place, family and
+         friends. It's a song about losers which want to make the steps out of
+         nowhere and into the better... Does anybody care for them?" (KN)
 
 /VARIOUS/A-F/Blues_Muz/Nordboe_Kjell/X-Factor.sid
 COMMENT: One of four tunes pasted together to form Blues Muz's Herning 93,
@@ -24252,6 +24567,12 @@ COMMENT: Based on Jeroen Tel's cover.
   TITLE: Toccata [from Toccata and Fugue in D Minor (BWV 565)] (0:00-0:24)
  ARTIST: Johann Sebastian Bach
 
+/VARIOUS/A-F/Blues_Muz/Roestoeen_Kristian/Worktunes/Trivia.sid
+  TITLE: Dinner Set
+ ARTIST: Adrian Scott
+COMMENT: Covers Jeroen Tel's version. See
+         /Tel_Jeroen/Trivia_Ultimate_Challenge.sid.
+
 /VARIOUS/A-F/Blues_Muz/Roestoeen_Kristian/Worktunes/Wilde_Kim.sid
   TITLE: You Keep Me Hangin' On
  ARTIST: The Supremes
@@ -24339,7 +24660,7 @@ COMMENT: Title theme from a Polish cartoon series.
 
 /VARIOUS/A-F/Booker/Syfilisif.sid
   TITLE: <?> [from the Amiga game Amotrix]
- ARTIST: Fajser/Rage
+ ARTIST: Henrik Sundberg (Fajser/Rage)
 
 /VARIOUS/A-F/Booker/Zorba_The_Greek.sid
   TITLE: Zorba, the Greek
@@ -24397,7 +24718,7 @@ COMMENT: Was also used in the game Wildfire, by the same people that made Smash
 
 /VARIOUS/A-F/Brian/Breath_of_Air.sid
   TITLE: Breath of Air [from the Amiga MOD Module]
- ARTIST: Martin Iveson (Nuke/Anarchy)
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 
 /VARIOUS/A-F/Brian/Children_Songs.sid
   TITLE: Old McDonald Had a Farm (0:00)
@@ -24574,6 +24895,10 @@ COMMENT: Sounds like out of synch, but that's the way it was replayed
   TITLE: Children [from Dreamland] (0:58-1:29)
  ARTIST: Robert Miles
 
+/VARIOUS/A-F/Bzyk/Janson.sid
+  TITLE: <?> [from Trzeci wymiar]
+ ARTIST: Robert Janson
+
 /VARIOUS/A-F/Bzyk/Jean_Michel_Jarre.sid
   TITLE: Fourth Rendez-vous [from Rendez-vous]
  ARTIST: Jean Michel Jarre
@@ -24657,6 +24982,10 @@ COMMENT: CMP is short for "Cybernetic Mechanical Person"
   TITLE: Commando, Tune #2
  ARTIST: Rob Hubbard
 
+/VARIOUS/A-F/Cadaver/Darkness.sid
+COMMENT: "Made using Odintracker. Covers the music from an unknown Spanish
+         Amiga demo (zombie/graveyard-themed)"
+
 /VARIOUS/A-F/Cadaver/Escape_From_New_York.sid
   TITLE: Escape from New York Main Theme [from the movie]
  ARTIST: John Carpenter & Alan Howarth
@@ -24684,12 +25013,54 @@ COMMENT: "I remember being contacted by someone from Laxity (Goat?) for music
   TITLE: Metal Warrior
  ARTIST: Cadaver
 COMMENT: The tune plays the main theme from the game "Metal Warrior" at 1:00.
-         (/VARIOUS/A-F/Cadaver/Metal_Warrior.sid)
+         (/VARIOUS/A-F/Cadaver/Metal_Warrior.sid) "From the MW4-GoatTracker
+         song pack. Some different instruments & settings compared to the
+         game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-Ahrimans_Lair.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-Covert_Ops_in_2D.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-Forest_Encounter.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
 
 /VARIOUS/A-F/Cadaver/MW4-Forest_Encounter_unuse.sid
 (#3)
   TITLE: MW4-Forest Encounter, tune #3
  ARTIST: Anssi Jääskeläinen
+
+/VARIOUS/A-F/Cadaver/MW4-Heroic_Theme_and_Cavem.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-Investigations.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-Lamentation_of_the_Age.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-Research_Facility.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-Streets.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-The_Abduction.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
+
+/VARIOUS/A-F/Cadaver/MW4-The_Chosen_Path.sid
+COMMENT: "From the MW4-GoatTracker song pack. Some different instruments &
+         settings compared to the game" (LÖ)
 
 /VARIOUS/A-F/Cadaver/Metal_Warrior_3.sid
 (#1)
@@ -25130,7 +25501,9 @@ COMMENT: Sadly, Cleve (Norbert Kowalski) passed away in 2002.
  ARTIST: LOFT
 
 /VARIOUS/A-F/Cleve/Janosik_Remix.sid
-  TITLE: Janosik [from the TV series]
+  TITLE: W murowanej piwnicy (0:00)
+ ARTIST: Polish people's melody
+  TITLE: Janosik [from the TV series] (0:40)
  ARTIST: Jerzy Matuszkiewicz
 
 /VARIOUS/A-F/Cleve/Moonlight_Shadow.sid
@@ -25295,7 +25668,7 @@ COMMENT: This plays when the time is running out.
 (#7)
 COMMENT: This plays when the time has run out.
 
-### /VARIOUS/A-F/Compod ######################################################
+### /VARIOUS/A-F/Compod/ #####################################################
 
 /VARIOUS/A-F/Compod/Ace_Of_Base.sid
   TITLE: All That She Wants [from Happy Nation]
@@ -25363,9 +25736,18 @@ COMMENT: Taken from the movie "Cudowne Dziecko" which translates to English as
   TITLE: It's a Sin [from Actually] (0:23)
  ARTIST: Pet Shop Boys
 
+/VARIOUS/A-F/Compod/Dont_Cry.sid
+  TITLE: Nie placz kiedy odjade
+ ARTIST: Karel Gott
+COMMENT: Almost the same as /VARIOUS/A-F/Compod/Nie_Placz_Kiedy_Odjade.sid
+
 /VARIOUS/A-F/Compod/Dzieci.sid
   TITLE: Dzieci [from A ty co]
  ARTIST: Elektryczne Gitary
+
+/VARIOUS/A-F/Compod/Egipska_Opowiesc.sid
+  TITLE: The Hootchy Kootchy Dance
+ ARTIST: Sol Bloom
 
 /VARIOUS/A-F/Compod/Enola_Gay.sid
   TITLE: Enola Gay [from Organisation]
@@ -25448,9 +25830,14 @@ COMMENT: The beginning is based on Galway's Top Gun/Comic Bakery tune.
   TITLE: Naj Story
  ARTIST: Papa Dance
 
+/VARIOUS/A-F/Compod/Nastolatka.sid
+  TITLE: Nastolatka
+ ARTIST: Vabank
+
 /VARIOUS/A-F/Compod/Nie_Placz_Kiedy_Odjade.sid
   TITLE: Nie placz kiedy odjade
- ARTIST: Karel Got
+ ARTIST: Karel Gott
+COMMENT: Almost the same as /VARIOUS/A-F/Compod/Dont_Cry.sid
 
 /VARIOUS/A-F/Compod/No_Limit_Mix_C64.sid
   TITLE: No Limit [from No Limits]
@@ -25527,14 +25914,25 @@ COMMENT: Mariah Carey covered this tune, and that's what this cover is possibly
          covering.
 
 /VARIOUS/A-F/Compod/Wolanie_Przez_Cisze.sid
-  TITLE: Wolanie przez cisze
+  TITLE: Wolanie przez cisze [from Zlote Balady]
  ARTIST: Universe
 
 /VARIOUS/A-F/Compod/Wszystko_Sie_Zmienilo.sid
   TITLE: Wszystko sie zmienilo
  ARTIST: Fanatic
 
+### /VARIOUS/A-F/Compod/Worktunes ############################################
+
+/VARIOUS/A-F/Compod/Worktunes/Project_01_C_C_Catch.sid
+  TITLE: <?>
+ ARTIST: Kenny Chou (C. C. Catch)
+
+### /VARIOUS/A-F/Compod\ #####################################################
+
 ### /VARIOUS/A-F/Control #####################################################
+
+/VARIOUS/A-F/Control/Absolute.sid
+COMMENT: Most sounds by PVCF. (info from Control)
 
 /VARIOUS/A-F/Control/L_Amour_Toujours_remix.sid
   TITLE: L'amour Toujours [from L'amour Toujours]
@@ -25975,15 +26373,17 @@ COMMENT: Name of this tune is a mis-typed name of Polish town - Bartoszyce.
 COMMENT: This tune won the music competition at the Christmas Party 1995.
 
 /VARIOUS/A-F/Daf/Classic_Mix.sid
-  TITLE: <?> (0:00-0:15)
- ARTIST: <?>
-  TITLE: <?> (0:19-0:57)
- ARTIST: <?>
-  TITLE: <?> (1:01-1:32)
- ARTIST: <?>
+  TITLE: March of the Toreadors [from Carmen] (0:00-0:15)
+ ARTIST: Georges Bizet
+  TITLE: Wilhelm Tell Overture (0:19-0:57)
+ ARTIST: Gioacchino Antonio Rossini
   TITLE: Orpheus in the Underworld Overture (1:34-2:26)
  ARTIST: Jacques Offenbach
 COMMENT: The "can-can" tune.
+
+/VARIOUS/A-F/Daf/Computer_Art_Festival.sid
+COMMENT: This tune won the music competition at the Computer Art Festival
+         (Bydgoszcz / Poland) 1995.
 
 /VARIOUS/A-F/Daf/Menhir_Compo.sid
 COMMENT: This tune won the music competition at the Menhir Party 1995.
@@ -25991,6 +26391,10 @@ COMMENT: This tune won the music competition at the Menhir Party 1995.
 /VARIOUS/A-F/Daf/Pasthet.sid
   TITLE: Smoke on the Water [from Machine Head] (0:00-0:14)
  ARTIST: Deep Purple
+
+/VARIOUS/A-F/Daf/Visual_Compo_Music_2.sid
+COMMENT: This tune won the music competition at the Visual Party (Tarnow /
+         Poland) 1994.
 
 ### /VARIOUS/A-F/Daf/Worktunes ###############################################
 
@@ -26145,6 +26549,16 @@ COMMENT: Inspired by Jason Donovan's cover.
  ARTIST: Ennio Morricone
   TITLE: Rawhide theme [from the TV series] (1:06)
  ARTIST: Dimitri Tiomkin (music), Ned Washington (lyrics)
+
+### /VARIOUS/A-F/Data ########################################################
+
+/VARIOUS/A-F/Data/Acid_Bells.sid
+  TITLE: Acid Bells
+ ARTIST: Quazz
+
+/VARIOUS/A-F/Data/Contrast.sid
+  TITLE: Contrast
+ ARTIST: Clawz
 
 ### /VARIOUS/A-F/Daw #########################################################
 
@@ -26386,7 +26800,7 @@ COMMENT: Traditional Finnish Christmas carol.
 /VARIOUS/A-F/Deadman/Ubik-Musik_Collection_VII.sid
 (#1)
   TITLE: <?> [from the Amiga game Amotrix]
- ARTIST: Fajser/Rage
+ ARTIST: Henrik Sundberg (Fajser/Rage)
 (#2)
   TITLE: Hi-Tech Hippies [from Technodon]
  ARTIST: Yellow Magic Orchestra
@@ -26408,7 +26822,7 @@ COMMENT: From /GAMES/G-L/Kapriolen_Floyd_the_Droid.sid
 ### /VARIOUS/A-F/Deathlok ####################################################
 
 /VARIOUS/A-F/Deathlok/Chotmix.sid
-  TITLE: Our Darkness
+  TITLE: Our Darkness [from Beehive]
  ARTIST: Anne Clark
 
 ### /VARIOUS/A-F/Decoder #####################################################
@@ -26616,7 +27030,9 @@ COMMENT: This SID covers the 90's rave version of the original song.
   TITLE: Jingle Bells (1:18-1:46)
  ARTIST: James Pierpont
   TITLE: Przybiezeli do Betlejem (1:46-2:01)
- ARTIST: Traditional Polish
+ ARTIST: <?>
+COMMENT: Polish Christmas carol. The title translates from Polish as "They
+         Hastened to Bethlehem".
 
 /VARIOUS/A-F/Djinn/Classic_Mix.sid
   TITLE: Toccata [from Toccata and Fugue in D Minor (BWV 565)] (0:00-0:09)
@@ -26682,7 +27098,7 @@ COMMENT: This SID covers the 90's rave version of the original song.
 
 /VARIOUS/A-F/Djinn/Sinister_5_intro.sid
   TITLE: Mazurek Dabrowskiego (Polish National Anthem)
- ARTIST: Jozef Wybicki
+ ARTIST: Traditional Polish, Jozef Wybicki (lyrics)
 
 /VARIOUS/A-F/Djinn/Skora.sid
   TITLE: Skora [from Czerwony album]
@@ -26886,6 +27302,16 @@ COMMENT: Tune has nothing to do with Last Xmas by Wham!
   TITLE: Ingame [from the arcade game Ghosts'n'Goblins]
  ARTIST: <?>
 COMMENT: Borrows a huge amount of this tune.
+
+### /VARIOUS/A-F/Dr_Silence ##################################################
+
+/VARIOUS/A-F/Dr_Silence/Exquisite_2_intro.sid
+  TITLE: Crazy Little Thing Called Love [from The Game]
+ ARTIST: Freddie Mercury, Performed by Queen
+
+/VARIOUS/A-F/Dr_Silence/Exquisite_2_rank_screen.sid
+  TITLE: Great Balls of Fire
+ ARTIST: Jerry Lee Lewis
 
 ### /VARIOUS/A-F/Dr_Voice ####################################################
 
@@ -27247,8 +27673,8 @@ COMMENT: "This was 1 of 3 tunes made for some local friends that wanted to make
  ARTIST: Depeche Mode
 
 /VARIOUS/A-F/Eco/Arabian_Lemmings.sid
-  TITLE: Lemmings 2
- ARTIST: <?>
+  TITLE: Egyptian Tribe [from the SNES game Lemmings 2 - The Tribes]
+ ARTIST: Mike Clark
 COMMENT: "huh, from the SNES-Version - don't have it anymore" (Eco)
 
 /VARIOUS/A-F/Eco/Black_Celebration.sid
@@ -27996,6 +28422,9 @@ COMMENT: "Released at HighwayLAN 2/03." (TC)
 
 ### /VARIOUS/A-F/Finnr #######################################################
 
+/VARIOUS/A-F/Finnr/
+COMMENT: All Renard's comments indicated by (FR).
+
 /VARIOUS/A-F/Finnr/Bcnintromusic.sid
   TITLE: A Question of Luck [from the PC XM module]
  ARTIST: Thomas E. Petersen (Laxity)
@@ -28004,6 +28433,11 @@ COMMENT: "Released at HighwayLAN 2/03." (TC)
   TITLE: Live at Stage 9 [from the PC XM module]
  ARTIST: Thomas E. Petersen (Laxity)
 COMMENT: This SID won shared 1st place in BCN Party 2003 music compo.
+
+/VARIOUS/A-F/Finnr/Pop_3_5_on_5_25.sid
+COMMENT: "1st in the BCN-Party'01 improvised FAST SID COMPO. Released and
+         tracked on 12th October 2001. 1st price was a 6581 chip,
+         yeaaarrhh!!!!" (FR)
 
 ### /VARIOUS/A-F/Firebee #####################################################
 
@@ -28159,7 +28593,7 @@ COMMENT: Same as /VARIOUS/A-F/Froyd/Twierdza.sid, Tune #2
 
 /VARIOUS/A-F/Froyd/Kulfon.sid
   TITLE: Kulfon co z ciebie wyrosnie [from the TV programme Ciuchcia]
- ARTIST: <?>
+ ARTIST: Krzysztof Marzec
 COMMENT: Song from a popular Polish TV programme for children.
 
 /VARIOUS/A-F/Froyd/Menuet_D-moll.sid
@@ -28366,6 +28800,10 @@ COMMENT: 1st place in the Floppy 2005 music compo
   TITLE: Sång till friheten
  ARTIST: Silvio Rodrigues (music), Björn Afzelius (swedish lyrics)
 
+/VARIOUS/G-L/Goto80/Faxanadu.sid
+  TITLE: Shops [from the NES game Faxanadu]
+ ARTIST: Jun Chiki Chikuma
+
 /VARIOUS/G-L/Goto80/Finalintro.sid
   TITLE: The Final Countdown [from The Final Countdown]
  ARTIST: Europe
@@ -28404,6 +28842,10 @@ COMMENT: This SID won the SID-Wine online music competition in 2002.
 /VARIOUS/G-L/Goto80/Jul.sid
   TITLE: Marche Militaire No.1, D.733
  ARTIST: Franz Schubert
+
+/VARIOUS/G-L/Goto80/Mega.sid
+  TITLE: Dr. Wily Stages 1-2 [from the NES game Mega Man 2]
+ ARTIST: C. Manami and Yuukichan's Papa
 
 /VARIOUS/G-L/Goto80/Min_Hund.sid
   TITLE: Min Hund
@@ -28806,6 +29248,10 @@ COMMENT: Sounds like the music from the classic "Moon Patrol" game with a bit
   TITLE: Chi Mai [from the movie Maddalena]
  ARTIST: Ennio Morricone
 
+/VARIOUS/G-L/Hallen/Seweryn.sid
+  TITLE: Uciekaj moje serce [[from the TV series "Jan Serce"]
+ ARTIST: Seweryn Krajewski
+
 ### /VARIOUS/G-L/Hannula_Antti ###############################################
 
 /VARIOUS/G-L/Hannula_Antti/
@@ -29065,7 +29511,7 @@ COMMENT: Heavily influenced
 
 /VARIOUS/G-L/Harmony_Productions/Serenissima.sid
   TITLE: La Serenissima [from Venezia 2000]
- ARTIST: Rondo Veneziano
+ ARTIST: Rondò Veneziano
 
 /VARIOUS/G-L/Harmony_Productions/Wot_Is_Love.sid
   TITLE: Infinity
@@ -29135,13 +29581,17 @@ COMMENT: This cover version slightly differs from the original by Deek but the
   TITLE: Smurfs Title Theme [from the cartoon series] (0:33)
  ARTIST: <?>
   TITLE: Koziolek Matolek [from a cartoon series] (0:48)
- ARTIST: <?>
+ ARTIST: Adam Markiewicz
 
 ### /VARIOUS/G-L/Hein_Holt ###################################################
 
 /VARIOUS/G-L/Hein_Holt/Apollo_vs_Mr_T.sid
   TITLE: Gonna Fly Now [from the movie Rocky]
  ARTIST: Bill Conti
+
+/VARIOUS/G-L/Hein_Holt/Black_Brothers.sid
+  TITLE: Gimme Some Lovin'
+ ARTIST: Steve Winwood, Muff Winwood and Spencer Davis
 
 /VARIOUS/G-L/Hein_Holt/Bootsys_Club_Tonic_6581.sid
 COMMENT: Won the music compo at North Party 9 in 2004.
@@ -29245,6 +29695,23 @@ COMMENT: This tune won the music competition at TUM'02.
   TITLE: Like a Prayer [from Like a Prayer]
  ARTIST: Madonna & Patrick Leonard, Performed by Madonna
 
+### /VARIOUS/G-L/Hobbit ######################################################
+
+/VARIOUS/G-L/Hobbit/
+COMMENT: Comments from Mads Orbesen Troest (Hobbit) are denoted (MOT).
+
+/VARIOUS/G-L/Hobbit/Alien.sid
+COMMENT: "This is also one of my better Music Assembler tunes..." (MOT)
+
+/VARIOUS/G-L/Hobbit/Ghosts_n_Goblins.sid
+COMMENT: "This is a funky cover version of the Ghosts'n Goblins game theme."
+         (MOT)
+
+/VARIOUS/G-L/Hobbit/Squash.sid
+COMMENT: "One of my best tunes composed in the Music Assembler editor (it was
+         really a rather miserable tool ;). I still like the slow B part a
+         lot. Brings back memories..." (MOT)
+
 ### /VARIOUS/G-L/Hoffman #####################################################
 
 /VARIOUS/G-L/Hoffman/Scrambled_Mind.sid
@@ -29347,7 +29814,7 @@ COMMENT: Used in the game "Master Head" (title tune).
 COMMENT: The drum patterns are exactly the same as the demo tune in
          Rockmonitor 4 (/MC/RockMonitor_IV.sid).
 
-/VARIOUS/G-L/Iron_Cat/Nik_Kershaw.sid
+/VARIOUS/G-L/Iron_Cat/Nick_Kershaw.sid
   TITLE: The Riddle [from The Riddle]
  ARTIST: Nik Kershaw
 
@@ -29388,6 +29855,11 @@ COMMENT: The drum patterns are exactly the same as the demo tune in
 /VARIOUS/G-L/Isildur/Cyclex.sid
   TITLE: Cycle
  ARTIST: Dominik Szrama (Isildur)
+
+/VARIOUS/G-L/Isildur/Slayer.sid
+  TITLE: South of heaven [from South of Heaven]
+ ARTIST: Slayer
+COMMENT: Covers only the beginning of the song.
 
 /VARIOUS/G-L/Isildur/Star_Wars_Theme.sid
   TITLE: The Imperial March [from Star Wars: Episode V - The Empire Strikes Back]
@@ -30190,23 +30662,6 @@ COMMENT: Comments by KB himself are denoted by (KB).
   TITLE: Go for the Nuke! (level 5) [from the Amiga game Turrican II]
  ARTIST: Chris Hülsbeck
 
-/VARIOUS/G-L/KB/2nd_Reality_PSID.sid
-(#1)
-  TITLE: Unreal II - The 2nd Reality (intro) [from the PC demo]
- ARTIST: Peter Hajba (Skaven of Future Crew)
-(#2)
-  TITLE: Unreal II - The 2nd Reality (main theme) [from the PC demo]
- ARTIST: Jonne Valtonen (Purple Motion of Future Crew)
-COMMENT: A cover of the first part of the theme.
-(#3)
-  TITLE: Unreal II - The 2nd Reality (main theme) [from the PC demo]
- ARTIST: Jonne Valtonen (Purple Motion of Future Crew)
-COMMENT: A cover of the second part of the theme.
-(#4)
-  TITLE: Unreal II - The 2nd Reality (ending) [from the PC demo]
- ARTIST: Peter Hajba (Skaven of Future Crew)
-COMMENT: Almost a 1:1 cover of the end theme from the demo.
-
 /VARIOUS/G-L/KB/BING_Dance_Version.sid
   TITLE: The Bare Necessities (5:27)
  ARTIST: Phil Harris
@@ -30502,6 +30957,14 @@ COMMENT: The "hahahaha" sample is the voice of Vincent Price.
   TITLE: Popcorn [from Music To Moog By]
  ARTIST: Gershon Kingsley
 
+### /VARIOUS/G-L/Kordiaukis ##################################################
+
+/VARIOUS/G-L/Kordiaukis/Fancullo.sid
+  TITLE: Yakety Sax [from Yakety Sax] (01:32)
+ ARTIST: James Rich & Boots Randolph
+COMMENT: Best known from as the title theme to the comedy TV series "The Benny
+         Hill Show".
+
 ### /VARIOUS/G-L/Kosa ########################################################
 
 /VARIOUS/G-L/Kosa/Everything_Mix.sid
@@ -30653,6 +31116,14 @@ COMMENT: Covering just a few notes.
 /VARIOUS/G-L/Latvamaeki_Aki/If_You_Dont_Follow.sid
 COMMENT: It takes 10 seconds until the music starts.
 
+### /VARIOUS/G-L/Leffty ######################################################
+
+/VARIOUS/G-L/Leffty/Dynamical_Waves.sid
+  TITLE: Deck The Halls With Boughs of Holly
+ ARTIST: Welsh Traditional
+  TITLE: Jingle Bells (1:12-1:32)
+ ARTIST: James Pierpont
+
 ### /VARIOUS/G-L/Leming ######################################################
 
 /VARIOUS/G-L/Leming/De_Prodigi.sid
@@ -30682,10 +31153,6 @@ COMMENT: It takes 10 seconds until the music starts.
   TITLE: Slaterman, Tune #5
  ARTIST: Milosz Ignatowski (Longhair)
 COMMENT: Almost identical.
-
-/VARIOUS/G-L/Longhair/Lost_Motivation.sid
-COMMENT: This is a VERY slightly remixed version of
-         /VARIOUS/G-L/Longhair/Anti_Disco_2.sid.
 
 /VARIOUS/G-L/Longhair/Shaman.sid
 (#1)
@@ -30986,6 +31453,21 @@ COMMENT: Same as /VARIOUS/G-L/Luca/XeO3_Level_1.sid
   TITLE: Yeha-Noha: Wishes Of Happiness & Prosperity [from Sacred Spirits]
  ARTIST: Sacred Spirits
 
+### /VARIOUS/G-L/Lunatic #####################################################
+
+/VARIOUS/G-L/Lunatic/S_O_D.sid
+  TITLE: Symphony of Destruction [from Countdown To Extinction]
+ ARTIST: Megadeth
+
+/VARIOUS/G-L/Lunatic/Seasons_In_Abyss.sid
+  TITLE: Seasons In The Abyss [from Seasons In The Abyss]
+ ARTIST: Slayer
+
+/VARIOUS/G-L/Lunatic/War_Ensemble.sid
+  TITLE: War ensemble [from Seasons In The Abyss]
+ ARTIST: Slayer
+COMMENT: Very loosely based on it.
+
 ### /VARIOUS/G-L/Lyon_Legend #################################################
 
 /VARIOUS/G-L/Lyon_Legend/
@@ -31180,27 +31662,27 @@ COMMENT: Highly influenced by Jeroen Kimmel's (Red) "Think Twice III".
   TITLE: Zamzara, Tune #2
  ARTIST: Charles Deenen
 
-### /VARIOUS/M-R/Mac #########################################################
+### /VARIOUS/M-R/Mac_TEK #####################################################
 
-/VARIOUS/M-R/Mac/Crocketts_Theme.sid
+/VARIOUS/M-R/Mac_TEK/Crocketts_Theme.sid
   TITLE: Crockett's Theme [from the TV series Miami Vice]
  ARTIST: Jan Hammer
 
-/VARIOUS/M-R/Mac/Crocketts_Theme_2_PSID.sid
+/VARIOUS/M-R/Mac_TEK/Crocketts_Theme_2_PSID.sid
   TITLE: Crockett's Theme [from the TV series Miami Vice]
  ARTIST: Jan Hammer
 COMMENT: Drums by Mac/TEK.
 
-/VARIOUS/M-R/Mac/Mat_Greys_Medley_II.sid
+/VARIOUS/M-R/Mac_TEK/Mat_Greys_Medley_II.sid
   TITLE: Jukebox 64
  ARTIST: Matt Gray
 
-/VARIOUS/M-R/Mac/Mega_Apocalypse.sid
+/VARIOUS/M-R/Mac_TEK/Mega_Apocalypse.sid
   TITLE: Crazy Comets, Tune #1
  ARTIST: Rob Hubbard
 COMMENT: Undoubtedly covers Rob's own remix from Mega Apocalypse.
 
-/VARIOUS/M-R/Mac/Sanxion_Remix.sid
+/VARIOUS/M-R/Mac_TEK/Sanxion_Remix.sid
   TITLE: Thalamusik [from Sanxion]
  ARTIST: Rob Hubbard
 
@@ -31266,6 +31748,10 @@ COMMENT: Based on the 1989 remix of the song.
  ARTIST: Richard Marx
 
 ### /VARIOUS/M-R/Magic_Man ###################################################
+
+/VARIOUS/M-R/Magic_Man/Mamba_Tune_plus_Digi.sid
+  TITLE: Mamba (issue #15)
+ ARTIST: Stephan Schloepke (Magic Man)
 
 /VARIOUS/M-R/Magic_Man/Mamba_issue_15.sid
   TITLE: Lame Game, Tune #3 (0:00-0:14)
@@ -31383,7 +31869,7 @@ COMMENT: Based on the 1989 remix of the song.
 ### /VARIOUS/M-R/Maktone #####################################################
 
 /VARIOUS/M-R/Maktone/Class05.sid
-  TITLE: Class05 [from the Adlib module]
+  TITLE: Class05 [from the Amiga MOD module]
  ARTIST: Maktone
 
 /VARIOUS/M-R/Maktone/Druid_2_Remix.sid
@@ -31392,10 +31878,6 @@ COMMENT: Based on the 1989 remix of the song.
 
 /VARIOUS/M-R/Maktone/Harrier.sid
 COMMENT: This SID won the Floppy 2004 music competition.
-
-/VARIOUS/M-R/Maktone/We_Laser.sid
-COMMENT: An early version of /VARIOUS/M-R/Maktone/We_Laser.sid, done under
-         different editor (namely Goat Tracker, hence the title).
 
 /VARIOUS/M-R/Maktone/Yeah.sid
 COMMENT: This tune won the Deadline 2007 music competition. Despite the name of
@@ -31406,6 +31888,11 @@ COMMENT: This tune won the Deadline 2007 music competition. Despite the name of
 /VARIOUS/M-R/Mamba/Tune_02.sid
   TITLE: Delta, Tune #12
  ARTIST: Rob Hubbard
+
+### /VARIOUS/M-R/Manex #######################################################
+
+/VARIOUS/M-R/Manex/2_Brothers.sid
+COMMENT: Covers some 90's Euro Dance song.
 
 ### /VARIOUS/M-R/Marc ########################################################
 
@@ -31627,7 +32114,7 @@ COMMENT: "A remix of Madness II, this was used in the note of the demo
 
 /VARIOUS/M-R/Mermaid/Chillroom.sid
   TITLE: Chillroom [from the Amiga MOD Module]
- ARTIST: Martin Iveson (Nuke/Anarchy)
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 
 /VARIOUS/M-R/Mermaid/Commando_95.sid
   TITLE: Commando, Tune #1
@@ -34553,6 +35040,14 @@ COMMENT: "Dane released this tune in the Triad demo 'No Control', which was
 /VARIOUS/M-R/Mitch_and_Dane/Dane/Intro_Means_Number_One_Or.sid
 COMMENT: "Dane made an intro tune. Crossbow used it in Krestage." (SA)
 
+/VARIOUS/M-R/Mitch_and_Dane/Dane/JK.sid
+  TITLE: Good Morning, Dracula [from the EP fx]
+ ARTIST: Jake Kaufman (Virt)
+
+/VARIOUS/M-R/Mitch_and_Dane/Dane/JK_demo_version.sid
+  TITLE: Good Morning, Dracula [from the EP fx]
+ ARTIST: Jake Kaufman (Virt)
+
 /VARIOUS/M-R/Mitch_and_Dane/Dane/Kemikal.sid
 COMMENT: "Dane reinventing percussion on c64 in 1996. Finally released in the
          Digital Magic note." (SA)
@@ -34901,17 +35396,26 @@ COMMENT: This tune served in its original version as a title theme for a Polish
  ARTIST: Scott Joplin
 
 /VARIOUS/M-R/Moog/Escape_From_Tropic.sid
-  TITLE: Ucieczka z tropiku
+  TITLE: Ucieczka z tropiku [from Ucieczka do Tropiku]
  ARTIST: Marek Bilinski
+COMMENT: The title translates from Polish as "Escape from the tropic zone".
+         Marek Bilinski was some kind of a Polish J.M.Jarre, and had a string
+         of instrumental hits back in the 80's.
 
 /VARIOUS/M-R/Moog/Escape_from_Tropic_v2.sid
-  TITLE: Ucieczka z tropiku
+  TITLE: Ucieczka z tropiku [from Ucieczka do Tropiku]
  ARTIST: Marek Bilinski
 
 /VARIOUS/M-R/Moog/For_Entropy.sid
   TITLE: Fontanna Radosci [From Ucieczka Do Tropiku]
  ARTIST: Marek Bilinski
 COMMENT: The title translates from Polish as "Fountain of happiness".
+
+/VARIOUS/M-R/Moog/Go_To_Betleyem.sid
+  TITLE: Przybiezeli do Betlejem (00:12)
+ ARTIST: <?>
+COMMENT: Polish Christmas carol. The title translates from Polish as "They
+         Hastened to Bethlehem".
 
 /VARIOUS/M-R/Moog/Grid.sid
   TITLE: Swamp Thing [from Evolver]
@@ -35034,6 +35538,18 @@ COMMENT: This song was found in many if Flash Inc's demos, but was never played
 /VARIOUS/M-R/Mortimer_Twang/Cross_the_Border.sid
   TITLE: Cross the Border
  ARTIST: Philly's Most Wanted
+
+### /VARIOUS/M-R/Mr_L ########################################################
+
+/VARIOUS/M-R/Mr_L/Mister_Ls_Techno_Mega-Mix.sid
+(#1)
+  TITLE: No Limit [from No Limits] (4:54)
+ ARTIST: 2 Unlimited
+COMMENT: not a direct cover, but the melody and the bassline are clear.
+(#2)
+  TITLE: No Limit [from No Limits] (5:26)
+ ARTIST: 2 Unlimited
+COMMENT: not a direct cover, but the melody and the bassline are clear.
 
 ### /VARIOUS/M-R/Murdock #####################################################
 
@@ -35234,7 +35750,7 @@ COMMENT: "Done to celebrate the 9th birthday of my C64. Composed on Hardtrack
          01:50." (PR)
 
 /VARIOUS/M-R/Murdock/No_Future.sid
-  TITLE: Das Lied vom Angeln [from Terrordrome Vol.3 Welcome To Hardcore] (00:00-00:19)
+  TITLE: Das Lied vom Angeln [from Terrordrome Vol.3 Welcome To...] (00:00-00:19)
  ARTIST: Borschtsch
 COMMENT: "Inspired ofcourse by Hardcore music. I used a few Warlock's samples
          and I did this module in the beginning of the year 2001. Released in
@@ -35389,7 +35905,7 @@ COMMENT: Same melody as /VARIOUS/M-R/Nagie_Sascha/Silent_011.sid
   TITLE: Walk Like An Egyptian
  ARTIST: The Bangles
 
-### /VARIOUS/M-R/Nata ########################################################
+### /VARIOUS/M-R/Nata/ #######################################################
 
 /VARIOUS/M-R/Nata/Adc.sid
   TITLE: <?> [from the Amiga MOD module]
@@ -35402,7 +35918,7 @@ COMMENT: "It isn't a whole song, but a nice short loop." (SP)
 
 /VARIOUS/M-R/Nata/Bonanza_Title.sid
   TITLE: Bonanza Title [from the Amiga game Bonanza Bros]
- ARTIST: <?>
+ ARTIST: Mark Wilson
 
 /VARIOUS/M-R/Nata/Bullets_in_the_Air_Remix.sid
   TITLE: Bullets in the Air [from the Amiga MOD module]
@@ -35422,14 +35938,6 @@ COMMENT: "In this Version I left out the Drums and added the Arpeggio." (SP)
 /VARIOUS/M-R/Nata/Complications_preview.sid
   TITLE: Complications [from the Amiga MOD module]
  ARTIST: Tomas Danko
-
-/VARIOUS/M-R/Nata/Confused_Popcorn_Demo.sid
-  TITLE: Popcorn [from Music To Moog By]
- ARTIST: Gershon Kingsley
-
-/VARIOUS/M-R/Nata/Dancing_Freeman.sid
-  TITLE: Freeman [from the Amiga MOD module]
- ARTIST: <?>
 
 /VARIOUS/M-R/Nata/Death_Sector.sid
 COMMENT: "Slightly inspired by "Griffie" by Tero Hilpinen (TBB)." (SP)
@@ -35453,14 +35961,6 @@ COMMENT: "This is one of my favorite songs, because it keeps the feeling of
   TITLE: Last Ninja 2 - Central Park (in-game)
  ARTIST: Matt Gray
 
-/VARIOUS/M-R/Nata/Last_Ninja_Jam.sid
-  TITLE: Last Ninja, Tune #6
- ARTIST: Ben Daglish
-
-/VARIOUS/M-R/Nata/Last_Ninja_Jam_Filter_x3.sid
-  TITLE: Last Ninja, Tune #6
- ARTIST: Ben Daglish
-
 /VARIOUS/M-R/Nata/Maja.sid
   TITLE: Die Biene Maja [from the cartoon series]
  ARTIST: Karel Svoboda
@@ -35473,9 +35973,29 @@ COMMENT: "This is one of my favorite songs, because it keeps the feeling of
   TITLE: Billie Jean [from Thriller]
  ARTIST: Michael Jackson
 
-/VARIOUS/M-R/Nata/Teddy_Abuse.sid
-  TITLE: <?>  [from the Amiga MOD module]
+### /VARIOUS/M-R/Nata/Early_Tunes ############################################
+
+/VARIOUS/M-R/Nata/Early_Tunes/Confused_Popcorn_Demo.sid
+  TITLE: Popcorn [from Music To Moog By]
+ ARTIST: Gershon Kingsley
+
+/VARIOUS/M-R/Nata/Early_Tunes/Dancing_Freeman.sid
+  TITLE: Freeman [from the Amiga MOD module]
  ARTIST: <?>
+
+/VARIOUS/M-R/Nata/Early_Tunes/Last_Ninja_Jam.sid
+  TITLE: Last Ninja, Tune #6
+ ARTIST: Ben Daglish
+
+/VARIOUS/M-R/Nata/Early_Tunes/Last_Ninja_Jam_Filter_x3.sid
+  TITLE: Last Ninja, Tune #6
+ ARTIST: Ben Daglish
+
+/VARIOUS/M-R/Nata/Early_Tunes/Teddy_Abuse.sid
+  TITLE: <?> [from the Amiga MOD module]
+ ARTIST: <?>
+
+### /VARIOUS/M-R/Nata\ #######################################################
 
 ### /VARIOUS/M-R/Ne7 #########################################################
 
@@ -35887,6 +36407,12 @@ COMMENT: Not a 1:1 cover, but has all the main parts.
 /VARIOUS/M-R/No-XS/Uppers.sid
   TITLE: Downers
  ARTIST: Sebastian
+
+### /VARIOUS/M-R/No_Sync #####################################################
+
+/VARIOUS/M-R/No_Sync/Shadow_Of_Chaos_part_3.sid
+  TITLE: Enjoy the Silence [from Violator]
+ ARTIST: Depeche Mode
 
 ### /VARIOUS/M-R/Noise_of_SID ################################################
 
@@ -36411,8 +36937,8 @@ COMMENT: "Jess was, IMHO, one of the best ST composers." (BT)
  ARTIST: Nic Alderton (Count Zero/Electronic Images)
 
 /VARIOUS/M-R/Oedipus/Plok.sid
-  TITLE: Plok [from the SNES game]
- ARTIST: Tim Follin
+  TITLE: Main Theme [from the SNES game Plok]
+ ARTIST: Geoff & Tim Follin
 
 /VARIOUS/M-R/Oedipus/Po_Chi_Lam.sid
 (#1)
@@ -36457,6 +36983,10 @@ COMMENT: Covers music from NES game "The Silver Surfer", by Tim & Geoff Follin.
 
 ### /VARIOUS/M-R/Oedipus/Worktunes ###########################################
 
+/VARIOUS/M-R/Oedipus/Worktunes/Endtheme.sid
+  TITLE: End Theme [from the Amiga Soundtracker module]
+ ARTIST: Karsten Obarski
+
 /VARIOUS/M-R/Oedipus/Worktunes/Great_Bath.sid
   TITLE: The Great Bath (level 2-1) [from the Amiga game Turrican II]
  ARTIST: Chris Hülsbeck
@@ -36472,6 +37002,10 @@ COMMENT: Covers music from NES game "The Silver Surfer", by Tim & Geoff Follin.
 /VARIOUS/M-R/Oedipus/Worktunes/Puzzle_Bobble.sid
   TITLE: Journey to PaoPao Island! [from the arcade game Puzzle Bubble]
  ARTIST: Kazuko Umino (karu./Zuntata)
+
+/VARIOUS/M-R/Oedipus/Worktunes/Russian_Theme.sid
+  TITLE: Katjusha (0:31-2:04)
+ ARTIST: Matvei Blanter & M. Isakovski
 
 /VARIOUS/M-R/Oedipus/Worktunes/Sarabande.sid
   TITLE: Sarabande
@@ -36532,6 +37066,8 @@ COMMENT: Covers music from NES game "The Silver Surfer", by Tim & Geoff Follin.
  ARTIST: Marino Marini
   TITLE: Volare (0:31)
  ARTIST: Domenico Modugno
+  TITLE: Cztery razy po Dwa razy (0:48)
+ ARTIST: Polish folk traditional
 
 /VARIOUS/M-R/Olsen/Kloss_Theme.sid
   TITLE: Stawka wieksza niz zycie [from the TV series]
@@ -36886,7 +37422,9 @@ COMMENT: "Has a fade-in/fade-out bug, because GMC doesn't allow to change the
  ARTIST: Nobuo Uematsu
 
 /VARIOUS/M-R/Pater_Pi/Lufia_2.sid
-COMMENT: Partial cover of a tune from the SNES game Lufia 2.
+  TITLE: Start of Journey [from the SNES game Lufia 2 - Rise of the Sinistrals]
+ ARTIST: Yasunori Shiono
+COMMENT: Partial cover.
 
 /VARIOUS/M-R/Pater_Pi/Ooops_I_Failed_Again.sid
    NAME: Ooops! I did it again. (Bored until deadline remix)
@@ -37044,7 +37582,6 @@ COMMENT: Only covers the chorus.
 /VARIOUS/M-R/Phobos/Abra.sid
   TITLE: Abra
  ARTIST: Jogeir Liljedahl
-COMMENT: Won first place at the North Party v9.0 in 2004.
 
 /VARIOUS/M-R/Phobos/Aliens.sid
   TITLE: Aliens, tune #1
@@ -37084,9 +37621,9 @@ COMMENT: Ekstradycja means 'Extradition'. This is the title of Polish action
  ARTIST: <?>
 COMMENT: Covers the C64 game theme.
 
-/VARIOUS/M-R/Phobos/Film_Music_Collection_intr.sid
-  TITLE: James Bond Theme [from the James Bond series of movies]
- ARTIST: Monty Norman
+/VARIOUS/M-R/Phobos/Hatich.sid
+  TITLE: <?>
+ ARTIST: Tangerine Dream
 
 /VARIOUS/M-R/Phobos/Hertel_Theme.sid
   TITLE: <?>
@@ -37097,8 +37634,12 @@ COMMENT: Covers the C64 game theme.
  ARTIST: Czerwone Gitary
 
 /VARIOUS/M-R/Phobos/Ire_Remix.sid
-  TITLE: Our Darkness
+  TITLE: Our Darkness [from Beehive]
  ARTIST: Anne Clark
+
+/VARIOUS/M-R/Phobos/James_Bond.sid
+  TITLE: James Bond Theme [from the James Bond series of movies]
+ ARTIST: Monty Norman
 
 /VARIOUS/M-R/Phobos/Janosik.sid
   TITLE: Janosik [from the TV series]
@@ -37153,6 +37694,10 @@ COMMENT: Covers the version by Georg Feil in /DEMOS/Synth_Sample.sid, Tune #1.
   TITLE: Mission Impossible [from the TV series]
  ARTIST: Lalo Schifrin
 
+/VARIOUS/M-R/Phobos/Worktunes/Titanic_Preview.sid
+  TITLE: Zostawcie Titanica [from Tacy sami]
+ ARTIST:  Lady Pank
+
 ### /VARIOUS/M-R/Phobos\ #####################################################
 
 ### /VARIOUS/M-R/Pinocchio ###################################################
@@ -37173,11 +37718,18 @@ COMMENT: Covers the version by Georg Feil in /DEMOS/Synth_Sample.sid, Tune #1.
   TITLE: So Cold the Night [from Heaven]
  ARTIST: The Communards
 
+### /VARIOUS/M-R/Polonus #####################################################
+
+/VARIOUS/M-R/Polonus/Lords_Of_Sonics_Mini-Mix.sid
+  TITLE: Don't Make Me Wait [from Into The Dragon]
+ ARTIST: Bomb the Bass
+
 ### /VARIOUS/M-R/Praiser #####################################################
 
 /VARIOUS/M-R/Praiser/Alien_Cat.sid
-  TITLE: Wlazl kotek na plotek (0:00-0:06)
- ARTIST: Polish children song
+  TITLE: Wlazl kotek na plotek (0:00-0:05)
+ ARTIST: <?>
+COMMENT: Polish children's song.
 
 /VARIOUS/M-R/Praiser/Anything.sid
   TITLE: Anything [from Serenity]
@@ -37207,6 +37759,14 @@ COMMENT: The music from recent Coca-Cola commercials.
 /VARIOUS/M-R/Praiser/Get_Ready.sid
   TITLE: Get Ready For This [from Get Ready!]
  ARTIST: 2 Unlimited
+
+/VARIOUS/M-R/Praiser/Give_It_To_Me.sid
+  TITLE: Give In To Me
+ ARTIST: Michael Jackson
+
+/VARIOUS/M-R/Praiser/Goodbay_Poland.sid
+  TITLE: Mazurek Dabrowskiego (Polish National Anthem) (01:17-01:51)
+ ARTIST: Jozef Wybicki (lyrics), folk polish music of typical mazurka
 
 /VARIOUS/M-R/Praiser/J_S_Bach.sid
   TITLE: Minuet in G
@@ -37384,6 +37944,12 @@ COMMENT: Made for Ray's (Unreal's main coder and HQ) request. It was quite
 /VARIOUS/M-R/Puterman/Sit_In_My_Underwear.sid
    NAME: Sit In My Underwear, Drinking Pepsi
 
+### /VARIOUS/M-R/Q-Man #######################################################
+
+/VARIOUS/M-R/Q-Man/7_Days_plus_1_Week.sid
+  TITLE: Seven Days And One Week
+ ARTIST: BBE
+
 ### /VARIOUS/M-R/Rabbi #######################################################
 
 /VARIOUS/M-R/Rabbi/Dioroid.sid
@@ -37414,8 +37980,8 @@ COMMENT: Also used in Car-O-Matic (c) 1996 Cybertech Laboratories.
  ARTIST: <?>
   TITLE: Die Biene Maja [from the cartoon series] (0:26)
  ARTIST: Karel Svoboda
-  TITLE: Mieszkancy wiklinowej zatoki [from the cartoon series] (1:14)
- ARTIST: <?>
+  TITLE: Tajemnice Wiklinowej Zatoki [from the cartoon series] (1:14)
+ ARTIST: Waldemar Kazanecki, sings team Alibabki.
   TITLE: Reksio Theme [from the cartoon series] (1:34)
  ARTIST: Zenon Kowalowski
 
@@ -37431,6 +37997,10 @@ COMMENT: This is theme from popular Polish TV programme for children.
 /VARIOUS/M-R/Rabbi/Popcorn.sid
   TITLE: Popcorn [from Music To Moog By]
  ARTIST: Gershon Kingsley
+
+/VARIOUS/M-R/Rabbi/Rabbi_03.sid
+  TITLE: Colonel Bogey
+ ARTIST: Kenneth J. Alford
 
 /VARIOUS/M-R/Rabbi/Sign.sid
   TITLE: The Sign [from Happy Nation]
@@ -37486,6 +38056,10 @@ COMMENT: "This my own version of Jammer's tune... he made that Impulse
 
 ### /VARIOUS/M-R/Raffi #######################################################
 
+/VARIOUS/M-R/Raffi/Janosik.sid
+  TITLE: Janosik (from the TV series) (00:00-01:08)
+ ARTIST: Jerzy Matuszkiewicz
+
 /VARIOUS/M-R/Raffi/New_Age.sid
   TITLE: Eighties [from the album Night Time]
  ARTIST: Killing Joke
@@ -37502,13 +38076,10 @@ COMMENT: Only covers the bass line.
 ### /VARIOUS/M-R/Rambones ####################################################
 
 /VARIOUS/M-R/Rambones/
-COMMENT: rambones' (Jan Harries) own comments are denoted by (JH).
-         "These C64 songs were made from 28. December 1986 to 12. September
-         1988. They were all written in Chris Hülsbeck's Soundmonitor, and some
-         in Rockmonitor 3 by OPM/Dutch USA-Team, which is a modified version
-         of Chris's original editor. Without this editor, I wouldn't be where I
-         am today. So once and for all: thank you Chris! for giving me the
-         opportunity." (JH)
+COMMENT: rambones' (Jan Harries) own comments are denoted by (JH). "The 80's
+         tunes here, are made in 1986-1988, with Soundmonitor and Rockmonitor
+         II.  The 90's and 2000's tunes are made with JCH's editor, and SID
+         Duzz It" (JH)
 
 /VARIOUS/M-R/Rambones/1st_Sphere.sid
 COMMENT: "A shitty Rockmon piece I couldn't get any system into. But it has
@@ -37943,10 +38514,12 @@ COMMENT: "This is just the intro tune to a demo that was never finished. I
  ARTIST: Joseph Mohr (lyrics), Franz Xaver Grüber (music)
   TITLE: Wsrod Nocnej Ciszy (0:09)
  ARTIST: <?>
-COMMENT: Polish Christmas carol.
-  TITLE: Pojdzcie Wszyscy Do Stajenki (0:40)
+COMMENT: Polish Christmas carol. The title translates from Polish as "In the
+         Stillness of the night".
+  TITLE: Pojdzmy Wszyscy Do Stajenki (0:40)
  ARTIST: <?>
-COMMENT: Polish Christmas carol.
+COMMENT: Polish Christmas carol. The title translates from Polish as "Let's
+         All Go to the Stable".
 
 ### /VARIOUS/M-R/Randy #######################################################
 
@@ -37965,20 +38538,85 @@ COMMENT: This tune won the Reflextracker competition at North Party 4.
   TITLE: The X-Files [from the TV series]
  ARTIST: Mark Snow
 
+### /VARIOUS/M-R/Rantala_Tuomas ##############################################
+
+/VARIOUS/M-R/Rantala_Tuomas/Ainomieli.sid
+  TITLE: Ainomieli [from Aurinko]
+ ARTIST: CMX
+
+/VARIOUS/M-R/Rantala_Tuomas/Fraeulein_Helen.sid
+  TITLE: Ich hab' das Fräulein Helen' baden seh'n
+ ARTIST: Fred Raymond
+  TITLE: Das schöne Fräulein Helen' soll nicht mehr baden (0:39)
+ ARTIST: Fred Raymond
+
+/VARIOUS/M-R/Rantala_Tuomas/Gimme_Gimme_Gimme.sid
+  TITLE: Gimme Gimme Gimme (A Man After Midnight)
+ ARTIST: ABBA
+
+/VARIOUS/M-R/Rantala_Tuomas/Lets_Make_The_Water_Turn_B.sid
+  TITLE: Let's Make the Water Turn Black [from We're Only in It for the Money]
+ ARTIST: The Mothers of Invention
+
+/VARIOUS/M-R/Rantala_Tuomas/Ma_Lahden_Himaan.sid
+  TITLE: Mä Lähden Himaan [from Säynäväynäviä]
+ ARTIST: Klamydia
+
+/VARIOUS/M-R/Rantala_Tuomas/Missa_Yosi_Vietitkaan.sid
+  TITLE: Missä Yösi Vietitkään [from Unohtumattomat]
+ ARTIST: Arvi Tikkala
+COMMENT: This cover is based on M.A.Numminen's recording [from Swingin Kutsu].
+
+/VARIOUS/M-R/Rantala_Tuomas/Pesenka_KG.sid
+  TITLE: Ya Igrayu na Garmoshke [from the TV series Potsataja]
+ ARTIST: Vladimir Shainskiy & Alexandr Timofeyevskiy
+
+/VARIOUS/M-R/Rantala_Tuomas/Pienet_Sammakot.sid
+  TITLE: Pienet Sammakot
+ ARTIST: Traditional
+
+/VARIOUS/M-R/Rantala_Tuomas/Street_of_Dreams.sid
+  TITLE: Street of Dreams [from Bent out of Shape]
+ ARTIST: Rainbow
+
+/VARIOUS/M-R/Rantala_Tuomas/Sukkula_Venukseen.sid
+  TITLE: Sukkula Venukseen [from Kikka 3]
+ ARTIST: Kikka
+
+/VARIOUS/M-R/Rantala_Tuomas/Toms_Diner.sid
+  TITLE: Tom's Diner [from Solitude Standing]
+ ARTIST: Suzanne Vega
+
+/VARIOUS/M-R/Rantala_Tuomas/Urban_Spaceman.sid
+  TITLE: The Urban Spaceman [from the movie Monty Python at the Hollywood Bowl]
+ ARTIST: Neil Innes
+
+/VARIOUS/M-R/Rantala_Tuomas/Whale_in_the_John.sid
+  TITLE: Whale in the John
+ ARTIST: The Blubberheads
+
 ### /VARIOUS/M-R/Rap #########################################################
 
-/VARIOUS/M-R/Rap/4Ever_Young_NRG.sid
-  TITLE: Forever Young [from Forever Young]
- ARTIST: Alphaville
-
 /VARIOUS/M-R/Rap/Die_Biene_Maja.sid
-  TITLE: Die Biene Maja [from the cartoon series]
+  TITLE: Die Biene Maja [from the cartoon series] (0:41-01:01)
  ARTIST: Karel Svoboda
 COMMENT: The German title means "Maja, the Bee".
+
+/VARIOUS/M-R/Rap/Forever_Young.sid
+  TITLE: Forever Young [from Forever Young]
+ ARTIST: Alphaville
 
 /VARIOUS/M-R/Rap/Hymn_Mobys_mix.sid
   TITLE: Hymn [from Everything Is Wrong]
  ARTIST: Moby
+
+/VARIOUS/M-R/Rap/U_and_Me-Capella_Cover.sid
+  TITLE: U & Me
+ ARTIST: Cappella
+
+/VARIOUS/M-R/Rap/Westbam_Cover.sid
+  TITLE: <?>
+ ARTIST: WestBam, alias Maximilian Lenz
 
 ### /VARIOUS/M-R/Rashka ######################################################
 
@@ -38460,6 +39098,9 @@ COMMENT: The drums and bass are taken from Hubbard's tune directly, the rest is
 /VARIOUS/M-R/Reed/Cyberdragon.sid
 COMMENT: This tune won the music competition at the Assembly 2003 party.
 
+/VARIOUS/M-R/Reed/Dirty_64.sid
+COMMENT: This tune won the Assembly 2005 oldskool music compo.
+
 ### /VARIOUS/M-R/Remarque/ ###################################################
 
 /VARIOUS/M-R/Remarque/Fairlight.sid
@@ -38468,6 +39109,10 @@ COMMENT: This tune won the music competition at the Assembly 2003 party.
 
 /VARIOUS/M-R/Remarque/Hip-Pie.sid
 COMMENT: Stefan Lapniewski (Stunn) helped with the music.
+
+/VARIOUS/M-R/Remarque/Oldies_Remix.sid
+  TITLE: Scout, Tune #1 (0:00-0:22)
+ ARTIST: Jeroen Tel
 
 /VARIOUS/M-R/Remarque/Stunns_Theme.sid
 COMMENT: Music originally composed on guitar by Stefan Lapniewski (Stunn), a
@@ -38483,6 +39128,10 @@ COMMENT: Music originally composed on guitar by Stefan Lapniewski (Stunn), a
   TITLE: Mam Chusteczke Haftowana (0:00-0:07)
  ARTIST: <?>
 COMMENT: Polish children's song
+
+/VARIOUS/M-R/Remarque/Worktunes/Melodia_2.sid
+  TITLE: Melodia
+ ARTIST: Radek Krahl
 
 ### /VARIOUS/M-R/Remarque\ ###################################################
 
@@ -38750,6 +39399,10 @@ COMMENT: Already a hit in the 60's it became a real evergreen through the
   TITLE: Complications [from the Amiga MOD module]
  ARTIST: Tomas Danko
 
+/VARIOUS/M-R/Rygar/Jimmy_Dean.sid
+  TITLE: <?>
+ ARTIST: Jimmy Dean
+
 /VARIOUS/M-R/Rygar/Techno.sid
   TITLE: Outside World [from Rave Base Phase 3]
  ARTIST: Sunbeam
@@ -38757,6 +39410,11 @@ COMMENT: Already a hit in the 60's it became a real evergreen through the
 ### /VARIOUS/M-R\ ############################################################
 
 ### /VARIOUS/S-Z/ ############################################################
+
+### /VARIOUS/S-Z/SMC #########################################################
+
+/VARIOUS/S-Z/SMC/
+COMMENT: SMC is short for "Sanke Michael Choe".
 
 ### /VARIOUS/S-Z/Sabre #######################################################
 
@@ -39094,7 +39752,7 @@ COMMENT: Performed by John Travolta/Olivia Newton John & cast.
  ARTIST: Gazebo
 
 /VARIOUS/S-Z/Scarlet/Kombi_1.sid
-  TITLE: Black and White
+  TITLE: Black and White [from Slodkiego milego zycia]
  ARTIST: Kombi
 
 /VARIOUS/S-Z/Scarlet/Kombi_2.sid
@@ -39139,6 +39797,10 @@ COMMENT: Not a direct cover, but heavily influenced by it.
 COMMENT: Entire tune is a different rendition of Galactix, although w/o the
          copyright date to compare to, Galactix may be a rendition of Lotus
          Intro Tune.
+
+/VARIOUS/S-Z/Scarzix/Scarzix_01.sid
+  TITLE: Enola Gay [from Organisation]
+ ARTIST: Orchestral Manoeuvres in the Dark (OMD)
 
 ### /VARIOUS/S-Z/Scheepers_Marco #############################################
 
@@ -39364,6 +40026,10 @@ COMMENT: This tune won the music competition at the Forever3 party.
   TITLE: Axel F [from the movie Beverly Hills Cop]
  ARTIST: Harold Faltermeyer
 
+/VARIOUS/S-Z/Sharp/Rexio_Attack.sid
+  TITLE: Reksio Theme [from the cartoon series] (0:10-0:31)
+ ARTIST: Zenon Kowalowski
+
 /VARIOUS/S-Z/Sharp/Sonic_Empire.sid
   TITLE: Sonic Empire
  ARTIST: Members of Mayday
@@ -39537,7 +40203,7 @@ COMMENT: Same as /VARIOUS/S-Z/Shogoon/Orbits.sid, subtune #9.
 
 /VARIOUS/S-Z/Shogoon/Teekkno.sid
   TITLE: Mazurek Dabrowskiego (Polish National Anthem) (02:47-02:50)
- ARTIST: Jozef Wybicki
+ ARTIST: Traditional Polish, Jozef Wybicki (lyrics)
 
 /VARIOUS/S-Z/Shogoon/Timsoft_Intro.sid
 COMMENT: This sid has won Tarnow '94 music competition.
@@ -39658,6 +40324,10 @@ COMMENT: Based on the cover version that is called Tears Don't Lie and has
 /VARIOUS/S-Z/Sidder/Constellation_of_Dragon.sid
   TITLE: Gwiazdozbior smoka
  ARTIST: Varius Manx
+
+/VARIOUS/S-Z/Sidder/Frog_Magic_Wood.sid
+  TITLE: Magic Wood Level [from the Amiga game Superfrog]
+ ARTIST: Allister Brimble
 
 /VARIOUS/S-Z/Sidder/Half_Year_Without_Your_Mus.sid
 COMMENT: "As we were not in the mood for composing anything serious during
@@ -39813,6 +40483,10 @@ COMMENT: "This is a cover of a tune by a Norwegian artist called Sputnik. He is
   TITLE: Thunderstruck [from The Razors Edge]
  ARTIST: AC/DC
 
+/VARIOUS/S-Z/Signor/Alaska_Tune.sid
+  TITLE: Theme from Northern Exposure [from the TV series] (00:12-00:39)
+ ARTIST: David Schwartz
+
 /VARIOUS/S-Z/Signor/Dance_Zak.sid
   TITLE: Kopciuszek
  ARTIST: <?>
@@ -39830,28 +40504,36 @@ COMMENT: "This is a cover of a tune by a Norwegian artist called Sputnik. He is
  ARTIST: T. Love
 
 /VARIOUS/S-Z/Signor/Killer.sid
-  TITLE: Juz tylko kiler
- ARTIST: Elektryczne Gitary
+  TITLE: Kiler [from Kiler]
+ ARTIST: Kuba Sienkiewicz & Elektryczne Gitary
+COMMENT: Main music to movie Kiler.
 
 /VARIOUS/S-Z/Signor/Kopciuszek.sid
   TITLE: Kopciuszek
- ARTIST: <?>
+ ARTIST: Mister Dex
+
+/VARIOUS/S-Z/Signor/Led_Zeppelin.sid
+  TITLE: Whole Lotta Love [from Led Zeppelin II]
+ ARTIST: Led Zeppelin
+COMMENT: Led Zeppelin's "Whole Lotta Love" is based on the song "You Need
+         Love" from Muddy Waters, written in 1962.
 
 /VARIOUS/S-Z/Signor/Na_Co_Komu.sid
-  TITLE: Na co komu dzis
+  TITLE: Na co komu dzis [from NaNa]
  ARTIST: Lady Pank
+COMMENT: The title translates from Polish as "What's the use today".
 
 /VARIOUS/S-Z/Signor/Nadzieja.sid
-  TITLE: Nadzieja
- ARTIST: Boys <?>
+  TITLE: Nadzieja [from Nadzieja]
+ ARTIST: Skaner
 
 /VARIOUS/S-Z/Signor/Nastolatka.sid
-  TITLE: nastolatka <?>
- ARTIST: <?>
+  TITLE: Nastolatka
+ ARTIST: Vabank
 
 /VARIOUS/S-Z/Signor/O_Tobie_Kochana.sid
   TITLE: O Tobie kochana
- ARTIST: <?>
+ ARTIST: Milano
 
 /VARIOUS/S-Z/Signor/Obladi.sid
   TITLE: Ob-La-Di, Ob-La-Da [from The Beatles]
@@ -39873,21 +40555,20 @@ COMMENT: "This is a cover of a tune by a Norwegian artist called Sputnik. He is
   TITLE: Rezerwa
  ARTIST: Traditional Polish
 
-/VARIOUS/S-Z/Signor/Signor_02.sid
-  TITLE: Tränen lügen nicht
- ARTIST: Michael Holm
-COMMENT: Covers the techno version "Tears don't lie" by Mark 'Oh.
-
 /VARIOUS/S-Z/Signor/Swiat_Nie_Wierzy.sid
-  TITLE: Swiat nie wierzy lzom
+  TITLE: Swiat nie wierzy lzom [from Swiat nie wierzy lzom]
  ARTIST: Janusz Laskowski
+
+/VARIOUS/S-Z/Signor/Szalata.sid
+  TITLE: Szalala
+ ARTIST: Krywañ
 
 /VARIOUS/S-Z/Signor/U_Maxyma-LP.sid
   TITLE: Tancz glupia tancz
  ARTIST: Lady Pank
 
 /VARIOUS/S-Z/Signor/Wolnosc.sid
-  TITLE: (Niech zyje) Wolnosc
+  TITLE: Wolnosc i Swoboda [from Dziewczyna z marzeñ]
  ARTIST: Boys
 
 /VARIOUS/S-Z/Signor/ZCHN_Is_Comm.sid
@@ -40390,6 +41071,10 @@ COMMENT: Used by Fred Gray in Where Time Stood Still end sequence. Smalltown
 COMMENT: "The best thing about this tune is its title, I guess. Voted
           8th out of 14 at Vision 2003 party." (comment by Smalltown Boy)
 
+/VARIOUS/S-Z/Smalltown_Boy/Ill_Be_a_Pimp_in_Cabrini_G.sid
+  TITLE: I'll Be a Pimp in Cabrini Green (when I grow up)
+COMMENT: This tune won the Goat Tracker 2 online competition of www.c64.sk.
+
 /VARIOUS/S-Z/Smalltown_Boy/Jon_Dunns_Addams_Family.sid
   TITLE: Addams Family Title Screen [from the Spectrum game Addams Family]
  ARTIST: Jonathan Dunn
@@ -40439,18 +41124,18 @@ COMMENT: "Hisham Abbas' original was such a huge hit throughout the whole
 /VARIOUS/S-Z/Smalltown_Boy/Nukes_Jaguar_XJ220.sid
 (#1)
   TITLE: jagtitle [from the Amiga game Jaguar XJ220]
- ARTIST: Martin Iveson (Nuke/Anarchy)
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 (#2)
   TITLE: chiptune1 [from the Amiga game Jaguar XJ220]
- ARTIST: Martin Iveson (Nuke/Anarchy)
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 (#3)
   TITLE: a-team [from the Amiga game Jaguar XJ220]
- ARTIST: Martin Iveson (Nuke/Anarchy)
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 COMMENT: Cover of The A-Team theme (from the TV series) by Pete Carpenter &
          Mike Post
 (#4)
   TITLE: carsp [from the Amiga game Jaguar XJ220]
- ARTIST: Martin Iveson (Nuke/Anarchy)
+ ARTIST: Martin Iveson (Spaceman/Lemon)
 
 /VARIOUS/S-Z/Smalltown_Boy/One_Step_Ahead.sid
 COMMENT: "The idea of arranging the same theme in two different ways came from
@@ -40462,6 +41147,10 @@ COMMENT: "The idea of arranging the same theme in two different ways came from
 /VARIOUS/S-Z/Smalltown_Boy/Portrait_of_a_Lady.sid
   TITLE: Portrait of a Lady - title music [from the movie] (0:00-1:22)
  ARTIST: Wojciech Kilar
+
+/VARIOUS/S-Z/Smalltown_Boy/Press_Space_8580.sid
+COMMENT: "This is the recommended version, I failed to make this sound big on
+         the 6581." (Randall)
 
 /VARIOUS/S-Z/Smalltown_Boy/Push_Up_Your_Lighter.sid
 COMMENT: "An average Laxity soundalike written for ruby edition of Vandalism
@@ -40475,7 +41164,8 @@ COMMENT: "An average Laxity soundalike written for ruby edition of Vandalism
 (#2)
   TITLE: Przybiezeli do Betlejem
  ARTIST: Traditional Polish
-COMMENT: A Christmas carol.
+COMMENT: A Christmas carol. The title translates to English as "To Bethlehem
+         they have come".
 
 /VARIOUS/S-Z/Smalltown_Boy/Sword_and_Sorcery_Game.sid
 (#1)
@@ -40799,6 +41489,29 @@ COMMENT: This tune won the music compo at Dekadence Dataparty '03.
   TITLE: Tomhet
  ARTIST: Burzum
 
+### /VARIOUS/S-Z/Speedcracker ################################################
+
+/VARIOUS/S-Z/Speedcracker/Just_Cant.sid
+  TITLE: Just Can't Get Enough [from Speak & Spell]
+ ARTIST: Depeche Mode
+
+/VARIOUS/S-Z/Speedcracker/Plastic_Age.sid
+  TITLE: Plastic Age
+ ARTIST: Interface
+
+/VARIOUS/S-Z/Speedcracker/Wanderer_TWG_Intro.sid
+  TITLE: The Wanderer
+ ARTIST: Dion and the Belmonts
+
+/VARIOUS/S-Z/Speedcracker/X-mas_special.sid
+  TITLE: Oh, du Fröhliche (0:00-0:30)
+ ARTIST: Johann Gottfried Herder
+  TITLE: Jingle Bells (0:30-1:16)
+ ARTIST: James Pierpont
+  TITLE: Bald ist Weihnacht Abend da (1:20-1:40)
+ ARTIST: Traditional
+COMMENT: Traditional German Christmas-Song.
+
 ### /VARIOUS/S-Z/Sphere ######################################################
 
 /VARIOUS/S-Z/Sphere/C_Of_Cutulu.sid
@@ -40965,27 +41678,49 @@ COMMENT: Based on /VARIOUS/S-Z/The_Dungeon_Master/Raped.sid.
 
 /VARIOUS/S-Z/Surgeon/Bog_Sie_Rodzi.sid
   TITLE: Bog sie rodzi
- ARTIST: <?>
-COMMENT: Traditional Polish christmas carol
+ ARTIST: Franciszek Karpiñski (lyrics), Jan Karol Gall (music)
+COMMENT: Traditional Polish Christmas carol. The title translates from Polish
+         as "The Lord is Born".
 
 /VARIOUS/S-Z/Surgeon/Cicha_Noc.sid
   TITLE: Stille Nacht! Heilige Nacht! (0:10-1:15)
  ARTIST: Joseph Mohr (lyrics), Franz Xaver Grüber (music)
 
+/VARIOUS/S-Z/Surgeon/Edyta_Gorniak.sid
+  TITLE: <?>
+ ARTIST: Edyta Gorniak
+
+/VARIOUS/S-Z/Surgeon/Gdy_Sliczna_Panna.sid
+  TITLE: Gdy Sliczna Panna
+ ARTIST: <?>
+COMMENT: Traditional Polish Christmas carol.
+
 /VARIOUS/S-Z/Surgeon/Jezus_Malusienki.sid
   TITLE: Jezus Malusienki
- ARTIST:  <?>
-COMMENT: Traditional Polish christmas carol
+ ARTIST: Traditional Polish
+COMMENT: Christmas carol. The title translates from Polish as "Baby Jesus".
+
+/VARIOUS/S-Z/Surgeon/Kolorowe_Kredki.sid
+  TITLE: Kolorowe kredki (00:00-00:30)
+ ARTIST: Fasolki
+COMMENT: Original song comes from Domowe Przedszkole - Polish TV program for
+         kids.
+
+/VARIOUS/S-Z/Surgeon/Piersi.sid
+  TITLE: Rezerwa
+ ARTIST: Piersi
 
 /VARIOUS/S-Z/Surgeon/Pojdzmy_Wszyscy.sid
   TITLE: Pojdzmy wszyscy do stajenki
- ARTIST: <?>
-COMMENT: Traditional Polish christmas carol
+ ARTIST: Traditional Polish
+COMMENT: Christmas carol. The title translates from Polish as "Let's All Go to
+         the Stable".
 
 /VARIOUS/S-Z/Surgeon/Przybiezeli_do_Betlejem.sid
   TITLE: Przybiezeli do Betlejem
- ARTIST: <?>
-COMMENT: Polish Christams carol.
+ ARTIST: Traditional
+COMMENT: Polish Christmas carol. The title translates from Polish as "They
+         Hastened to Bethlehem".
 
 /VARIOUS/S-Z/Surgeon/Smoke_On_The_Water.sid
   TITLE: Smoke on the Water [from Machine Head]
@@ -40993,13 +41728,15 @@ COMMENT: Polish Christams carol.
 
 /VARIOUS/S-Z/Surgeon/W_Zlobie_Lezy.sid
   TITLE: W zlobie lezy
- ARTIST: Traditional
-COMMENT: Polish Christmas carol.
+ ARTIST: Piotr Skarga (lyrics), A. Adamski (music)
+COMMENT: Polish Christmas carol. The title translates from Polish as "Lying
+         in the Manger".
 
 /VARIOUS/S-Z/Surgeon/Wsrod_Nocnej_Ciszy.sid
   TITLE: Wsrod nocnej ciszy
- ARTIST: <?>
-COMMENT: Polish Christmas carol.
+ ARTIST: Traditional
+COMMENT: Polish Christmas carol. The title translates from Polish as "In the
+         Stillness of the night".
 
 ### /VARIOUS/S-Z/Swallow #####################################################
 
@@ -41199,6 +41936,9 @@ COMMENT: Only bits and pieces are covered in the beginning. There might be
 /VARIOUS/S-Z/TDS/Come_As_You_Are.sid
   TITLE: Come As You Are [from Nevermind]
  ARTIST: Nirvana
+
+/VARIOUS/S-Z/TDS/Day_I_Met_Myself.sid
+COMMENT: This tune won the LCP 2005 music competition.
 
 /VARIOUS/S-Z/TDS/Sit_In_My_Underwear.sid
    NAME: Sit In My Underwear, Drinking Pepsi
@@ -41673,6 +42413,16 @@ COMMENT: A part of "Winter" from "The Four Seasons" by Vivaldi.
   TITLE: Wizball, Tune #7
  ARTIST: Martin Galway
 
+### /VARIOUS/S-Z/The_Mummy ###################################################
+
+/VARIOUS/S-Z/The_Mummy/Papa_Dont_Preach.sid
+  TITLE: Papa Don't Preach [from True Blue]
+ ARTIST: Madonna
+
+/VARIOUS/S-Z/The_Mummy/Papa_Dont_Preach_PSID.sid
+  TITLE: Papa Don't Preach [from True Blue]
+ ARTIST: Brian Elliot & Madonna, Performed by Madonna
+
 ### /VARIOUS/S-Z/The_Syndrom #################################################
 
 /VARIOUS/S-Z/The_Syndrom/Beavis_and_Butthead_Intro.sid
@@ -41767,57 +42517,6 @@ COMMENT: Tunes 6, 9 and 11 were done by Sebastian Thiel, the others by Matthias
 /VARIOUS/S-Z/The_Syndrom/Yellow_Submarine.sid
   TITLE: Yellow Submarine [from the animated movie]
  ARTIST: The Beatles
-
-### /VARIOUS/S-Z/Thor ########################################################
-
-/VARIOUS/S-Z/Thor/Ainomieli.sid
-  TITLE: Ainomieli [from Aurinko]
- ARTIST: CMX
-
-/VARIOUS/S-Z/Thor/Gimme_Gimme_Gimme.sid
-  TITLE: Gimme Gimme Gimme (A Man After Midnight)
- ARTIST: ABBA
-
-/VARIOUS/S-Z/Thor/Lets_Make_The_Water_Turn_B.sid
-  TITLE: Let's Make the Water Turn Black [from We're Only in It for the Money]
- ARTIST: The Mothers of Invention
-
-/VARIOUS/S-Z/Thor/Ma_Lahden_Himaan.sid
-  TITLE: Mä Lähden Himaan [from Säynäväynäviä]
- ARTIST: Klamydia
-
-/VARIOUS/S-Z/Thor/Missa_Yosi_Vietitkaan.sid
-  TITLE: Missä Yösi Vietitkään [from Unohtumattomat]
- ARTIST: Arvi Tikkala
-COMMENT: This cover is based on M.A.Numminen's recording [from Swingin Kutsu].
-
-/VARIOUS/S-Z/Thor/Pesenka_KG.sid
-  TITLE: Ya Igrayu na Garmoshke [from the TV series Potsataja]
- ARTIST: Vladimir Shainskiy & Alexandr Timofeyevskiy
-
-/VARIOUS/S-Z/Thor/Pienet_Sammakot.sid
-  TITLE: Pienet Sammakot
- ARTIST: Traditional
-
-/VARIOUS/S-Z/Thor/Street_of_Dreams.sid
-  TITLE: Street of Dreams [from Bent out of Shape]
- ARTIST: Rainbow
-
-/VARIOUS/S-Z/Thor/Sukkula_Venukseen.sid
-  TITLE: Sukkula Venukseen [from Kikka 3]
- ARTIST: Kikka
-
-/VARIOUS/S-Z/Thor/Toms_Diner.sid
-  TITLE: Tom's Diner [from Solitude Standing]
- ARTIST: Suzanne Vega
-
-/VARIOUS/S-Z/Thor/Urban_Spaceman.sid
-  TITLE: The Urban Spaceman [from the movie Monty Python at the Hollywood Bowl]
- ARTIST: Neil Innes
-
-/VARIOUS/S-Z/Thor/Whale_in_the_John.sid
-  TITLE: Whale in the John
- ARTIST: The Blubberheads
 
 ### /VARIOUS/S-Z/Tichelmann_Kay ##############################################
 
@@ -41921,9 +42620,17 @@ COMMENT: The tune circles around the main theme of the movie, hard to
   TITLE: Everybody [from Dance With Me]
  ARTIST: DJ Bobo
 
+/VARIOUS/S-Z/Tips/Pierestroyka.sid
+COMMENT: Russian folk song mix.
+
 /VARIOUS/S-Z/Tips/Sign.sid
   TITLE: The Sign [from The Sign]
  ARTIST: Ace of Base
+
+/VARIOUS/S-Z/Tips/Techno_Mix.sid
+  TITLE: No Limit [from No Limits]
+ ARTIST: 2 Unlimited
+COMMENT: Mixture of covers and possibly original music.
 
 ### /VARIOUS/S-Z/Toernros_Oskar ##############################################
 
@@ -42113,6 +42820,15 @@ COMMENT: Used in the game "Master Head" (Death Tune).
 
 /VARIOUS/S-Z/Tracker/No_Easy.sid
 COMMENT: Also used in the game "Master Head" (In-game Tune).
+
+### /VARIOUS/S-Z/Trays #######################################################
+
+/VARIOUS/S-Z/Trays/Amoeba.sid
+(#4)
+COMMENT: Same as /VARIOUS/S-Z/Trays/Justintime_part_3.sid
+
+/VARIOUS/S-Z/Trays/Justintime_part_3.sid
+COMMENT: Also used in the game Amöba from Rom Software.
 
 ### /VARIOUS/S-Z/Trident #####################################################
 
@@ -42396,6 +43112,16 @@ COMMENT: Plain arrangement of Hubbard's version.
  ARTIST: Bill Conti
   TITLE: Bad [from Bad] (0:27)
  ARTIST: Michael Jackson
+
+### /VARIOUS/S-Z/Verdict #####################################################
+
+/VARIOUS/S-Z/Verdict/Banana_Boat_Song.sid
+  TITLE: Banana Boat Song (Day-O)
+ ARTIST: Harry Belafonte
+
+/VARIOUS/S-Z/Verdict/Crying_in_the_Rain.sid
+  TITLE: Crying In The Rain [from Headlines and Deadlines]
+ ARTIST: A-Ha
 
 ### /VARIOUS/S-Z/Vincenzo ####################################################
 
@@ -42800,6 +43526,10 @@ COMMENT: Binary says "Inspired by the cool movie" (the movie being "Species".)
   TITLE: Boogie Woogie Baby
  ARTIST: Fats Domino
 
+/VARIOUS/S-Z/Walkman/Walkman_PSID.sid
+  TITLE: Boogie Woogie Baby
+ ARTIST: Fats Domino
+
 ### /VARIOUS/S-Z/Walt/ #######################################################
 
 /VARIOUS/S-Z/Walt/2_Russian_Tunes.sid
@@ -42956,8 +43686,8 @@ COMMENT: This version is covered from "New Jam Classics" by Christof Mühlan
  ARTIST: Traditional
 
 /VARIOUS/S-Z/Walt/Huel-Mix.sid
-  TITLE: Ski Dance
- ARTIST: Chris Hülsbeck
+  TITLE: Ski Dance [from the movie Fire & Ice]
+ ARTIST: Gary Wright
 
 /VARIOUS/S-Z/Walt/Human_Race-Tune_4.sid
   TITLE: The Human Race, Tune #4
@@ -43109,6 +43839,11 @@ COMMENT: This version covers /20CC/van_Santen_Edwin/Layla_Mix.sid.
 ### /VARIOUS/S-Z/Walt\ #######################################################
 
 ### /VARIOUS/S-Z/Warrior #####################################################
+
+/VARIOUS/S-Z/Warrior/Amoeba.sid
+(#3)
+  TITLE: Never Alone
+ ARTIST: 2 Brothers On The 4th Floor
 
 /VARIOUS/S-Z/Warrior/DJ_Tune.sid
   TITLE: Never Alone
@@ -44304,6 +45039,10 @@ COMMENT: Same as /VARIOUS/S-Z/Wells_Jon/X_Files_Menu.sid
 
 ### /VARIOUS/S-Z/Willi #######################################################
 
+/VARIOUS/S-Z/Willi/Go_Sixtyfour_note.sid
+  TITLE: Jingle Bells (0:00-00:22)
+ ARTIST: James Pierpont
+
 /VARIOUS/S-Z/Willi/Hell_Machine_note.sid
   TITLE: Turritune [from the Amiga MOD module]
  ARTIST: Frederic Cordier (Reflex)
@@ -44355,6 +45094,20 @@ COMMENT: Used as intro song for the game "Vin Tim"
 /VARIOUS/S-Z/Wodnik/Enter_Sadman_v2.sid
   TITLE: Enter Sandman [from Metallica]
  ARTIST: Metallica
+
+/VARIOUS/S-Z/Wodnik/Kiedy_Bylem.sid
+  TITLE: Kiedy bylem malym chlopcem [from Blues]
+ ARTIST: Breakout
+
+/VARIOUS/S-Z/Wodnik/Narwana.sid
+  TITLE: Come As You Are [from Nevermind]
+ ARTIST: Nirvana
+
+/VARIOUS/S-Z/Wodnik/Obraz_2.sid
+  TITLE: Obraz [from Krucjata]
+ ARTIST: Atest
+COMMENT: First version composed on the C64 by Wodnik. His friends from the group
+         Atest later made a rock version.
 
 ### /VARIOUS/S-Z/Wuiti/ ######################################################
 
@@ -44483,8 +45236,22 @@ COMMENT: Same as /VARIOUS/S-Z/Xayne/Summer.sid
 
 ### /VARIOUS/S-Z/Yaemon ######################################################
 
+/VARIOUS/S-Z/Yaemon/Echo_Hawk.sid
+(#1)
+   NAME: Fucking Slow
+COMMENT: Same as /VARIOUS/S-Z/Yaemon/Fucking_Slow.sid
+(#7)
+   NAME: Universe
+COMMENT: Same as /VARIOUS/S-Z/Yaemon/Universe.sid
+
 /VARIOUS/S-Z/Yaemon/Fucking_Slow.sid
 COMMENT: Later used in the game "Echo Hawk", (c) 1992 Markt & Technik.
+
+/VARIOUS/S-Z/Yaemon/Intro_Song_2.sid
+COMMENT: Later used in the game "Gun City", (c) 1992 Depredators.
+
+/VARIOUS/S-Z/Yaemon/Long_Play.sid
+COMMENT: Later used in the game "Gun City", (c) 1992 Depredators.
 
 /VARIOUS/S-Z/Yaemon/Rudolph.sid
   TITLE: Rudolph The Red Nosed Reindeer
@@ -44524,6 +45291,10 @@ COMMENT: See /VARIOUS/A-F/Banana/Niteflite_IBM_26_2.sid.
 
 ### /VARIOUS/S-Z/Yewchuk_Bob #################################################
 
+/VARIOUS/S-Z/Yewchuk_Bob/Invention_in_F_BASIC.sid
+  TITLE: Invention in F
+ ARTIST: Johann Sebastian Bach
+
 /VARIOUS/S-Z/Yewchuk_Bob/Morning_has_Broken_BASIC.sid
   TITLE: Morning Has Broken [from Teaser & The Firecat]
  ARTIST: Cat Stevens
@@ -44531,6 +45302,10 @@ COMMENT: See /VARIOUS/A-F/Banana/Niteflite_IBM_26_2.sid.
 /VARIOUS/S-Z/Yewchuk_Bob/Music_Box_Dancer_BASIC.sid
   TITLE: Music Box Dancer
  ARTIST: Frank Mills
+
+/VARIOUS/S-Z/Yewchuk_Bob/Prelude_in_C_Minor_BASIC.sid
+  TITLE: Prelude in C
+ ARTIST: Johann Sebastian Bach
 
 /VARIOUS/S-Z/Yewchuk_Bob/Somewhere_over_the_BASIC.sid
   TITLE: Somewhere Over the Rainbow
@@ -45165,6 +45940,14 @@ COMMENT: Zyron has been using the handle "Nylon" for his tunes done under
 
 ### /VARIOUS/S-Z/Zzap69 ######################################################
 
+/VARIOUS/S-Z/Zzap69/Dancing_Snowmen_part_2.sid
+  TITLE: Big Ben (0:00-0:14)
+ ARTIST: <?>
+
+/VARIOUS/S-Z/Zzap69/Dancing_Snowmen_part_3.sid
+  TITLE: Jingle Bells (0:08-0:23)
+ ARTIST: James Pierpont
+
 /VARIOUS/S-Z/Zzap69/Jullov.sid
   TITLE: Tomtarnas Julnatt (0:00-0:23)
  ARTIST: Alfred Swedberg (arr.), Vilhelm Sefve (lyrics)
@@ -45177,9 +45960,49 @@ COMMENT: Zyron has been using the handle "Nylon" for his tunes done under
   TITLE: Andante
  ARTIST: Wolfgang Amadeus Mozart
 
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Andantino.sid
+  TITLE: Andantino [Sonatine IV]
+ ARTIST: Anton Diabelli
+
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Baby_Face.sid
   TITLE: Baby Face
  ARTIST: Benny Davis & Harry Akst
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Ballade_Pour_Adeline.sid
+  TITLE: Ballade pour Adeline [from Salle Pleyel]
+ ARTIST: Paul de Senneville
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Black_and_White_Rag.sid
+  TITLE: Black and White Rag
+ ARTIST: George Bosford
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Blue_Moon.sid
+  TITLE: Blue Moon
+ ARTIST: Lorenz Hart & Richard Rodgers
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Blumenlied.sid
+  TITLE: Blumenlied or The Flower Song
+ ARTIST: Gustav Lange
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Cats_in_the_Cradle.sid
+  TITLE: Cat's in the cradle
+ ARTIST: Harry Chapin, Sung by Cat Stevens
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Cotton_Mill_Blues.sid
+  TITLE: The Cotton Mill Blues
+ ARTIST: <?>
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/De_Heilige_Stad.sid
+  TITLE: De Heilige Stadt
+ ARTIST: <?>
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Deep_Blue_Sea_Boogie.sid
+  TITLE: Deep Blue Sea Boogie
+ ARTIST: <?>
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Devoted_To_You.sid
+  TITLE: Devoted to you
+ ARTIST: <?>
 
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Die_Schoene_Blaue_Donau.sid
   TITLE: An der schönen blauen Donau (Blue Danube)
@@ -45193,6 +46016,10 @@ COMMENT: Zyron has been using the handle "Nylon" for his tunes done under
   TITLE: Elite Syncopations
  ARTIST: Scott Joplin
 
+/VARIOUS/S-Z/van_Riemsdijk_Dick/For_Once_in_My_Life.sid
+  TITLE: For Once in My Life
+ ARTIST: <?>
+
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Fuer_Elise.sid
   TITLE: Für Elise
  ARTIST: Ludwig van Beethoven
@@ -45203,17 +46030,37 @@ COMMENT: Zyron has been using the handle "Nylon" for his tunes done under
 COMMENT: Also known as "Now thank we all our God" in English and as "Dankt,
          dankt nu allen God" in Dutch.
 
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Harbor_Lights.sid
+  TITLE: Harbor Lights
+ ARTIST: <?>
+
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Harebell.sid
   TITLE: The Harebell
  ARTIST: William Smallwood
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Hey_Jude.sid
+  TITLE: Hey Jude [from The Blue Album]
+ ARTIST: The Beatles
 
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Hongaarse_Dans_No_5.sid
   TITLE: Hungarian Dans No.5
  ARTIST: Johannes Brahms
 
+/VARIOUS/S-Z/van_Riemsdijk_Dick/I_Wont_Forget.sid
+  TITLE: I Won't Forget
+ ARTIST: <?>
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Invention_no_13.sid
+  TITLE: Invention no. 13
+ ARTIST: Johann Sebastian Bach
+
 /VARIOUS/S-Z/van_Riemsdijk_Dick/La_Paloma.sid
   TITLE: La Paloma
  ARTIST: Sebastien Yradier
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Lettre_a_ma_Mere.sid
+  TITLE: Lettre a me Mere
+ ARTIST: <?>
 
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Melody_In_F.sid
   TITLE: Melody In F
@@ -45227,6 +46074,28 @@ COMMENT: Also known as "Now thank we all our God" in English and as "Dankt,
   TITLE: Menuet In G
  ARTIST: Ludwig van Beethoven
 
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Mill_in_the_Forest.sid
+  TITLE: Mill in the Forest
+ ARTIST: Richard Eilenberg
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Mix_1.sid
+  TITLE: Turkey In The Straw
+ ARTIST: Traditional
+  TITLE: Arkansas Travel
+ ARTIST: <?>
+  TITLE: Miss Mcleod's Reel
+ ARTIST: Traditional
+  TITLE: Dixie Land
+ ARTIST: Daniel Emmett
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Mix_2.sid
+  TITLE: The Entertainer (00:00-01:21)
+ ARTIST: Scott Joplin
+  TITLE: Smoky Mokes  (01:24-01:48)
+ ARTIST: Abe Holzmann
+  TITLE: Cakewallk Parade (01:49-02:17)
+ ARTIST: <?>
+
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Moment_Musical.sid
   TITLE: Moment Musical
  ARTIST: Franz Schubert
@@ -45234,6 +46103,22 @@ COMMENT: Also known as "Now thank we all our God" in English and as "Dankt,
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Plaisir_d_Amour.sid
   TITLE: Plaisir d'Amour
  ARTIST: Giovanni Martini
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Raindrops_Keep_Falling_On.sid
+  TITLE: Raindrops Keep Falling on My Head
+ ARTIST: B. J. Thomas
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Serenade.sid
+  TITLE: Serenade (Opus 3 No. 5)
+ ARTIST: Franz Joseph Haydn
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Solitaire.sid
+  TITLE: Solitaire
+ ARTIST: <?>
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Somewhere_My_Love.sid
+  TITLE: Somewhere My Love [from the movie Dr. Zivago - Lara's Theme]
+ ARTIST: Maurice Jarre, Sung by Andy Williams
 
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Sonate_39_Opus_33_No_3.sid
   TITLE: Sonate 39 Opus 33 No.3
@@ -45246,6 +46131,22 @@ COMMENT: Also known as "Now thank we all our God" in English and as "Dankt,
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Sonate_No_32_Opus_26_No_3.sid
   TITLE: Sonate No.32 Opus 26 No.3
  ARTIST: M.Clementi
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Sonatine_van_Clementi_1.sid
+  TITLE: Sonatina in G Major (Opus 36 No. 5)
+ ARTIST: Muzio Clementi
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Sonatine_van_Clementi_2.sid
+  TITLE: Sonatina in C Major (Opus 36 No. 3)
+ ARTIST: Muzio Clementi
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Sonatine_van_Diabelli_1.sid
+  TITLE: Sonatina in C Major (Opus 168 No. 3)
+ ARTIST: Anton Diabelli
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Sonatine_van_Diabelli_2.sid
+  TITLE: Sonatina in F Major (Opus 168 No. 1)
+ ARTIST: Anton Diabelli
 
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Swan-The_Carnival_Animals.sid
   TITLE: The Swan - The Carnival Animals
@@ -45263,6 +46164,10 @@ COMMENT: Also known as "Now thank we all our God" in English and as "Dankt,
   TITLE: Toccata
  ARTIST: Leonardo Leo
 
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Today.sid
+  TITLE: Today
+ ARTIST: Randy Sparks
+
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Valse.sid
   TITLE: Valse
  ARTIST: Frederic Chopin
@@ -45270,6 +46175,10 @@ COMMENT: Also known as "Now thank we all our God" in English and as "Dankt,
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Vrolijke_Weduwe_Wals.sid
   TITLE: Vrolijke Weduwe Wals
  ARTIST: Franz Lehar
+
+/VARIOUS/S-Z/van_Riemsdijk_Dick/Wedding_of_the_Painted_Dol.sid
+  TITLE: Wedding of the Painted Doll
+ ARTIST: Arthur Freed & Nacio Herb Brown
 
 /VARIOUS/S-Z/van_Riemsdijk_Dick/Weense_Sonatine_No_1.sid
   TITLE: Weense Sonatine no.1
@@ -45712,7 +46621,8 @@ COMMENT: Also used in the game Space Taxi, copyright 1984 MUSE Software.
 (#3)
 COMMENT: Same as /GAMES/A-F/Cohens_Tower.sid, tune #3.
 (#5)
-COMMENT: Famous (cartoon?) jingle.
+  TITLE: At a Darktown Cakewalk
+ ARTIST: Charles Hale
 (#7)
   TITLE: Oh Susanna
  ARTIST: Stephen C. Foster
@@ -46672,9 +47582,9 @@ COMMENT: "The title let's it self translate as: Yes, We Love This Land. Look
 
 /Wijnhoven_Joachim/Yogis_Polish_Anthem.sid
   TITLE: Mazurek Dabrowskiego (Polish National Anthem)
- ARTIST: <?> (music), Józef Wybicki (lyrics)
-COMMENT: "First Sung : 1795, Adopted : 1927
-         Look at the text of Yogi's Dutch Anthem." (JW)
+ ARTIST: Jozef Wybicki (lyrics), folk polish music of typical mazurka
+COMMENT: "First Sung : 1795, Adopted : 1927. Look at the text of Yogi's Dutch
+         Anthem." (JW)
 
 ### /Williams_Tony ###########################################################
 
