@@ -1,0 +1,123 @@
+High Voltage SID Collection Update 48
+Date:  March 09, 2008
+
+Resulting Version: 48
+Previous Version:  47
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+This time we have music from: Vandalism News 49, Silesia party,
+The 82 Ditties demo by Bluez Muz, unreleased tunes by Adam Gilmore,
+John Stormont (NEW), C64.sk SIDcompo 7, Aegis (aged sweet 13 years old!)
+Jeroen Tel, Linus, Dwayne Bakewell, Richard Bayliss, Conrad (CRD),
+Froyd, Adam Gilmore, Goto80
+
+
+After this update, the collection should contain 35,030 SID files!
+
+This update features (all approximates):
+     918 new SIDs
+      42 fixed/better rips
+       0 fixes of PlaySID/Sidplay1 specific SIDs
+      12 repeats/bad rips eliminated
+     370 SID credit fixes
+     101 SID model/clock infos
+      11 tunes from /DEMOS/UNKNOWN/ identified  :-)
+      37 tunes moved out of /DEMOS/ to their composers' directories
+      15 tunes moved out of /GAMES/ to their composers' directories
+
+
+We are always looking for others to help make HVSC a better
+collection.  If you find any errors or have new rips to add, please
+email:
+
+
+  Jan Harries, Peter Sandén  <hvsc@c64.org>  
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+################################
+Back in Time Live Stockholm 2008
+################################
+Type: Music - Live Music
+Description: Yes! Back in Time Live is back - with a vengeance!
+This time it's C64.COM and Ziphoid Entertainment that's arranging the event in
+Stockholm, Sweden. C64 music is the main thing at these events, so you can
+expect some really cool and talent people on stage preforming all these classic
+tunes were we brought up with.
+
+BIT LIVE STHLM 2008 - 13th September - Mark in your calendar! More details,
+pictures, news and the official BIT design will follow shortly.
+
+
+############################
+Press Play On Tape + support
+############################ 	 	
+19. april 2008  kl. 22.00
+The Rock, København K.
+
+The probably most famous C64 rockband does another gig, be sure to be there!
+
+
+#############################################################
+The resid filter distortion development has matured massively
+#############################################################
+Ever dreamed of getting these crackles and pops emulated, that you remember
+from your real SID? It's within reach now, there's even a new version of
+Sidplay2 in the works that integrates these patches. So far there are two
+well balanced R4 filtersets and two additional filtersets with Galway's and
+Follin's filters! And - now get this - there's even a program that allows
+you to record your own C64 SID's filter characteristics and make your own
+customized resid patch out of it. Stay tuned!
+
+http://bel.fi/~alankila/c64-sw/
+
+
+############################################################################
+Hoxs64 emulator gets HVSC crew's recommendation for the best 8580 emulation.
+############################################################################
+The Hoxs64 emulator isn't just an ordinary C64 emulator to run games or demos
+on, it also features a little known side feature - a sidplayer!
+Just load up the .sid files as if they were a d64 or t64 file and Hoxs64 will
+play it. It only emulates the 8580 revision of the SID chip, but that one
+is probably as close to the real thing as it gets, even surpassing the quality
+of the resid engine in Sidplay2. Make sure to have resampling enabled in the
+options!
+As an interesting bonus option the emulator features an 8580 digi boost, which
+makes for example the PVCF tune in this update play as intended.
+
+http://www.hoxs64.com
+
+
+#####################################################
+Kevin Horton's SID emulation with distortion in FPGA!
+#####################################################
+Kevin Horton, the hardware hacker extraordinaire (mostly known from his game
+console hacking and the SIDman) is working on a SID implementation in FPGA.
+Yes, it has been done before in eg. C64 DTV (which doesn't even emulate
+filters), but his aim is to make the filters sound *very* exact to the real
+thing, by actually implementing them OUTSIDE of the FPGA as a discrete circuit!
+It is described in greater detail (with samples!) on his blog,
+at http://blog.kevtris.org/
+
+The filter circuit is based on the actual SID die, as imaged by Tim Boscke
+(http://www.digital-circuits.org/sid/).
+
+Kevin is looking for all kinds of info about different kinds/revisions of SID
+chips, and also SID musicians with good ears to assist in filter tuning.
+Actually, all kinds of help and information would be appreciated. Recordings
+from additional real SID chips of the 'trickier' songs which use the filter
+would also be much appreciated.
+
+Another thing which might be of interest for you other hackers out there in
+regards to his game console hacking, earlier SID player(s), and other FPGA work:
+http://www.tripoint.org/kevtris/index.html

@@ -1,0 +1,123 @@
+High Voltage SID Collection Update #47
+Date:  June 07, 2007
+
+Resulting Version: 47
+ Previous Version: 46
+
+As usual, the update and the all-in-one packages are available from
+http://www.hvsc.c64.org 
+
+After this update, the collection should contain 34,127 SID files!
+
+This update features (all approximates):
+    1127 new SIDs
+      19 fixed/better rips
+       8 fixes of PlaySID/Sidplay1 specific SIDs
+       8 repeats/bad rips eliminated
+     773 SID credit fixes
+     700 tunes assigned a sidmodel flag
+      15 UNKNOWN demo tunes identified
+      29 UNKNOWN game tunes identified
+
+Main Composers featured in this update:
+(Artists marked with NEW are either completely new to the HVSC
+ or they get their own directory in this update)
+
+#   A-Man - venturing into the Pollytracker domain now!
+#   Bart
+#   Richard Bayliss
+#   Bernhard Burgstaller (NEW)
+#   Chantal Goret (NEW)
+#   CRD - kindly donated his complete collection to us
+#   Dexter (NEW)
+#   Eco
+#   Fanta - make sure to have a listen to his Desert Dream conversion!
+#   Fox
+#   Gop
+#   Greg
+#   Gregfeel
+#   Harlequin
+#   Heinmuck
+#   Hukka
+#   Image
+#   MAC2
+#   Mac / Radical
+#   Merman
+#   Moogle Charm (NEW)
+#   Nastiness Inc.
+#   Omoroca (NEW)
+#   Pernet
+#   Q-Man
+#   Raze
+#   Rio
+#   Sax
+#   Sharp
+#   Skam (NEW)
+#   Slayer
+#   STP Sound System
+#   Tonid (NEW)
+#   Topaz
+#   Vintaque
+#   Zeta (NEW)
+
+
+#########
+HVSC News
+#########
+
+o Motion joined the HVSC Crew
+
+o Steppe retired from the HVSC admin post. Rambones will take over,
+  good luck!
+
+o The new directory structure requires a new update tool. It got updated
+  for Linux and Windows, so we feel the majority of users won't have a problem.
+  For the exotic platform users: The source code of update tool 2.8.4 is
+  on the HVSC website in the Downloads section. If you manage to compile it
+  on your specific platform, feel free to send it over!
+  And by the way: You can still run update #47 with update tool 2.8.3.
+  It will complain heavily that the /Hubbard_Rob/ directory is not where it
+  expects it to be, thus assuming you did something fundamentally wrong.
+  Just ignore the warning, nod away the next "y/n are you sure you're sure?"
+  question and it will work anyway.
+  
+
+#########################
+SID related news bulletin
+#########################  
+
+o STIL Bonus released
+  For all you STIL junkies out there curious about some of the module
+  tunes mentioned in the STIL, the HVSC team now offers the STIL Bonus:
+  
+  http://www.prg.dtu.dk/HVSC/STIL_Bonus/
+
+  The STIL Bonus is a collection of MODs, XMs, MP3s, and other assorted
+  tunes referenced in the STIL.  This collection was previously available
+  under a different name (MCOT 64) but on a much smaller scale.  The
+  collection is now 63MBs compressed, and offers some very memorable game
+  and scene tunes from the Amiga, PC, and other sources.
+
+  The collection was put together in order for the HVSC team to verify
+  several STIL entries for correctness.  We then thought it would be a
+  nice collection that the public may also enjoy.  For some of you, you
+  may have never heard these tunes.  For others, it may be a trip down
+  nostalgia lane. You may even find that you actually prefer some of the
+  SID versions while for other cases the modules/MP3 will be preferable.
+
+
+o PSID64 v0.8 is out!
+  The popular .sid->.prg converter saw another update. New features include:
+    * Built-in support for Exomizer.
+    * Added support for a joystick in port two to control the player.
+    * Added clock to indicated running time.
+    * Added -i option to override the initial song to play.
+    * Added support for SID tunes written in BASIC.
+  Grab it here:  http://psid64.sourceforge.net/
+
+
+
+
+We are always looking for others to help make HVSC a better
+collection.  If you find any errors or have new rips to add, please
+email:  hvsc@c64.org

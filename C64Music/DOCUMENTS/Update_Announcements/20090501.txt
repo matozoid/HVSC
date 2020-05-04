@@ -1,0 +1,136 @@
+High Voltage SID Collection Update 50
+Date: May 01, 2009
+
+Resulting Version: 50
+ Previous Version: 49
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+
+After this update, the collection should contain 36,000 SID files!
+
+ This update features (all approximates):
+      678 new SIDs
+       59 fixed/better rips
+      573 PlaySID/Sidplay1 specific SIDs eliminated
+      189 repeats/bad rips eliminated
+      482 SID credit fixes
+      135 SID model/clock infos
+       15 tunes from /DEMOS/UNKNOWN/ identified
+       10 tunes from /GAMES/ identified
+       36 tunes moved out of /DEMOS/ to their composers' directories
+       11 tunes moved out of /GAMES/ to their composers' directories
+
+
+As you can see, a great amount of files were eliminated in this update.
+We decided to remove all the old _PSID files that have a RSID equivalent.
+Those _PSID files were only hacks meant for digitized sounds to be played in
+Sidplay1, but not on real C64. The _PSID files will be eliminated in every
+future releases as soon as new RSID versions of the same .sid files are added.
+For those still needing the _PSID files we have put them in a separate archive:
+
+http://hvsc.c64.org/Downloads/C64MUSIC_PlaySID.rar
+
+
+We are always looking for others to help make HVSC a better collection. If you
+find any errors or have new rips to add, please email:
+
+ Jan Harries, iAN CooG  <hvsc@c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+##############################
+# VICE 2.1 has been released #
+##############################
+
+A new version of VICE has been released.
+
+To name a few changes: a more accurate ReSID engine using floating point math
+(ReSID-FP) has been added, vsid GUI has been reworked and it also has now
+support for the USB HardSID (HardSID 4U).
+
+Check out all the new features at:
+
+http://www.viceteam.org/
+
+
+################################
+# CCS64 V3.7 has been released #
+################################
+
+A new version of CCS64 has been released.
+
+Check out all the new features at:
+
+http://www.ccs64.com/
+
+
+###################################
+# SIDPLAY/W 2.5 has been released #
+###################################
+
+Inge Pedersen has released SIDPLAY/W 2.5. It is based on Antti Lankila's ReSID
+filter distortion simulation.
+
+Download the new version at:
+
+http://noname.c64.org/csdb/release/?id=76056
+
+
+###############################################
+# HardSID 4U Winamp plug-in has been released #
+###############################################
+
+HardSID 4U Winamp plug-in v1.0 has been released. The Winamp plug-in is based on
+the latest emulation core of ACID 64 and developed by Hard Software.
+
+Features:
+
+- Seek in .sid files on cycle-accurate SID hardware!
+- Remote-control your SID files using an IR remote controller!
+- Enjoy the benefits of Winamp playlists! (+song-length support)
+- Put sub-songs on your playlists!
+- Build interesting community SID listening stats published at:
+  http://www.hardsid.com/stats.php
+
+Download the plugin from:
+
+http://www.hardsid.com/files/other/HardSID%204U%20Winamp%20Plugin.rar
+
+Check out the HD Video ScreenCast (Watch in HD and full-screen):
+
+http://www.youtube.com/watch?v=FTnSEUxYkm0
+
+
+######################################################
+# HVSC Search Engine by Jools Smyth has been updated #
+######################################################
+
+The HVSC search engine maintained by Jools Smyth has been updated:
+
+http://www.exotica.org.uk/wiki/Special:HVSC
+
+It now defaults to a new more powerful boolean search. Also, there is now
+an option to display remixes from remix.kwed.org.
+
+
+#######################################################################
+# Rambones demonstrates the phenomenon known as multispeed SID sounds #
+#######################################################################
+
+Rambones demonstrates the phenomenon known as multispeed SID sounds.
+Sound making on a Commodore 64 computer. Recorded on an emulator.
+Remember!: it sounds better on a real C64! SID 6581 used, it can do distortion.
+
+http://vimeo.com/4024322
+
+

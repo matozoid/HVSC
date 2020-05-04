@@ -1,0 +1,98 @@
+High Voltage SID Collection: Update #49
+Date:  November 09, 2008
+
+Resulting Version: 49
+ Previous Version: 48
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+After this update, the collection should contain 36,081 SID files!
+
+This update features (all approximates):
+    1059 new SIDs
+      54 fixed/better rips
+       2 fixes of PlaySID/Sidplay1 specific SIDs
+      10 repeats/bad rips eliminated
+     431 SID credit fixes
+     232 SID model/clock infos
+       9 tunes from /DEMOS/UNKNOWN/ identified
+      40 tunes moved out of /DEMOS/ to their composers' directories
+      14 tunes moved out of /GAMES/ to their composers' directories
+
+
+################################
+# HardSID 4U has been released #
+################################
+
+The HardSID 4U is the most powerful SID synthesizer since the legendary C64!
+
+Features:
+
+- Two CPUs and main memory 
+- USB connection (compatible with both 2.0 & 1.1) 
+- Isochronous USB endpoint for low-latency audio 
+- VSTi interface with 8000Hz update rate on all SID registers (free) 
+- Wave-in VSTi pin for routing 8000Hz signals to any registers (example: playing
+  other VSTi's sound on the volume register) 
+- Full automation of all VSTi parameters 
+- Superior sound quality (..it is a HardSID!) 
+- Support for up to four SID chips (6581/8580/6582 in any combination) 
+- Updateable firmware over USB 
+- Microsoft Vista compatible (drivers for Win2000/XP/Vista) 
+
+..and if you're a C64 fan:
+
+- Cycle-accurate playback of your favorite SID tunes
+- Digitized sound + high-speed playback with low CPU utilization
+- Seamless playback of .sid tunes while you work on your PC by providing a huge
+  playback buffer for non-VSTi applications
+
+The HardSID 4U Studio Edition:
+
+- Full physical separation of the SIDs from the USB driven circuits
+- 100% elimination of EMI (Electromagnetic interference) noise that may come
+  from your PC via USB
+  
+http://www.hardsid.com/
+
+#################################
+# SIDPLAY 4.0 has been released #
+#################################
+
+SIDPLAY 4.0 is a Commodore 64 music player for Mac OS. It emulates the sound
+chip and other internals of the Commodore 64 home computer to play back music
+that was originally written on it. 
+
+This is the biggest version of SIDPLAY yet. Completely rewritten from scratch,
+designed as the ultimate SID music player for the best operating system.
+
+SIDPLAY 4 boldly goes where no other SID music player has gone before.
+
+Requires Mac OS X 10.5 or higher, runs on PowerPC and Intel-based Macs.
+Support for HardSID and Catweasel cards is not included in this version.
+
+Check for the list of new features at:
+
+http://www.sidmusic.org/sidplay/mac/
+
+##########################################
+# ACID 64 Player 2.4.0 has been released #
+##########################################
+
+ACID 64 player is a cycle based Commodore 64 music player designed for playing
+SID tunes on sound cards/devices that have a real SID chip on board.
+
+A new version of ACID 64 Player has been released with the following
+improvements:
+
+- Emulation improvements 
+- STIL info can now be retrieved for a SID file if it is not played from the
+  default HVSC location 
+- When HardSID 4U device is turned off while ACID 64 Player is running and
+  turned on again, playback can continue after song restart
+- Opening SID files via Internet Explorer is now possible. This makes it
+  possible to play SID tunes via the online SID search of www.hardsid.com.
+
+http://www.acid64.com/
