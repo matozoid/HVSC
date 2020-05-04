@@ -1,0 +1,2000 @@
+# High Voltage SID Collection: Update #71
+# Date: June 30, 2019
+#
+# Resulting Version: 71
+#  Previous Version: 70
+#
+# Hello fellow lover of SID music!
+# Nice you found some time to read through this script, to see what has been
+# changed in the HVSC and for what reason.
+#
+# After this update, the collection should contain 51,823 SID files!
+#
+# This update features (all approximates):
+#      464 new SIDs
+#       20 fixed/better rips
+#        1 repeats/bad rips eliminated
+#       49 SID credit fixes
+#       94 SID model/clock infos
+#        4 tunes from /DEMOS/UNKNOWN/ identified
+#        2 tunes from /GAMES/ identified
+#       17 tunes moved out of /DEMOS/ to their composers' directories
+#        6 tunes moved out of /GAMES/ to their composers' directories
+#
+# We are always looking for others to help make HVSC a better collection.
+# If you find any errors or have new rips to add, please email:
+
+###########################################################
+#  iAN CooG  <hvsc (sid) c64.org>                         #
+###########################################################
+
+# Thanks to all the people who have helped to make HVSC the collection that
+# it is today, without your help it would be a much tougher task.
+
+# ****************************************************
+# **                   FIXES                        **
+# ****************************************************
+
+# These tunes are replacements for the versions currently
+# in HVSC.  This could be for various reasons such as
+# more sub-tunes, fixing a speed problem, 100% rip, etc.
+
+REPLACE
+
+# from iAN CooG: Reripped as RSID, proper init by Inge, more freepages set.
+#                Now Mssiah tunes should play as intended.
+/update/fix/DEMOS/A-F/Analoque_2SID.sid
+/DEMOS/A-F/
+/update/fix/DEMOS/A-F/Bad_Guys_Castle.sid
+/DEMOS/A-F/
+
+# from iAN CooG: Reripped as RSID, proper init by Inge, more freepages set.
+#                Now Mssiah tunes should play as intended.
+/update/fix/DEMOS/G-L/Hearesy.sid
+/DEMOS/G-L/
+
+# from Wilfred: Removed loop and added a timer to play the song
+/update/fix/GAMES/A-F/Dark_Lord.sid
+/GAMES/A-F/
+
+# from iAN CooG: Replacing the 2 song version with the more complete V2 preview,
+#                8 songs but 2 are repeated. (https://mazinger64.itch.io/mazinger64)
+/update/fix/GAMES/M-R/Mazinger_Z.sid
+/GAMES/M-R/
+
+# from Wilfred, iAN CooG, Prof. Chaos: Added all tunes from the game.
+/update/fix/GAMES/M-R/Riddles_and_Stones.sid
+/GAMES/M-R/
+
+# from Karmic: reripped from original, vibrato is now correct.
+/update/fix/MUSICIANS/B/Bjerregaard_Johannes/Street_Cred_Boxing.sid
+/MUSICIANS/B/Bjerregaard_Johannes/
+
+# from Wilfred: removed unwanted VIC writes and cleaned file
+/update/fix/MUSICIANS/F/Francois_Marc/Citizen_of_Chernobyl.sid
+/MUSICIANS/F/Francois_Marc/
+
+# from Wilfred: removed unwanted VIC writes
+/update/fix/MUSICIANS/F/Funky_Koval/Sex_Games_Preview_tune_2.sid
+/MUSICIANS/F/Funky_Koval/
+
+# from iAN CooG: Reripped as RSID, proper init by Inge, more freepages set.
+#                Now Mssiah tunes should play as intended.
+/update/fix/MUSICIANS/K/King_Durin/Space_Sharp.sid
+/MUSICIANS/K/King_Durin/
+/update/fix/MUSICIANS/K/King_Durin/War_Drums.sid
+/MUSICIANS/K/King_Durin/
+
+# from LMan: Final version, replaces WIP leaked version
+#            (https://csdb.dk/release/?id=178072)
+/update/fix/MUSICIANS/L/LMan/Mos_Techno_Logy.sid
+/MUSICIANS/L/LMan/
+
+# from iAN CooG: Reripped as RSID, proper init by Inge, more freepages set.
+#                Now Mssiah tunes should play as intended.
+/update/fix/MUSICIANS/M/Moellpauk/Leipaeae_laatikko.sid
+/MUSICIANS/M/Moellpauk/
+
+# from iAN CooG: Restored a wrong nopped STA which caused illegal ops execution.
+/update/fix/MUSICIANS/N/Nordic_Beat/Evony/Halv_2_2.sid
+/MUSICIANS/N/Nordic_Beat/Evony/
+
+# from Wilfred: Reripped to fix the digis (https://csdb.dk/release/?id=98763)
+MOVE
+/MUSICIANS/O/Ouwehand_Reyn/Worktunes/MacMagic_Song_8.sid
+/MUSICIANS/O/Ouwehand_Reyn/S_W_A_F_2_tune_1.sid
+REPLACE
+/update/fix/MUSICIANS/O/Ouwehand_Reyn/S_W_A_F_2_tune_1.sid
+/MUSICIANS/O/Ouwehand_Reyn/
+
+# from Wilfred: Added hiscore tune
+/update/fix/MUSICIANS/R/Rodger_Andrew/F1_Tornado.sid
+/MUSICIANS/R/Rodger_Andrew/
+
+# from iAN CooG: Version with more subtunes (https://csdb.dk/release/?id=173746)
+MOVE
+/MUSICIANS/T/The_Blue_Ninja/Game_of_Love.sid
+/MUSICIANS/T/The_Blue_Ninja/Games-Tunes_V2.sid
+REPLACE
+/update/fix/MUSICIANS/T/The_Blue_Ninja/Games-Tunes_V2.sid
+/MUSICIANS/T/The_Blue_Ninja/
+
+# from iAN CooG: This should be RSID
+/update/fix/MUSICIANS/S/Swallow/Wonderland_IX_part_5.sid
+/MUSICIANS/S/Swallow/
+
+# from iAN CooG: Reripped as RSID, proper init by Inge, more freepages set.
+#                Now Mssiah tunes should play as intended.
+/update/fix/MUSICIANS/U/Ultrasyd/Heartical_Chip_Riddim.sid
+/MUSICIANS/U/Ultrasyd/
+/update/fix/MUSICIANS/U/Ultrasyd/Your_Boxy_Old_Friend.sid
+/MUSICIANS/U/Ultrasyd/
+
+
+# ****************************************************
+# **                  NEW TUNES                     **
+# ****************************************************
+
+MOVE
+
+# from Chris Wemyss: 1stattempt.sid
+/update/new/DEMOS/0-9/
+/DEMOS/0-9/
+
+# from Aidan Crouzet-Pascal: Chemical_Plant_Zone.sid  FamiCommodore.sid
+# from iAN CooG: April_Ranking.sid (https://csdb.dk/release/?id=174863)
+#                Chocolatebar.sid  (https://csdb.dk/release/?id=174886)
+#                Chevrot.sid (https://csdb.dk/release/?id=175461)
+# from Inge    : Drink_Twice.sid (https://csdb.dk/release/?id=173796)
+# from Wilfred : Coma_1.sid (https://csdb.dk/release/?id=173387)
+#                Broken_Keyboard.sid (https://csdb.dk/release/?id=173225)
+/update/new/DEMOS/A-F/
+/DEMOS/A-F/
+
+# from Aidan Crouzet-Pascal: Interest.sid
+# from Glafouk: La_Chevre.sid (https://csdb.dk/release/?id=175493)
+/update/new/DEMOS/G-L/
+/DEMOS/G-L/
+
+# from Barik   : Portugieser.sid (https://csdb.dk/release/?id=178063)
+# from iAN CooG: Poison_Rip_06.sid (https://csdb.dk/release/?id=172847)
+#                Reflections.sid   (https://csdb.dk/release/?id=173350)
+#                No_Name_Team_Demo_I_tune_1.sid (https://csdb.dk/release/?id=173370)
+# from Dr. Who : Oua_Oua_Song.sid (https://csdb.dk/release/?id=176338)
+# from Ahornberg: Parsecs_Away_from_Home_2SID.sid (https://csdb.dk/release/?id=176242)
+/update/new/DEMOS/M-R/
+/DEMOS/M-R/
+
+# from iAN CooG: We_Are_the_Pollution.sid (https://csdb.dk/release/?id=173368)
+#                X-Ray_Intro.sid (https://csdb.dk/release/?id=174386)
+#                Shaking_Robert_Theme.sid (https://csdb.dk/release/?id=175368)
+/update/new/DEMOS/S-Z/
+/DEMOS/S-Z/
+
+# from iAN CooG: Frantic_Ranx.sid (https://csdb.dk/release/?id=174529)
+#                K9teen.sid (https://csdb.dk/release/?id=174910)
+#                Mr_Pre_sid_ent.sid (https://csdb.dk/release/?id=174919)
+#                Perse_Sounds.sid (https://csdb.dk/release/?id=174928)
+# from Wilfred : Prophecy_II.sid (https://csdb.dk/release/?id=7620)
+#                Whot_the_Hell.sid (https://csdb.dk/release/?id=5524)
+# from Wilfred, fixed by Prof. Chaos: Captain_Fred.sid
+#                (https://csdb.dk/release/?id=176622)
+# from xIII    : Unknown_163.sid
+/update/new/DEMOS/UNKNOWN/
+/DEMOS/UNKNOWN/
+
+# from iAN CooG: Digiloi.sid  (https://csdb.dk/release/?id=173193)
+#                Fort_Django_V1_1.sid (https://csdb.dk/release/?id=153600)
+#                Beach_Bar_Game.sid (https://csdb.dk/release/?id=175389)
+#                Doc_Cosmos.sid (https://shallan64.itch.io/doc-cosmos)
+# from Mariusz : Bellringer_II.sid (http://gb64.com/game.php?id=18735)
+/update/new/GAMES/A-F/
+/GAMES/A-F/
+
+# from iAN CooG: Neutron.sid
+/update/new/GAMES/M-R/
+/GAMES/M-R/
+
+# from iAN CooG: Wolfling.sid (https://csdb.dk/release/?id=173721)
+#                Warball_Preview.sid (https://csdb.dk/release/?id=175007)
+#                Vegetables.sid (https://csdb.dk/release/?id=176846,176941)
+# from Mike Richmond: Vegetables_Deluxe.sid (https://csdb.dk/release/?id=178827)
+/update/new/GAMES/S-Z/
+/GAMES/S-Z/
+
+# from iAN CooG: Conpotune.sid (https://csdb.dk/release/?id=175648)
+/update/new/MUSICIANS/0-9/5bot/
+/MUSICIANS/0-9/5bot/
+
+# from iAN CooG: Argonaut.sid (https://csdb.dk/release/?id=176018)
+/update/new/MUSICIANS/A/AMB/
+/MUSICIANS/A/AMB/
+
+# from AceMan  : Shine_Me_to_the_Moon.sid (https://csdb.dk/release/?id=178062)
+# from iAN CooG: Lostro.sid (https://csdb.dk/release/?id=178061)
+/update/new/MUSICIANS/A/AceMan/
+/MUSICIANS/A/AceMan/
+
+# from Wilfred: Mjoosic_Mejker_demo_tune_2.sid  X-Mas_Night.sid
+#               (https://csdb.dk/release/?id=177136)
+/update/new/MUSICIANS/A/Ademar_Fredrik/
+/MUSICIANS/A/Ademar_Fredrik/
+
+# from Wilfred: Note_Writer_V1_1.sid (https://csdb.dk/release/?id=178302)
+/update/new/MUSICIANS/A/Andersen_Kim/
+/MUSICIANS/A/Andersen_Kim/
+
+# from iAN CooG: Depths.sid  Revisited.sid (disk provided by xIII)
+# from Wilfred : Contact_Atom.sid (https://csdb.dk/release/?id=177580)
+/update/new/MUSICIANS/A/Atom/
+/MUSICIANS/A/Atom/
+
+# from iAN CooG: Panzer.sid (https://csdb.dk/release/?id=177090)
+/update/new/MUSICIANS/B/Baron_Ashler/
+/MUSICIANS/B/Baron_Ashler/
+
+# from iAN CooG: Oxycodyne3.sid  (https://csdb.dk/release/?id=174917)
+#                11_6_18_VS3.sid (https://csdb.dk/release/?id=174918)
+#                Epa_ahina.sid   (https://csdb.dk/release/?id=174921)
+#                Look_Ova2.sid   (https://csdb.dk/release/?id=174923)
+/update/new/MUSICIANS/B/Barracuda/
+/MUSICIANS/B/Barracuda/
+
+# from Batsman : K_I_T_T_Tribute.sid   (https://csdb.dk/release/?id=178391)
+# from iAN CooG: A_Crazy_Xmas.sid      (https://csdb.dk/release/?id=173271)
+#                Rymdspionen.sid       (https://csdb.dk/release/?id=175055)
+#                Crapman.sid           (https://csdb.dk/release/?id=175645)
+#                Laserloop.sid         (https://csdb.dk/release/?id=175635)
+#                Big_Fat_Crazy_Bee.sid (https://csdb.dk/release/?id=176202)
+#                Drunken_Birthday.sid  (https://csdb.dk/release/?id=177421)
+/update/new/MUSICIANS/B/Batsman/
+/MUSICIANS/B/Batsman/
+
+# from iAN CooG: Online.sid (https://csdb.dk/release/?id=173438)
+#                Gigablast_Gold.sid (https://csdb.dk/release/?id=173966)
+#                Pathway_to_Heaven.sid (https://csdb.dk/release/?id=173650,177146)
+#                Ultimate_Power.sid (https://csdb.dk/release/?id=173613)
+#                E_C_A_Compacting.sid  Island_Trip.sid  Laser_Blaster.sid
+#                Lovely_Creatures.sid  Techno_Heat.sid  Waste_Disposal.sid
+#                (https://csdb.dk/release/?id=174401)
+#                Super_Toboggan_Challenge.sid (https://csdb.dk/release/?id=175186)
+#                Starfysh_Remix.sid (https://csdb.dk/release/?id=175533)
+#                Deliverance_Dance_Mix.sid (https://csdb.dk/release/?id=175690)
+#                8580_Acid_Evening.sid  Let_Me_Go_Home.sid  Milky_Way.sid
+#                Playground.sid  Thumping_Through_Time.sid
+#                Time_Takes_Its_Toll.sid (https://csdb.dk/release/?id=176972)
+#                Lets_Invade_II.sid (https://csdb.dk/release/?id=177148)
+#                Stress_Overload.sid (https://csdb.dk/release/?id=178668)
+/update/new/MUSICIANS/B/Bayliss_Richard/
+/MUSICIANS/B/Bayliss_Richard/
+
+# from iAN CooG: Raster_Plaster.sid (https://csdb.dk/release/?id=173645)
+/update/new/MUSICIANS/B/Blues_Muz/Gallefoss_Glenn/
+/MUSICIANS/B/Blues_Muz/Gallefoss_Glenn/
+
+# from iAN CooG: Coprolalia.sid (https://csdb.dk/release/?id=177058)
+/update/new/MUSICIANS/B/Bod/
+/MUSICIANS/B/Bod/
+
+# from iAN CooG: Curlins_Theme.sid (https://csdb.dk/release/?id=175507,175504)
+/update/new/MUSICIANS/B/Bordeaux/
+/MUSICIANS/B/Bordeaux/
+
+# from Inge: Original_Tetris-Game.sid (https://csdb.dk/release/?id=175700)
+#            Pacman.sid (https://csdb.dk/release/?id=175698)
+#            Pacman_II.sid (https://csdb.dk/release/?id=175699)
+/update/new/MUSICIANS/B/Brodersen_Frank/
+/MUSICIANS/B/Brodersen_Frank/
+
+# from iAN CooG: Intergalactic_Code_of_Heroes.sid
+#                (https://csdb.dk/release/?id=173486)
+/update/new/MUSICIANS/C/Cadaver/
+/MUSICIANS/C/Cadaver/
+
+# from Wilfred: JAGH-a-Mix_Episode_3_tune_1.sid  JAGH-a-Mix_Episode_3_tune_2.sid
+#               (https://csdb.dk/release/?id=176757)
+#               Weird_Monday.sid (https://csdb.dk/release/?id=176756)
+/update/new/MUSICIANS/C/Captain_Rock/
+/MUSICIANS/C/Captain_Rock/
+
+# from iAN CooG: Valentino_intro.sid (Code repaired and made looping instead
+#                                     of ending abruptly)
+/update/new/MUSICIANS/C/Chiola_Francesco/
+/MUSICIANS/C/Chiola_Francesco/
+
+# from Ald: Tetraider_III.sid (https://csdb.dk/release/?id=178640)
+/update/new/MUSICIANS/C/Chiummo_Aldo/
+/MUSICIANS/C/Chiummo_Aldo/
+
+# from iAN CooG: Star_Trooper.sid (https://csdb.dk/release/?id=173098)
+/update/new/MUSICIANS/C/Connolly_Sean/
+/MUSICIANS/C/Connolly_Sean/
+
+# from Saul Cross: Kick_Him_in_the_Junk.sid (https://csdb.dk/release/?id=173899)
+#                  L_Abbaye_Des_Morts_tape_loader.sid (https://csdb.dk/release/?id=174206)
+# from iAN CooG  : L_Abbaye_Des_Morts.sid (https://csdb.dk/release/?id=174177,174205)
+#                  Age_of_Heroes.sid (https://csdb.dk/release/?id=176390)
+#                  Coffee_Break_Shootout.sid (https://csdb.dk/release/?id=177941)
+#                  Total_Refill.sid (https://csdb.dk/release/?id=177942)
+/update/new/MUSICIANS/C/Cross_Saul/
+/MUSICIANS/C/Cross_Saul/
+
+# from iAN CooG: Elekfunk.sid (https://csdb.dk/release/?id=175981)
+#                Firestarter_2SID.sid (https://csdb.dk/release/?id=178034)
+/update/new/MUSICIANS/C/Crowley_Owen/
+/MUSICIANS/C/Crowley_Owen/
+
+# from iAN CooG: Neon_Haze.sid (https://csdb.dk/release/?id=175547)
+#                Closer.sid    (https://csdb.dk/release/?id=175794)
+#                Burn.sid      (https://csdb.dk/release/?id=177802)
+/update/new/MUSICIANS/D/DAM/
+/MUSICIANS/D/DAM/
+
+# from DRAX: A_Bottom_Tribute_end.sid  A_Bottom_Tribute_intro.sid
+#            A_Bottom_Tribute_main.sid (https://csdb.dk/release/?id=174066)
+/update/new/MUSICIANS/D/DRAX/
+/MUSICIANS/D/DRAX/
+
+# from Wilfred: Acid_Rain.sid  Concentrated_Acid.sid  Invasion.sid
+#               Pharaos_Curse.sid  Sperms_Attack.sid  Stairway_to_Headphones.sid
+#               (https://csdb.dk/release/?id=176452)
+/update/new/MUSICIANS/D/Da_Phuture_Kemist/
+/MUSICIANS/D/Da_Phuture_Kemist/
+
+# from iAN CooG: O-Pat-Ko-No.sid (https://csdb.dk/release/?id=173066)
+#                Nightbreed.sid  (https://csdb.dk/release/?id=173486)
+#                You_Am_I-You_Are_the_RNGMNN.sid (https://csdb.dk/release/?id=175138)
+/update/new/MUSICIANS/D/Dalezy/
+/MUSICIANS/D/Dalezy/
+
+# from iAN CooG: Achtung_X-mas.sid (https://csdb.dk/release/?id=173406)
+/update/new/MUSICIANS/D/Danko_Tomas/
+/MUSICIANS/D/Danko_Tomas/
+
+# from iAN CooG: Raster-arse.sid (https://csdb.dk/release/?id=173405)
+/update/new/MUSICIANS/D/Devilock/
+/MUSICIANS/D/Devilock/
+
+# from iAN CooG: Chessboard_Intro_V2.sid (https://csdb.dk/release/?id=173019)
+#                Beezarro.sid (https://csdb.dk/release/?id=175475)
+/update/new/MUSICIANS/D/Divertigo/
+/MUSICIANS/D/Divertigo/
+
+# from DJ Gruby: Red_and_Blue.sid (https://csdb.dk/release/?id=178601)
+/update/new/MUSICIANS/D/DJ_Gruby/
+/MUSICIANS/D/DJ_Gruby/
+
+# from iAN CooG: Bruce_Lee-Return_of_Fury.sid (https://csdb.dk/release/?id=175583)
+#                Self_Control.sid (https://csdb.dk/release/?id=176531)
+/update/new/MUSICIANS/D/Drumtex/
+/MUSICIANS/D/Drumtex/
+
+# from Emarti  : Her_Yerde_Kar_Var.sid  (https://csdb.dk/release/?id=174307)
+# from iAN CooG: Bu_Gece_Gelmeyecek.sid (https://csdb.dk/release/?id=174959)
+/update/new/MUSICIANS/E/Emarti/
+/MUSICIANS/E/Emarti/
+
+# from iAN CooG: NGC1277_tune_1.sid  NGC1277_tune_2.sid  NGC1277_tune_3.sid
+#                (https://csdb.dk/release/?id=178035)
+/update/new/MUSICIANS/F/F7sus4/
+/MUSICIANS/F/F7sus4/
+
+# from iAN CooG: Shadow.sid  Brothers_in_Arms.sid  Killer.sid  Lets_Drink.sid
+#                Lets_Fuck.sid  Lets_Party.sid (https://csdb.dk/release/?id=174742)
+/update/new/MUSICIANS/F/Faclaug/
+/MUSICIANS/F/Faclaug/
+
+# from iAN CooG: Dice8.sid (https://csdb.dk/release/?id=173393)
+/update/new/MUSICIANS/F/Factor6/
+/MUSICIANS/F/Factor6/
+
+# from iAN CooG: They_Say_So_Much.sid (https://csdb.dk/release/?id=175651)
+#                Aspeloev_och_Lindeloev.sid (https://csdb.dk/release/?id=175639)
+#                Tac2sintolerant.sid (https://csdb.dk/release/?id=175649
+#                Nightcall.sid (https://csdb.dk/release/?id=175652)
+#                Edison_2019_Invitation.sid (https://csdb.dk/release/?id=177024)
+/update/new/MUSICIANS/F/Fegolhuzz/
+/MUSICIANS/F/Fegolhuzz/
+
+# from iAN CooG: BDay_2019.sid (https://csdb.dk/release/?id=174308)
+#                1337_Karate_ingame.sid (https://csdb.dk/release/?id=177033)
+/update/new/MUSICIANS/F/FieserWolF/
+/MUSICIANS/F/FieserWolF/
+
+# from Fredrik: Any_Second_Now.sid   (https://csdb.dk/release/?id=176705)
+#               Blue_Dress.sid       (https://csdb.dk/release/?id=176707)
+#               Guess_the_Cover.sid  (https://csdb.dk/release/?id=176753)
+#               It_Doesnt_Matter.sid (https://csdb.dk/release/?id=176971)
+#               Snickerboa.sid       (https://csdb.dk/release/?id=177176)
+#               Cold_Winds_to_Valhalla.sid (https://csdb.dk/release/?id=177195)
+#               No_Distance_Left_to_Run.sid (https://csdb.dk/release/?id=177271)
+#               Upphottad_Folklaat.sid (https://csdb.dk/release/?id=177393)
+#               Guess_the_Cover_2019.sid (https://csdb.dk/release/?id=177417)
+#               Funny_Cover.sid      (https://csdb.dk/release/?id=177418)
+#               Minimalistic_Cover.sid (https://csdb.dk/release/?id=177419)
+#               Blur-1992.sid        (https://csdb.dk/release/?id=177420)
+/update/new/MUSICIANS/F/Fredrik/
+/MUSICIANS/F/Fredrik/
+
+# from Wilfred: Off_Beat_Collection_2.sid (https://csdb.dk/release/?id=177326)
+/update/new/MUSICIANS/F/Funky_Koval/
+/MUSICIANS/F/Funky_Koval/
+
+# from Peter Gantar: En_mali_sloncek.sid  Kdo_2SID.sid  Ta_osoejska.sid
+#                    Hruske_jabuke_slive.sid  Zetor_Noise_2SID.sid
+#                    Zwei_Banditen_2SID.sid
+/update/new/MUSICIANS/G/Gantar_Peter/
+/MUSICIANS/G/Gantar_Peter/
+
+# from Flex    : Future_Goat.sid (https://csdb.dk/release/?id=175753)
+# from iAN CooG: Wings_of_Icarus.sid (https://csdb.dk/release/?id=173363)
+/update/new/MUSICIANS/H/Hannula_Antti/
+/MUSICIANS/H/Hannula_Antti/
+
+# from Inge: 64K_Cigarettes.sid  Anal_SID.sid  Astro_Spliff.sid  DB2A.sid
+#            Busi_Lo_Zingaro.sid  Chips_Challenge_BUGS_Level_Remix.sid
+#            DB3.sid  Electric_SID.sid  Espana_Cani_Cover.sid  Hardcore.sid
+#            Fabioooooooooooohhhh.sid  I_Biscotti_Dello_Zio_Isacco.sid
+#            Jingle_Bits.sid  Kavos.sid  La_Ciaffarata.sid  Last_Ciaffaro.sid
+#            Lento_Violento.sid  March_8th.sid  No_Second_SID.sid
+#            Sex_Trance.sid  Sly_Spy_Tune_2_Amigaremix.sid  Super_Ciaffaro.sid
+#            Super_Distortion.sid  Svacco_2.sid  Trance.sid  Truzzo.sid
+#            Tribute_to_Android.sid  Ultimate_Echo.sid
+#            Weird_Dreams_Amiga_Intro.sid Ya_Dastotochno_Ustal.sid
+#            Zamechatelni_Sex_S_Toboi.sid
+/update/new/MUSICIANS/I/IGP/
+/MUSICIANS/I/IGP/
+
+# from Mr. Ammo: Image-ination_6.sid (Taken from JCH collection's disk2329a.d64
+#                which was sent by Image to JCH)
+/update/new/MUSICIANS/I/Image/
+/MUSICIANS/I/Image/
+
+# from iAN CooG: Blueberry_Forrest.sid (https://csdb.dk/release/?id=178055)
+#                Too_Many_Happy_Sunsets.sid (https://csdb.dk/release/?id=178594)
+#                Watcher_of_Time_and_Space.sid (https://csdb.dk/release/?id=178774)
+# from Jammer: Pack_the_Punch.sid (https://csdb.dk/release/?id=173702)
+#              Stomp.sid (https://csdb.dk/release/?id=173734)
+#              Stars_Are_Us_2SID.sid (https://csdb.dk/release/?id=174760)
+#              Happy_40_Slajerek.sid (https://csdb.dk/release/?id=175398)
+#              OMG_Its_Burnin.sid  OMG_Its_Full_of_Dots.sid  Up_the_Ante_Guys.sid
+#              (https://csdb.dk/release/?id=175653)
+#              Trippy_Trappy.sid (https://csdb.dk/release/?id=175650)
+#              Voodoo_People.sid (https://csdb.dk/release/?id=176010)
+#              80squares.sid  (https://csdb.dk/release/?id=178064)
+#              Anime_Girl.sid (https://csdb.dk/release/?id=178604)
+#              Boileroom_2SID.sid (from Chiptunes=WIN #7 compilation)
+/update/new/MUSICIANS/J/Jammer/
+/MUSICIANS/J/Jammer/
+
+# from iAN CooG: Merry_Xmas.sid (https://csdb.dk/release/?id=173486)
+/update/new/MUSICIANS/K/Kiss_Konrad/
+/MUSICIANS/K/Kiss_Konrad/
+
+# from iAN CooG: PVG.sid (https://csdb.dk/release/?id=175798)
+/update/new/MUSICIANS/L/LDX40/
+/MUSICIANS/L/LDX40/
+
+# from iAN CooG: Thus_Spoke_the_PC_Speaker.sid (https://csdb.dk/release/?id=177060)
+/update/new/MUSICIANS/L/Lft/
+/MUSICIANS/L/Lft/
+
+# from iAN CooG: Brave_Men_in_Tights.sid  Rivalry_tune_3.sid
+#                (https://csdb.dk/release/?id=177023)
+# from LMan: Deep_Kiss.sid (https://csdb.dk/release/?id=177020)
+/update/new/MUSICIANS/L/LMan/
+/MUSICIANS/L/LMan/
+
+# from iAN CooG: Rivalry_tune_5.sid (https://csdb.dk/release/?id=177023)
+/update/new/MUSICIANS/L/Laxity/
+/MUSICIANS/L/Laxity/
+
+# from Wilfred: Mission_Demo.sid (https://csdb.dk/release/?id=173234)
+/update/new/MUSICIANS/L/Leitch_Barry/
+/MUSICIANS/L/Leitch_Barry/
+
+# from iAN CooG: You_Will_Be_a_Fossil_Soon.sid (https://csdb.dk/release/?id=173559)
+# from Linus   : Young_Adult_Dystopians.sid (https://csdb.dk/release/?id=175656)
+#                Decay_of_Infinity.sid (https://csdb.dk/release/?id=175882)
+/update/new/MUSICIANS/L/Linus/
+/MUSICIANS/L/Linus/
+
+# from iAN CooG: THCM_Please_Release_Your_Music_Tool.sid
+#                (https://csdb.dk/release/index.php?id=177049)
+/update/new/MUSICIANS/L/Los_Pat_Moritas/
+/MUSICIANS/L/Los_Pat_Moritas/
+
+# from iAN CooG: Ready_for_Read.sid (https://csdb.dk/release/?id=173486)
+# from mch     : Spacebar_Intro.sid (https://csdb.dk/release/?id=173733)
+#                A_Piece_of_Moldy_Cheese.sid (https://csdb.dk/release/?id=178058)
+/update/new/MUSICIANS/M/MCH/
+/MUSICIANS/M/MCH/
+
+# from iAN CooG: Moegdata_2019_Partyscroller.sid (https://csdb.dk/release/?id=175626)
+#                Rivalry_tune_1.sid (https://csdb.dk/release/?id=177023)
+# from Magnar  : Flashback.sid (https://csdb.dk/release/?id=178605)
+/update/new/MUSICIANS/M/Magnar/
+/MUSICIANS/M/Magnar/
+
+# from iAN CooG: Messy_Messi.sid (https://csdb.dk/release/?id=173680)
+/update/new/MUSICIANS/M/Mario64/
+/MUSICIANS/M/Mario64/
+
+# from iAN CooG: Avantgarde.sid (https://csdb.dk/release/?id=173715)
+/update/new/MUSICIANS/M/Metal/
+/MUSICIANS/M/Metal/
+
+# from Mibri: Saiph.sid (https://csdb.dk/release/?id=173674)
+#             Ice_Queen.sid (https://csdb.dk/release/?id=173788)
+#             Space_Invaders_Medley.sid (https://csdb.dk/release/?id=175462,175520)
+#             Flint-Sharp.sid (https://csdb.dk/release/?id=175703)
+#             Ramiel.sid (https://csdb.dk/release/?id=175989
+#             Lala_Prologue.sid (https://csdb.dk/release/?id=176434)
+#             Mythos_Cover.sid (https://csdb.dk/release/?id=176981)
+# from iAN CooG: Lighthouse_in_a_Storm.sid (https://csdb.dk/release/?id=175042)
+#                Tenebra_Macabre.sid (https://csdb.dk/release/?id=175563)
+/update/new/MUSICIANS/M/Mibri/
+/MUSICIANS/M/Mibri/
+
+# from iAN CooG: Coffee_Zone.sid (https://csdb.dk/release/?id=175658)
+/update/new/MUSICIANS/M/Mitch_and_Dane/Dane/
+/MUSICIANS/M/Mitch_and_Dane/Dane/
+
+# from Adam    : Tekarp.sid (https://csdb.dk/release/?id=178641)
+# from iAN CooG: Break5.sid (https://csdb.dk/release/?id=178422)
+/update/new/MUSICIANS/M/Morton_Adam/
+/MUSICIANS/M/Morton_Adam/
+
+# from iAN CooG: Achtueng_Tanz.sid (https://csdb.dk/release/?id=178368)
+/update/new/MUSICIANS/M/Mr_Death/
+/MUSICIANS/M/Mr_Death/
+
+# from iAN CooG: Mainstream_Lamestream.sid (https://csdb.dk/release/?id=172996)
+#                Sheepish_Tunes.sid (https://csdb.dk/release/?id=176175,176174,176730)
+/update/new/MUSICIANS/M/Mr_Mouse/
+/MUSICIANS/M/Mr_Mouse/
+
+# from iAN CooG: Jeff_for_fean-far.sid (https://csdb.dk/release/?id=175663)
+/update/new/MUSICIANS/M/Musicman/
+/MUSICIANS/M/Musicman/
+
+# from iAN CooG: Antz.sid (https://csdb.dk/release/?id=175523)
+#                Toxic.sid (https://csdb.dk/release/?id=178620)
+/update/new/MUSICIANS/M/Mythus/
+/MUSICIANS/M/Mythus/
+
+# from iAN CooG: Frantic_Freddie_II_6581.sid  Frantic_Freddie_II_8580.sid
+#                (https://csdb.dk/release/?id=177173,177187)
+/update/new/MUSICIANS/N/NM156/
+/MUSICIANS/N/NM156/
+
+# from Karmic: Fartuous.sid (https://csdb.dk/release/?id=178594)
+/update/new/MUSICIANS/N/Nagie_Sascha/
+/MUSICIANS/N/Nagie_Sascha/
+
+# from iAN CooG: 4M_Arena.sid (https://csdb.dk/release/?id=173646)
+#                (Included the loader from the full release)
+/update/new/MUSICIANS/N/Narciso/
+/MUSICIANS/N/Narciso/
+
+# from iAN CooG: UDI_Intro_Tune.sid (https://csdb.dk/release/?id=174579)
+/update/new/MUSICIANS/N/Nick_Vivid/
+/MUSICIANS/N/Nick_Vivid/
+
+# from iAN CooG: GTA_Intro.sid (https://csdb.dk/release/?id=173185)
+#                Do_a_Boink.sid (https://csdb.dk/release/?id=173608)
+#                Fastline_19.sid (https://csdb.dk/release/?id=176008)
+#                4K_for_Moonshine.sid (https://csdb.dk/release/?id=178059)
+/update/new/MUSICIANS/N/No-XS/
+/MUSICIANS/N/No-XS/
+
+# from iAN CooG: Firewall.sid (https://csdb.dk/release/?id=178065)
+/update/new/MUSICIANS/N/Noise/
+/MUSICIANS/N/Noise/
+
+# from iAN CooG: Lost_in_Time.sid (https://csdb.dk/release/?id=26974)
+/update/new/MUSICIANS/N/Nordic_Beat/Evony/
+/MUSICIANS/N/Nordic_Beat/Evony/
+
+# from iAN CooG: Volcano_Credits.sid (https://csdb.dk/release/?id=176129)
+#                Hard_Re_Start_2SID.sid (https://csdb.dk/release/?id=177057)
+/update/new/MUSICIANS/P/PCH/
+/MUSICIANS/P/PCH/
+
+# from Wilfred: 13_8-Fun.sid (https://csdb.dk/release/?id=178412)
+/update/new/MUSICIANS/P/PRI/
+/MUSICIANS/P/PRI/
+
+# from Jason Page: Twelfth.sid (https://csdb.dk/release/?id=178584)
+/update/new/MUSICIANS/P/Page_Jason/
+/MUSICIANS/P/Page_Jason/
+
+# from iAN CooG: Killer_Bees.sid (https://csdb.dk/release/?id=173107)
+/update/new/MUSICIANS/P/Palmonari_Stefano/
+/MUSICIANS/P/Palmonari_Stefano/
+
+# from iAN CooG: Hero.sid (https://csdb.dk/release/?id=178667)
+/update/new/MUSICIANS/P/Patfield_Kent/
+/MUSICIANS/P/Patfield_Kent/
+
+# from iAN CooG: Fuck_It_Up.sid  In_Da_Moon.sid  Intro_Music_1.sid
+#                Intro_Music_2.sid  Line_It_Up.sid  Overdrive.sid  Smock.sid
+#                Some_Noise.sid  Turbo_Tune.sid (Faith disk provided by xIII)
+/update/new/MUSICIANS/P/Poulsen_Harald/
+/MUSICIANS/P/Poulsen_Harald/
+
+# from iAN CooG: Jingle_Funky_Balls.sid (https://csdb.dk/release/?id=173062)
+#                Day_I_Moved_On.sid  Touching_Stars.sid
+#                (https://csdb.dk/release/?id=173486)
+#                Looper_intro_edit.sid (https://csdb.dk/release/?id=178037)
+#                Nono_Pixie.sid
+# from Psycho  : Forever_SID.sid (https://csdb.dk/release/?id=173543)
+#                Pongish.sid (https://csdb.dk/release/?id=173991)
+#                Hang_Drum.sid (https://csdb.dk/release/?id=176532)
+#                Pierce_the_Gravity.sid (https://csdb.dk/release/?id=178039)
+#                Looper.sid (https://csdb.dk/release/?id=178041)
+/update/new/MUSICIANS/P/Psycho/
+/MUSICIANS/P/Psycho/
+
+# from iAN CooG: Doris.sid (https://csdb.dk/release/?id=175662)
+/update/new/MUSICIANS/Q/Qdor/
+/MUSICIANS/Q/Qdor/
+
+# from iAN CooG: Kippers_as_Slippers.sid (https://csdb.dk/release/?id=177053)
+/update/new/MUSICIANS/R/Radiantx/
+/MUSICIANS/R/Radiantx/
+
+# from iAN CooG: Back_to_2004.sid (https://csdb.dk/release/?id=174298)
+#                Tribute_to_XTD.sid (https://csdb.dk/release/?id=178822)
+/update/new/MUSICIANS/R/Raf/
+/MUSICIANS/R/Raf/
+
+# from iAN CooG: Jebane_dziadostwo.sid (https://csdb.dk/release/?id=178027)
+/update/new/MUSICIANS/R/Randall/
+/MUSICIANS/R/Randall/
+
+# from iAN CooG: Robovalken.sid (https://csdb.dk/release/?id=178671)
+#                (Reduced from 5.5kb to 2.8kb)
+/update/new/MUSICIANS/R/Ray_Manta/
+/MUSICIANS/R/Ray_Manta/
+
+# from Karmic: Lotus.sid  My_First_SID_Tune.sid  Second_Attempt.sid
+#              (http://www.crescendi.at-ninja.jp/music.html)
+/update/new/MUSICIANS/R/Rerrah/
+/MUSICIANS/R/Rerrah/
+
+# from Response: Kinky_Stinky_Pinky.sid (https://csdb.dk/release/?id=177055)
+/update/new/MUSICIANS/R/Response/
+/MUSICIANS/R/Response/
+
+# from Wilfred: Magic.sid (https://csdb.dk/release/?id=35879)
+/update/new/MUSICIANS/R/Reverb/
+/MUSICIANS/R/Reverb/
+
+# from iAN CooG: Humppa_Hallelujaa.sid  Humppakanavahumppa.sid Humppanautinto.sid
+#                Humpparinkeli.sid  Humppauskonto.sid  Jaeaekaerihumppa.sid
+#                Karannut_humppa.sid  Kuuma_humppa.sid  Paeivaetanssit.sid
+#                Pilattu_humppa.sid  (https://csdb.dk/release/?id=173411)
+#                Snakepit_end.sid (https://csdb.dk/release/?id=175490)
+# from Jazzcat : Bye_Bye_Satellite.sid (https://csdb.dk/release/?id=178594,178657)
+# from Stinsen : Crossing_Over.sid (https://csdb.dk/release/?id=178364)
+/update/new/MUSICIANS/R/Rock/
+/MUSICIANS/R/Rock/
+
+# from Roly: Traxcess.sid (https://csdb.dk/release/?id=174300)
+#            Trainride.sid (https://csdb.dk/release/?id=175442)
+/update/new/MUSICIANS/R/Roly/
+/MUSICIANS/R/Roly/
+
+# from iAN CooG: Der_boese_Geist.sid  (https://csdb.dk/release/?id=173094)
+#                Little_Butterfly.sid (https://csdb.dk/release/?id=173365)
+#                Ghosts.sid (https://csdb.dk/release/?id=178594)
+#                Zeus_Theme.sid (https://csdb.dk/release/?id=178666)
+/update/new/MUSICIANS/S/SIDwave/
+/MUSICIANS/S/SIDwave/
+
+# from iAN CooG: Listen_to_What_the_Man_Said.sid (https://csdb.dk/release/?id=174961)
+# from Wilfred : Monday_Monday.sid (https://csdb.dk/release/?id=174960)
+/update/new/MUSICIANS/S/SOS/
+/MUSICIANS/S/SOS/
+
+# from Wilfred: Our_New_Intro.sid (https://csdb.dk/release/?id=176371)
+/update/new/MUSICIANS/S/Sammy/
+/MUSICIANS/S/Sammy/
+
+# from iAN CooG: LemmingWay.sid (https://csdb.dk/release/?id=178594)
+/update/new/MUSICIANS/S/Scarzix/
+/MUSICIANS/S/Scarzix/
+
+# from Wilfred: Verdict_Intro.sid (https://csdb.dk/release/?id=178538)
+/update/new/MUSICIANS/S/Schutten_Martijn/
+/MUSICIANS/S/Schutten_Martijn/
+
+# from Brush   : To_the_Moon.sid (https://csdb.dk/release/?id=178040)
+# from iAN CooG: Soldiers-Passacaglia.sid (https://csdb.dk/release/?id=178037)
+#                In_You.sid (https://csdb.dk/release/?id=178594)
+/update/new/MUSICIANS/S/Shogoon/
+/MUSICIANS/S/Shogoon/
+
+# from iAN CooG: Giana_Menu.sid  Giana_Sisters.sid  Mega_Medley.sid
+#                (https://csdb.dk/release/?id=173386)
+/update/new/MUSICIANS/S/SigmaZeven/
+/MUSICIANS/S/SigmaZeven/
+
+# from iAN CooG: Feed_Six_Chickens.sid (https://csdb.dk/release/?id=173640)
+/update/new/MUSICIANS/S/Six/
+/MUSICIANS/S/Six/
+
+# from iAN CooG: Beaty_Track.sid  Calvalery.sid  Caravan.sid  Forest.sid
+#                Chase_2.sid  Dream.sid  Dream-visit.sid  End_of_Tests.sid
+#                Ghostdance.sid  Gorky.sid  Grieg.sid  Halloween.sid  Hunt.sid
+#                In_the_Tomb.sid  Joy_Division.sid  Lekker_Beest.sid  Park.sid
+#                Little_Boy.sid  Living_Room.sid  Made_in_Poland.sid  Scabs.sid
+#                Minimal_Beat.sid  Moment_in_Love.sid  Mozart_V1_0.sid
+#                O_M_Dee.sid  Red-Zebra.sid  Remix_No_1.sid  Remix_No_2.sid
+#                Rika-Rock.sid  Roll_It.sid  Saved_from_Trash.sid  Train.sid
+#                Scuds_and_Petriots.sid  Siglo_21.sid  Sound_of_the_War.sid
+#                Space_Rock.sid  Spannend.sid  Strangler.sid  Sun_Down.sid
+#                Sun_Down_2.sid  Troll_Cavern.sid  UDC_Domino.sid  Zombajee.sid
+#                Unbelievable.sid  Zak_0.sid  Zak_3.sid  Zwei_Belgen.sid
+#                (Disks provided by xIII)
+#                Night_Shade.sid (https://csdb.dk/release/?id=175426)
+/update/new/MUSICIANS/S/Skysurfer/
+/MUSICIANS/S/Skysurfer/
+
+# from iAN CooG: Cellar_Door.sid (https://csdb.dk/release/?id=175471,175647)
+/update/new/MUSICIANS/S/Snabel/
+/MUSICIANS/S/Snabel/
+
+# from iAN CooG: BCC_2019.sid (https://csdb.dk/release/?id=175518)
+/update/new/MUSICIANS/S/Sonki/
+/MUSICIANS/S/Sonki/
+
+# from iAN CooG: Christmas18.sid (https://csdb.dk/release/?id=173069)
+/update/new/MUSICIANS/S/Soya/
+/MUSICIANS/S/Soya/
+
+# from iAN CooG: Week_in_Progress.sid (https://csdb.dk/release/?id=175483)
+# from SpiderJ: Doom.sid (https://csdb.dk/release/?id=173404)
+#               Rustikales_Ambiente.sid (https://csdb.dk/release/?id=174756)
+#               Mein_Verlies.sid (https://csdb.dk/release/?id=175437)
+#               1_Cant_ESC_lt3.sid (https://csdb.dk/release/?id=175636)
+#               Simple_Tune.sid (https://csdb.dk/release/?id=178600)
+/update/new/MUSICIANS/S/Spider_Jerusalem/
+/MUSICIANS/S/Spider_Jerusalem/
+
+# from Spino2006: A_Faraway_World.sid  Ballade_of_the_C64.sid
+#                 C64_SID_Machine.sid  Change_of_Time.sid  Chaos_in_Space.sid
+#                 Emptiness.sid  Galactic_Combat.sid  Galactic_Combat_extended.sid
+#                 Immortal_C64.sid  Infinite_Space.sid  Jenseits_der_Existenz.sid
+#                 Jenseits_der_Existenz_extended.sid  Time_and_Space.sid
+#                 Victorious_Fight.sid  Walzer_der_Nacht.sid
+/update/new/MUSICIANS/S/Spino2006/
+/MUSICIANS/S/Spino2006/
+
+# from iAN CooG: Dragon_Wars.sid (https://csdb.dk/release/?id=175633,176410,176476)
+# from Steel: I_Love_You_Son.sid (https://csdb.dk/release/?id=175634)
+#             DespaSIDo.sid (https://csdb.dk/release/?id=175631)
+/update/new/MUSICIANS/S/Steel/
+/MUSICIANS/S/Steel/
+
+# from iAN CooG: Tribal_Snake.sid (https://csdb.dk/release/?id=175490)
+#                Rivalry_tune_4.sid (https://csdb.dk/release/?id=177023)
+# from Stinsen : Unusual_Suspects.sid (https://csdb.dk/release/?id=175644)
+/update/new/MUSICIANS/S/Stinsen/
+/MUSICIANS/S/Stinsen/
+
+# from Wilfred: TWWs_First.sid (https://csdb.dk/release/?id=176726)
+/update/new/MUSICIANS/S/Surland_Jacob/
+/MUSICIANS/S/Surland_Jacob/
+
+# from iAN CooG: Stercore_64.sid (https://csdb.dk/release/?id=172924)
+#                Stercore_XD.sid (https://csdb.dk/release/?id=178357)
+/update/new/MUSICIANS/T/TMR/
+/MUSICIANS/T/TMR/
+
+# from MKC: Mechanix.sid (https://csdb.dk/release/?id=173609)
+/update/new/MUSICIANS/T/Technotron/
+/MUSICIANS/T/Technotron/
+
+# from iAN CooG: Metal_Zardax.sid (https://csdb.dk/release/?id=173388)
+#                Attitude_19_intro.sid  On_a_Slow_Boat_to_China.sid
+#                Untanmyra.sid (https://csdb.dk/release/?id=173486)
+#                Stolen_Properties.sid (https://csdb.dk/release/?id=175642)
+#                Slicka_en_flicka.sid (https://csdb.dk/release/?id=175654)
+#                Edu-Intro.sid (https://csdb.dk/release/?id=175630)
+#                I_Want_to_Love_You_Tender.sid (https://csdb.dk/release/?id=175655)
+#                Vandal_by_Heart.sid (https://csdb.dk/release/?id=178594)
+/update/new/MUSICIANS/T/The_Dungeon_Master/
+/MUSICIANS/T/The_Dungeon_Master/
+
+# from iAN CooG: Herning_Tune.sid (https://csdb.dk/release/?id=173828)
+/update/new/MUSICIANS/T/The_Magical_Garfield/
+/MUSICIANS/T/The_Magical_Garfield/
+
+# from iAN CooG: Small_Muzac_Preview.sid (https://csdb.dk/release/?id=176380)
+/update/new/MUSICIANS/T/Timoc/
+/MUSICIANS/T/Timoc/
+
+# from Geir Tjelta: Ansious.sid (https://csdb.dk/release/?id=175657)
+/update/new/MUSICIANS/T/Tjelta_Geir/
+/MUSICIANS/T/Tjelta_Geir/
+
+# from Toggle: Nappy_Go_Lucky.sid (https://csdb.dk/release/?id=175441)
+/update/new/MUSICIANS/T/Toggle/
+/MUSICIANS/T/Toggle/
+
+# from iAN CooG: Music_is_Playing_Behind_Garage_Door.sid
+#                (https://csdb.dk/release/?id=178066)
+# from Isildur : M2-V7.sid (https://csdb.dk/release/?id=178119)
+/update/new/MUSICIANS/T/Tracker/
+/MUSICIANS/T/Tracker/
+
+# from iAN CooG: Rue_de_l_abricot.sid   (https://csdb.dk/release/?id=174536)
+#                Full_Contact_Intro.sid (https://csdb.dk/release/?id=178313)
+#                Robots_Rumble.sid      (https://csdb.dk/release/?id=178288,178287)
+/update/new/MUSICIANS/U/Uctumi/
+/MUSICIANS/U/Uctumi/
+
+# from iAN CooG: Quantum_Fluctuations.sid (https://csdb.dk/release/?id=178594)
+# from V0yager : Rising_Tides.sid (https://csdb.dk/release/?id=178669)
+/update/new/MUSICIANS/V/V0yager/
+/MUSICIANS/V/V0yager/
+
+# from Andy: Loopit_C64_Ever.sid  (https://csdb.dk/release/?id=173081)
+#            Paranoimia_March.sid (https://csdb.dk/release/?id=173177)
+#            Stardust_NTSC.sid  Stardust_PAL.sid
+#            (https://csdb.dk/release/?id=173884)
+#            Super_Galax-i-birds.sid (https://csdb.dk/release/?id=175354)
+#            Doctor_Who_Theme.sid (https://csdb.dk/release/?id=178688)
+# from iAN CooG: Y_Sgrechian_O_Jarre.sid (https://csdb.dk/release/?id=173647)
+/update/new/MUSICIANS/V/Vaisey_Andy/
+/MUSICIANS/V/Vaisey_Andy/
+
+# from iAN CooG: Amundsen18_Partytrack.sid (https://csdb.dk/release/?id=173372)
+#                21st.sid (https://csdb.dk/release/?id=177032)
+#                4k_PETSCII_Intro.sid (https://csdb.dk/release/?id=177035,177251)
+#                Shanque_Targaloid.sid (https://csdb.dk/release/?id=178594)
+# from Vincenzo: Battlestar_Watchtowerica.sid (https://csdb.dk/release/?id=177059)
+#                Nun_with_Nunchaku.sid (https://csdb.dk/release/?id=178602)
+/update/new/MUSICIANS/V/Vincenzo/
+/MUSICIANS/V/Vincenzo/
+
+# from iAN CooG: Bad_Times.sid (https://csdb.dk/release/?id=176155)
+#                Funky_Symphony_Remix.sid (https://csdb.dk/release/?id=178331)
+/update/new/MUSICIANS/V/Viper/
+/MUSICIANS/V/Viper/
+
+# from iAN CooG: Acid_Flashback.sid (https://csdb.dk/release/?id=178606)
+/update/new/MUSICIANS/W/Wacek/
+/MUSICIANS/W/Wacek/
+
+# from iAN CooG: Solo_tune_1.sid (https://csdb.dk/release/?id=178746)
+# from Wilfred: Partners_in_Crime_tune_1.sid  Partners_in_Crime_tune_2.sid
+#               Partners_in_Crime_tune_3.sid (https://csdb.dk/release/?id=176854)
+#               Fuzz.sid  Rhythm_Run.sid (https://csdb.dk/release/?id=176856)
+#               Skull.sid (https://csdb.dk/release/?id=178737)
+/update/new/MUSICIANS/W/Warnock/
+/MUSICIANS/W/Warnock/
+
+# from iAN CooG: Revisioned.sid (https://csdb.dk/release/?id=173722)
+/update/new/MUSICIANS/W/Wiklund/
+/MUSICIANS/W/Wiklund/
+
+# from iAN CooG: Blockheads.sid (https://csdb.dk/release/?id=174492)
+#                A_Warm_Place.sid  Hurt.sid (https://csdb.dk/release/?id=175794)
+#                Beyond_Tellerrand_2018_plus_1.sid (https://csdb.dk/release/?id=177836)
+#                1959.sid  (https://csdb.dk/release/?id=177862)
+#                Vandalism_News_69_intro.sid (https://csdb.dk/release/?id=178594)
+/update/new/MUSICIANS/X/Xiny6581/
+/MUSICIANS/X/Xiny6581/
+
+# from Flex    : Missed_Call_final.sid (https://csdb.dk/release/?id=175752)
+# from iAN CooG: We_Are_the_Chimpions.sid (https://csdb.dk/release/?id=177031)
+#                Subtelevision.sid (https://csdb.dk/release/?id=178389)
+#                Half-Half.sid (https://csdb.dk/release/?id=178616)
+/update/new/MUSICIANS/Z/Zardax/
+/MUSICIANS/Z/Zardax/
+
+# from iAN CooG: Glide.sid (https://csdb.dk/release/?id=178594)
+/update/new/MUSICIANS/Z/Zzap69/
+/MUSICIANS/Z/Zzap69/
+
+
+# ****************************************************
+# **              REPEATS / BAD RIPS                **
+# ****************************************************
+
+DELETE
+
+# Street_Cred_Boxing.sid was a wrong rip all these years, now ripped correctly.
+# At this point we can safely delete this as it is the same binary as
+# Street_Cred_Boxing.sid, but with subtune #1 forced in init.
+/MUSICIANS/B/Bjerregaard_Johannes/Subway_Vigilante.sid
+
+
+# ****************************************************
+# **               SID TUNE CREDITS                 **
+# ****************************************************
+
+# Thanks to all contributors who have helped find the correct credits.
+
+#######
+CREDITS
+#######
+
+# https://csdb.dk/release/?id=170221
+/DEMOS/G-L/Letter_Maker_V2.sid
+The Way of Midsommarvagen
+Adam Dunkels (Trident)
+1992 Booze Design
+
+# https://csdb.dk/release/?id=43954
+/DEMOS/M-R/Mjoosic_Mejker_demotune.sid
+Mjoosic Mejker (demo tune 1)
+Fredrik Ademar (Ade)
+*
+
+# from a Goto80 disk provided by xIII
+/DEMOS/UNKNOWN/Rajjv_Tune_4_Einstein.sid
+*
+Anders Carlsson (4D Man)
+1997 Hack n' Trade
+
+# https://csdb.dk/release/?id=166128
+/DEMOS/UNKNOWN/Danger_II.sid
+*
+Manuel Cavero
+1993 Manuel Cavero
+
+/DEMOS/UNKNOWN/KungFu-Dragon.sid
+*
+Manuel Cavero
+1993 Manuel Cavero
+
+/DEMOS/UNKNOWN/Leaving.sid
+*
+Manuel Cavero
+1993 Manuel Cavero
+
+# https://csdb.dk/release/?id=36716 and title provided by xIII
+/MUSICIANS/J/JLD/I_Love_Sara_D.sid
+Jamaica
+*
+1992 Warriors of the Wasteland
+
+/MUSICIANS/N/Nordic_Beat/Evony/Out_of_Shape_part_2.sid
+Only You
+*
+1989 Psycho Candy
+
+# Verdict didn't exist before 1991
+/MUSICIANS/P/Pilot/Verdict_Intro_2.sid
+*
+Pim van Riezen (Pilot)
+1991 Verdict
+
+# https://csdb.dk/release/?id=93781
+/MUSICIANS/R/Rosenstiel_Joerg/Xecution_3.sid
+Softcastle
+*
+1987 Sharon Soundworks
+
+# https://csdb.dk/release/?id=176856
+/MUSICIANS/W/Warnock/Rock_n_Role_13_tune_6.sid
+Promise
+*
+1991 Firefoot
+
+# https://csdb.dk/release/?id=27127
+/MUSICIANS/Z/Ziphoid/Contactive_part_2.sid
+Looks Sharp II (tune 2)
+*
+1990 Triad
+
+
+#####
+TITLE
+#####
+
+# https://csdb.dk/release/?id=168101
+/MUSICIANS/F/Funky_Koval/Off_Beat_Collection_3.sid
+Horror Demo III
+
+# actual titles found in JLD diks provided by xIII
+/MUSICIANS/J/JLD/Amiga_Music_1.sid
+Cottage Rock 1
+
+/MUSICIANS/J/JLD/Amiga_Music_2.sid
+Cottage Rock 2
+
+/MUSICIANS/J/JLD/Amiga_Music_3.sid
+Cottage Rock 3
+
+/MUSICIANS/J/JLD/Amiga_Music_4.sid
+Cottage Rock 4
+
+# actual title is simply "Airwolf Remix"
+/MUSICIANS/M/Magnar/Old_Skool_Appreciation.sid
+Airwolf Remix
+
+/MUSICIANS/M/Magnar/Clara_Faerdiga_Gaa.sid
+Melody Clara Färdiga GÅ!
+
+/MUSICIANS/N/Nagie_Sascha/Jampron.sid
+Jam Pron
+
+# titles from Faith disk provided by xIII.
+/MUSICIANS/P/Poulsen_Harald/Dope_Melody.sid
+India Funk
+
+/MUSICIANS/P/Poulsen_Harald/Epic_Intro.sid
+Smock II
+
+# https://csdb.dk/release/?id=22723
+/MUSICIANS/R/Reverb/Woga_Woga.sid
+Wogoowoga
+
+# titles from Skysurfer disks with tunes made for Rock'n'Role, provided by xIII.
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_1.sid
+Zak 1
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_2.sid
+Zak 2
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_4.sid
+Ibiza
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_5.sid
+16 Bit Remix
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_10.sid
+Beaty Track 2
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_11.sid
+Recall
+
+# title from Andy
+/MUSICIANS/V/Vaisey_Andy/Oldest_Style.sid
+Bas Braster
+
+# https://csdb.dk/release/?id=896
+# this is the actual first documented usage of this tune, but it was badly
+# inited so it starts playing from the middle instead of the beginnning.
+/MUSICIANS/Z/Ziphoid/Kinky_part_5.sid
+Unicorn II (tune 4)
+
+#  https://csdb.dk/release/?id=489
+/MUSICIANS/Z/Zyron/Wonderful_Life.sid
+Wonderful Land
+
+
+######
+AUTHOR
+######
+
+# typo in handle, "-" missing
+/DEMOS/S-Z/SID_Dimension.sid
+Peter Gantar (Pero-Fotar)
+
+# https://csdb.dk/release/?id=176070
+/DEMOS/UNKNOWN/Vojtabrog.sid
+Claus Leth Gregersen & Obersoft
+
+/GAMES/A-F/Cred_Breaks_Out.sid
+James Cosby
+
+# confirmed by Jason Perkins and Anthony Clarke
+/GAMES/A-F/Frak.sid
+Jason Perkins & Anthony Clarke
+
+# confirmed by Jason Perkins to be his
+/GAMES/S-Z/Wimbledon_64.sid
+Jason Perkins
+
+# confirmed by Martin Walker in Freeze 64 issue 25
+/MUSICIANS/W/Walker_Martin/Rupert_and_the_Toymakers_Party.sid
+Martin Walker
+
+
+########
+RELEASED
+########
+
+/GAMES/A-F/Frak.sid
+1985 State Soft
+
+/DEMOS/UNKNOWN/Nikita.sid
+198? <?>
+
+# just fixing releaser group
+/MUSICIANS/F/FieserWolF/Ohli_Goes_to_Berlin.sid
+2018 Abyss Connection
+
+# year info in the SYS line: https://csdb.dk/release/index.php?id=5525
+/MUSICIANS/H/Heitkamp_Arndt/Monster_Fugger.sid
+1988 The Chip Crunchers
+
+# game and CSDb say 1989
+/MUSICIANS/H/Huelsbeck_Chris/Hard_n_Heavy.sid
+1989 reLINE Software
+
+# https://csdb.dk/release/?id=24633
+/MUSICIANS/J/JO/Multi_Move.sid
+1988 Genesis Project
+
+# https://csdb.dk/release/?id=36716
+/MUSICIANS/S/Skysurfer/Clarondo.sid
+1992 Warriors of the Wasteland
+
+/MUSICIANS/N/Nordic_Beat/Quan/Tamakos_Revenge.sid
+1989 Psycho Candy
+
+# https://csdb.dk/release/?id=172585
+/MUSICIANS/O/Odi/Bachs_Domain.sid
+1993 Demons of Sound
+
+# https://csdb.dk/release/?id=173284
+/MUSICIANS/W/Wedge/Sunday_Bloody_Sunday.sid
+1987 C.P.U.
+
+# https://csdb.dk/release/?id=28590
+/MUSICIANS/Z/Ziphoid/New_Intro.sid
+1989 Active
+
+
+#####
+SONGS
+#####  number of songs,starting tune
+
+/MUSICIANS/W/Westgate_Robert/Kwik_Snax.sid
+9,1
+
+#####
+SPEED
+#####  in hexadecimal
+
+
+########
+INITPLAY
+########  new init address, new play address (often fixes SID)
+
+
+#####
+FLAGS
+##### set the flags for Sidplayer tune, C64 tune, video clock and SID Chip
+
+/MUSICIANS/F/Flotsam/As_Always.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Blow_Job.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Complex.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Distortion.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Distortion_2.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Dr_Braindeath.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Dr_Lunacy.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Follow_the_Night.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Fusion.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Insania.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Later_On.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Lost_Troop.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Never_Wax.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/October_Thorns.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Open_Up.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Pink_Alien.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Plastic_Penis.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Red_Dragons.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Senseless_Jam.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Sleepwalker.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Slow_Motion.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Soundstorm.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Strobestorm-The_Market_Mix.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Strobestorm_HC-Mix.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Sugary_Tune.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Suspension.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Vaseline_Man.sid
+*
+*
+PAL
+6581
+
+/MUSICIANS/F/Flotsam/Vertigo.sid
+*
+*
+PAL
+6581
+
+
+#####
+CLOCK
+##### video clock - PAL, NTSC, UNKNOWN or ANY
+
+# sidmodel might be unknown, but they're for sure intended for PAL
+/MUSICIANS/N/Nordic_Beat/Atlantic_Ranger.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Electric_Journey.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Boing_Doing.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Classic_Game_Over_Song.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Funk_Theme.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Halv_1_4.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Hard_v1_4.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Jarre_v2.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Lost.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Evony/Piece_of_Cake_II_tune_4.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Funky_Ride.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Last_Zygoth.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Loop.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Bengt_Bjoern_Theme.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Casio_PT100.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Creep_plus_Bonus_Tracks.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Dumdidum.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Fjundun.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Foxy_Fox.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Gladpop.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Gymnioped.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Hallelujah_plus.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Happy_Hippo.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Happy_Hippo_Pos_2.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Harmony.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Housie_Again.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Housie_Housie.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Immortal_Bytes_tune_4.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Introboost.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Just_a_Test.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Loving_a_Stone.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Low_Budget_Atomic_Ant.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Methodos.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Ocean_Loader_Remix.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Psychadelica.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/SID_Assault.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Sky_Dance.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Snake_or_Die.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Space_Invaders.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Sven-Bennys_Dansband.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Matrix/Vixen_Theme.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Quan/Broken_Heart.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Quan/Colours.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Quan/Heavy_theme.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Quan/New_Wave.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Quan/Symphony_of_Doom.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Quan/Trigger-Happy.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Quan/Waves_of_Glory.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Smooth_Dimension.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Trallallallallalla.sid
+PAL
+
+/MUSICIANS/N/Nordic_Beat/Zybernix.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Airwolf.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Arpeggio_Beat.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Blipp_Blopp.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Chords.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Crying.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Fast_Symphony.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Full_Spectrum.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Illegal.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Intro_Tune.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Looking_Good_tune_5.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Push_It.sid
+PAL
+
+/MUSICIANS/Z/Zagor/Zagor_04.sid
+PAL
+
+
+########
+SIDMODEL
+######## UNKNOWN, 6581, 8580 or ANY as the preferred SID chip
+
+/DEMOS/G-L/Letter_Maker_V2.sid
+8580
+
+# info from Peter Gantar
+/DEMOS/S-Z/SID_Dimension.sid
+8580
+
+/MUSICIANS/L/LDX40/Clock_Four.sid
+6581
+
+
+#########
+FREEPAGES
+######### start of free pages, number of pages free to place C64 player
+
+/MUSICIANS/B/Bjoernerud_Sebastian/Mission_Nada.sid
+04,61
+
+/MUSICIANS/H/Huelsbeck_Chris/Antics_Chip_War.sid
+72,1C
+
+
+#######
+FIXLOAD
+#######
+
+
+# ****************************************************
+# **                MISCELLANEOUS                   **
+# ****************************************************
+
+MOVE
+
+# rename SIDs which stay in their dir
+
+/MUSICIANS/F/Funky_Koval/Off_Beat_Collection_3.sid
+/MUSICIANS/F/Funky_Koval/Horror_Demo_III.sid
+
+/MUSICIANS/J/JLD/Amiga_Music_1.sid
+/MUSICIANS/J/JLD/Cottage_Rock_1.sid
+
+/MUSICIANS/J/JLD/Amiga_Music_2.sid
+/MUSICIANS/J/JLD/Cottage_Rock_2.sid
+
+/MUSICIANS/J/JLD/Amiga_Music_3.sid
+/MUSICIANS/J/JLD/Cottage_Rock_3.sid
+
+/MUSICIANS/J/JLD/Amiga_Music_4.sid
+/MUSICIANS/J/JLD/Cottage_Rock_4.sid
+
+/MUSICIANS/J/JLD/I_Love_Sara_D.sid
+/MUSICIANS/J/JLD/Jamaica.sid
+
+/MUSICIANS/M/Magnar/Old_Skool_Appreciation.sid
+/MUSICIANS/M/Magnar/Airwolf_Remix.sid
+
+/MUSICIANS/M/Magnar/Clara_Faerdiga_Gaa.sid
+/MUSICIANS/M/Magnar/Melody_Clara_Faerdiga_Gaa.sid
+
+/MUSICIANS/N/Nagie_Sascha/Jampron.sid
+/MUSICIANS/N/Nagie_Sascha/Jam_Pron.sid
+
+/MUSICIANS/N/Nordic_Beat/Evony/Out_of_Shape_part_2.sid
+/MUSICIANS/N/Nordic_Beat/Evony/Only_You.sid
+
+/MUSICIANS/P/Poulsen_Harald/Epic_Intro.sid
+/MUSICIANS/P/Poulsen_Harald/Smock_II.sid
+
+/MUSICIANS/P/Poulsen_Harald/Dope_Melody.sid
+/MUSICIANS/P/Poulsen_Harald/India_Funk.sid
+
+/MUSICIANS/R/Reverb/Woga_Woga.sid
+/MUSICIANS/R/Reverb/Wogoowoga.sid
+
+/MUSICIANS/R/Rosenstiel_Joerg/Xecution_3.sid
+/MUSICIANS/R/Rosenstiel_Joerg/Softcastle.sid
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_1.sid
+/MUSICIANS/S/Skysurfer/Zak_1.sid
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_2.sid
+/MUSICIANS/S/Skysurfer/Zak_2.sid
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_4.sid
+/MUSICIANS/S/Skysurfer/Ibiza.sid
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_5.sid
+/MUSICIANS/S/Skysurfer/16_Bit_Remix.sid
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_10.sid
+/MUSICIANS/S/Skysurfer/Beaty_Track_2.sid
+
+/MUSICIANS/S/Skysurfer/Rock_n_Role_7_tune_11.sid
+/MUSICIANS/S/Skysurfer/Recall.sid
+
+/MUSICIANS/V/Vaisey_Andy/Oldest_Style.sid
+/MUSICIANS/V/Vaisey_Andy/Bas_Braster.sid
+
+/MUSICIANS/W/Warnock/Rock_n_Role_13_tune_6.sid
+/MUSICIANS/W/Warnock/Promise.sid
+
+/MUSICIANS/Z/Ziphoid/Contactive_part_2.sid
+/MUSICIANS/Z/Ziphoid/Looks_Sharp_II_tune_2.sid
+
+/MUSICIANS/Z/Ziphoid/Kinky_part_5.sid
+/MUSICIANS/Z/Ziphoid/Unicorn_II_tune_4.sid
+
+/MUSICIANS/Z/Zyron/Wonderful_Life.sid
+/MUSICIANS/Z/Zyron/Wonderful_Land.sid
+
+# finally move SIDs around to where they belong
+
+# inside /DEMOS
+
+
+# /DEMOS->/MUSICIANS
+
+/DEMOS/M-R/Nie_chcesz_mnie_w_ortalionie.sid
+/MUSICIANS/A/AceMan/
+
+/DEMOS/M-R/Resocialize_Me.sid
+/MUSICIANS/A/AceMan/
+
+/DEMOS/M-R/Mjoosic_Mejker_demotune.sid
+/MUSICIANS/A/Ademar_Fredrik/Mjoosic_Mejker_demo_tune_1.sid
+
+/DEMOS/A-F/Broken_Glasses.sid
+/MUSICIANS/B/Bod/
+
+/DEMOS/S-Z/Schmissiger_Schiss.sid
+/MUSICIANS/B/Bod/
+
+/DEMOS/S-Z/Stargazer.sid
+/MUSICIANS/F/F7sus4/
+
+/DEMOS/S-Z/Triangle_My_Amelie.sid
+/MUSICIANS/F/F7sus4/
+
+/DEMOS/A-F/Electronic_Foreheads_in_Concert_BASIC.sid
+/MUSICIANS/F/Fong_William/
+
+/DEMOS/M-R/Rocky_IV_BASIC.sid
+/MUSICIANS/F/Fong_William/
+
+/DEMOS/S-Z/SID_Dimension.sid
+/MUSICIANS/G/Gantar_Peter/
+
+/DEMOS/G-L/Letter_Maker_V2.sid
+/MUSICIANS/T/Trident/The_Way_of_Midsommarvagen.sid
+
+/DEMOS/A-F/Basic_tune_5.sid
+/MUSICIANS/V/Viper/
+
+/DEMOS/S-Z/This_Beat_is_Viper.sid
+/MUSICIANS/V/Viper/
+
+# /DEMOS/UNKNOWN->/MUSICIANS
+
+/DEMOS/UNKNOWN/Danger_II.sid
+/MUSICIANS/B/Black_Dove/
+
+/DEMOS/UNKNOWN/KungFu-Dragon.sid
+/MUSICIANS/B/Black_Dove/
+
+/DEMOS/UNKNOWN/Leaving.sid
+/MUSICIANS/B/Black_Dove/
+
+/DEMOS/UNKNOWN/Rajjv_Tune_4_Einstein.sid
+/MUSICIANS/G/Goto80/
+
+/DEMOS/UNKNOWN/Vojtabrog.sid
+/MUSICIANS/G/Groo/
+
+# /GAMES
+
+
+# /GAMES->/MUSICIANS
+
+/GAMES/G-L/Kung_Fu_Masters.sid
+/MUSICIANS/F/Fong_William/
+
+/GAMES/G-L/International_Karate_Ultimate.sid
+/MUSICIANS/N/NM156/
+
+/GAMES/A-F/Blue_Moon.sid
+/MUSICIANS/P/Perkins_Jason/
+
+/GAMES/A-F/Frak.sid
+/MUSICIANS/P/Perkins_Jason/
+
+/GAMES/M-R/Orange_Squash.sid
+/MUSICIANS/P/Perkins_Jason/
+
+/GAMES/S-Z/Wimbledon_64.sid
+/MUSICIANS/P/Perkins_Jason/
+
+
+# /MUSICIANS
+
+
+# /MUSICIANS->/DEMOS
+
+
+# /MUSICIANS->/GAMES
+
+# ****************************************************
+# **                 Cleaning Up                    **
+# ****************************************************
+
+DELETE
+
+/DOCUMENTS/Songlengths.txt
+
+# delete emptied dirs first
+
+/update/fix/DEMOS/A-F/
+/update/fix/DEMOS/G-L/
+/update/fix/DEMOS/
+
+/update/fix/GAMES/A-F/
+/update/fix/GAMES/M-R/
+/update/fix/GAMES/
+
+/update/fix/MUSICIANS/B/Bjerregaard_Johannes/
+/update/fix/MUSICIANS/B/
+
+/update/fix/MUSICIANS/F/Francois_Marc/
+/update/fix/MUSICIANS/F/Funky_Koval/
+/update/fix/MUSICIANS/F/
+
+/update/fix/MUSICIANS/K/King_Durin/
+/update/fix/MUSICIANS/K/
+
+/update/fix/MUSICIANS/L/LMan/
+/update/fix/MUSICIANS/L/
+
+/update/fix/MUSICIANS/M/Moellpauk/
+/update/fix/MUSICIANS/M/
+
+/update/fix/MUSICIANS/N/Nordic_Beat/Evony/
+/update/fix/MUSICIANS/N/Nordic_Beat/
+/update/fix/MUSICIANS/N/
+
+/update/fix/MUSICIANS/O/Ouwehand_Reyn/
+/update/fix/MUSICIANS/O/
+
+/update/fix/MUSICIANS/R/Rodger_Andrew/
+/update/fix/MUSICIANS/R/
+
+/update/fix/MUSICIANS/T/The_Blue_Ninja/
+/update/fix/MUSICIANS/T/
+
+/update/fix/MUSICIANS/S/Swallow/
+/update/fix/MUSICIANS/S/
+
+/update/fix/MUSICIANS/U/Ultrasyd/
+/update/fix/MUSICIANS/U/
+
+/update/fix/MUSICIANS/
+
+/update/fix/
+
+/update/new/DEMOS/0-9/
+/update/new/DEMOS/A-F/
+/update/new/DEMOS/G-L/
+/update/new/DEMOS/M-R/
+/update/new/DEMOS/S-Z/
+/update/new/DEMOS/UNKNOWN/
+/update/new/DEMOS/
+
+/update/new/GAMES/A-F/
+/update/new/GAMES/M-R/
+/update/new/GAMES/S-Z/
+/update/new/GAMES/
+
+/update/new/MUSICIANS/0-9/5bot/
+/update/new/MUSICIANS/0-9/
+
+/update/new/MUSICIANS/A/AMB/
+/update/new/MUSICIANS/A/AceMan/
+/update/new/MUSICIANS/A/Ademar_Fredrik/
+/update/new/MUSICIANS/A/Andersen_Kim/
+/update/new/MUSICIANS/A/Atom/
+/update/new/MUSICIANS/A/
+
+/update/new/MUSICIANS/B/Baron_Ashler/
+/update/new/MUSICIANS/B/Barracuda/
+/update/new/MUSICIANS/B/Batsman/
+/update/new/MUSICIANS/B/Bayliss_Richard/
+/update/new/MUSICIANS/B/Blues_Muz/Gallefoss_Glenn/
+/update/new/MUSICIANS/B/Blues_Muz/
+/update/new/MUSICIANS/B/Bod/
+/update/new/MUSICIANS/B/Bordeaux/
+/update/new/MUSICIANS/B/Brodersen_Frank/
+/update/new/MUSICIANS/B/
+
+/update/new/MUSICIANS/C/Cadaver/
+/update/new/MUSICIANS/C/Captain_Rock/
+/update/new/MUSICIANS/C/Chiola_Francesco/
+/update/new/MUSICIANS/C/Chiummo_Aldo/
+/update/new/MUSICIANS/C/Connolly_Sean/
+/update/new/MUSICIANS/C/Cross_Saul/
+/update/new/MUSICIANS/C/Crowley_Owen/
+/update/new/MUSICIANS/C/
+
+/update/new/MUSICIANS/D/DAM/
+/update/new/MUSICIANS/D/DRAX/
+/update/new/MUSICIANS/D/Da_Phuture_Kemist/
+/update/new/MUSICIANS/D/Dalezy/
+/update/new/MUSICIANS/D/Danko_Tomas/
+/update/new/MUSICIANS/D/Devilock/
+/update/new/MUSICIANS/D/Divertigo/
+/update/new/MUSICIANS/D/DJ_Gruby/
+/update/new/MUSICIANS/D/Drumtex/
+/update/new/MUSICIANS/D/
+
+/update/new/MUSICIANS/E/Emarti/
+/update/new/MUSICIANS/E/
+
+/update/new/MUSICIANS/F/F7sus4/
+/update/new/MUSICIANS/F/Faclaug/
+/update/new/MUSICIANS/F/Factor6/
+/update/new/MUSICIANS/F/Fegolhuzz/
+/update/new/MUSICIANS/F/FieserWolF/
+/update/new/MUSICIANS/F/Fredrik/
+/update/new/MUSICIANS/F/Funky_Koval/
+/update/new/MUSICIANS/F/
+
+/update/new/MUSICIANS/G/Gantar_Peter/
+/update/new/MUSICIANS/G/
+
+/update/new/MUSICIANS/H/Hannula_Antti/
+/update/new/MUSICIANS/H/
+
+/update/new/MUSICIANS/I/IGP/
+/update/new/MUSICIANS/I/Image/
+/update/new/MUSICIANS/I/
+
+/update/new/MUSICIANS/J/Jammer/
+/update/new/MUSICIANS/J/
+
+/update/new/MUSICIANS/K/Kiss_Konrad/
+/update/new/MUSICIANS/K/
+
+/update/new/MUSICIANS/L/LDX40/
+/update/new/MUSICIANS/L/Lft/
+/update/new/MUSICIANS/L/LMan/
+/update/new/MUSICIANS/L/Laxity/
+/update/new/MUSICIANS/L/Leitch_Barry/
+/update/new/MUSICIANS/L/Linus/
+/update/new/MUSICIANS/L/Los_Pat_Moritas/
+/update/new/MUSICIANS/L/
+
+/update/new/MUSICIANS/M/MCH/
+/update/new/MUSICIANS/M/Magnar/
+/update/new/MUSICIANS/M/Mario64/
+/update/new/MUSICIANS/M/Metal/
+/update/new/MUSICIANS/M/Mibri/
+/update/new/MUSICIANS/M/Mitch_and_Dane/Dane/
+/update/new/MUSICIANS/M/Mitch_and_Dane/
+/update/new/MUSICIANS/M/Morton_Adam/
+/update/new/MUSICIANS/M/Mr_Death/
+/update/new/MUSICIANS/M/Mr_Mouse/
+/update/new/MUSICIANS/M/Musicman/
+/update/new/MUSICIANS/M/Mythus/
+/update/new/MUSICIANS/M/
+
+/update/new/MUSICIANS/N/NM156/
+/update/new/MUSICIANS/N/Nagie_Sascha/
+/update/new/MUSICIANS/N/Narciso/
+/update/new/MUSICIANS/N/Nick_Vivid/
+/update/new/MUSICIANS/N/No-XS/
+/update/new/MUSICIANS/N/Noise/
+/update/new/MUSICIANS/N/Nordic_Beat/Evony/
+/update/new/MUSICIANS/N/Nordic_Beat/
+/update/new/MUSICIANS/N/
+
+/update/new/MUSICIANS/P/PCH/
+/update/new/MUSICIANS/P/PRI/
+/update/new/MUSICIANS/P/Page_Jason/
+/update/new/MUSICIANS/P/Palmonari_Stefano/
+/update/new/MUSICIANS/P/Patfield_Kent/
+/update/new/MUSICIANS/P/Poulsen_Harald/
+/update/new/MUSICIANS/P/Psycho/
+/update/new/MUSICIANS/P/
+
+/update/new/MUSICIANS/Q/Qdor/
+/update/new/MUSICIANS/Q/
+
+/update/new/MUSICIANS/R/Radiantx/
+/update/new/MUSICIANS/R/Raf/
+/update/new/MUSICIANS/R/Randall/
+/update/new/MUSICIANS/R/Ray_Manta/
+/update/new/MUSICIANS/R/Rerrah/
+/update/new/MUSICIANS/R/Response/
+/update/new/MUSICIANS/R/Reverb/
+/update/new/MUSICIANS/R/Rock/
+/update/new/MUSICIANS/R/Roly/
+/update/new/MUSICIANS/R/
+
+/update/new/MUSICIANS/S/SIDwave/
+/update/new/MUSICIANS/S/SOS/
+/update/new/MUSICIANS/S/Sammy/
+/update/new/MUSICIANS/S/Scarzix/
+/update/new/MUSICIANS/S/Schutten_Martijn/
+/update/new/MUSICIANS/S/Shogoon/
+/update/new/MUSICIANS/S/SigmaZeven/
+/update/new/MUSICIANS/S/Six/
+/update/new/MUSICIANS/S/Skysurfer/
+/update/new/MUSICIANS/S/Snabel/
+/update/new/MUSICIANS/S/Sonki/
+/update/new/MUSICIANS/S/Soya/
+/update/new/MUSICIANS/S/Spider_Jerusalem/
+/update/new/MUSICIANS/S/Spino2006/
+/update/new/MUSICIANS/S/Steel/
+/update/new/MUSICIANS/S/Stinsen/
+/update/new/MUSICIANS/S/Surland_Jacob/
+/update/new/MUSICIANS/S/
+
+/update/new/MUSICIANS/T/TMR/
+/update/new/MUSICIANS/T/Technotron/
+/update/new/MUSICIANS/T/The_Dungeon_Master/
+/update/new/MUSICIANS/T/The_Magical_Garfield/
+/update/new/MUSICIANS/T/Timoc/
+/update/new/MUSICIANS/T/Tjelta_Geir/
+/update/new/MUSICIANS/T/Toggle/
+/update/new/MUSICIANS/T/Tracker/
+/update/new/MUSICIANS/T/
+
+/update/new/MUSICIANS/U/Uctumi/
+/update/new/MUSICIANS/U/
+
+/update/new/MUSICIANS/V/V0yager/
+/update/new/MUSICIANS/V/Vaisey_Andy/
+/update/new/MUSICIANS/V/Vincenzo/
+/update/new/MUSICIANS/V/Viper/
+/update/new/MUSICIANS/V/
+
+/update/new/MUSICIANS/W/Wacek/
+/update/new/MUSICIANS/W/Warnock/
+/update/new/MUSICIANS/W/Wiklund/
+/update/new/MUSICIANS/W/
+
+/update/new/MUSICIANS/X/Xiny6581/
+/update/new/MUSICIANS/X/
+
+/update/new/MUSICIANS/Z/Zardax/
+/update/new/MUSICIANS/Z/Zzap69/
+/update/new/MUSICIANS/Z/
+
+/update/new/MUSICIANS/
+
+/update/new/
+
+REPLACE
+
+/update/DOCUMENTS/Update_Announcements/
+/DOCUMENTS/Update_Announcements/
+
+/update/DOCUMENTS/
+/DOCUMENTS/
+
+DELETE
+/update/DOCUMENTS/Update_Announcements/
+/update/DOCUMENTS/
+
