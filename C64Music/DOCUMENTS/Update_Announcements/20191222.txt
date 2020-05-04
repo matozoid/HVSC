@@ -1,0 +1,291 @@
+High Voltage SID Collection: Update #72
+Date: December 22, 2019
+
+Resulting Version: 72
+ Previous Version: 71
+
+After this update, the collection should contain 52,327 SID files!
+
+This update features (all approximates):
+     507 new SIDs
+     146 fixed/better rips
+       3 repeats/bad rips eliminated
+     356 SID credit fixes
+     103 SID model/clock infos
+      10 tunes from /DEMOS/UNKNOWN/ identified
+       3 tunes from /GAMES/ identified
+      33 tunes moved out of /DEMOS/ to their composers' directories
+      15 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+######################
+# 8-Bit Symphony Pro #
+######################
+
+A new Kickstarter campaign was created a few month ago to release a double
+CD-set/download of 8-Bit tunes performed by the Czech Studio Orchestra under
+the direction of Rob Hubbard and conducted by Robin Tait. The goal was
+reached and you can still preorder the CDs.
+
+Check it out here:
+
+https://c64audio.com/products/8-bit-symphony-pro-pre-order
+
+
+###################
+# Sidplayfp 2.0.1 #
+###################
+
+Libsidplayfp (and its console frontend sidplayfp) is a fork of sidplay2 born
+with the aim to improve the quality of emulating the 6581, 8580 chips and the
+surrounding C64 system in order to play SID music better.
+
+Changes in this release:
+
+- Add support for new SonglengthDB format
+- Added CIA model configuration
+- Added digiboost support
+- Added MOS 6573 (PAL-M) emulation
+- Added LISTINFO tags to exported wavs
+- Added support for milliseconds in SLDB
+- Added AU file output support
+- Reworked displayed info
+- Try to load roms and config from where the executable is located on Windows
+- Added new audio driver based on libout123, allows supporting Mac OSX
+- Changed 8580 filter parameter for reSIDfp
+- Use c++11 features where supported
+- Added exSID USB support
+
+
+Get the new version here: https://sourceforge.net/projects/sidplay-residfp/
+
+
+###############
+# Cinematic64 #
+###############
+
+Slaygon released his Cinematic64 album as part of the 8-Bit Symphony Box-set.
+
+Check out the album here:
+
+https://slaygon.bandcamp.com/
+
+
+#######################################
+# in_sidplay2 2.2.0 plugin for WinAmp #
+#######################################
+
+Zbigniew Ross (Zbych) released a new version of his WinAmp plugin for playing
+SID files in WinAmp.
+
+The plugin is based on libsidplayfp/ReSidfp library. The plugin now supports the
+new song length database (md5 extension).
+
+Features:
+
+- Easy way to build playlist with automatically added subsongs
+- Song length database support
+- Support of 2SID and 3SID songs
+- Pseudo stereo mode
+- Mute/unmute selected SID voice
+
+Get it here: https://csdb.dk/release/?id=181245
+
+
+######################################
+# AIMP Sidplay 1.1.0 plugin for AIMP #
+######################################
+
+Zbigniew Ross (Zbych) released a new version of his AIMP plugin for playing
+SID files in AIMP.
+
+The plugin is based on libsidplayfp/ReSidfp library. The plugin now supports the
+new song length database (md5 extension).
+
+Features:
+
+- Play SID files with up to 48kHz decoding frequency
+- Support of 2SID and 3SID songs
+- Allows to select song length file to play files with appropriate time
+- Allows to set play time limit for songs with unknown length
+- Allows to select different type of SID model for left and right channel
+  (for single sid files too) it is so-called pseudostereo mode
+- Allows to enabled/disable SID voices independently for each emulated SID
+- Seek through song
+- Automatically adds subsongs to playlist
+
+Get it here: https://csdb.dk/release/?id=181249
+
+
+#########################################
+# STSID: SID board based on ST 8bit mcu #
+#########################################
+
+The STSID is a new hardware project for the Commodore 64 which is still in the
+prototyping phase. The hardware will include:
+
+- MCU 16Mhz STM8S003K3T
+- 8K flash
+- 1K RAM
+- 128 bytes EEPROM
+
+The following features it will have:
+
+- Stereo or dual SID
+- Support for paddles
+- Support for midi in/out
+- Firmware upgradable
+- Store settings permanently
+
+More info can be found here:
+
+https://www.lemon64.com/forum/viewtopic.php?t=73003&start=0&sid=3568aa5428e7ade2776787f7f3309b56
+
+
+##########
+# SIDAMP #
+##########
+
+Kent Patfield (Patto) created a web based SID player called SIDAMP which is
+compatible with most browsers. SIDAMP is based on Tiny'R'Sid by Juergen Wothke.
+The player features exclusive covers, custom playlists, visualizations, and
+soon full HVSC support as well as custom skins.
+
+Features:
+
+- Drag n' Drop any SID file onto the page to play
+- Drag n' Drop enabled SIDAMP Player and Playlist
+- Hide Oscilliscope
+- SID Register Info Displayed
+- Over 60 Exclusive SIDS
+
+Check it out:
+
+https://www.sidamp.com/
+
+
+####################
+# Hoxs64 v1.0.25.0 #
+####################
+
+Hoxs64 v1.0.25.0 has been released. Hoxs64 is a C64 emulator for Windows written
+by David Horrocks.
+
+Changes since version v1.0.21.1:
+
+- Multiple SID chip configuration added to the "chip" tab settings. Up to 4 SID
+  chips can be configured. Added SID stereo / mono toggle option.
+- Stability fixes and improvements to the built in sid file player to support
+  version 4 of the file format with automatic multiple SID chip configuration.
+- SID file loading adjustment.
+- 8 SID configuration to support the "The Tuneful Eight [ultimate]"
+  https://csdb.dk/release/?id=180946
+- Monitor refresh option added to emulation video settings.
+- Allow PC joystick to control up to 6 C64 keys.
+- Added aspect ratio resizing option to windowed mode.
+- Improved G-Sync performance with the host CPU aggressive mode.
+- Added 100Hz full screen frame rate doubler option to help prevent IPS LCD
+  pixel burn in when using G-Sync.
+
+Get the new version from: http://www.hoxs64.net/
+
+
+##################################
+# GoatTracker v2.75 MacOS 64-bit #
+##################################
+
+Slajerek updated GoatTracker, a cross-platform and open source C64 music editor,
+for MacOS to support MacOS Catalina which only supports 64-bit applications. It
+is not officially released yet but you can already test it.
+
+More info: https://csdb.dk/forums/?roomid=14&topicid=138656
+
+
+##############################
+# Ultimate-64 firmware v1.24 #
+##############################
+
+The Ultimate 64 is a main board for your beloved C64 case. This board is a
+hardware implementation (FPGA) of the entire C64, and it includes the
+Ultimate-II+ cartridge as well. An all-in-one solution.
+
+SID related changes in the update:
+
+- Added support for 8-SID configurations
+- Added choice of which UltiSID causes the LED strip to light up
+- Added a Visual SID addressing editor
+- Added detection and real time configuration of FPGASID
+- Added detection and real time configuration of SwinSid Ultimate
+- Added detection and real time configuration of ARMSID
+
+More details can be found here:
+
+https://ultimate64.com/Firmware
+
+
+#################
+# SID Chip Club #
+#################
+
+Markus Klein's (LMan) Kickstarter campaign called 'SID Chip Club' reached its
+goal and was successful. Around June 2020 he will release a real C64 house and
+techno album on vinyl record and on C64 cartridge. The album will include 8
+tracks which will be recorded from the Commodore 64 home computer.
+
+You can still preorder. Check it out:
+
+https://www.kickstarter.com/projects/lman/sid-chip-club-vinyl-album-real-c64-house-and-techn
+
+
+###########
+# DeepSID #
+###########
+
+DeepSID is an online SID player made by JCH of Vibrants. It emulates music
+created for the Commodore 64 home computer. It supports nice features like:
+
+- Toggling between WebSID/jsSID/SOASC for SID playback.
+- SID player and year display for each song.
+- Creature and play playlists.
+- Rating folders and SID files.
+- Comment / Discuss SID files
+- Profile / CSDb / GB64 / Player / STIL / Piano / Graph view.
+- Search through HVSC / STIL.
+- and much more.
+
+Almost every day changes are made and are put online. See the Changes tab for
+the full change log.
+
+Check it out: http://deepsid.chordian.net/
+
+
+###################
+# SID Known v1.18 #
+###################
+
+Wilfred Bos has released SID Known v1.18. This version supports now HVSC #72.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(https://hvsc.de) or post it in one of the CSDb forums (https://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: https://csdb.dk/release/?id=185259
