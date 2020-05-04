@@ -1,7 +1,7 @@
 #######################################################################
 #   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
 #   Maintained by Peter Sandén <yodelking@formec.com>                 #
-#   Last Updated Friday, December 24, 2005                            #
+#   Last Updated Friday, April 17, 2006                               #
 #######################################################################
 #                                                                     #
 # The purpose of this text document is to highlight all the tunes     #
@@ -35,7 +35,7 @@
 #######################################################################
 
 ###############################
-# Bugged tunes as of HVSC 44  #
+# Bugged tunes as of HVSC 45  #
 ############################### 
 
 /Audial_Arts/Prijt_Francois/Blaze_of_Glory_Holland_Pro.sid
@@ -50,11 +50,22 @@
        then assemble and play using the tape recorder.
 (Jaromir Król)
 
+/GAMES/M-R/Project_Firestart.sid
+  BUG: Missing several in-game jingles from the various meanwhile scenes,
+       and background tunes.
+(Ville Nurmi)
+
 /GAMES/M-R/Rollin.sid
   BUG: Game has two missing in game tunes (UK Atlantis release (Rollin!)
        has the tunes on.  One plays ingame, one plays if you leave the
        game on demo mode.
 (Gazi)
+
+/Gibson_Tony/Ghettoblaster.sid
+  BUG: The last tape you get (in the shed at Itchycoo Park) is missing. It
+       contains a remix of the Main Theme (named "Ghettoblaster Theme
+       (The Udder Mix)".
+(Merkur)
 
 /Hogg_Ashley/Classical_2.sid
   BUG: At around 1:45 the digi samples and the rest of the tune gets out of

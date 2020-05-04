@@ -1,0 +1,241 @@
+Hello fellow lover of SID music!
+
+HVSC Update #42 is now available for you to download
+at www.hvsc.c64.org
+
+After this update, the collection should contain 30,001 SID files!
+
+This update features (all approximates):
+     943 new SIDs
+     211 fixed/better rips
+       3 fixes of PlaySID/Sidplay1 specific SIDs
+       7 repeats/bad rips eliminated
+     400 SID credit fixes
+     472 SID model/clock infos
+       3 tunes from /DEMOS/UNKNOWN/ identified  :-)
+     216 tunes moved out of /DEMOS/ to their composers' directories
+      85 tunes moved out of /GAMES/ to their composers' directories
+
+We've got the music compo entries from the following parties in this pack:
+Tiny SID Compo, Breakpoint 2005, Deadline 2007, Floppy 2005, Forever Hex,
+Maximum Overdose 6.
+
+#########################
+New features in HVSC v42:
+#########################
+
+o New version numbering (you guessed it already), which is now consistent
+  with the number of the current Update. This should make it easier to find
+  out which update you need in order to upgrade to a newer HVSC in the
+  future. And believe me, there are a lot more updates yet to come, we
+  haven't by far ripped everything that's out there.  :-)
+
+o Complete songlength database now included!
+  Compiled by Laust Brock-Nannestad (the PSID part and some RSIDs) and
+  Stephan Schmid (the majority of the RSID tunes and manual correction
+  to some PSID entries that were wrong).
+  Kudos to Michael Schwendt for making his songlength tool publicly
+  available and to LaLa who sorted the PSID and RSID entries to make the
+  SLDB better readable.
+
+o From now on it only takes 3 tunes to get a composer his own directory!
+  Three is a nice number, we thought. And it also cleans up the /GAMES and
+  /DEMOS directories considerably.
+
+o We decided to dissolve the following group directories in order to make
+  the HVSC more consistent and make locating certain composers more
+  intuitive:
+  ADSR, Graffity, Natural Beat
+  Right, there are still a few group directories left, but for various
+  reasons we felt it's better to leave these composers grouped together
+  (splitting up 20CC or Blues Muz' would really feel odd, for example).
+
+o New update tool 2.8.3 (the Win32 version is included in the update).
+  The C++ source code saw a reasonable clean-up, so it can now be compiled
+  on more platforms without dirty hacks or patches to the source code.
+  Check out the HVSC downloads page, there you find the new tool for the
+  platform of your choice, as well as the source code, if you want to
+  compile it for yourself. We're still looking for a precompiled binary of
+  the update tool for the Amiga, so if you manage to compile it, please
+  send it over. That of course also accounts for any other platform that
+  it's not available for in the downloads section of the website.
+
+o And of course we have another juicy update intro for you. Check out the
+  d64 file at the bottom of your root directory (in /C64Music) and watch
+  the intro to get into the right mood!  :-)
+  
+o The HVSC crew got 2 new members: Pawel Ruczko aka Murdock/Tropyx and
+  Mariusz Rozwadowski aka Ramos/Samar, both from Poland, have recently
+  joined the team to support and enhance us.
+
+o Kristoffer Johansson has retired from the team due to private and familiar
+  reasons. Kristoffer, it's been a blast having you around, good luck and
+  take care!
+
+  
+
+Main Composers featured in this update:
+(Artists marked with NEW are either completely new to the HVSC
+ or they get their own directory in this update)
+
+  Stephen C. Biggs          DRAX
+  Laxity                    Ace64 (NEW)
+  B0rje                     Richard Bayliss
+  Bionic Hands              Cleve
+  Digger                    Dos
+  Gangstar                  G-Fellow
+  Maktone                   Mc Zak
+  Miss Secret               Moog
+  Nata                      Ne7
+  No-XS                     Oedipus
+  Praiser                   PVCF
+  Racer X                   Rap
+  TC                        Mr. L (NEW)
+  Asterion                  Trays
+  Warnock                   Remarque (NEW)
+  Linus Akesson (NEW)       Radiantx (NEW)
+  Eloquence (NEW)           Gomez (NEW)
+  Mac_ALivers (NEW)         
+
+
+#######################
+SID related scene news:
+#######################
+
+o The MMC64 cartridge is out
+  ==========================  
+  If you still have your real C64 set up from time to time (or even
+  permanently), and considered you are a SIDaholic (which you just
+  have to be, you're reading this announcement!), then the MMC64 is
+  definitely a must have for you.
+  What is it? It's a cartridge for the expansion port of your C64 which
+  allows you to use a FAT formatted SD/MMC card of up to _4 Gigabytes_
+  as file storage container. It has a filebrowser built into the
+  reflashable ROM bios that allows easy navigating in your directory
+  structure. And (now it comes) there's also a SID player built in that
+  allows you to play plain unmodified .sid files on your real C64 without
+  any more additional helper applications! Now imagine: Just copy HVSC
+  onto your 256 MB cheapo card in your card reader on the PC, insert it
+  into the MMC64 and start listening to your favourite SIDs, it never was
+  that easy!
+  
+  The MMC64 is priced at a reasonable 49 Euros and can be ordered at
+  www.protovision-online.de
+  www.go64.de
+  or directly from the producer Jens Schönfeld at www.ami.ga
+
+
+o Sidplay2/w was updated
+  ======================
+  Everybody go and grab the new Sidplay2 version for Win32, it features:
+  * reSID 0.16
+  * PSID samples variables get reset properly
+  * emulation improvements make some previously silent subtunes
+    work again.
+
+  => Download it from www.gsldata.se/c64/spw/
+
+  
+o PSID64 0.7 released
+  ===================  
+  PSID64 is one of these invaluable helper applications that make the life
+  of the average SID fan a lot easier. It allows you to convert any .sid
+  tune in HVSC into an executable .prg file that can be started with RUN
+  on your real C64 or in any emulator.
+  
+  New in version 0.7:
+  # Improved RSID compatibility.
+  # Use INST/DEL to toggle screen on and off.
+  # Use + and - keys to select next and previous song respectively.
+  # Display the song number of song currently being played.
+  # Show all 31 characters of the PSID header.
+  # Fixed NMI bank register bug.
+  # Pass default song number via boot loader.
+  # STIL support (finally!)
+
+  => Download it from http://psid64.sourceforge.net
+  
+  
+o SID plugin for XMplay released
+  ==============================
+  Pieknyman wrote a really nice .sid plugin for XMPlay.
+  It has reSID 0.16 and is based on libsidplay2, so it can also play BASIC
+  and RSID files at reference emulation quality. And the best thing about it:
+  It supports the songlength database, included in HVSC from now on.
+  Just go and drag a couple of your favourite SID tunes into the playlist
+  window and listen to them just as long as they were meant to be heard, without
+  the need to ever press that NEXT button when you get bored of a SID after it
+  looped for the 8th time.
+  
+  Now go uninstall Winamp, get XMPlay that (besides being able to play various
+  Amiga music formats) of course also supports MP3 and OGG and finally get a
+  healthy mix of SID and MP3 tunes without always having to switch players or
+  suffer from bad emulation quality due to an outdated plugin.  :-)
+  
+  => XMPlay website: http://www.un4seen.com
+  => Pieknyman's website with the SID plugin:
+     http://xthost.info/pieknyman/download.html
+
+
+o HVMEC 0.4 released
+  ==================
+  Stefano Tognon's "High Voltage Music Engine Collection" now contains
+  83 editors, 53 trackers and 24 other kind of music programs.
+  If you're thinking about starting composing on the C64, this is the
+  place to go to pick your editor/tracker of choice.
+  
+  => Go here:  http://digilander.iol.it/ice00/tsid/hvmec.html
+
+
+o SidDB v1.0.3 released
+  ===================
+  You may not have heard of this one: SidDB is a tool written in Visual Basic
+  (an earlier version v0.9 is also available in Java) that helps you 
+  organize and maintain your collection of SID tunes on your harddisk.
+  It creates a database file from your HVSC that allows you to search HVSC
+  for specific keywords in a very flexible way (search for titlestrings,
+  composers or release years). Check it out, it's free.
+  
+  => Borries Wendling's website:  http://dashemdchen.de/
+  => Direct Link to SidDB V1.0.3 (Visual Basic version):
+     http://dashemdchen.de/siddb_1.0.3.zip
+  => Direct Link to SidDB V0.9 (Java version):
+     http://dashemdchen.de/siddb_java_0.9.zip
+
+  
+o Goat Tracker 1.53 released
+  ==========================
+  GoatTracker is a music editor running on the PC which allows you to compose
+  COMMODORE 64's SID tunes. It doesn't require any emulators or special
+  hardwares as the sound of the SID is emulated by the editor itself.
+  
+  New to this version:
+    * Fixed packer behaviour with no hardrestart/no pulseinit instruments
+    * Optimized pulseinit routine a few cycles (at cost of one byte)
+
+  The stereo version was also updated.
+  
+  => Download it here: http://www.covertbitops.c64.org
+     (in the Tools section)
+
+     
+o Sid Player for Atari XL/XE 0.99 released
+  ========================================
+  Swiety from Poland is has written a SID music player running
+  on the ATARI XL/XE. Despite its POKEY chip being very different from the SID
+  chip, this player shows pretty good reproducibility. The interrupt related
+  to initialization seems to have been corrected in this version.
+  NOTE: To download it, you have to get a forum account (click "Zgadzam Sie
+  na te warunki i mam powyzej 13 lat"), then proceed to the login form.
+  
+  => http://atariarea.histeria.pl/pliki.php?sec=show&id=522
+  
+  
+
+
+Now go and enjoy the new update!
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+Steppe, on behalf of the whole HVSC Crew

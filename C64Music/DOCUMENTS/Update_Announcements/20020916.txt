@@ -1,0 +1,51 @@
+Hello folks,
+
+With the recent HVSC Update #32 involving the conversion of HVSC
+to the PSIDv2NG file format, this was the first stage of eventually
+making HVSC more C64-compliant than ever before.
+
+The forthcoming HVSC Update #33, due to be released around 
+mid-to-late October, will further progress the C64 compliance by
+for the first time allowing real C64 sample tunes to be played
+without the need to hack into them and do PlaySID sample
+conversion.
+
+You will have to use a Sidplay2-based SID emulator (such as
+Sidplay2/Windows) to play them correctly, however, as playing any of
+these SIDs on PlaySID or any Sidplay1-based emulator will most likely
+cause them to crash.   Do not fear though, there will be the _PSID
+file equivalents for those users, which are already in HVSC, and we do
+not plan to phase those out for the foreseeable future.  Please see
+sections 7 through 10 of the HVSC FAQ for further information.
+
+The downside though is that admittedly some of the real C64 rips will
+mean that, for example, the tools people sometimes use to check rips,
+generate playtimes etc may not work correctly anymore, and therefore
+this is an advance warning to those tool writers to ensure that they
+have adequate time to work together to update those tools.
+
+We make no apologies however for pushing to make HVSC more
+C64-compliant.  We are sure you agree that being able to play _all_
+the SIDs on the host machine should be the ultimate aim if possible -
+it is a tribute indeed to almost all of us having our roots firmly
+embedded in the C64.
+
+One final word to the rippers out there: if at all possible,
+please prioritise your ripping work so that you help us add
+more real C64 rips into HVSC, as well as fix those tunes in
+the Sidplay2 Bugged SIDs list and those in the HVSC
+BUGlist.txt file.  This would be most appreciated not just
+by us, but by many SID fans too. A current list of those
+real C64 versions already ripped can be found here:
+
+ http://www.hvsc.c64.org/News/realc64.html
+
+Also, you may be interested to know that a new version
+of Sidplay2/Windows was released yesterday, which allows
+for full support of PSIDv2NG.  Please consult the following
+page for more information:
+
+ http://www.d.kth.se/~d93-alo/c64/spw/ 
+
+Kind regards
+The HVSC Team.

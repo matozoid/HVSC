@@ -1,0 +1,123 @@
+ Hello everyone,
+
+ HVSC Update #40 is now available for you to download
+ at www.hvsc.c64.org
+
+ After this update, the collection should contain 27,653 SID files!
+
+ This update features (all approximates):
+      563 new SIDs
+      724 fixed/better rips
+        2 fixes of PlaySID/Sidplay1 specific SIDs
+       10 repeats/bad rips eliminated
+      323 SID credit fixes
+      152 SID model/clock infos
+       27 tunes moved out of /DEMOS to their composers' directories
+       15 tunes from /DEMOS/UNKNOWN identified  :-)
+          (and two go back due to bad credits)
+       12 tunes moved out of /GAMES to their composers' directories
+          (and one goes back due to bad credits)
+
+ Main Composers featured in this update:
+ (Artists marked with NEW! are either completely new to the HVSC
+  or they get their own directory in this update)
+
+   Deek                               James Hilthy  (NEW!)
+   Kathy and Kidd Clark (NEW!)        Henning Rokling
+   John Vanderaart                    Agemixer
+   Alien                              Richard Bayliss
+   Glenn Rune Gallefoss               Ciaran
+   CMP (NEW!)                         ELA
+   G-Fellow                           Harmony Productions
+   Hein Holt                          John Keding
+   Sascha Zeidler (Linus) (NEW!)      Lordnikon
+   Maktone                            Murdock
+   Nadira                             Ne7 (NEW!)
+   Richard Nygaard (NEW!)             Puterman
+   Reed (NEW!)                        Scortia
+   Tango                              Jeremy Thorne (NEW!)
+   Asterion                           Zeus
+
+ So what is new about this update?
+
+o We've got the music compo entries from the following parties in this pack:
+  LCP 04, North Party 9, Assembly 04, Primary Star 04 and Solskogen 04
+
+o The mega hyped Turrican 3 soundtrack is of course also in this update,
+  check out /VARIOUS/S-Z/Sonic/Turrican_3.sid
+  And head over to www.smash-designs.de and drop a mail to AEG and express
+  your interest in Katakis 2, which, if all goes well, will be coproduced
+  by ye ole master Manfred Trenz again!
+ 
+o This update contains about 500 multi speed fixes. Due to an incorrect
+  assumption regarding the number of cycles per frame (the C64 has
+  $4CC7 and not $4CF9 cycles per frame, due to running at 50.125Hz
+  instead of 50Hz) most of the multi speed tunes that you will find in HVSC
+  were played a little slower than intended after converting them to play via
+  the CIA timer.
+
+  Also we removed some completely unnecessary cycle eating
+  $DC0E writes, which caused a larger slowdown than the mere $22 cycles
+  difference mentioned above.
+
+  Although a 0.2% speed difference may not sound much in audible
+  terms, some tunes do require very precise timing to get the instruments
+  to sound correct, and so we felt it would be best to fix them all in one
+  big effort in this update.
+
+  Do note that we haven't fixed all the old game tunes yet, as some
+  native CIA timed tunes were indeed made to be played at exactly
+  50 Hz instead of 50.125 Hz and those will be fixed as necessary.
+
+o We divided the update in a /fix and /new section. This makes it easier for
+  us to keep track of the update during its creation and it's at the same
+  time more convenient for you to listen through the update pack, so you can
+  avoid the fixes and concentrate on the new tunes only (we assume that's
+  your prime reason you update your collection regularly, to get new SIDs
+  to listen to).  :-)
+  Of course, listening to the /fix section might be interesting to some of
+  you as well, as it almost exclusively contains multispeed tunes!  :-)
+
+o A brand new version of the best-looking SIDplayer out there has been released
+  lately, SIDPLAY/MAC v3.3! Andreas added some cool new features such as
+  Hardsid support, improved GUI, better filter control, mixer and composers
+  photo display via the composers.c64.org website.
+  Of course the core engine has been upgraded to the latest reSID and
+  libsidplay2 components and a lot of bugs have been fixed.
+  Upgrade now! http://www.sidmusic.org/sidplay/mac/
+  
+o C64Audio.com has launched a C64 poly ringtones site: currently in preview
+  mode (with previews recorded directly from my Motorola V525), it will
+  eventually feature hundreds of SID ringtones in most formats. There's even a
+  free test ringtone (Wizball Game Over Guitar Solo) to test your phone out!
+  http://www.c64ringtones.com
+
+  Keep an eye on the site for when the ringtones finally go on sale, and if
+  you like what you hear, support C64Audio.com through the tough times
+  following the fairly large loss of money on the last two Back in Time
+  Lives... 
+
+o New versions of Vice 1.15 and a new CCS64 3.0 beta 1.4 have been released.
+  Always worth upgrading to the latest state-of-the-art emulators, if you ask
+  me:
+  www.viceteam.org
+  www.ccs64.com
+  
+o A both astounding an unusual tool for the PC was released lately, a SID
+  replayer aimed at the unmodified Atari XL/XE platform:
+  The SID tunes are converted to the Atari format on the PC, then they can
+  be played back on any stock Atari XL/XE! Considered the low processing
+  power and the rather weak music capabilities of the Atari compared to the
+  SID chip, this is an outstanding achievement.
+  Laust Brock-Nannestadt has made a recording from his Atari with an earlier
+  version of this tool, check it out and get stunned:
+  http://gallium.prg.dtu.dk/~lbn/Cadaver_-_Illumination_-_Atari_XL_(sidemu).ogg
+  Version 0.97 of this fabulous tool can be found here:
+  http://www.atari.sk/download/sidplayer097.zip
+  
+  Seeya all next update, folks!
+  Steppe (on behalf of the whole HVSC crew)
+  
+  PS: Where have these interesting BEST OF UPDATE XX lists gone? Head over to
+  hvsc@yahoogroups.com and pick up this old habit of telling us your favourite
+  SIDs from this update!  :-)

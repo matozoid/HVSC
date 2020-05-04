@@ -1,0 +1,46 @@
+Update #33 - status update and important information
+
+Hello there,
+
+After we announced that the next HVSC Update, Update #33,
+would contain SID files that would require Sidplay2 or a real C64
+to run them correctly (and would crash older SID emulators)
+concern was expressed at the fact that the crashes with older
+SID emulators would not be appreciated by the users, despite
+the fact that in most cases there'd be a PSID equivalent rip.
+
+After some discussion, it has been decided that the best way
+to include real C64 sample rips (or any other rip that requires
+such things as real-time non-interrupt based playback) is to
+make a slight change and introduce a modified PSIDv2NG file
+format for these - which will be known as RSID.
+
+RSID is bascially the same specification as PSIDv2NG except
+for the following:
+
+* - The header will say RSID instead of PSID.  This will be enough
+for older SID emulators (for example, anything based on
+Sidplay1-type emulation) to safely reject these SID files without
+crashing them.
+* - Certain fields, namely load, play, speed, and the PSID-specific
+flag, will be reserved and set to 0.
+
+What this will mean also is that anything using Sidplay2-based
+emulation will also operate a  strict C64 environment for
+these files.  Please note that RSID should only be used _if_ the SID
+file will crash older SID emulators.
+
+Sidplay2 is being worked on at the moment to support this
+format and this is in beta-testing at the moment, similarly
+the rippers' tool PSIDedit will be known as SIDedit in future,
+and this tool is also being beta-tested as we speak. There will
+also be changes to the HVSC Update Tool to accomodate
+this too.
+
+What this will mean is that the scheduled date for the update
+release will be put back slightly, but I am sure you will agree
+that the wait will be worth it.  To play C64 samples like they
+were intended to be?  This has to be a positive.
+
+Kind regards
+The HVSC Team

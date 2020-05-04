@@ -1,0 +1,316 @@
+Hello everyone,
+
+HVSC Update #31 is now available for you to download, and a
+very nice update it is too, with no less than four music
+competitions' tunes in it.
+
+IMPORTANT NOTE:  There is a new version of the HVSC Update
+Tool which you need to run on this update (and any subsequent
+ones thereafter), or else you will find that the update will
+not work.  Windows users should note as usual that the tool
+is included inside the update zip file, for other OS users
+you are advised to download the new tool from the
+HVSC Players and Tools page:
+
+http://www.hvsc.c64.org/Players_and_Tools/
+
+After this update, the collection should contain 18,618 SID files.
+
+This update features (all approximates):
+      486 new SIDs
+      116 fixed/better rips
+        2 repeats/bad rips eliminated
+      163 SID credit fixes
+
+Main Artists Featured In This Update (new additions only):
+
+DRAX                          Mad
+Jörg Rosenstiel               ASL
+Avalon                        Richard Bayliss
+Blues Muz (Glenn Gallefoss)   Blues Muz (Kjell Nordbø)
+CreaMD                        Cubehead
+Djinn                         Fanta
+H.M.Murdock                   Iron Cat
+Sage                          Signor
+László Simon (SLD, Roy)       Smalltown Boy
+Top Secret                    Zagor
+Zzap69
+
+and many more...
+
+----------------------------
+What else is in this update?
+----------------------------
+
+* Lots of real C64/Sidplay2 fixes
+* Competition entries from Floppy 2002
+* Competition entries from Forever3
+* Competition entries from Mekka Symposium 2002
+* Competition entries from Sid-Wine online competition
+* The music from the long-lost US version of Spindizzy
+* Overhauls and corrections to Fanta and Top Secret's tunes
+* Plenty of credit fixes along the way
+* and much more...
+
+---------------------------
+What's to come next update?
+---------------------------
+
+The next update is an important one for the development in
+HVSC.  After the positive results from the HVSC User Survey,
+it has been decided that HVSC will adopt the revised SID file
+format known as PSIDv2NG.  This will mean a one-off update to
+convert the collection to the new format, which will just 
+require use of the new update tools to achieve.  At the same
+time HVSC will become version 5.0 in recognition of this change.
+
+The HVSC Team would particularly like to thank Simon White and
+Dag Lem, who have developed Sidplay2 and reSID emulation
+respectively, but have also given their time into the new format
+and in turn helping HVSC with the eventual conversion.  Their
+work is much appreciated.
+
+Also, the HVSC Team would like to thank those outside of
+the current HVSC Team members who put in their time to ensure
+that the new HVSC Update Tool worked on their OS.  Thanks for
+this go to Michael Schwendt, Phill Wooller, Thomas Neumann,
+Anders Eriksson and Anders Nordby.
+
+----------------
+HVSC User Survey
+----------------
+
+The HVSC User Survey officially ended on Sunday 17 March, and
+there were over 350 people who very kindly took the time out
+to read and fill out the survey.
+
+Many thanks to you all for doing so, it is very much
+appreciated.
+
+The results are available for you to view and see how they
+turned out. Do note that not everyone chose to answer every
+question, so the percentages in all cases are the percentage
+of users who answered.
+
+To summarise briefly:
+
+* HVSC will go to the new PSIDv2NG SID file format specification
+* Sidplay2 is now the most popular SID emulator, with Sidplay1
+  close behind 
+* Three quarters of SID emulator users use a Windows operating
+  system 
+* The HVSC directory structure stays as it is 
+* More than eight out of ten will move to Sidplay2 as it becomes
+  available for their operating system 
+* Rob Hubbard is the most popular C64 music composer 
+
+Please feel free to digest the results, available here:
+
+http://www.hvsc.c64.org/User_Survey/
+
+--------------------
+C64 HQ website opens
+--------------------
+
+A rather good C64 website opened its doors to the public this
+week.  C64 HQnot only has the usual amount of games for 
+you to download and enjoy, but there's also some pictures and
+audio interviews with some famous C64 composers, including
+some from when the site's creator, Andreas Wallstrom, went to
+England to meet Ben Daglish.
+
+There's also some text interviews with the composers, and lots
+of worthwhile information to read, so do feel free to drop by
+and take a look around.
+
+http://www.c64hq.com/
+
+---------------------------
+PSIDEdit tool now available
+---------------------------
+
+Over to the tool's author, none other than LaLa, for the
+full lowdown:
+
+"PSIDedit v2.01 is now available.
+
+PSIDedit is a Perl/Tk GUI script that is also available
+as a standalone Win32 executable file. 
+
+The basic purpose of PSIDedit is to allow people with
+sufficient background to modify PSID header data inside
+.sid files. However, PSIDedit is also an invaluable tool
+for rippers to create fully PSID v2NG and HVSC-compliant .sid
+files out of ripped tunes that are saved as C64 binaries on
+your hard drive.
+
+The documentation that comes with PSIDedit (also available
+online) contains a short tutorial showing you how to create
+a PSID v2NG .sid file from a raw rip. 
+
+Note: PSIDedit won't help you rip tunes out of C64 games
+and demos! It's for turning ripped C64 data files into
+.sid files. While that may not sound much, all the bitfields
+in the PSID v2NG specification make creating v2NG files a
+bit harder, and this is where PSIDedit can help you - as
+proven by the beta-testers who are all rippers themselves
+and have praised PSIDedit as an easy-to-use, user-friendly
+tool that saved them a lot of time."
+
+You can also play your SIDs straight from PSIDedit as well
+as long as you specify the SID player to play the SID with.
+As a ripper myself, I can vouch for you how useful this tool
+really is.  Feel free to snag it as soon as possible.
+
+http://lala.c64.org/
+
+-------------------
+Searching for SIDs?
+-------------------
+
+One of the many responses that came up in the HVSC User Survey
+was that it would be nice if the collection had a search
+function offline.  One does already exist, and the HVSC Team
+do recommend that you use it.  Vincent Voois' excellent
+SIDBace tool allows you to generate your database of SID tunes
+(normally HVSC) and then search all the fields (including the
+STIL entries too!) for the relevant SIDs that match.  You
+can also play the tune straight from SIDBace, once you configure
+it to use your favoured SID emulator.
+
+http://members.tripod.com/sidbace32/
+
+Other users also stated that they would like to know which
+tunes were used in which demos.  Although compiling a list 
+would take too much time and effort, for the more popular demos
+you may wish to consult Stephan Schmid's "C64 Demo Dungeon"
+page which has popular demos and the SID tunes that feature!
+
+http://demodungeon.c64.org/
+
+--------------------------
+Back In Time Live 3 Update
+--------------------------
+
+Back in Time Live 3, Gossips, Soho, 21st June 2002.
+Not long to go, and with 230 or so places booked, and with
+the club only holding 300, get there before everyone else
+does!  Make sure you visit the site and click the "Wanna
+Go" link.
+
+Latest additions to the personalities coming include:
+
+Michael Delaney (founder of Gameboy Audio.com)
+Andrew Barnabas (well known Amiga musician)
+The Shark (the original HVSC founder)
+several members of the HVSC Team
+
+And also there's now the virtual stall open, so you can
+order the merchandise online and pick it up on the night,
+saving you having to carry money around.
+
+For all the info you need, including directions to the
+club, where to stay etc please consult the official site:
+
+http://www.backintimelive.com/
+
+
+-----------------------------------------------
+ YODELKING & UL-TOMTEN'S SID QUIZ #2 Results
+-----------------------------------------------
+Hi people,
+
+It's been fun to see your intrest in solving this
+second Sid Quiz, and it's been very much fun to read your
+answers and especially your comments.  We would like to
+thank you all for taking the time to compete.
+
+And looking at the results, we can tell that there is
+reason for us all to listen some more to even the most
+classic SID tunes. But every tune in the quiz was found
+by at least one person, so it seems everyone has their own
+favourites.
+
+Once again, the unbeatable Chiummo found the most tunes
+with an outstanding point of 25 out of 27 tunes. We
+congratulate him, and still think he deserves the respect
+and admiration of other sid freaks. Also Fanta, Map and
+Smalltown Boy are among the three best, and know their
+sids for sure.
+
+It was also fun to see so many C-64 composers compete
+this time.
+
+Here are the results:
+==================================
+1. CHIUMMO GAETANO               25/27
+2. Alexander Rotzsch (Fanta) & Map  20
+3. Michal Hoffman (Smalltown Boy)   14
+4. Pex Tufvesson (Mahoney)           9
+5. Ari Yliaho (Agemixer)             8
+6. Stephan Schmid                    5
+7. Jan Krolzig                       4
+8. Stefano Tognon                    3
+==================================
+
+The correct answers are:
+Tune 01 is: /Huelsbeck_Chris/Spherical.sid #1
+Tune 02 is: /Daglish_Ben/William_Wobbler.sid
+Tune 03 is: /Daglish_Ben/Bobby_Bearing.sid
+Tune 04 is: /C64MUSIC/Bjerregaard_Johannes/Eagles.sid #2
+Tune 05 is: /C64MUSIC/Tel_Jeroen/Noisy_Pillars.sid #3
+Tune 06 is: /C64MUSIC/Rock/Future_Composer_Demo_Song1.sid
+Tune 07 is: /C64MUSIC/Mad/Hotline.sid
+            and /C64MUSIC/Mad/Scorpion.sid #1
+Tune 08 is: /Lee_Steve/Falcon_Patrol_II.sid
+Tune 09 is: /VARIOUS/S-Z/Trident/Pill-Box.sid
+Tune 10 is: /Link/Take_Over.sid
+Tune 11 is: /VARIOUS/G-L/Goto80/Snyft.sid
+Tune 12 is: /VARIOUS/A-F/Agemixer/Patakakkonen.sid
+Tune 13 is: /VARIOUS/S-Z/Shavitt_Guy/Sidchip_Music_Score_5.sid
+Tune 14 is: /Huelsbeck_Chris/Hollywood_Poker_Pro.sid
+Tune 15 is: /Danko_Tomas/Busstrafik.sid
+Tune 16 is: /Brandt_Georg/Bob_Moran-Rittertum.sid #2
+Tune 17 is: /VARIOUS/G-L/Krolzig_Jan/Monster_Time.sid
+Tune 18 is: /Gehrmann_Holger/Top_Secret.sid
+Tune 19 is: /Knatter/No_Sleep_II.sid
+Tune 20 is: /Gehrmann_Holger/Graffiti_Man.sid
+Tune 21 is: /VARIOUS/A-F/Devilock/Cyber_Intro.sid
+Tune 22 is: /Daglish_Ben/H_A_T_E.sid #1
+Tune 23 is: /Brimble_Allister/Spellbound_Dizzy.sid #1
+Tune 24 is: /Clarke_Peter/Tai-Pan.sid #2
+Tune 25 is: /DEMOS/Soundtracker_64.sid
+Tune 26 is: /Galway_Martin/Rambo_First_Blood_Part_II.sid #10
+Tune 27 is: /Whittaker_David/Lazy_Jones.sid #21
+
+One of the nicest comments we got was this one:
+"huh, i think the level was rather high but still we had
+a lot of fun with it. thank you for some sleepless hours
+and a lot of fishbrain music in our ears during the last
+weeks, every day and every night, bastards! ;-))"
+
+Best regards, Peter Sandén & Per Bolmstedt
+
+------------------------
+Commodore Format Archive
+------------------------
+
+Between 1990 and 1996 Commodore Format was an excellent
+Commodore 64 magazine, with games, tips, hardware and
+demos all featuring regularly along with some good
+ex-Zzap! 64 staff writers writing for it etc.  And
+now, like the Zzap! 64 archives, there is an archive
+of its issues as well as interviews with people who
+worked on the magazine.  Well worth a look:
+
+http://www.commodoreformat.co.uk/
+
+---------------------------------
+
+Enjoy the new update, and please feel free to send some
+feedback - we appreciate all responses.
+
+Kind regards
+Warren Pilkington.
+
+  

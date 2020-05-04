@@ -1,0 +1,212 @@
+Hello everyone,
+
+HVSC Update #39 is now available for you to download
+at www.hvsc.c64.org
+
+ After this update, the collection should contain 27,087 SID files!
+
+ This update features (all approximates):
+     1946 new SIDs
+      275 fixed/better rips
+        3 fixes of PlaySID/Sidplay1 specific SIDs
+       12 repeats/bad rips eliminated
+      230 SID credit fixes
+      470 SID model infos
+       41 tunes moved out of /DEMOS to their composers' directories
+       11 tunes from /DEMOS/UNKNOWN identified  :-)
+       (1 goes back due to bad credits)
+       14 tunes moved out of /GAMES to their composers' directories
+       
+ We're once more proud to present another monster update, consisting of
+ overall over 2100 SID tunes, 275 of those being fixes.
+ With this release we also finally managed to completely unload our huge
+ queue of unreleased tunes to the public. There are still a couple of
+ problem tunes left which we'll hopefully manage to fix for the next HVSC
+ update, but basically that's all all there is.
+
+ We've got the music compo entries from the following parties in this pack:
+ Breakpoint 2004, Sidwine 3, Floppy 2004, Forever 5 and 7D4
+
+ Further there are a lot of real, unmodified BASIC rips in this update:
+ They are basically RSID tunes, hence they need Sidplay2 or a real C64.
+ To make them easier to spot we have added _BASIC to the filename.
+
+ Another bunch of classical tunes from the first minute have been added
+ to HVSC:
+ o Peter Weighill's Master Composer collection
+   /DEMOS/UNKNOWN/Master_Composer/
+ o the Master Composer example tunes, most likely done by the author of the
+   program, Paul Kleimeyer.
+ o the Brøderbund Music Shop tunes, uncredited, but with high likeliness also
+   composed by the maker of the tool, Don Wilson.
+
+
+ Main Artists featured in this update:
+ DRAX                    Yip
+ Agemixer                Jan Albartus
+ Amadeus/Attic/Meka      Compod
+ Dwayne Bakewell & Kent Patfield (Pearl)
+ Richard Bayliss         Glenn Rune Gallefoss
+ Kristian Røstøen        Bzyk
+ Comer                   Cosowi
+ Cycleburner             Hein Holt
+ Jeroen Breebart         Jeff
+ Klax                    Kordiaukis
+ Mitch & Dane            Replay
+ Sad                     Shapie
+ Surgeon                 Taxim
+
+ NEW Artists featured in this update:
+ Android                 Commodore (BASIC classics)
+ Paul Kleimeyer -------> (the maker of Master Composer!)
+ Tonal Teapot            4wd-soft
+ Amadeus/Slash           David Bain
+ Benno                   Black Dove
+ Debby Cruz              Freeze/The Force
+ G-Fellow                Ewen Gillies
+ David Green             Gummibeer
+ Krwiak                  Lio
+ Alexander Kern (Mac)    Mr. Wig
+ Stephan Parth (Nata)    Rashka
+ Sam/SCCS                Speedcracker
+ TheFatman               Steven Judd (Wyndex)
+ Tinnitus -------------> (Asterion & Trompkins)
+ Oskar Törnros           Steffen Wagner
+ Nick Williams           Yoshi
+ Don Williams ---------> (the maker of the Brøderbund Music Shop!)
+
+
+
+
+ There are a couple of things worth mentioning in this update:
+
+ o The latest release of Sidplay2 not only contains some generic emulation
+   improvements, but it also introduces the possibility to play back real
+   BASIC tunes without the need to painfully convert them to machine code,
+   which often resulted in rather doubtful playback quality.
+   We ripped and re-ripped quite a lot of BASIC tunes for this update, most
+   of which now reside in the /Commodore directory. There are the classic
+   example tunes of the C64 users manual, some example tunes from "the bible",
+   the C64 Programmer's Reference Guide. Also take a peek into the /GAMES dir
+   of this update, there are a couple of classic BASIC tunes too, such as
+   Sword of Fargoal, Telengard or the 1983 Stack Computer Services BASIC
+   games! To make them easy to spot we added a _BASIC suffix to all the
+   filenames.
+ 
+ o After several requests, both from inside and outside the HVSC team, we
+   decided to integrate Peter Weighill's old Master Composer Collection into
+   HVSC. Many of these tunes bear a lot of nostalgic value, so it would be a
+   shame not to have them. Be aware that due to a bug in the libsidplay1
+   libraries they might sometimes lock up your sidplay1-based player.
+   They work fine on Sidplay2 and on a real C64, though.
+ 
+ o The HVSC crew got a new member: We all want to welcome back Wilfred Bos,
+   the author of the fabulous ACID64 Player for users with hardware based
+   SID cards such as the Hardsid or the Catweasel. Wilfred was a HVSC member
+   of the first hour, but had to quit four years ago due to real life
+   priorities. Welcome back, Wilfred!
+
+ o While talking about Wilfred, he just recently released a new version of
+   ACID Player, upgrading the version number to 2.0.
+   New features:
+   - Cycle based emulation of 6510 CPU, 6526 CIA and 6569 VIC-II chip
+   - Cycle based playback of SID data
+   - Support for sample playback of RSID and C64 Program files
+   - Support for playing PRG and PC64 files
+   - Simulation of space bar and joystick fire buttons to skip intros
+   - Support for restoring screen size
+   - Added 6510 CPU performance indicator
+   - Support for skipping silents of beginning of tunes
+   - Better resetting of SID chip
+   - Faster voice bar animation
+   - Fix for frequency adjustment to avoid warble sounds in some tunes
+   - Many other improvements
+
+   Download it here:  http://www.acid64.com
+
+ o Sidplay2w has also seen another update, as already mentioned above.
+   An upgrade is recommended if you want to fully enjoy the candies of this
+   update.
+   New features:
+   + support for multi-subtune BASIC tunes (libsidplay2)
+   + sprite stealing emulated (libsidplay2)
+   + p00 support (libsidplay2)
+   + stereo mus to sid conversion (libsidplay2)
+   * corrected instruction overlapping (libsidplay2)
+   * CPU Debug improvements - same memory model, progress meter,
+     option to enter power-on delay value
+
+   Go get it now at http://www.gsldata.se/c64/spw/
+
+   HardSID users get their DLL from the sidplay2 home page as usual,
+   http://sidplay2.sourceforge.net. Here's a link straight to the downloads:
+   http://sourceforge.net/project/showfiles.php?group_id=9266&package_id=69227
+
+ o LaLa has completely rewritten his ripper tool SIDedit, which has now
+   reached v4.02!
+   It has some great new features, such as tag-coloring in the disassembly
+   output and a fancy new button bar to make the usage of it even more
+   convenient.
+   As always, get it here:  http://lala.c64.org
+   (It's in the SID related tool section)
+
+ o Stefano Tognon has released issue 6 of his SIDin magazine. There's an
+   interview with Jan 'Rambones' Harries inside, as well as some interesting
+   articles about the new Asterion Tracker and the Padua Digi Organizer.
+   Recommended lecture for productive people!
+
+ o SID PC64 Winamp Plugin V2.0 released:
+   Jakub Wozniakowski has done it, he finally updated his nice tool to be
+   compatible with Windows 2000 and Windows XP!
+   Want to play back your SID tunes on a real SID chip, but are too lazy to
+   fiddle around with all the helper applications? Then this is probably
+   something for you: Control your C64 through your PC running Winamp 2.x!
+   Here's all you need: 
+   o a PC64 cable (build one yourself or buy one through the various resellers.) 
+   o Winamp 2.x 
+   o The SID PC64 Winamp Plugin 2.0 , which includes a plugin for Winamp and a
+     tiny client program that you have to load on your C64. 
+   How does it work? 
+   1. Connect your PC with your C64 with the PC64 cable. 
+   2. Install Winamp 2.x 
+   3. Drag and drop your favourite SID tunes into the Winamp playlist. 
+   4. Load the client program on your C64. 
+   5. Press Play on Winamp! 
+   The SID files now get transferred to the C64 (takes about one second on
+   average) and the client program on the C64 will take care of the playback.
+   It's really that easy, not even a restart of the client is required if you
+   want to play another tune. Just put 100s of files into your playlist, set a
+   default playing time and let it run for hours! :-)
+
+   Requirement: Win95/98/ME/2000/XP 
+
+   Yep, it does work like a breeze on XP without any tweak packages or
+   timeconsuming trial-and-error orgies, I do use this regularly!
+
+   Roughly estimated compatibility: 90-95% (no digi tunes, no RSID tunes, no tunes
+   that have PLAY=0)
+
+   Get it here:  http://noname.c64.org/csdb/release/?id=8450
+
+ o Here's a rather unusual announcement to all of you out there: We're getting
+   lots of virus infected emails emerging from SID fans that obviously have
+   our email addresses in their address books.
+   For the first time in computer history the amount of virus infected emails
+   have exceeded the amount of SPAM emails! Looking at the damage this causes
+   on a global scale we plea to all of you out there:
+   - Regularly update your Windows through the Microsoft website
+     www.windowsupdate.com and get the latest security patches!
+   - Get a virus scanner, and most of all, update it regularly.
+     - A free and very good webbased scanner can be found here:
+       http://housecall.trendmicro.com
+       The only information they require is the country you're from, that's
+       all.
+     - A completely free virus scanner with almost daily internet updates can
+       be found here: www.free-av.com
+       This is a low resource consuming virus scanner, that despite being
+       completely free for non-commercial users, performed
+       pretty well in the recent comparison tests you can find on the web.
+       Thanks for your attention!
+ 
+
+

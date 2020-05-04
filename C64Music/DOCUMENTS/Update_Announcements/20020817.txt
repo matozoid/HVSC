@@ -1,0 +1,312 @@
+Hello everyone,
+
+HVSC Update #32 is available for you to download.  It's been
+a long time in coming, but for a good reason.  In the most
+important update to HVSC since it went to long file names
+back in 1997 and became HVSC 2.0, HVSC with this update
+adopts the new PSIDv2NG file format for SID tunes and
+also becomes HVSC 5.0 at the same time.  
+
+IMPORTANT NOTE #1: Due to the sheer amount of SIDs being
+worked on to ensure compliancy, this update will take on
+average 15-20 times longer than normal, at least.  Please
+bear in mind that it will take its time (for example, a
+humble Win98SE AMD K6-2 500Mhz took about 4 minutes), however
+the end results are well worth waiting for.
+
+Although originally the plan was to have no SIDs at all
+in the update, in some cases it was easier to fix the
+SID tune by padding the data at the end of the SID to 
+ensure more C64-friendly compliancy.  There are 346 of these,
+and they're all fixes.  Please note however there are no
+new SIDs, but don't worry, we'll be making up for that in the
+next two updates.
+
+IMPORTANT NOTE #2:  You are strongly recommended to use
+the HVSC Update Tool 2.7.1 that is now available.  The Windows
+version, as ever, is shipped with the update, but for all other
+OSes please consult the link below to download the most up to
+date version of your tool.  Do not use any earlier versions
+lower than 2.7.0 as they will not work!
+
+http://www.hvsc.c64.org/Players_and_Tools/
+
+After this update, the collection should contain 18,616 SID files.
+
+This update features (all approximates):
+        0 new SIDs
+      346 fixed/better rips
+        2 repeats/bad rips eliminated
+      122 SID credit fixes
+
+For those of you who took part in the HVSC User Survey, your
+feedback inspired us to realise that taking on PSIDv2NG was
+the way to go, and it's been realised here.  Thank you all
+once again for taking part in the survey.  Your feedback
+and support does count for a lot, making actually organising
+the collection a pleasure rather than a burden.  Thank you! :)
+
+So, what is PSIDv2NG, some of you may be wondering?  Well, here's
+a portion of the revised HVSC FAQ which should be of use to you
+and should answer your questions.
+
+You can read this in future in the hv_sids.faq document of HVSC:
+
+What is PSIDv2NG?
+-----------------
+
+PSIDv2NG (PSID format v2, Next Generation) was invented by Simon White and
+Dag Lem and is an extension of the Playsid V2 file format.  It takes
+advantage of some free bytes in the header and allows for the following
+situations (the first one was already in the existing PSID v2 format):
+
+* the SID file has a standalone player or is a Compute! Gazette
+  SIDplayer tune
+* whether the SID file is C64 compatible of specific to the old
+  PlaySID formats
+* whether the SID file is for NTSC (eg: USA) or PAL (eg: Europe) TV
+  formats
+* SID chip selection, 6581 (old) or 8580 (new) SID chip
+* relocation fields, required to support a real C64(emulator) where
+  additional code must be placed in C64 ram to play the SID tune.
+ 
+All the above means that it also allows for real C64 rips to be supported,
+with unmodified real digi samples, proper multispeed timing, busy loops
+and so on.  Our goal is to have real C64 rips wherever possible.
+
+It also has the added advantage of being backwards compatible with
+most SID tunes, so that older SID emulators can still play them, but
+to take advantage of the features of PSID v2NG, you are highly
+recommended to use SID emulators based on the latest libsidplay2
+emulation engine (for example, Sidplay2 for Windows) to play SIDs in HVSC.
+
+More detailed information about the format can be obtained on the
+documents section of the Sidplay2 homepage at 
+http://sidplay2.sourceforge.net/
+
+Why has HVSC decided to go with PSIDv2NG?
+-----------------------------------------
+
+The HVSC Team had thought for some time about going with the file
+format, as it would allow for better and more accurate rips, being
+played with the cycle-accurate Sidplay2 player.  However, such an
+issue was important and so in March 2002 HVSC undertook its first ever
+user survey, which asked how the collection was used, what the users
+found important in a SID file format to them, and whether the
+collection should move to PSIDv2NG format.  When you consider that of
+those surveyed:
+
+* 73% wished for SID files to be played on a real C64 where possible
+* 94% would like to hear SID tunes at their intended PAL or NTSC speed
+* 91% wished to know which SID chip a SID tune was composed on
+
+and that a majority also wished for us to have SID files play more
+accurately, and for the collection to go to PSIDv2NG, then it was an
+easy decision to make.  Further, PSIDv2NG is the only new SID file
+format thus far that facilitates what was preferred.
+
+Some of the file names have _PSID in their name.  Why is this?
+--------------------------------------------------------------
+
+- If you use sidplay1, play the _PSID files if they exist.
+- If you use sidplay2, play the non-_PSID files.
+
+There were many SIDs ripped where they either used random commands
+or PlaySID extended digi registers, which are specific to older SID
+emulators like PlaySID and Sidplay only.   Although Sidplay2 will play
+those rips, a real C64 will not and and in most cases it will lock up
+with them.
+
+As the collection develops, C64-friendly versions of these rips will
+be added which will run alongside the existing PlaySID-specific rips.
+However, when this happens, it would be very easy for an older SID
+emulator user to play a C64-friendly sample tune rip for example which
+could crash their emulator.  By marking the PlaySID specific tunes in
+this way, that user then knows which rip is suited best to their SID
+emulator.
+
+My operating system doesn't yet (or can't) support Sidplay2.  
+Will I still be able to play the SIDs in HVSC?
+------------------------------------------------------------
+
+Yes.  Part of the PSIDv2NG specification is to allow for backwards
+compatibility, wherever possible.  The only SIDs you won't be able to
+play are those which are real C64 specific, and for the majority of
+those, they will have a PlaySID equivalent marked as mentioned above.
+
+---------------------------
+What's to come next update?
+---------------------------
+
+* - The competition entries from the Assembly 2002 party
+* - Some real C64 sample rips - including the C64 and C128
+    versions of the Last V8 (the speech is different in each!)
+* - Some more game rips including SID Hunt requests
+* - and much more besides!
+
+-------------------
+PSID64 0.4 released
+-------------------
+
+So, you love the SIDs in HVSC, but you want to play them on your
+real Commodore 64.  What can you do?  Well, the old way used to
+be to use a tool called Real SID Play on a C64, but now the
+process is made easier.  PSID64 is available for Windows and
+Linux platforms and takes any SID from HVSC and turns it
+into a c64 .prg file which you can transfer to the real
+thing and play - just load the .prg file and run it.
+
+It's sure to be a handy tool for the real C64 diehard, so
+please consult the following page:
+
+http://psid64.sourceforge.net/
+
+---------------------------
+PSIDEdit tool 2.10 released
+---------------------------
+
+Over to the tool's author, none other than LaLa, for the
+full lowdown on revisions since the 2.01 release mentioned
+in the last update mailout:
+
+PSIDedit v2.10 is now available online. It contains a few new
+features based on feedback from rippers:
+
++ Ability to load INFO files (these are text files that were part
+  of the now obsolete .dat + .sid two-file format). PSIDedit also
+  handles newer INFO files that contain PSID v2NG fields in them.
+
++ A new button called "Run tool" allows the user to run any
+  external tool in a command shell right from PSIDedit. The output
+  of such commands is captured in a window - the contents of
+  this window can then be saved to a file or copied to the clipboard.
+  This new button was added mainly to allow rippers to run sid2crc
+  right from PSIDedit which allows them to check SID files. PSIDedit
+  will remember the last 10 command lines entered here and this
+  command list is also saved to the PSIDedit.ini file with other
+  settings.
+
++ On the "Display C64 data" window a new button was added called
+  "Trim/pad data" that allows the user to alter the size of the C64
+  data in a PSID file. This is great to trim a ripped file to get
+  rid of superfluous bytes from it.
+
++ Pressing an alphanumeric key when the dir/file browser is in focus
+  will cycle thru the dirs/files that begin with that letter. If you
+  start typing rapidly, the first file whose name starts with the typed
+  letters will be highlighted, similar to Windows Explorer.
+
++ When moving up the dir hierarchy via the dir browser the previous
+  directory's name will be automatically highlighted (instead of the
+  name of the very first dir entry).
+
+Bugfixes and enhancements:
+
+- Minor bugfixes in the "HVSC filename" feature that generates an
+  HVSC-compliant filename based on the "name" field.
+
+- Copying data to the clipboard INFO style had some bugs in it. Got
+  rid of them. Similarly, pasting INFO style data from the clipboard
+  was also buggy. Fixed that, too.
+
+- Loading data files (.dat, .prg, etc.) will no longer reset the
+  PSID header data to defaults automatically. You now have a choice
+  whether to keep the PSID header data or not. This will save
+  you a copy-paste step when, for example, constructing several SID
+  files in a row from data files that were ripped from the same author.
+
+- If you tried to play a SID file under Windows whose full pathname
+  contained a space, SIDPlay/Win used to give an error. Fixed it.
+
+- Other minor (mostly internal) enhancements.
+
+The PSIDedit documentation was also updated with the new features.
+Please, read it first if you want to know more about them.
+
+http://lala.c64.org/
+
+---------------------------------
+Back in Time Live 3 - it was hot!
+---------------------------------
+
+And quite literally too.  In soaring temperatures in the centre
+of London, Gossip's club was packed to the rafters with C64 and
+remix fans alike as the third Back in Time Live event proved to
+be hotter than the rest.  So what did you miss?
+
+* A stunning live set from Press Play on Tape, featuring Ben
+  Daglish on flute playing Krakout and Auf Wiedersehen Monty,
+  and Pascal Roggen who successfully played the frantic last
+  part of Monty on the Run on the violin and lived to tell the
+  tale!  Simply the most awesome C64 remix - ever
+* A superb rocking set from Machinae Supremacy which included
+  their C64 megamixes Sidology parts 1 and 3, featuring lots
+  of C64 tunes in two tracks of guitar excellence
+* Live set from Seth Sternberger and his 8-bit weapon, including
+  the SIDStation in full effect
+* Live performances from Octave Sounds and Rebekah Mancino too
+* Exclusive showing of the Press Play on Tape Comic Bakery boy
+  band style video.  You have to see it to believe it
+* Three CD launches (see below for more information)
+* C64 musicians such as Adam Gilmore, Jason Page, Reyn Ouwehand,
+  David Whittaker, Richard Joseph and Ben Daglish as compere for 
+  the evening's live shows
+* C64 personalities such as Jeff Minter, Stephen Robertson (SIR),
+  Jon Hare, Carl Muller, and a host of scene people including
+  the likes of Kwed, Slaygon, and half the HVSC Team too
+
+Don't say we didn't warn you this was going to be the big one.
+
+See http://www.backintimelive.com/ for more info and downloads.
+
+---------------------
+New remix CD releases
+---------------------
+
+No less than three remix CDs were released at Back in Time
+Live 3, and can be purchased now from the C64Audio.com shop:
+
+Remix64 - The remix CD collection organised by the kind folk
+          at the remix 64 website.  This CD mainly re-interprets
+          C64 tunes in a 1980s style of composing, so lots of
+          very 80s synth workout of a good variety of tunes.
+
+Galway
+Remix   - Reyn Ouwehand's second CD release, this time it
+          features a whole CD full of more electronic
+          reworkings of some Martin Galway classics (and at 
+          last, a great remix of his Athena tune) complete with
+          the slick polished production you've come to expect
+          if you've heard the Nexus 6581 CD.
+
+Instant
+Remedy  - The long time C64 remixer goes to the dance floor
+          and produces a CD full of music to purely stomp to:
+          play this very late at night for full effect!
+
+
+For more info about this and forthcoming CDs, please be sure
+to take a look at http://www.c64audio.com/
+
+----------------------------
+SID Browser Utility Released
+----------------------------
+
+There's also since been a nice little utility reached for those
+of you who enjoy browsing through HVSC, and it's entirely
+different from the highly recommended Sidbace.  You can do all
+sorts of searches with it, and it's pretty powerful.  Why
+not give it a go and see if it makes life eaiser for you?
+
+http://www.sidbrowser.com/
+
+------------------------------------------------------------
+
+Do enjoy this one off update, and be sure to enjoy the fact
+that HVSC is becoming more C64 compliant with each release,
+which I know will please a lot of you out there.
+
+Kind regards
+Warren Pilkington
+(on behalf of the whole HVSC Team)
+  

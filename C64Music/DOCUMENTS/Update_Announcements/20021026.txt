@@ -1,0 +1,201 @@
+Hello everyone,
+
+HVSC Update #33 is now available for you to download, after a
+small delay to ensure that everything possible to accomodate
+real C64 versions was done.
+
+After this update, the collection should contain 19,203 SID files.
+
+This update features (all approximates):
+     504 new SIDs
+      49 fixed/better rips
+      90 fixes of PlaySID/Sidplay1 specific SIDs (ie: RSID files)
+       7 repeats/bad rips eliminated
+     317 SID credit fixes
+
+
+Main Artists Featured In This Update (new additions only):
+
+Paul Bellamy                  Howlin' Mad
+Agemixer                      Blues Muz' (Kjell Nordbø)
+Brite-Lite                    Coolrock
+Djinn                         Donovan
+Fanta                         Goto80
+Iron Cat                      Jeff
+Konrád Kiss                   Longhair
+Mitch & Dane                  Puterman
+Rodney                        Signor
+Smalltown Boy                 SounDemoN
+Stryyker                      TDS
+Wizard
+
+and many more...
+
+----------------------------
+What else is in this update?
+----------------------------
+
+* Lots of real C64/Sidplay2 fixes and bugfixes
+* C64-specific sample rips in RSID format (see below)
+* Long-lost tunes from David Whittaker and Fred Gray
+* Competition entries from Assembly 2002
+* All of the "Sit In My Underwear, Drinking Pepsi" tunes
+  that appeared in Vision 2002.
+* Many credit fixes with new names being found
+* Some classic old game tunes like Drol, Eureka!, Jeopardy
+* and much more...
+
+---------------------------
+What's to come next update?
+---------------------------
+
+* Many more music compeitition entries (and we mean many)
+* More real C64 specific sample rips
+* More classic game tunes thrown into the bargain
+* And will we reach the 20,000 mark?  Wait and see...
+
+----------------
+RSID format SIDs
+----------------
+
+Those of you who read the recent HVSC Update Announcements
+from the list will know about this anyway, but just to 
+re-iterate this as we feel it is important:
+
+Concern was expressed at the fact that the crashes with older
+SID emulators would not be appreciated by the users, despite
+the fact that in most cases there'd be a PSID equivalent rip.
+
+After some discussion, it has been decided that the best way
+to include real C64 sample rips (or any other rip that requires
+such things as real-time non-interrupt based playback) is to
+make a slight change and introduce a modified PSIDv2NG file
+format for these - which will be known as RSID.
+
+RSID is bascially the same specification as PSIDv2NG except
+for the following:
+
+* - The header will say RSID instead of PSID.  This will be
+    enough for older SID emulators (for example, anything
+    based on Sidplay1-type emulation) to safely reject these
+    SID files without crashing them.
+* - Certain fields, namely load, play, speed, and the 
+    PSID-specific flag, will be reserved and set to 0.
+
+What this will mean also is that anything using Sidplay2-based
+emulation will also operate a strict C64 environment for
+these files.  Please note that RSID should only be used
+_if_ the SID file will crash older SID emulators.
+
+---------------------------
+RSID support in SID players
+---------------------------
+
+Currently, RSID is supported in the newest version of Sidplay2/
+Windows, which you can snag here:
+
+http://www.student.nada.kth.se/~d93-alo/c64/spw/
+
+The MacOS version of Sidplay with the necessary support is in its
+final beta-testing.  We suggest that you consult the following
+page:
+
+http://www.sidmusic.org/sidplay/mac/
+
+It should be released pretty soon.
+
+Until your SID emulator supports RSID, you can of course still
+play the existing _PSID versions in HVSC where appropriate.
+Hopefully support for other OSes will follow soon.
+
+-------------------------
+RSID support in SID tools
+-------------------------
+
+The newest version of SidBace supports RSID.  Those of you wishing
+to use its excellent offline searching facilities should look at:
+
+http://gnetools.sourceforge.net/sidbace/
+
+PSIDEdit will be renamed SIDEdit and is due to be released _very_
+soon.  Please consult LaLa's web page for further information:
+
+http://lala.c64.org/
+
+-----------------
+HVSC Website Move
+-----------------
+
+We're still at the usual address of http://www.hvsc.c64.org/ but
+please note that if you bookmarked the URL it used to re-direct
+to (ie: http://home.freeuk.net/wazzaw/HVSC/, it won't work
+anymore.  This is because the pages are now stored on c64.org's
+server.
+
+Please ensure that your bookmarks and website links only point
+to http://www.hvsc.c64.org/
+
+I'd like to thank Slaygon/Censor for arranging for us some
+permanent webspace on the c64.org server, it's greatly
+appreciated by the whole HVSC Team.
+
+As you'll also see, we did a re-vamp and update of the site in
+order for you, the users, to locate the things you want in less
+time.  We hope you like it.
+
+-------------------
+Portable SID Player
+-------------------
+
+Who needs an iPod (as nice as those are) when you can have
+a portable SID Player instead?  Well, you actually have two
+options.
+
+Kevin Horton has designed the "SIDman" and you can find the
+details here:
+
+http://tripoint.org/kevtris/Projects/sid/sidman.html
+
+And if that wasn't enough, there's also SplamSID, which is
+a SID emulator for the Gameboy Advance as well. It's an
+early version, but if you have a GBA, give it a go:
+
+http://splam.emuhq.com
+
+------------
+SID Compo II
+------------
+The C64 musicians amongst us should note the presence of a
+current online competition held by the nice folks at
+http://www.c64.sk/ - the SID Compo II.
+
+This follows on from last year's GoatTracker competition,
+but this time you can use any SID emulator you like, such
+as DMC, JCH Editor, John Player, GoatTracker etc.
+
+There's still time to get an entry in for the competition
+and to have your work heard and voted on my many SID fans,
+so why not take a look and see what you can do?
+
+http://www.c64.sk/ - you'll find it as the featured item.
+
+-------------------
+Back in Time Live 4
+-------------------
+
+Back in Time Live 4 will happen, hopefully.  However after the
+intense heat (and concert) held at Gossips, a larger venue is
+needed for the event, and currently it's looking like the
+whole shebang will be held in Brighton, England, in September
+2003.  It's a tentative date, but hopefully this will end up
+being the biggest and the best yet!
+
+http://www.backintimelive.com/
+
+----------------
+
+Enjoy the new update, and please feel free to send some
+feedback - we appreciate all responses.
+
+Kind regards
+The HVSC Team

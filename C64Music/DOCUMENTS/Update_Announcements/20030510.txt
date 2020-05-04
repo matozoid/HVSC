@@ -1,0 +1,206 @@
+Hello everyone,
+
+HVSC Update #35 is now available for you to download
+at www.hvsc.c64.org
+This update is the first from our new administrator Jan Harries.
+
+Please note: you must use update tool version 2.8.2 to run this
+update successfully.  The Windows version is included with the
+update, for other OSes please see the Downloads page at the HVSC
+web site at http://www.hvsc.c64.org/Downloads/
+
+After this update, the collection should contain 20,660 SID files.
+
+This update features (all approximates):
+     276 new SIDs
+     102 fixed/better rips
+      38 fixes of PlaySID/Sidplay1 specific SIDs (ie: RSID files)
+       6 repeats/bad rips eliminated
+     368 SID credit fixes
+
+
+---------------------------------
+HardSID Quattro PCI Now Available
+---------------------------------
+
+The HardSID Quattro PCI is now available for purchase, with
+hopefully the option of a HardSID PCI with just one SID
+to come in the future.  For all you PC owners who don't
+have an ISA slot, this could be the upgrade you need.  The
+Windows drivers work with anything from Windows 98 upwards,
+and there's already an unofficial version of the VICE emulator
+available which supports the card (as of course does Sidplay2/w)
+
+More information at http://www.hardsid.com/
+
+---------------------------------------
+Catweasel Mark 3 PCI card Now Available
+---------------------------------------
+
+The HardSID isn't the only PCI card for the PC which allows you
+to use a real SID, though.  The Catweasel PCI is also out there
+and already looks like a worthwhile purchase, not least as
+there's C64 joystick ports so you can use your old favourite
+C64 sticks on the PC.  The card is a "flipper" card, so upside
+down it can also be used in the Zorro port of an Amiga. 
+The product is already supported in various Linux, MacOS and
+BeOS products, with Windows support to follow soon (the 1.12
+release of the VICE emulator will support it, apparently.)
+
+http://www.jschoenfeld.de/products/cwmk3_e.htm
+
+-------------------------
+MacOS SID-related updates
+-------------------------
+
+Andreas Varga, one of the HVSC Team, has been very busy on the
+MacOS front lately.  He's been involved in three new Mac OS X
+releases which are:
+
+* Sidplay 3.1.2, which supports the Sidplay1 and
+  Sidplay2 emulation libraries, as well as the Catweasel card,
+  as well as many other great features including auto-updating
+  of HVSC
+* Sidplug, the browser SID plug in, which now has Sidplay2
+  emulation library support, meaning you can play RSID files
+  from web pages if you wish, as  well as having better SID
+  emulation in the plugin.
+  (Hopefully someone can port this over to Windows, too)
+* GoatTracker, the C64 music editor for PC, now ported to the
+  Mac, which again also has Catweasel support built-in.
+
+If you're a Mac OS X user, you simply have to download the lot:
+
+http://www.sidmusic.org/sidplay/mac/
+
+---------------------------
+Back in Time Live - Germany
+---------------------------
+
+Saturday June 21, 2003 is the date for the first Back in Time
+Live! event held outside the UK.  Not only are there going to
+be a wealth of C64 remixers there, but also C64 high score
+competitions, celebrities including Thomas Detert and Markus
+Schneider, and other C64-scene related people from Europe
+coming along as well.  To pre-register for the event, and to
+find out more, go here:
+
+http://www.backintimelive.de/
+
+------------------------------------------------
+SIDWine2 Competition Results and SIDLin Magazine
+------------------------------------------------
+
+Recently, SID fan and author of SIDLin magazine, Stefano
+Tognon, held the second online SIDWine music competition.
+There were a total of twelve entries, with a wide range
+of musical styles featured.  Voting has closed and the
+end results were very close indeed.  The tunes should be
+in the next HVSC Update, but if you're eager to listen to
+them before then, why not pay a visit to the competition
+page to download all the tunes, including a nice C64 music
+selector program at:
+
+http://digilander.libero.it/ice00/tsid/sidwine2/
+
+Stefano's SIDLin magazine is also a good read too, and
+features not just about the music, but the technical
+aspects as well.  Very interesting reading here:
+
+http://digilander.libero.it/ice00/tsid/sidin/
+
+------------------------------------
+Winamp SIDPCC64 plugin now available
+------------------------------------
+
+Jakub Wozniakowski has released a plugin for Winamp that
+doesn't just play SID tunes (bearing in mind the old
+SIDamp plug in is hopelessly out of date these days)
+- he's gone one better than that.  The plugin actually
+allows playing back SID files on a real C64 connected
+to the PC by using the PC64 cable.  So your real C64
+does all the playing work using something like HVSC
+stored on your PC.  Neato, eh?  Find out more at:
+
+http://strony.wp.pl/wp/xray64/sidpc64/
+
+-----------------------------------------
+Domination Disk Magazine SID chip special
+-----------------------------------------
+
+The new issue of Domination, Issue #18 deals with the
+SID chip indepth.  It has a lot of interesting articles
+based around the SID chip, tips and tricks by one of
+the best modern-day composers, Søren Lund (Jeff), four
+interviews with SID composers, a broad opinion poll, etc.
+Why not find out more by downloading the issue here:
+
+http://www.demodungeon.com/zip/domination18.zip
+
+--------------------------------
+Press Play on Tape live concerts
+--------------------------------
+
+The C64 tribute/remix band, Press Play on Tape recently
+played a storming live concert at The Gathering Party in
+Norway.  In their new very Kraftwerk-like outfits, the
+band produced a tight set which will be well worth a listen
+(the band recorded the whole concert and it may well be
+available soon).  They also played a small warm up
+concert in Copenhagen, Denmark prior to their Gathering 
+gig.  For information and pictures of both events, go here:
+
+http://www.pressplayontape.com/
+
+------------------------------
+New version of PSID64 released
+------------------------------
+
+Roland Hermans has kindly taken time to update his
+.sid->.prg converter, PSID64, which is commonly used to
+transfer .sid files onto a real Commodore 64. Version 0.6
+has some incompatibility problems fixed and is definitely
+worth a download, as Roland cooperates with the HVSC team
+and his program is progressing so it could play back all
+tunes from HVSC flawlessly - and is getting close to that
+point.
+Note that HVSC team _strongly_ encourages you to use PSID64
+for playing .sid files on a real machine, as some of them
+will not play otherwise (e.g. those using NMI interrupts and
+going back from INIT with the RTS command).
+
+Get this program today from http://psid64.sourceforge.net
+
+------------
+C64audio.com
+------------
+
+C64Audio.com announced that it has now paid over £20,000 to C64
+composers since 1997, in royalties and other payments: many of the composers
+were also given generous sales bonuses because we respected them so much,
+and because C64Audio.com's mission has always been to work on behalf of
+the original composers, form a commercial link between them and the fans
+(for both SID covers and original music), and work to bring the SID music
+we love into the mainstream.
+
+This £20,000 represents over 50% of the profits generated on the CDs: the
+rest has gone into live events, funding future CDs and artists, and of
+course
+the running costs involved in creating a professional infrastructure.
+
+C64Audio.com also now administers the copyrights of many of the main
+composers, and has given explicit permission to HVSC (and only HVSC) to
+carry these SIDs. This protects the scene from ripoffs of HVSC, and
+ripoffs of SID music by bigger companies who only care about making
+a quick buck.
+
+The site will shortly be relaunched with a brand new shop, brand new content
+and a brand new mission!
+
+------------------------
+Other interresting sites
+------------------------
+In-depth info about the SID.
+The site really is worth visiting.
+
+http://www.kubarth.de/sid/
