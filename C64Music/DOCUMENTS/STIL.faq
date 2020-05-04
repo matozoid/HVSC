@@ -2,7 +2,7 @@
 -------------------------------------------------------------------------------
                         SID Tune Information List (STIL)
                         -> Frequently Asked Questions <-
-                                     v50
+                                     v51
 -------------------------------------------------------------------------------
 
 General Questions
@@ -102,8 +102,8 @@ bugged SIDs got fixed. If you think you can help (either listing bugs or
 providing bugfixed SID files), please refer to BUGlist.txt in the DOCUMENTS
 directory of HVSC.  However, if a SID sounds bugged and the original released
 game or demo that the SID was extracted from was also bugged (for example:
-/MUSICIANS/O/Ouwehand_Reyn/Last_Ninja_3.sid subtune #3), STIL in this case 
-would notify you of this as technically it is not a bug that was caused by a 
+/MUSICIANS/O/Ouwehand_Reyn/Last_Ninja_3.sid subtune #3), STIL in this case
+would notify you of this as technically it is not a bug that was caused by a
 bad rip.
 
 
@@ -757,7 +757,7 @@ Please note that the example given above is simplified compared to the real
 structure of the STIL. As of HVSC v3.1, the /VARIOUS hierarchy has been
 subdivided into four groups, /VARIOUS/A-F, /VARIOUS/G-L, /VARIOUS/M-R, and
 /VARIOUS/S-Z, to reflect the change in the HVSC directory structure. Therefore
-there are no STIL entries directly below /VARIOUS. 
+there are no STIL entries directly below /VARIOUS.
 
 Also please note that as of HVSC 46, this section is highly outdated as
 /VARIOUS no longer exists and section headers only exist for legacy reasons ;)
@@ -774,9 +774,9 @@ most of the work out of parsing the STIL:
 
 The STIL is maintained by the STIL Administrator (also known as the HOSTILE
 (High Official STIL Executioner) ;-) under the watchful eye of the entire HVSC
-team. The administrator is currently:
+team. The administrator is currently :
 
-Laust Brock-Nannestad <lbn@prg.dtu.dk>
+iAN CooG <hvsc@c64.org>
 
 
 Also see the "STIL CONTRIBUTORS" list further down in the FAQ for other
@@ -1148,8 +1148,9 @@ Riedel, Adric <adric.riedel (sid) gmail.com>
 Rotzsch, Alexander (Fanta)
 ruiner <enrique2 (sid) charter.net>
 Rönkkö, Timo (Deadbeat/The Sharks) <deadbeat73 (sid) hotmail.com>
-Salo, Tommi <<tommi.salo (sid) cop.fi>
+Salo, Tommi <tommi.salo (sid) cop.fi>
 Samuelsson, Tobias <dasforum_91 (sid) hotmail.com>
+Saviranta, Tommi <wnd (sid) iki.fi>
 Scheiby, Nicolai <theteadrinker (sid) ofir.dk>
 Schelling, Bernd <schelle (sid) alpha.fh-furtwangen.de>
 Schmidt, Miron <miron (sid) comports.com>
@@ -1245,61 +1246,61 @@ Yes, still created with LaLa's FunStats Perl script. ;)
 Top 15 Covered Artists:
 -----------------------
 
-Rob Hubbard ............................................................... 256
-Traditional ............................................................... 255
-<?> ....................................................................... 235
-Jean Michel Jarre ......................................................... 207
-Johann Sebastian Bach ..................................................... 170
-Jeroen Tel ................................................................ 159
-Depeche Mode .............................................................. 130
-The Beatles ............................................................... 118
-Martin Galway ............................................................. 102
-John Williams .............................................................  97
-Harold Faltermeyer ........................................................  92
-James Pierpont ............................................................  91
-Chris Hülsbeck ............................................................  89
+Traditional ............................................................... 265
+Rob Hubbard ............................................................... 261
+<?> ....................................................................... 251
+Jean Michel Jarre ......................................................... 208
+Johann Sebastian Bach ..................................................... 180
+Jeroen Tel ................................................................ 164
+Depeche Mode .............................................................. 135
+The Beatles ............................................................... 123
+Martin Galway ............................................................. 107
+John Williams .............................................................  98
+Harold Faltermeyer ........................................................  94
+Chris Hülsbeck ............................................................  94
+James Pierpont ............................................................  92
 The Police ................................................................  77
-Ludwig van Beethoven ......................................................  70
+Ludwig van Beethoven ......................................................  72
 
 
 Top 15 Covered Tunes:
 ---------------------
 
-Jingle Bells ..............................................................  91
-Axel F [from the movie Beverly Hills Cop] .................................  82
-<?> .......................................................................  65
-Popcorn [from Music To Moog By] ...........................................  61
-Funeral March [from Sonate No. 2 in B flat minor Op. 35] ..................  38
-Crockett's Theme [from the TV series Miami Vice] ..........................  36
+Jingle Bells ..............................................................  92
+Axel F [from the movie Beverly Hills Cop] .................................  83
+<?> .......................................................................  70
+Popcorn [from Music To Moog By] ...........................................  60
+Funeral March [from Sonate No. 2 in B flat minor Op. 35] ..................  40
+James Bond Theme [from the James Bond series of movies] ...................  39
+Crockett's Theme [from the TV series Miami Vice] ..........................  39
 Thalamusik [from Sanxion] .................................................  36
 Oxygene 4 [from Oxygene] ..................................................  35
-Blue Monday ...............................................................  32
-Happy Birthday ............................................................  32
-Living on Video [from Living on Video] ....................................  31
-Toccata [from Toccata and Fugue in D Minor (BWV 565)] .....................  30
-James Bond Theme [from the James Bond series of movies] ...................  30
-The Entertainer ...........................................................  28
-Stille Nacht! Heilige Nacht! ..............................................  28
+Blue Monday ...............................................................  34
+Happy Birthday ............................................................  34
+Living on Video [from Living on Video] ....................................  32
+Toccata [from Toccata and Fugue in D Minor (BWV 565)] .....................  32
+The Entertainer ...........................................................  30
+In the Hall of the Mountain King [from Peer Gynt] .........................  29
 
 
 Top 15 Covered C64 Artists:
 ---------------------------
 
-Rob Hubbard ............................................................... 256
-Jeroen Tel ................................................................ 159
-Martin Galway ............................................................. 102
-Chris Hülsbeck ............................................................  89
+Rob Hubbard ............................................................... 261
+Jeroen Tel ................................................................ 164
+Martin Galway ............................................................. 107
+Chris Hülsbeck ............................................................  94
 Ben Daglish ...............................................................  48
 Matt Gray .................................................................  45
-David Whittaker ...........................................................  42
+David Whittaker ...........................................................  43
 Thomas Mogensen (DRAX) ....................................................  40
 Reyn Ouwehand .............................................................  39
-Thomas Detert .............................................................  25
+Thomas Detert .............................................................  26
 David Hanlon ..............................................................  24
-Mark Cooksey ..............................................................  22
-Tomas Danko ...............................................................  19
-Klaus Grøngaard (Link) ....................................................  18
-Johannes Bjerregaard ......................................................  18
+Mark Cooksey ..............................................................  24
+Johannes Bjerregaard ......................................................  21
+Jonathan Dunn .............................................................  21
+Tomas Danko ...............................................................  20
 
 
 Top 15 Covered C64 Tunes:
@@ -1307,19 +1308,19 @@ Top 15 Covered C64 Tunes:
 
 Thalamusik [from Sanxion] .................................................  36
 Enlightenment: Druid II, Tune #3 ..........................................  25
-Comic Bakery, Tune #1 .....................................................  22
-Ghosts'n Goblins, Tune #2 .................................................  18
-Parallax, Tune #1 .........................................................  17
+Comic Bakery, Tune #1 .....................................................  24
+Parallax, Tune #1 .........................................................  19
+Ghosts'n Goblins, Tune #2 .................................................  19
 The Last Ninja - The Wastelands ...........................................  16
-Crazy Comets, Tune #1 .....................................................  14
+Crazy Comets, Tune #1 .....................................................  15
 Savage, Tune #3 ...........................................................  13
-Commando, Tune #2 .........................................................  12
 Commando, Tune #1 .........................................................  12
-The Human Race, Tune #4 ...................................................  10
+Commando, Tune #2 .........................................................  12
+The Human Race, Tune #4 ...................................................  11
 Knucklebusters, Tune #1 ...................................................  10
 Delta, Tune #12 ...........................................................   9
-Noisy Pillars, Tune #3 ....................................................   8
-Monty on the Run, Tune #3 .................................................   8
+Strike Force Introtune ....................................................   9
+Maniac Mansion, Tune #1 ...................................................   9
 
 -------------------------------------------------------------------------------
 --- End of STIL FAQ ---

@@ -1,0 +1,125 @@
+High Voltage SID Collection Update 52
+Date: December 24, 2009
+
+Resulting Version: 52
+ Previous Version: 51
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+
+After this update, the collection should contain 37,801 SID files!
+
+This update features (all approximates):
+     874 new SIDs
+      65 fixed/better rips
+       0 PlaySID/Sidplay1 specific SIDs eliminated
+      12 repeats/bad rips eliminated
+     470 SID credit fixes
+     174 SID model/clock infos
+      17 tunes from /DEMOS/UNKNOWN/ identified
+       2 tunes from /GAMES/ identified
+      25 tunes moved out of /DEMOS/ to their composers' directories
+       4 tunes moved out of /GAMES/ to their composers' directories
+
+
+We are always looking for others to help make HVSC a better collection. If you
+find any errors or have new rips to add, please email:
+
+ Jan Harries, iAN CooG  <hvsc@c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+####################
+# GoatTracker 2.69 #
+####################
+
+V2.69 adds Antti Lankila's newest reSID distortion code, and makes the
+filter/distortion configurable. See /I command line option.
+
+http://cadaver.homeftp.net/ (Tools section)
+http://sourceforge.net/projects/goattracker2
+
+
+############
+# VICE 2.2 #
+############
+
+VICE is the Versatile Commodore Emulator, it emulates the Commodore C64,
+C128, VIC20, PET, PLUS4 and the CBM-II, as well as the C64 DTV, and it
+runs on Win32, Unix, DOS, RiscOS, OS/2, BeOS, QNX, SkyOS, AmigaOS and
+GP2X systems.
+
+VICE is *free* software released under the GNU General Public License,
+and as such it comes with full source code.
+
+Get it from here:
+http://vice-emu.sourceforge.net/
+
+Changelog here:
+http://vice-emu.sourceforge.net/plain/NEWS
+
+Most important (sound/sid emulation) changes since the last version include:
+
+- Sound core has been reworked to enable lower latency of operation.
+  Approximately 50 ms latency values are now routinely reached, and some
+  people have reported that as low as 30 ms still works for them.
+
+- ReSID's resampler has been optimized with MMX assembly. Some long-standing
+  bugs in resample-interpolate mode were also fixed.
+
+- ReSID-FP has been optimized, too. It clocks the analog parts at half the
+  rate now, which saves CPU during filter emulation especially for 6581 modes.
+
+- Added SFX Sound Sampler and SFX Sound Expander emulation.
+
+- Stereo SID $D7xx range support. (x128)
+
+- Replaced old DTVSID emulation with ReSID-DTV. (x64dtv)
+
+- Rudimentary PulseAudio sound driver has been added.
+
+- Added experimental PCI HardSID and Catweasel support. (Amiga port)
+
+- Used AROS (x86, ppc, amd64) new lowlevel libraries which should make USB
+  joysticks and joypads usable.
+
+- The CoreAudio sound driver was completely rewritten to support the updated
+  sound APIs found in the new Mac OS X versions. (MacOSX port)
+
+
+############################
+# 1541 Ultimate Sid Player #
+############################
+
+A new firmware (v1.7) is available for the 1541 Ultimate cartridge which
+includes a sidplayer. SID tunes can be selected by the file browser of the
+cartridge and also sub tunes can be selected.
+
+The new firmware can be downloaded at:
+
+http://www.1541ultimate.net/
+
+
+##################
+# Sidplay64 V0.5 #
+##################
+
+Sidplay64 v0.5 
+A program to play back *.sid files on a real C64. Also displays the
+information located in the sid header. It also relocates itself according
+to the free relocation pages found inside the header.
+
+This version is just a long due update that makes it IDE64 friendly.
+
+Get it here:
+
+http://noname.c64.org/csdb/release/?id=84609

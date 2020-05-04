@@ -1,0 +1,186 @@
+High Voltage SID Collection Update 51
+Date: August 22, 2009
+
+Resulting Version: 51
+ Previous Version: 50
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+
+After this update, the collection should contain 36,939 SID files!
+
+ This update features (all approximates):
+      953 new SIDs
+       93 fixed/better rips
+        6 PlaySID/Sidplay1 specific SIDs eliminated
+       14 repeats/bad rips eliminated
+      320 SID credit fixes
+      159 SID model/clock infos
+        8 tunes from /DEMOS/UNKNOWN/ identified
+        6 tunes from /GAMES/ identified
+       38 tunes moved out of /DEMOS/ to their composers' directories
+       14 tunes moved out of /GAMES/ to their composers' directories
+
+
+We are always looking for others to help make HVSC a better collection. If you
+find any errors or have new rips to add, please email:
+
+ Jan Harries, iAN CooG  <hvsc@c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+########################
+# ACID64 player v3.0.2 #
+########################
+
+From Wilfred Bos the new and improved version of ACID64. In version 3.0.x many
+things have been changed. With the new release it is now possible to search
+as you type through your SID collection very quickly and easy. Also you can now
+seek through a SID song immediately.
+
+What's changed in version 3.0.x
+
+New 
+- Fast incremental SID file search on title, author, year and publisher fields
+- Seek through SID tunes via slider bar
+- Digital clock
+- Scroll wheel support when hovering over grids and list boxes
+- Anonymous usage statistics
+
+Fixes
+- No error anymore when last directory was a root folder
+- Corrected memory bank setting for PSID tunes
+- Resizing window was corrupting active row of search grids
+- Minimal width is now set correctly
+
+Improvements
+- GUI changes, like a new tree view of folders
+- SidID search is done in background now to access properties dialog faster
+- Downloaded files are automatically matched with HVSC location
+- Last played file is remembered now when ACID 64 is started
+- Copy filename strips HVSCRoot automatically
+- Seeking (dragging thumb) can now be cancelled by pressing escape key or by
+  pressing right mouse button
+- Scrolling search results will now update rows immediately without releasing
+  the thumb
+- Clicking on folder name in Folders tab will expand the folder
+- Keyboard navigation improvements
+- Emulation improvements
+- Many small improvements/fixes
+
+
+http://www.acid64.com/
+
+
+#####################################
+# HardSID 4U Winamp Plugin v1.0.0.1 #
+#####################################
+
+HardSID 4U Winamp plug-in v1.0.0.1 has been released.
+
+It has one new feature: It does not require a local HVSC download at all.
+(while still supports a local copy of course)
+It downloads the song length database and the STIL database from the
+internet automatically in a few seconds the first time you run the plugin.
+
+New HardSID users only have to install the HardSID driver and the Winamp
+plugin and then they can start searching/playing the whole HVSC immediately
+at http://c64jukebox.hardsid.com with song-length and STIL support.
+
+
+http://www.hardsid.com/drivers_apps_docs.php 
+
+
+###############################
+# GoatTracker 2.68 / Mac OS X #
+###############################
+
+From Andreas Varga (MrSID) a new port of the SID composing program.
+Quoted from his site <http://www.sidmusic.org/goattracker/mac/>
+
+"
+After a really long time doing other things, I've finally decided to adapt
+another version of GoatTracker for Mac OS X. Many things have changed and
+GoatTracker has definitely matured into a state-of-the-art C64 music editor.
+
+This time around, the Mac OS X integration is much more complete, offering
+standard keyboard shortcuts, built-in help windows, and open/save dialogs for
+songs and instruments. There's more room for future improvements though. If
+you're actively using GoatTracker, please let me know of any ideas and
+suggestions you might have.
+"
+
+
+#################
+# Hoxs 1.0.5.27 #
+#################
+
+The new version is optimized to run slightly faster most of the time.
+
+Also, it closes the 1.0.5.x branch started in October 2007. There are several
+VIC-II findings that haven't made it into the emu yet, but they will have to
+wait for the new debugger in v1.0.6.0, which should allow to improve the
+emulation more efficiently.
+
+13 August 2009 v1.0.5.27
+========================
+1) Added general option to enable/disable opposing joystick directions.
+
+2) Speed optimisation to the CPU, CIA and VIC. The emulation is noticeable
+   faster on lines with no DMA fetches and no IRQs
+
+3) Bug fix to the reverse keyboard matrix. Was broken for years!
+
+4) Accurate emulation of the $DD00 VIC bank switch bug.
+
+Unless something is majorly broken, the next release will include the long
+awaited debugger. Work on the debugger is now in progress.
+
+
+http://hoxs64.net/
+
+
+#############
+# HVMEC 0.9 #
+#############
+
+Quoted from the Lemon64 announcement by Ice00:
+
+"
+After very very long time, a new version of HVMEC (High Voltage Music Engine
+Collection) is ready to download.
+
+This version comes with 31 new music programs, for a total of 140 editors, 84
+trackers, 70 other tools.
+
+The good thing is that other 50 programs are ready to be released (but this
+will be done some time in the future) and others are adding. With this version
+Stephan Parth is now a co-author of the collection as he did most of the hard
+work.
+
+The collection can be viewed online or downloaded from:
+http://digilander.libero.it/ice00/tsid/hvmec.html
+
+I also try to create a torrent for helping in download:
+http://utenti.lycos.it/ice00/hvmec-0.9-all.tar.bz2.torrent
+
+From scratch I start even this Wordpress version of HVMEC:
+http://hvmec.hellospace.net/blog
+(takes it as a alpha preliminary version). Now it has only 2 editors in it
+(just to see that the system can work), a simple layout, and it will take at
+least a year to add all other editors present into actual HVMEC.
+
+The advantage of this methods is that I can add more contributors and they can
+add/modify editors by themself and else subscribed people to RSS Feed can see
+in realtime the new added editors.
+"
+
+

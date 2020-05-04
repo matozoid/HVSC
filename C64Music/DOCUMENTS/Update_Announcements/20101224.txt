@@ -1,0 +1,161 @@
+High Voltage SID Collection Update 54
+Date: December 24, 2010
+
+Resulting Version: 54
+ Previous Version: 53
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+
+After this update, the collection should contain 39,626 SID files!
+
+This update features (all approximates):
+     933 new SIDs
+     217 fixed/better rips
+       5 PlaySID/Sidplay1 specific SIDs eliminated
+      21 repeats/bad rips eliminated
+     561 SID credit fixes
+     258 SID model/clock infos
+      28 tunes from /DEMOS/UNKNOWN/ identified
+       6 tunes from /GAMES/ identified
+      41 tunes moved out of /DEMOS/ to their composers' directories
+       9 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc@c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+#####################################
+# Droidsound v1.1 has been released #
+#####################################
+
+Droidsound is a multi-format music player for Android devices. It can play
+several old and new formats, including MOD, SID, XM, S3M, IT, NSF and VGM.
+
+Some features:
+
+- Uses sidplay2 (and modplug + GME)
+- Indexes zip-files (like C64Music.zip)
+- Title search
+- CSDB metadata browsing
+
+
+####################################
+# JSidplay2 v2.0 has been released #
+####################################
+
+JSidplay2 is very well featured SID player that is implemented in Java. It is
+based on the source code of Sidplay2 and resid-fp. It has the latest filter
+patches from Antti Lankila included. It runs on all platforms that can run Java
+programs.
+
+Since version 1.4 a lot have been changed and improved. It has now a video
+screen and you can use JSIDPlay2 as a Network SID Device.
+
+For more info check out:
+
+http://jsidplay2.sourceforge.net/
+
+
+#####################################
+# Hoxs64 v1.0.6.2 has been released #
+#####################################
+
+Hoxs64 is a Commodore 64 emulator for Windows.
+
+Changes since v1.0.6.0:
+
+- Fixes to the key matrix
+- Fixed Time Of Day alarm fail to trigger bug that was introduced in v1.0.5.27
+  that may cause the game Hypersports to get stuck on the clay shooting part
+- Audio resample mode is now on when restoring default settings
+- Adjusted all VIC $D011 and $D016 mode change transitions to give pixel exact
+  output
+- Improved keyboard matrix emulation. Space bar now works correctly in the
+  Nitro 16 demo
+- Adjusted VIC light-pen timing
+- Adjusted CIA6526A IRQ timing
+- Common code base now supports both x86 and x64 compiles.
+  (x64 bit version is tested on Windows 7 with full DirectX install)
+- Added WinXP styles that use common control library 6
+- Adjusted audio sync
+
+http://www.hoxs64.net/
+
+
+##########################################
+# ACID64 player v3.0.4 has been released #
+##########################################
+
+ACID 64 is a cycle based player for Windows that can play SID tunes on sound
+devices with a real SID chip and via network devices that emulate the SID chip,
+like JSidDevice that is part of JSidplay2. It has nice features such as seeking
+through SIDs immediately, song length database (SLDB) support and incremental
+search features.
+
+Changes in version 3.0.4:
+
+New
+- Added native support for JSidplay2 and JSidDevice
+- No more real SID chip device needed. Just start the jsiddevice.exe and
+  Acid64 will play sids! Hardsid4U is still highly recommended if you want
+  best sound quality, though.
+
+Improvements
+- Faster startup time
+- Emulation improvements
+- Copy file/directory added to context menu
+- Many small improvements
+
+Fixes
+- ACID64 couldn't start on some Windows 7 64 bit machines
+- Turning filter off and seek back turned filter on
+- Switching device and then seeking could silent the tune
+- Fast forward could freeze GUI in some cases
+
+http://www.acid64.com
+
+
+#####################
+# GoatTracker v2.71 #
+#####################
+
+GoatTracker is a cross-platform C64 music editor. Supports output via Dag Lem's
+reSID engine, the HardSID USB device & HardSID soundcards or CatWeasel MK3.
+
+V2.71 adds possibility to adjust base pitch from the default 440 Hz.
+
+http://cadaver.homeftp.net/ (Tools section)
+http://sourceforge.net/projects/goattracker2
+
+
+############
+# Dual SID #
+############
+
+Tomi Malinen has made a dual SID system for the Commodore C64. You can buy the
+printed circuit board and assemble it yourself.
+
+Features:
+
+- Small board (40mm x 50mm)
+- 6581 or 8580
+- Selectable address (D400, D420, D500, DE00, DF00)
+- Game compatibility
+
+For more info check out:
+
+http://koti.mbnet.fi/malinto/dualsid/
+http://www.lemon64.com/forum/viewtopic.php?t=35311

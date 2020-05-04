@@ -1,0 +1,158 @@
+High Voltage SID Collection Update 52
+Date: June 25, 2010
+
+Resulting Version: 53
+ Previous Version: 52
+
+Hello fellow lover of SID music!
+Nice you found some time to read through this script, to see what has been
+changed in the HVSC and for what reason.
+
+
+After this update, the collection should contain 38,714 SID files!
+
+This update features (all approximates):
+    1045 new SIDs
+     897 fixed/better rips
+      20 PlaySID/Sidplay1 specific SIDs eliminated
+     133 repeats/bad rips eliminated
+    1076 SID credit fixes
+      81 SID model/clock infos
+      23 tunes from /DEMOS/UNKNOWN/ identified
+      10 tunes from /GAMES/ identified
+      81 tunes moved out of /DEMOS/ to their composers' directories
+      11 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc@c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the
+collection that it is today, without your help it would be
+a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+########################
+# ACID64 player v3.0.3 #
+########################
+
+Wilfred Bos has released a new version of ACID64.
+
+Changes in version 3.0.3:
+
+New 
+- Support for the new HardSID USB devices: Uno and UPlay;
+- Auto detection of turned on/off USB devices;
+- Added sorting on column of every grid;
+- Emulated SID reading.
+
+Improvements 
+- When performing e.g. mute/unmute, filter on/off or pause then no time gap
+  isn't noticed anymore while playing on a USB device;
+- Seek bar is always going smooth now and still synched with the 6510 CPU
+  clock;
+- Improved fast forward;
+- HardSID.dll isn't required anymore for USB devices;
+- Many small improvements.
+
+Fixes 
+- Works now without administrator rights;
+- When using dual monitor ACID 64 will now be centered on the screen instead
+  of the desktop.
+
+
+####################
+# 1541 Ultimate II #
+####################
+
+Gideon Zweijtzer has released the 1541 Ultimate II.
+
+Changes compared to the 1541 Ultimate I:
+
+- it has a plastic case;
+- the PCB is 30% smaller;
+- micro SD card slot;
+- real-time clock is implemented for correct file time and date;
+- it uses a larger FPGA which enables the implementation of more features;
+- USB host port which can be used to connect USB memory sticks;
+- ethernet port has been removed;
+- no restrictions anymore of number of files per directory;
+- menu and file browser can be selected by joystick now.
+
+The 1541 Ultimate II has an built-in SID player which can play SID files
+from micro SD card and from USB sticks.
+
+http://www.1541ultimate.net/
+
+
+###################################
+# HardSID UPlay / Uno USB devices #
+###################################
+
+HardSID has released two new high quality USB SID devices. Both USB devices
+are powered via USB which makes it very easy to take it with you anywhere.
+
+HardSID Uno has one SID chip and the HardSID Uplay can hold one 6581 and one
+8580/6582 SID chip. Both devices are supported by ACID64, WinAmp plugin,
+CCS64, Vice and Goattracker.
+
+http://www.hardsid.com/
+
+
+################################
+# CCS64 V3.8 has been released #
+################################
+
+CCS64 V3.8 has been released. The following has been fixed/changed: 
+
+- FIX: Fixed a bug in the sprite-to-sprite collision-detection register.
+- FIX: Fixed a bug with the 'Windows' menu Options -> Video behaviour.
+- FIX: Made the graphics-drawing routines multi-threaded, for better
+       performance.
+- FIX: Fixed a bug which caused the QuickLoad/QuickSave features to hang. 
+- ADD: Two new Filter options, called CRT Television and CRT Monitor, which
+       work only with the Window 2x screen mode and not with any other
+       non-default video settings. These new Filter options include the
+       after-lightening effect.
+- INF: CCS64 V3.7 was compiled with Visual Studio 2008, which led to an
+       in-compatibility with Windows 98/ME, but greater compatibility with
+       Windows 7; when previous versions were compiled with Visual Studio
+       2005, this had the opposite effect.
+
+http://www.ccs64.com/
+
+
+#####################################
+# Hoxs64 v1.0.6.0 has been released #
+#####################################
+
+Hoxs64 is a Commodore 64 emulator written by David Horrocks.
+
+Changes in this release:
+
+- Added CIA6526 and CIA6526A options to the emulation setting dialog;
+- Corrected all valid VIC mode change transitions to give pixel exact output;
+- Adjusted IRQ DMA behaviour for instructions SEI and CLI;
+- Fixed a restore key bug;
+- Adjusted Quick Speed to honour the VBL Sync option;
+- Optimised the DirectX video device creation.
+
+http://www.hoxs64.net/
+
+
+####################
+# GoatTracker 2.70 #
+####################
+
+GoatTracker is a cross-platform C64 music editor. Supports output via Dag Lem's
+reSID engine, the HardSID 4U USB device & HardSID soundcards or CatWeasel MK3.
+
+V2.70 adds a hotfix for the new HardSID UPlay/Uno devices from Téli Sándor.
+
+http://cadaver.homeftp.net/ (Tools section)
+http://sourceforge.net/projects/goattracker2
