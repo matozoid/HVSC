@@ -1,0 +1,352 @@
+High Voltage SID Collection: Update #65
+Date: July 12, 2016
+
+Resulting Version: 65
+ Previous Version: 64
+
+After this update, the collection should contain 48,516 SID files!
+
+This update features (all approximates):
+    1022 new SIDs
+     811 fixed/better rips
+      24 repeats/bad rips eliminated
+     791 SID credit fixes
+     143 SID model/clock infos
+      59 tunes from /DEMOS/UNKNOWN/ identified
+       1 tunes from /GAMES/ identified
+      70 tunes moved out of /DEMOS/ to their composers' directories
+       4 tunes moved out of /GAMES/ to their composers' directories
+
+It's been a long time, yet it seems only yesterday! HVSC was born exactly 20
+years ago today, from the ashes of the NemeSIDs collection with the aim to
+make an even better organized collection, and consisted of only 4175 files.
+The project grew so much, with both the effort of rippers always searching
+for old missing tunes and the countless musicians still showing love for the
+unique feeling SID music gives: there are new tunes being made every day!
+For this special update, we are not only proud to announce that another
+milestone of 48,000+ tunes has been reached, but we felt also the need to
+produce a music disk with EXCLUSIVE content to celebrate 20 HVSC birthdays.
+Thanks to everyone involved and keep on SID-ding!
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+#####################################
+# Back in Time Symphonic Collection #
+#####################################
+
+Chris Abbott and Kenneth "Slaygon" Mutka started a project to arrange and
+produce a box set of Symphonic Commodore 64 studio arrangements that bring out
+the classic Hollywood in the SIDs. Also full scores for orchestras will be
+produced to play live.
+
+You can still back the project.
+
+More info: http://www.backintimesymphonic.com
+
+
+#############################
+# ACID 64 Player Pro V3.6.1 #
+#############################
+
+A new version of ACID64 has been released. ACID64 is a cycle based player for
+Windows that can play SID tunes on sound devices with a real SID chip and via
+network devices that emulate the SID chip, like JSidDevice that is part of
+JSidplay2.
+
+Changes in version 3.6.1:
+
+- Fixed small issue for displaying specific user folders in Windows 10
+- Small improvements
+
+The new version can be found at: http://www.acid64.com
+
+
+##############
+# PSID64 1.2 #
+##############
+
+PSID64 version 1.2 has been released by Roland Hermans. PSID64 is a tool for
+converting SID tunes into PRG files.
+
+New features:
+
+- Added PSID/RSID v4 support (Triple SID).
+- Added support for player identification based on SID ID.
+- More verbose error messages in console application.
+
+Get it from: http://csdb.dk/release/?id=144607
+
+
+#############################
+# Interview with Julie Dunn #
+#############################
+
+Julie Dunn, a.k.a. David Dunn, has given an interview for C64.com. Julie wrote
+music for games like: Flight Path 737, Elite, Nonterraqueous, Daley Thompson's
+Decathlon, Ring Master, Theatre Europe, Thai Boxing, Advanced Pinball Simulator
+and many more.
+
+Read the whole interview from here: http://www.c64.com/?type=4&id=45
+
+
+###################
+# Hoxs64 v1.0.8.9 #
+###################
+
+Hoxs64 v1.0.8.9 has been released. Hoxs64 is a C64 emulator for Windows XP/7/8.
+
+Changes:
+
+- Fix VIC where a write to the raster compare register was causing a raster IRQ
+  to occur one clock too soon.
+
+Get the new version from: http://www.hoxs64.net/
+
+
+#################
+# Virtuoso 0.98 #
+#################
+
+Hein Holt released a new version of his C64 music editor. Virtuoso runs on the
+C64. It has a nice interface and the player supports 8 commands per tick. The
+editor comes with some examples tunes as well.
+
+Changes:
+
+- Fixed exporter bug
+- Added other tiny things/optimizations
+
+Check it out: http://csdb.dk/release/?id=145848
+
+
+###################
+# Sidplay64 V1.10 #
+###################
+
+Sidplay64 is a C64 program made by GRG / Shape to play back SID files. You can
+browse SID files from disk and it also has support for random playback of SIDs.
+Sidplay64 has support for 1541 Ultimate I & II, REU, netdrive, iec, cmd, ide64
+and Sd2iec.
+
+The following has been fixed/changed:
+
+- New: Non-REU versions can now handle and load all files from the directory.
+- New: Songs with BASIC start support.
+- New: BASIC SID's that stops on its own can be exited by pressing CBM.
+- New: IEC/CMD/IDE64: ClrHome key/Joystick RIGHT loads more filenames while
+  reading directory.
+- New: REU: Remembers previous directory positions when you go back.
+- New: REU: File sizes are displayed in kilobytes. (Not for 1541u2)
+- Behavior: Restore key: resets variables and reloads dir.
+- Behavior: RunStop+Restore keys: exit BASIC or SID's with $0000 as play call.
+- Fixed: 1541U2: shortened directory read routine.
+
+Get it here: http://csdb.dk/release/?id=147517
+
+
+########################
+# Music Studio 2.2.0.2 #
+########################
+
+Music Studio is an open-source Windows-based SID music creator software. It uses
+RESID-FP for SID emulation, both old (6581) and new (8580) SID chips. Music
+Studio is capable of creating 1x speed tunes and alternate many SID chip
+parameters directly with various commands. Classic and new C64 sounds can be
+created with envelope parameters that can be set up in a few simple steps.
+
+Changes in this release:
+
+- Added MIDI file importing.
+- Various small bug fixes.
+
+Check it out: http://csdb.dk/release/?id=145599
+
+
+###############
+# jsSID-0.9.1 #
+###############
+
+Last February Hermit (Mihály Horváth) released jsSID-0.9. jsSID is a JavaScript
+based SID player which plays SID tunes in every web browser that supports the
+Web Audio API.
+
+Since the emulation of the SID is operating at 44.1kHz, the CPU usage is low
+since there is no need to resample the audio data from 1MHz to 44.1kHz.
+
+Both 6581/8580 models are support with different cutoff/resonance curves and
+combined waveforms.
+
+Version 0.9.1 was released 2 days later with the following changes:
+
+- Default subtune number can be specified in the example player.html playlist
+  for tunes by appending it to the playtime-information (separated by ':').
+- Support for 2SID and 3SID tunes
+
+jsSID v0.9.1 can be downloaded here: http://csdb.dk/release/?id=145523
+
+
+###############
+# FM-Sid V1.3 #
+###############
+
+4-Mat released two version of FM-Sid this year. FM-Sid is a music driver that
+uses the sidchip and the SFX Sound Expander cartridge together which can play
+12 channels in total (3 SID + 9 FM channels). When you have more than one SID
+chip in your Commodore 64 you can even play more channels.
+
+Check it out: http://csdb.dk/release/?id=147615
+
+
+##############
+# CGSC v1.32 #
+##############
+
+The Compute Sidplayer Collection has been updated and contains now 15130 MUS
+files, 4211 STR files and 5303 WDS files.
+
+Get the collection here: http://www.c64music.co.uk/
+
+
+####################
+# Swinsid Ultimate #
+####################
+
+CodeKiller (Máté Sebok) and Hermit (Mihály Horváth) worked on improving the
+Nano Swinsid which was originally developed by Swinkels. The new version is
+called Swinsid Ultimate.
+
+The following has been improved:
+
+- Paddle/mouse support
+- Readable registers (OSC3/ENV3)
+- External audio in
+- Bitfade
+- Proper ADSR-bug support
+- Fast ADSR attack rate (thanks to the self-correcting rate-counter)
+- 'Lazy Jones' and '180' -like gate and test-bit workaround (no missing note)
+- Proper 23bit noise-waveform calculation
+- Full 3V p-p output range w/o 1KOhm load (same as 8580)
+- Improved filter quality (16bit) and resonance-table for both SID model
+- Improved waveform calculation (full 16 bit)
+- High resolution combined waveform-tables
+
+It has enhancements over the original SID:
+- Clean anti-aliased bandlimited sound at high pitches
+- Undistorted mixed digi tunes and eliminated volume-change click thanks to
+  AC/DC separation of master volume register
+- Softconfig, configurable options like:
+	- Change between 8580/6581 behavior (filter, ADSR, combined waveforms)
+	- Change between PAL/NTSC pitch enable/disable external audio input (less
+	  external noise)
+	- Enable/disable startup "ding"(beep)
+	- Upload 3 banks of 256 bytes for custom waveforms
+	- "transparent" mute for channels which doesn't affect the sync,OSC3/ENV3
+- LEDs which intensity represents the active channels volume
+- LED displaying the active (classic) digi playback
+- or in case of the new Mahoney-digi, the entire array acts like a VU-meter
+
+A new PCB design is recently made which has the following improvements:
+
+- No more wires or stacked components
+- Lined up LEDs with option to disable (solder bridge)
+- Better solder-bridges (bigger, better shape)
+- LED header to connect your own LED drivers/LEDs
+- Capable to use thinner legs without sorting something in the board
+- (optional) clk and r/w signal shaping capacitors
+- Better (two stage) output filtering (reducing the carrier-signal)
+- Cleaner path to ext_in and audio_out traces (coaxial-like ground)
+- No more obsolete CPLD - But this means, the digital output will be TTL (3V3)
+  compatible (you should not use HC anyway)
+- Decoupling capacitors are more close to the actual components
+- Bigger clearance in the ground-fill
+- Optional input pin for the Atmega (maybe plus/4 SID-cart clock switch input in the future---)
+- Modified 6581 filter fable based on "zrx r4ar 2286" including filter-distortion
+- A bit of tweak in an ADSR table to better handle the Ultravox.sid
+
+The new Swinsid Ultimate with the new PCB design can now be preordered here:
+
+https://www.facebook.com/swinsidultimate
+
+
+#################
+# Project SIDFX #
+#################
+
+Project SIDFX is a hardware solution that makes it possible to install 1 or 2
+SIDs in one SID socket and combine any two SID models without any jumpers and
+without any soldering. It has 3 configuration profiles which can be selected
+using a switch.
+
+It is not possible to pre-order the product anymore but there is a waiting list
+to subscribe to if you're interested.
+
+For more info go to:
+
+http://www.sidfx.dk/
+
+
+################
+# SID Shootout #
+################
+
+kompjutOr created a blog called "SID Shootout" which compares multiple SID
+recordings from different SID revisions and even compares a real 6581 with the
+SwinSID Ultimate.
+
+Check it out:
+
+http://kompjut0r.blogspot.nl/2015/12/c64-sid-shootout.html
+http://kompjut0r.blogspot.nl/2015/12/c64-sid-shootout-part-2.html
+http://kompjut0r.blogspot.nl/2015/12/c64-sid-shootout-part-3.html
+http://kompjut0r.blogspot.nl/2016/04/c64-sid-shootout-part-4-sid-8580-vs.html
+http://kompjut0r.blogspot.nl/2016/05/c64-sid-shootout-part-5-sid-6581-vs.html
+
+
+#########################
+# Interviews by GeoAnas #
+#########################
+
+GeoAnas interviewed several SID composers like Jason Page, Kamil Wolnikowski
+(Jammer), Sascha Zeidler (Linus) and Markus Jentsch (c0zmo).
+
+Read the interviews here:
+
+http://www.iamretro.gr/a-sid-adventure-introducing-jason-page/
+
+http://www.iamretro.gr/a-sid-adventure-introducing-jammer-artstate-exclusive-on-multistyle-labs-priorart-samar-productions/
+
+http://www.iamretro.gr/a-sid-adventure-introducing-linus-artstate-camelot-multistyle-labs-oxyron-resource-viruz/
+
+http://www.iamretro.gr/a-sid-adventure-introducing-c0zmo-bliss/
+
+
+###################
+# SID Known v1.12 #
+###################
+
+Wilfred Bos has released SID Known v1.12. This version supports now HVSC #65.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(http://hvsc.de) or post it in one of the CSDb forums (http://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: http://csdb.dk/release/?id=149341

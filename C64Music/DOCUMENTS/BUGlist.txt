@@ -1,7 +1,7 @@
 #######################################################################
 #   The High Voltage SID Collection (HVSC) Bugged Tunes List          #
 #   Maintained by iAN CooG <hvsc@c64.org>                             #
-#   Last Updated:  October 10, 2015.                                  #
+#   Last Updated:  May 4, 2016.                                       #
 #######################################################################
 #                                                                     #
 # The purpose of this text document is to highlight all the tunes     #
@@ -34,7 +34,7 @@
 #######################################################################
 
 ##############################
-# Bugged tunes as of HVSC 64 #
+# Bugged tunes as of HVSC 65 #
 ##############################
 
 /DEMOS/A-F/Digital_II.sid
@@ -60,6 +60,10 @@
     BUG: File seems truncated, lacks lots of data at end. No good source known.
 (iAN CooG)
 
+/DEMOS/UNKNOWN/Master_Composer/I_Fought_the_Law.sid
+    BUG: File seems corrupted.
+(McLoaf)
+
 /DEMOS/UNKNOWN/Master_Composer/I_Want_You.sid
     BUG: File seems truncated, lacks lots of data at end. No good source known.
 (iAN CooG)
@@ -80,10 +84,6 @@
     BUG: File seems truncated, lacks lots of data at end. No good source known.
 (iAN CooG)
 
-/DEMOS/UNKNOWN/Master_Composer/Star_Trek_III.sid
-    BUG: File seems truncated, lacks lots of data at end. No good source known.
-(iAN CooG)
-
 /DEMOS/UNKNOWN/Master_Composer/Take_Me_Home.sid
     BUG: File seems truncated, lacks lots of data at end. No good source known.
 (iAN CooG)
@@ -91,6 +91,10 @@
 /DEMOS/UNKNOWN/Master_Composer/We_Two.sid
     BUG: File seems truncated, lacks lots of data at end. No good source known.
 (iAN CooG)
+
+/GAMES/A-F/Eskimo_Eddie.sid
+    BUG: Channels are out of synch.
+(McLoaf)
 
 /GAMES/S-Z/Shackled.sid
     BUG: Subtune #2 falls out of sync upon looping, but so does the original
