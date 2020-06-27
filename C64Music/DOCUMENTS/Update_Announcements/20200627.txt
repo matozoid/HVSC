@@ -1,0 +1,386 @@
+High Voltage SID Collection: Update #73
+Date: June 27, 2020
+
+Resulting Version: 73
+ Previous Version: 72
+
+After this update, the collection should contain 52,884 SID files!
+
+This update features (all approximates):
+     558 new SIDs
+      52 fixed/better rips
+       1 repeats/bad rips eliminated
+     242 SID credit fixes
+      25 SID model/clock infos
+      21 tunes from /DEMOS/UNKNOWN/ identified
+       2 tunes from /GAMES/ identified
+      25 tunes moved out of /DEMOS/ to their composers' directories
+       9 tunes moved out of /GAMES/ to their composers' directories
+
+We are always looking for others to help make HVSC a better collection.
+If you find any errors or have new rips to add, please email:
+
+ iAN CooG  <hvsc (sid) c64.org>
+
+Thanks to all the people who have helped to make HVSC the collection that it
+is today, without your help it would be a much tougher task.
+
+
+SID RELATED NEWS:
+
+
+###################
+# Sidplayfp 2.0.2 #
+###################
+
+Libsidplayfp (and its console frontend sidplayfp) is a fork of sidplay2 born
+with the aim to improve the quality of emulating the 6581, 8580 chips and the
+surrounding C64 system in order to play SID music better.
+
+Changes in this release:
+
+- Fix filter parameter defaults.
+- Adjusted residfp 6581 filter parameter range.
+- Recalculate noise output when actually changed in residfp.
+
+Get the new version here: https://sourceforge.net/projects/sidplay-residfp/
+
+
+#######################
+# SID Factory II Beta #
+#######################
+
+SID Factory II is a cross-platform music editor made by Thomas Egeskov Petersen
+(also known as Laxity) for editing SID music that can be played on a C64.
+It is a successor of SID Factory which runs natively on a C64.
+Currently version II runs only on Windows but it will be available to other
+platforms in the future.
+
+Some of its features:
+
+- Packs sequences in real time as you edit them.
+- Sequences can be extremely long, like 1024 rows.
+- Driver system is modular and it comes with a wide selection of drivers.
+- You can set up to 8 different bookmarks.
+- Driver 11 supports 12-bit pulse and filter control and a separate arpeggio
+  table for chords only.
+- Table index hotkeys.
+- Muting channels.
+- Instruments and commands can be set at the same time.
+- Adjustable hard restart.
+- Support for pulse and filter programs.
+- Inserting the next unused sequence.
+
+The latest beta version is available at the following forum:
+
+https://csdb.dk/forums/?roomid=14&topicid=142903
+
+
+##################
+# JSIDPlay2 v4.2 #
+##################
+
+JSidplay2 version 4.2 has been released. JSidplay2 is an open-source C64
+emulator specialized for sound reproduction. It is also a SID player for music
+collections like HVSC and CGSC. It is a full C64 emulator and can play games of
+the GameBase64 project as well. The emulator is written in Java and runs on any
+environment that runs Java 8 or higher.
+
+Changes in version 4.2:
+
+- WhatsSID? Shazam like audio recognition added.
+- New Audio driver: AVI recording.
+- New Audio driver: SID register writes as CSV.
+- Audio post processors added: Delay effect and Schroeder reverb effect.
+- Audio Settings added: Audio post processor settings and recording quality.
+- New emulation settings: Revert, copy first SID settings to other SIDs.
+- Turn PAL emulation on/off.
+- Ultimate64 Audio-/Video Streaming: PAL emulation for video output added.
+- Toolbar icon added: Save Recording to folder.
+- Delay value range changed to 0..50ms in 1ms steps.
+- Fix: Save JPEG screenshot.
+- Fix: SOASC download strategy.
+- Fix: Volume of 2SID and 3SID corrected, fake-stereo volume fixed.
+- Fix: Oscilloscope output is a bit smoother now.
+- Fix: Emulation settings: JSIDDevice filter names and selection fixed.
+
+Get it from: https://csdb.dk/release/?id=192258
+
+
+###################
+# JSidDevice v4.2 #
+###################
+
+A new version of JSidDevice has been released. JSidDevice is a network SID
+device which can be controlled by SID players like ACID64 Player. JSidDevice
+requires Java 8 or higher.
+
+Changes in version 4.2:
+
+- WhatsSID? Shazam like audio recognition added.
+- Internal buffer size increased to avoid audio glitches during high CPU usage.
+- Added audio buffer size selection in settings.
+- Number of devices connected is now shown properly in the system tray.
+
+Check out: https://csdb.dk/release/?id=192262
+
+
+############
+# VICE 3.4 #
+############
+
+VICE 3.4 has been released. VICE is an open source cross-platform emulator of
+several Commodore machines.
+
+VICE also includes VSID which can be used to play SID files.
+
+SID related changes:
+
+- Use model dependent floating output ttl values like in residfp.
+- Allow better control of the filter settings by removing tick marks
+  of the sliders and adding spinboxes (6581+ReSID only).
+
+You can get VICE from here:
+
+https://sourceforge.net/projects/vice-emu/
+
+
+###################
+# Hoxs64 v1.1.0.4 #
+###################
+
+Hoxs64 v1.1.0.4 has been released. Hoxs64 is a C64 emulator for Windows written
+by David Horrocks.
+
+Changes since version v1.0.25.0:
+
+- Prevent ImGUI from saving imgui.ini text files everywhere.
+- Fix broken command line relative path handling.
+- Improved performance of quickspeed from the 100Hz mode.
+- Remove possibly uncommon VIC bug
+- Use the new DirectX flip model if using Windows 10.
+- Fix null pointer access start up crash on Windows 7.
+- Automatically position the ImgUI popup when out of bounds.
+- Automatic mini-dump file creation for application crashes.
+- Fix missing XInput1_4.dll error on Windows 7.
+- New DirectX 11.1 graphics implementation.
+- Fix CPU DMA timing bug with SHA SHX SHY.
+- CIA shift register timing fixes to accommodate Vice testprogs.
+- New ImgGui based file selector for full screen mode.
+
+Get the new version from: https://www.hoxs64.net/
+
+
+#################
+# SIDDump V1.08 #
+#################
+
+SIDDump is a utility that executes SID file player code and outputs SID chip
+register & note data.
+
+The new version has some CPU emulation fixes.
+
+Check it out: https://csdb.dk/release/?id=192079
+
+
+##############
+# CGSC v1.39 #
+##############
+
+The Compute Sidplayer Collection has been updated and contains now 15655 MUS
+files, 4318 STR files and 5400 WDS files.
+
+Get the collection here: http://www.c64music.co.uk/
+
+
+####################
+# RetroPlayer Beta #
+####################
+
+RetroPlayer is a music player for Mac for playing Amiga music, SID music and
+other tracker formats. It uses libsidplayfp for playing SID files.
+
+The latest beta has support for downloading HVSC, song lengths and STIL info.
+
+http://www.triumph.no/RetroPlayer/beta/
+
+
+###########
+# DeepSID #
+###########
+
+DeepSID is an online SID player made by JCH of Vibrants. It emulates music
+created for the Commodore 64 home computer. It supports nice features like:
+
+- Toggling between WebSID/jsSID/SOASC for SID playback.
+- SID player and year display for each song.
+- Create and play playlists.
+- Rating folders and SID files.
+- Comment / Discuss SID files
+- Profile / CSDb / GB64 / Player / STIL / Piano / Graph view.
+- Search through HVSC / STIL.
+- and much more.
+
+The player is continuously updated. See the Changes tab for the full change log.
+
+Check it out: https://deepsid.chordian.net/
+
+
+####################
+# defMON V20200601 #
+####################
+
+defMON is a music editor for the Commodore 64.
+
+Changes in this release:
+
+- Fixed a bug in the packer where the packer tried to follow jumps in the sidtab
+  to see which rows were used/unused. The bug caused the packer to fail in some
+  cases when jumps were involved, so the packed tune would get corrupted.
+* The loop-jump command in the sequence list wasn't initialized properly when
+  restarting a tune. This should now be fixed.
+* A minor fix to SHIFT+U (copy current sequence to next unused sequence) to make
+  sure that parameters to jump commands (FF XX XX) aren't misinterpreted.
+
+You can get the editor from here:
+
+https://toolsforscholars.com/defmon/doku.php?id=download:download
+
+
+##################
+# STILGrep 0.8.3 #
+##################
+
+STILGrep is a simple Perl-script made by Matti Hamalainen (ccr) that can be used
+to easily search the STIL database in "grep" style. There are various options to
+control how the results are displayed and what data is being matched. Also, a
+command can be executed with the matching SID file(s) as parameter, for example
+to play it, etc.
+
+Changes since version 0.8.0:
+
+- Improved compatibility with older Perl versions (thanks to djinn/wd for patch
+  and suggestions!) and adds support for HVSC_BASE environment variable for
+  setting the HVSC location.
+- Check for "$HOME/.stilgrep.cfg" instead of "$HOME/stilgrep.cfg".
+- Outputs the matches for all fields, not just the first one.
+- Don't print subtune number for main tune information (e.g. "subtune" #0).
+- List available fields (for -f and -F options) in the help.
+- Fix error reporting in case we fail to open the configuration file.
+
+Get the tool from here: https://csdb.dk/release/?id=191473
+
+
+#################
+# SIDInfo 0.9.2 #
+#################
+
+SIDInfo is a simple utility written in C by Matti Hamalainen (ccr), that
+displays information about SID files in various formats. Includes support for
+PSID and RSID files versions 1-4, HVSC songlengths database and HVSC STIL
+database. Etc.
+
+Changes since version 0.9.1:
+
+- Fix the issue of the _last_ STIL sub-field for song/subtune not being printed.
+- Fix functionality of -F option when outputting UTF-8 Unicode.
+- Add default custom formats for certain fields, used for the default output.
+- Fixes to the internal character set converter.
+- Show currently set HVSC/SLDB/STIL paths in --help.
+
+Check out: https://csdb.dk/release/?id=186669
+
+
+#############
+# SIDPLAYER #
+#############
+
+Edu Arana made a portable SID-Player which uses the STM32 microcontroller to
+emulate the 6502 CPU and SID chip. The hardware fits into a cassette holder.
+
+The project is based on the work and design of the STM32-SID-PLAYER by Bakisha
+which can be found here:
+
+https://github.com/Bakisha/STM32-SID-PLAYER
+
+A little demonstration of the project can be seen here:
+
+https://www.youtube.com/watch?v=USKtBIHgF2M
+
+
+######################
+# XSidplay2 - v2.1.9 #
+######################
+
+XSidplay is a QT based music player for SID music. It is based onto Michael
+Schwendt's XSIDPLAY, the historical SID player for Linux. The project is now
+developed and maintained by Tognon Stefano (ice00). The new version also runs
+on Windows 64-bit platform.
+
+Changes since v2.1.6:
+
+- Remove some memory leaks.
+- Add again libsidplay1 (with mixer and filter).
+- Fix sidIdInfo key finding in Win32.
+- Add pulse audio (Linux).
+- Add port audio (Win, Linux).
+- Remove memory corruption when getting credits from library.
+- Fix UTF8 chars wrong visualizated.
+- Use libsidplayfp 2.0 with exSid support.
+- Preliminary support for exSid.
+- Add OSS support if available.
+- Fix MainDialog wrong dimension of slider.
+- Add error handling for engine initialization.
+- Fix seg fault given by libsidplayfp.
+- Use TSID 0.4 (not ABI compatible with previous changes).
+- Add new A4 Sid Frequency finder.
+- Better CMake integration.
+- Fix qfiledialog strange behaviour.
+- add CGSC (mus/str/wds) info viewer.
+- Use libsidplayfp 1.8.1 (support 3SID).
+- Better QT5 porting.
+- Fix missing initialization in emu configuration.
+- Add compilation for win32.
+
+Get it here: https://sourceforge.net/projects/xsidplay2/
+
+
+##############################
+# Ultimate-64 firmware v1.34 #
+##############################
+
+The Ultimate 64 is a main board for your beloved C64 case. This board is a
+hardware implementation (FPGA) of the entire C64, and it includes the
+Ultimate-II+ cartridge as well. An all-in-one solution.
+
+SID related changes in the update:
+
+- Significant lower noise floor when using real SIDs.
+- Faster application processor for smoother file browsing experience.
+- ARMSID config not working when UltiSid is in the same range: Fixed.
+- C64 Hangup when disabling SID socket: Fixed.
+
+More details can be found here:
+
+https://ultimate64.com/Firmware
+
+
+###################
+# SID Known v1.19 #
+###################
+
+Wilfred Bos has released SID Known v1.19. This version supports now HVSC #73.
+SID Known is a command line tool which you can use to identify SID tunes from
+SID and PRG files.
+
+This tool can be used if e.g. you want to know which SID tune is used in a
+specific C64 demo or C64 game, or you have a SID tune found or ripped and you
+want to know if it is already in your SID collection.
+
+SID Known can be used to identify music but it also helps to find out which
+tunes are not in the High Voltage SID Collection. If you find music not found
+by SID Known, it would be appreciated if you report this to the HVSC crew
+(https://hvsc.de) or post it in one of the CSDb forums (https://csdb.dk) like
+"SIDs that aren't in HVSC yet".
+
+Get the tool here: https://csdb.dk/release/?id=192818
